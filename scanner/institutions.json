@@ -1,0 +1,9460 @@
+[
+{
+"key": "UC|UC Berkeley",
+"name": "UC Berkeley",
+"system": "UC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "UC|UC Davis",
+"name": "UC Davis",
+"system": "UC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "UC|UC Irvine",
+"name": "UC Irvine",
+"system": "UC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "UC|UCLA",
+"name": "UCLA",
+"system": "UC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "UC|UC Merced",
+"name": "UC Merced",
+"system": "UC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "UC|UC Riverside",
+"name": "UC Riverside",
+"system": "UC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "UC|UC San Diego",
+"name": "UC San Diego",
+"system": "UC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "UC|UC San Francisco",
+"name": "UC San Francisco",
+"system": "UC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "UC|UC Santa Barbara",
+"name": "UC Santa Barbara",
+"system": "UC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "UC|UC Santa Cruz",
+"name": "UC Santa Cruz",
+"system": "UC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "UC|UC Law San Francisco",
+"name": "UC Law San Francisco",
+"system": "UC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|CSU Bakersfield",
+"name": "CSU Bakersfield",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|CSU Channel Islands",
+"name": "CSU Channel Islands",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|Chico State",
+"name": "Chico State",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|CSU Dominguez Hills",
+"name": "CSU Dominguez Hills",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|Cal State East Bay",
+"name": "Cal State East Bay",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|Fresno State",
+"name": "Fresno State",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|Cal State Fullerton",
+"name": "Cal State Fullerton",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|Cal Poly Humboldt",
+"name": "Cal Poly Humboldt",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|Cal State Long Beach",
+"name": "Cal State Long Beach",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|Cal State LA",
+"name": "Cal State LA",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|CSU Monterey Bay",
+"name": "CSU Monterey Bay",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|CSU Northridge",
+"name": "CSU Northridge",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|Cal Poly Pomona",
+"name": "Cal Poly Pomona",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|Sacramento State",
+"name": "Sacramento State",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|CSU San Bernardino",
+"name": "CSU San Bernardino",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|San Diego State",
+"name": "San Diego State",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|San Francisco State",
+"name": "San Francisco State",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|San José State",
+"name": "San José State",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|Cal Poly San Luis Obispo",
+"name": "Cal Poly San Luis Obispo",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|CSU San Marcos",
+"name": "CSU San Marcos",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|Sonoma State",
+"name": "Sonoma State",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CSU|Stanislaus State",
+"name": "Stanislaus State",
+"system": "CSU",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Allan Hancock College",
+"name": "Allan Hancock College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|American River College",
+"name": "American River College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Antelope Valley College",
+"name": "Antelope Valley College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Bakersfield College",
+"name": "Bakersfield College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Barstow Community College",
+"name": "Barstow Community College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Berkeley City College",
+"name": "Berkeley City College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Butte College",
+"name": "Butte College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Cabrillo College",
+"name": "Cabrillo College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Calbright College",
+"name": "Calbright College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Cañada College",
+"name": "Cañada College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Cerritos College",
+"name": "Cerritos College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Cerro Coso Community College",
+"name": "Cerro Coso Community College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Chabot College",
+"name": "Chabot College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Chaffey College",
+"name": "Chaffey College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Citrus College",
+"name": "Citrus College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|City College of San Francisco",
+"name": "City College of San Francisco",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Clovis Community College",
+"name": "Clovis Community College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Coastline College",
+"name": "Coastline College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|College of Alameda",
+"name": "College of Alameda",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|College of Marin",
+"name": "College of Marin",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|College of San Mateo",
+"name": "College of San Mateo",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|College of the Canyons",
+"name": "College of the Canyons",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|College of the Desert",
+"name": "College of the Desert",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|College of the Redwoods",
+"name": "College of the Redwoods",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|College of the Sequoias",
+"name": "College of the Sequoias",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|College of the Siskiyous",
+"name": "College of the Siskiyous",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Columbia College",
+"name": "Columbia College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Compton College",
+"name": "Compton College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Contra Costa College",
+"name": "Contra Costa College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Copper Mountain College",
+"name": "Copper Mountain College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Cosumnes River College",
+"name": "Cosumnes River College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Crafton Hills College",
+"name": "Crafton Hills College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Cuesta College",
+"name": "Cuesta College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Cuyamaca College",
+"name": "Cuyamaca College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Cypress College",
+"name": "Cypress College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|De Anza College",
+"name": "De Anza College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Diablo Valley College",
+"name": "Diablo Valley College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|East Los Angeles College",
+"name": "East Los Angeles College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|El Camino College",
+"name": "El Camino College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Evergreen Valley College",
+"name": "Evergreen Valley College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Feather River College",
+"name": "Feather River College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Folsom Lake College",
+"name": "Folsom Lake College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Foothill College",
+"name": "Foothill College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Fresno City College",
+"name": "Fresno City College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Fullerton College",
+"name": "Fullerton College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Gavilan College",
+"name": "Gavilan College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Glendale Community College",
+"name": "Glendale Community College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Golden West College",
+"name": "Golden West College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Grossmont College",
+"name": "Grossmont College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Hartnell College",
+"name": "Hartnell College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Imperial Valley College",
+"name": "Imperial Valley College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Irvine Valley College",
+"name": "Irvine Valley College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Lake Tahoe Community College",
+"name": "Lake Tahoe Community College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Laney College",
+"name": "Laney College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Las Positas College",
+"name": "Las Positas College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Lassen College",
+"name": "Lassen College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Long Beach City College",
+"name": "Long Beach City College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Los Angeles City College",
+"name": "Los Angeles City College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Los Angeles Harbor College",
+"name": "Los Angeles Harbor College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Los Angeles Mission College",
+"name": "Los Angeles Mission College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Los Angeles Pierce College",
+"name": "Los Angeles Pierce College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Los Angeles Southwest College",
+"name": "Los Angeles Southwest College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Los Angeles Trade-Technical College",
+"name": "Los Angeles Trade-Technical College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Los Angeles Valley College",
+"name": "Los Angeles Valley College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Los Medanos College",
+"name": "Los Medanos College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Madera Community College",
+"name": "Madera Community College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Mendocino College",
+"name": "Mendocino College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Merced College",
+"name": "Merced College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Merritt College",
+"name": "Merritt College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|MiraCosta College",
+"name": "MiraCosta College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Mission College",
+"name": "Mission College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Modesto Junior College",
+"name": "Modesto Junior College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Monterey Peninsula College",
+"name": "Monterey Peninsula College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Moorpark College",
+"name": "Moorpark College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Moreno Valley College",
+"name": "Moreno Valley College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Mt. San Antonio College",
+"name": "Mt. San Antonio College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Mt. San Jacinto College",
+"name": "Mt. San Jacinto College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Napa Valley College",
+"name": "Napa Valley College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Norco College",
+"name": "Norco College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Ohlone College",
+"name": "Ohlone College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Orange Coast College",
+"name": "Orange Coast College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Oxnard College",
+"name": "Oxnard College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Palo Verde College",
+"name": "Palo Verde College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Palomar College",
+"name": "Palomar College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Pasadena City College",
+"name": "Pasadena City College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Porterville College",
+"name": "Porterville College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Reedley College",
+"name": "Reedley College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Rio Hondo College",
+"name": "Rio Hondo College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Riverside City College",
+"name": "Riverside City College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Sacramento City College",
+"name": "Sacramento City College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Saddleback College",
+"name": "Saddleback College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|San Bernardino Valley College",
+"name": "San Bernardino Valley College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|San Diego City College",
+"name": "San Diego City College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|San Diego Mesa College",
+"name": "San Diego Mesa College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|San Diego Miramar College",
+"name": "San Diego Miramar College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|San Joaquin Delta College",
+"name": "San Joaquin Delta College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|San José City College",
+"name": "San José City College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Santa Ana College",
+"name": "Santa Ana College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Santa Barbara City College",
+"name": "Santa Barbara City College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Santa Monica College",
+"name": "Santa Monica College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Santa Rosa Junior College",
+"name": "Santa Rosa Junior College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Santiago Canyon College",
+"name": "Santiago Canyon College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Shasta College",
+"name": "Shasta College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Sierra College",
+"name": "Sierra College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Skyline College",
+"name": "Skyline College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Solano Community College",
+"name": "Solano Community College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Southwestern College",
+"name": "Southwestern College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Taft College",
+"name": "Taft College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Ventura College",
+"name": "Ventura College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Victor Valley College",
+"name": "Victor Valley College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|West Hills College Coalinga",
+"name": "West Hills College Coalinga",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|West Hills College Lemoore",
+"name": "West Hills College Lemoore",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|West Los Angeles College",
+"name": "West Los Angeles College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|West Valley College",
+"name": "West Valley College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Woodland Community College",
+"name": "Woodland Community College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "CCC|Yuba College",
+"name": "Yuba College",
+"system": "CCC",
+"county": "",
+"state": "CA"
+},
+{
+"key": "K12|Alameda Unified",
+"name": "Alameda Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01611190000000",
+"state": "CA"
+},
+{
+"key": "K12|Albany City Unified",
+"name": "Albany City Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01611270000000",
+"state": "CA"
+},
+{
+"key": "K12|Berkeley Unified",
+"name": "Berkeley Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01611430000000",
+"state": "CA"
+},
+{
+"key": "K12|Castro Valley Unified",
+"name": "Castro Valley Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01611500000000",
+"state": "CA"
+},
+{
+"key": "K12|Dublin Unified",
+"name": "Dublin Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01750930000000",
+"state": "CA"
+},
+{
+"key": "K12|Emery Unified",
+"name": "Emery Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01611680000000",
+"state": "CA"
+},
+{
+"key": "K12|Fremont Unified",
+"name": "Fremont Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01611760000000",
+"state": "CA"
+},
+{
+"key": "K12|Hayward Unified",
+"name": "Hayward Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01611920000000",
+"state": "CA"
+},
+{
+"key": "K12|Livermore Valley Joint Unified",
+"name": "Livermore Valley Joint Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01612000000000",
+"state": "CA"
+},
+{
+"key": "K12|Mountain House Elementary",
+"name": "Mountain House Elementary",
+"system": "K12",
+"county": "Alameda",
+"type": "Elementary",
+"cds": "01612180000000",
+"state": "CA"
+},
+{
+"key": "K12|New Haven Unified",
+"name": "New Haven Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01612420000000",
+"state": "CA"
+},
+{
+"key": "K12|Newark Unified",
+"name": "Newark Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01612340000000",
+"state": "CA"
+},
+{
+"key": "K12|Oakland Unified",
+"name": "Oakland Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01612590000000",
+"state": "CA"
+},
+{
+"key": "K12|Piedmont City Unified",
+"name": "Piedmont City Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01612750000000",
+"state": "CA"
+},
+{
+"key": "K12|Pleasanton Unified",
+"name": "Pleasanton Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01751010000000",
+"state": "CA"
+},
+{
+"key": "K12|San Leandro Unified",
+"name": "San Leandro Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01612910000000",
+"state": "CA"
+},
+{
+"key": "K12|San Lorenzo Unified",
+"name": "San Lorenzo Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01613090000000",
+"state": "CA"
+},
+{
+"key": "K12|Sunol Glen Unified",
+"name": "Sunol Glen Unified",
+"system": "K12",
+"county": "Alameda",
+"type": "Unified",
+"cds": "01751190000000",
+"state": "CA"
+},
+{
+"key": "K12|Alpine County Unified",
+"name": "Alpine County Unified",
+"system": "K12",
+"county": "Alpine",
+"type": "Unified",
+"cds": "02613330000000",
+"state": "CA"
+},
+{
+"key": "K12|Amador County Unified",
+"name": "Amador County Unified",
+"system": "K12",
+"county": "Amador",
+"type": "Unified",
+"cds": "03739810000000",
+"state": "CA"
+},
+{
+"key": "K12|Bangor Union Elementary",
+"name": "Bangor Union Elementary",
+"system": "K12",
+"county": "Butte",
+"type": "Elementary",
+"cds": "04613820000000",
+"state": "CA"
+},
+{
+"key": "K12|Biggs Unified",
+"name": "Biggs Unified",
+"system": "K12",
+"county": "Butte",
+"type": "Unified",
+"cds": "04614080000000",
+"state": "CA"
+},
+{
+"key": "K12|Chico Unified",
+"name": "Chico Unified",
+"system": "K12",
+"county": "Butte",
+"type": "Unified",
+"cds": "04614240000000",
+"state": "CA"
+},
+{
+"key": "K12|Durham Unified",
+"name": "Durham Unified",
+"system": "K12",
+"county": "Butte",
+"type": "Unified",
+"cds": "04614320000000",
+"state": "CA"
+},
+{
+"key": "K12|Golden Feather Union Elementary",
+"name": "Golden Feather Union Elementary",
+"system": "K12",
+"county": "Butte",
+"type": "Elementary",
+"cds": "04614570000000",
+"state": "CA"
+},
+{
+"key": "K12|Gridley Unified",
+"name": "Gridley Unified",
+"system": "K12",
+"county": "Butte",
+"type": "Unified",
+"cds": "04755070000000",
+"state": "CA"
+},
+{
+"key": "K12|Manzanita Elementary",
+"name": "Manzanita Elementary",
+"system": "K12",
+"county": "Butte",
+"type": "Elementary",
+"cds": "04614990000000",
+"state": "CA"
+},
+{
+"key": "K12|Oroville City Elementary",
+"name": "Oroville City Elementary",
+"system": "K12",
+"county": "Butte",
+"type": "Elementary",
+"cds": "04615070000000",
+"state": "CA"
+},
+{
+"key": "K12|Oroville Union High",
+"name": "Oroville Union High",
+"system": "K12",
+"county": "Butte",
+"type": "High School",
+"cds": "04615150000000",
+"state": "CA"
+},
+{
+"key": "K12|Palermo Union Elementary",
+"name": "Palermo Union Elementary",
+"system": "K12",
+"county": "Butte",
+"type": "Elementary",
+"cds": "04615230000000",
+"state": "CA"
+},
+{
+"key": "K12|Paradise Unified",
+"name": "Paradise Unified",
+"system": "K12",
+"county": "Butte",
+"type": "Unified",
+"cds": "04615310000000",
+"state": "CA"
+},
+{
+"key": "K12|Pioneer Union Elementary",
+"name": "Pioneer Union Elementary",
+"system": "K12",
+"county": "Butte",
+"type": "Elementary",
+"cds": "16639900000000",
+"state": "CA"
+},
+{
+"key": "K12|Thermalito Union",
+"name": "Thermalito Union",
+"system": "K12",
+"county": "Butte",
+"type": "Elementary",
+"cds": "04615490000000",
+"state": "CA"
+},
+{
+"key": "K12|Bret Harte Union High",
+"name": "Bret Harte Union High",
+"system": "K12",
+"county": "Calaveras",
+"type": "High School",
+"cds": "05615560000000",
+"state": "CA"
+},
+{
+"key": "K12|Calaveras Unified",
+"name": "Calaveras Unified",
+"system": "K12",
+"county": "Calaveras",
+"type": "Unified",
+"cds": "05615640000000",
+"state": "CA"
+},
+{
+"key": "K12|Mark Twain Union Elementary",
+"name": "Mark Twain Union Elementary",
+"system": "K12",
+"county": "Calaveras",
+"type": "Elementary",
+"cds": "05615720000000",
+"state": "CA"
+},
+{
+"key": "K12|Vallecito Union",
+"name": "Vallecito Union",
+"system": "K12",
+"county": "Calaveras",
+"type": "Elementary",
+"cds": "05615800000000",
+"state": "CA"
+},
+{
+"key": "K12|Colusa Unified",
+"name": "Colusa Unified",
+"system": "K12",
+"county": "Colusa",
+"type": "Unified",
+"cds": "06615980000000",
+"state": "CA"
+},
+{
+"key": "K12|Maxwell Unified",
+"name": "Maxwell Unified",
+"system": "K12",
+"county": "Colusa",
+"type": "Unified",
+"cds": "06616060000000",
+"state": "CA"
+},
+{
+"key": "K12|Pierce Joint Unified",
+"name": "Pierce Joint Unified",
+"system": "K12",
+"county": "Colusa",
+"type": "Unified",
+"cds": "06616140000000",
+"state": "CA"
+},
+{
+"key": "K12|Williams Unified",
+"name": "Williams Unified",
+"system": "K12",
+"county": "Colusa",
+"type": "Unified",
+"cds": "06616220000000",
+"state": "CA"
+},
+{
+"key": "K12|Acalanes Union High",
+"name": "Acalanes Union High",
+"system": "K12",
+"county": "Contra Costa",
+"type": "High School",
+"cds": "07616300000000",
+"state": "CA"
+},
+{
+"key": "K12|Antioch Unified",
+"name": "Antioch Unified",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Unified",
+"cds": "07616480000000",
+"state": "CA"
+},
+{
+"key": "K12|Brentwood Union Elementary",
+"name": "Brentwood Union Elementary",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Elementary",
+"cds": "07616550000000",
+"state": "CA"
+},
+{
+"key": "K12|Byron Union Elementary",
+"name": "Byron Union Elementary",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Elementary",
+"cds": "07616630000000",
+"state": "CA"
+},
+{
+"key": "K12|Canyon Elementary",
+"name": "Canyon Elementary",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Elementary",
+"cds": "07616710000000",
+"state": "CA"
+},
+{
+"key": "K12|John Swett Unified",
+"name": "John Swett Unified",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Unified",
+"cds": "07616970000000",
+"state": "CA"
+},
+{
+"key": "K12|Knightsen Elementary",
+"name": "Knightsen Elementary",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Elementary",
+"cds": "07617050000000",
+"state": "CA"
+},
+{
+"key": "K12|Lafayette Elementary",
+"name": "Lafayette Elementary",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Elementary",
+"cds": "07617130000000",
+"state": "CA"
+},
+{
+"key": "K12|Liberty Union High",
+"name": "Liberty Union High",
+"system": "K12",
+"county": "Contra Costa",
+"type": "High School",
+"cds": "07617210000000",
+"state": "CA"
+},
+{
+"key": "K12|Martinez Unified",
+"name": "Martinez Unified",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Unified",
+"cds": "07617390000000",
+"state": "CA"
+},
+{
+"key": "K12|Moraga Elementary",
+"name": "Moraga Elementary",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Elementary",
+"cds": "07617470000000",
+"state": "CA"
+},
+{
+"key": "K12|Mt. Diablo Unified",
+"name": "Mt. Diablo Unified",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Unified",
+"cds": "07617540000000",
+"state": "CA"
+},
+{
+"key": "K12|Oakley Union Elementary",
+"name": "Oakley Union Elementary",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Elementary",
+"cds": "07617620000000",
+"state": "CA"
+},
+{
+"key": "K12|Orinda Union Elementary",
+"name": "Orinda Union Elementary",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Elementary",
+"cds": "07617700000000",
+"state": "CA"
+},
+{
+"key": "K12|Pittsburg Unified",
+"name": "Pittsburg Unified",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Unified",
+"cds": "07617880000000",
+"state": "CA"
+},
+{
+"key": "K12|San Ramon Valley Unified",
+"name": "San Ramon Valley Unified",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Unified",
+"cds": "07618040000000",
+"state": "CA"
+},
+{
+"key": "K12|Walnut Creek Elementary",
+"name": "Walnut Creek Elementary",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Elementary",
+"cds": "07618120000000",
+"state": "CA"
+},
+{
+"key": "K12|West Contra Costa Unified",
+"name": "West Contra Costa Unified",
+"system": "K12",
+"county": "Contra Costa",
+"type": "Unified",
+"cds": "07617960000000",
+"state": "CA"
+},
+{
+"key": "K12|Del Norte County Unified",
+"name": "Del Norte County Unified",
+"system": "K12",
+"county": "Del Norte",
+"type": "Unified",
+"cds": "08618200000000",
+"state": "CA"
+},
+{
+"key": "K12|Black Oak Mine Unified",
+"name": "Black Oak Mine Unified",
+"system": "K12",
+"county": "El Dorado",
+"type": "Unified",
+"cds": "09737830000000",
+"state": "CA"
+},
+{
+"key": "K12|Buckeye Union Elementary",
+"name": "Buckeye Union Elementary",
+"system": "K12",
+"county": "El Dorado",
+"type": "Elementary",
+"cds": "09618380000000",
+"state": "CA"
+},
+{
+"key": "K12|Camino Union Elementary",
+"name": "Camino Union Elementary",
+"system": "K12",
+"county": "El Dorado",
+"type": "Elementary",
+"cds": "09618460000000",
+"state": "CA"
+},
+{
+"key": "K12|El Dorado Union High",
+"name": "El Dorado Union High",
+"system": "K12",
+"county": "El Dorado",
+"type": "High School",
+"cds": "09618530000000",
+"state": "CA"
+},
+{
+"key": "K12|Gold Oak Union Elementary",
+"name": "Gold Oak Union Elementary",
+"system": "K12",
+"county": "El Dorado",
+"type": "Elementary",
+"cds": "09618790000000",
+"state": "CA"
+},
+{
+"key": "K12|Gold Trail Union Elementary",
+"name": "Gold Trail Union Elementary",
+"system": "K12",
+"county": "El Dorado",
+"type": "Elementary",
+"cds": "09618870000000",
+"state": "CA"
+},
+{
+"key": "K12|Indian Diggings Elementary",
+"name": "Indian Diggings Elementary",
+"system": "K12",
+"county": "El Dorado",
+"type": "Elementary",
+"cds": "09618950000000",
+"state": "CA"
+},
+{
+"key": "K12|Lake Tahoe Unified",
+"name": "Lake Tahoe Unified",
+"system": "K12",
+"county": "El Dorado",
+"type": "Unified",
+"cds": "09619030000000",
+"state": "CA"
+},
+{
+"key": "K12|Latrobe",
+"name": "Latrobe",
+"system": "K12",
+"county": "El Dorado",
+"type": "Elementary",
+"cds": "09619110000000",
+"state": "CA"
+},
+{
+"key": "K12|Mother Lode Union Elementary",
+"name": "Mother Lode Union Elementary",
+"system": "K12",
+"county": "El Dorado",
+"type": "Elementary",
+"cds": "09619290000000",
+"state": "CA"
+},
+{
+"key": "K12|Pioneer Union Elementary",
+"name": "Pioneer Union Elementary",
+"system": "K12",
+"county": "El Dorado",
+"type": "Elementary",
+"cds": "16639900000000",
+"state": "CA"
+},
+{
+"key": "K12|Placerville Union Elementary",
+"name": "Placerville Union Elementary",
+"system": "K12",
+"county": "El Dorado",
+"type": "Elementary",
+"cds": "09619520000000",
+"state": "CA"
+},
+{
+"key": "K12|Pollock Pines Elementary",
+"name": "Pollock Pines Elementary",
+"system": "K12",
+"county": "El Dorado",
+"type": "Elementary",
+"cds": "09619600000000",
+"state": "CA"
+},
+{
+"key": "K12|Rescue Union Elementary",
+"name": "Rescue Union Elementary",
+"system": "K12",
+"county": "El Dorado",
+"type": "Elementary",
+"cds": "09619780000000",
+"state": "CA"
+},
+{
+"key": "K12|Silver Fork Elementary",
+"name": "Silver Fork Elementary",
+"system": "K12",
+"county": "El Dorado",
+"type": "Elementary",
+"cds": "09619860000000",
+"state": "CA"
+},
+{
+"key": "K12|Alvina Elementary",
+"name": "Alvina Elementary",
+"system": "K12",
+"county": "Fresno",
+"type": "Elementary",
+"cds": "10619940000000",
+"state": "CA"
+},
+{
+"key": "K12|Big Creek Elementary",
+"name": "Big Creek Elementary",
+"system": "K12",
+"county": "Fresno",
+"type": "Elementary",
+"cds": "10620260000000",
+"state": "CA"
+},
+{
+"key": "K12|Burrel Union Elementary",
+"name": "Burrel Union Elementary",
+"system": "K12",
+"county": "Fresno",
+"type": "Elementary",
+"cds": "10620420000000",
+"state": "CA"
+},
+{
+"key": "K12|Caruthers Unified",
+"name": "Caruthers Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10755980000000",
+"state": "CA"
+},
+{
+"key": "K12|Central Unified",
+"name": "Central Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10739650000000",
+"state": "CA"
+},
+{
+"key": "K12|Clay Joint Elementary",
+"name": "Clay Joint Elementary",
+"system": "K12",
+"county": "Fresno",
+"type": "Elementary",
+"cds": "10621090000000",
+"state": "CA"
+},
+{
+"key": "K12|Clovis Unified",
+"name": "Clovis Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10621170000000",
+"state": "CA"
+},
+{
+"key": "K12|Coalinga-Huron Unified",
+"name": "Coalinga-Huron Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10621250000000",
+"state": "CA"
+},
+{
+"key": "K12|Firebaugh-Las Deltas Unified",
+"name": "Firebaugh-Las Deltas Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10738090000000",
+"state": "CA"
+},
+{
+"key": "K12|Fowler Unified",
+"name": "Fowler Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10621580000000",
+"state": "CA"
+},
+{
+"key": "K12|Fresno Unified",
+"name": "Fresno Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10621660000000",
+"state": "CA"
+},
+{
+"key": "K12|Golden Plains Unified",
+"name": "Golden Plains Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10752340000000",
+"state": "CA"
+},
+{
+"key": "K12|Kerman Unified",
+"name": "Kerman Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10739990000000",
+"state": "CA"
+},
+{
+"key": "K12|Kings Canyon Joint Unified",
+"name": "Kings Canyon Joint Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10622650000000",
+"state": "CA"
+},
+{
+"key": "K12|Kingsburg Elementary Charter",
+"name": "Kingsburg Elementary Charter",
+"system": "K12",
+"county": "Fresno",
+"type": "Elementary",
+"cds": "10622400000000",
+"state": "CA"
+},
+{
+"key": "K12|Kingsburg Joint Union High",
+"name": "Kingsburg Joint Union High",
+"system": "K12",
+"county": "Fresno",
+"type": "High School",
+"cds": "10622570000000",
+"state": "CA"
+},
+{
+"key": "K12|Laton Joint Unified",
+"name": "Laton Joint Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10622810000000",
+"state": "CA"
+},
+{
+"key": "K12|Mendota Unified",
+"name": "Mendota Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10751270000000",
+"state": "CA"
+},
+{
+"key": "K12|Orange Center",
+"name": "Orange Center",
+"system": "K12",
+"county": "Fresno",
+"type": "Elementary",
+"cds": "10623310000000",
+"state": "CA"
+},
+{
+"key": "K12|Pacific Union Elementary",
+"name": "Pacific Union Elementary",
+"system": "K12",
+"county": "Fresno",
+"type": "Elementary",
+"cds": "12629760000000",
+"state": "CA"
+},
+{
+"key": "K12|Parlier Unified",
+"name": "Parlier Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10623640000000",
+"state": "CA"
+},
+{
+"key": "K12|Pine Ridge Elementary",
+"name": "Pine Ridge Elementary",
+"system": "K12",
+"county": "Fresno",
+"type": "Elementary",
+"cds": "10623720000000",
+"state": "CA"
+},
+{
+"key": "K12|Raisin City Elementary",
+"name": "Raisin City Elementary",
+"system": "K12",
+"county": "Fresno",
+"type": "Elementary",
+"cds": "10623800000000",
+"state": "CA"
+},
+{
+"key": "K12|Riverdale Joint Unified",
+"name": "Riverdale Joint Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10754080000000",
+"state": "CA"
+},
+{
+"key": "K12|Sanger Unified",
+"name": "Sanger Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10624140000000",
+"state": "CA"
+},
+{
+"key": "K12|Selma Unified",
+"name": "Selma Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10624300000000",
+"state": "CA"
+},
+{
+"key": "K12|Sierra Unified",
+"name": "Sierra Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "10752750000000",
+"state": "CA"
+},
+{
+"key": "K12|Washington Colony Elementary",
+"name": "Washington Colony Elementary",
+"system": "K12",
+"county": "Fresno",
+"type": "Elementary",
+"cds": "10625130000000",
+"state": "CA"
+},
+{
+"key": "K12|Washington Unified",
+"name": "Washington Unified",
+"system": "K12",
+"county": "Fresno",
+"type": "Unified",
+"cds": "57726940000000",
+"state": "CA"
+},
+{
+"key": "K12|West Park Elementary",
+"name": "West Park Elementary",
+"system": "K12",
+"county": "Fresno",
+"type": "Elementary",
+"cds": "10625390000000",
+"state": "CA"
+},
+{
+"key": "K12|Westside Elementary",
+"name": "Westside Elementary",
+"system": "K12",
+"county": "Fresno",
+"type": "Elementary",
+"cds": "10625470000000",
+"state": "CA"
+},
+{
+"key": "K12|Capay Joint Union Elementary",
+"name": "Capay Joint Union Elementary",
+"system": "K12",
+"county": "Glenn",
+"type": "Elementary",
+"cds": "11625540000000",
+"state": "CA"
+},
+{
+"key": "K12|Hamilton Unified",
+"name": "Hamilton Unified",
+"system": "K12",
+"county": "Glenn",
+"type": "Unified",
+"cds": "11765620000000",
+"state": "CA"
+},
+{
+"key": "K12|Lake Elementary",
+"name": "Lake Elementary",
+"system": "K12",
+"county": "Glenn",
+"type": "Elementary",
+"cds": "11625960000000",
+"state": "CA"
+},
+{
+"key": "K12|Orland Joint Unified",
+"name": "Orland Joint Unified",
+"system": "K12",
+"county": "Glenn",
+"type": "Unified",
+"cds": "11754810000000",
+"state": "CA"
+},
+{
+"key": "K12|Plaza Elementary",
+"name": "Plaza Elementary",
+"system": "K12",
+"county": "Glenn",
+"type": "Elementary",
+"cds": "11626380000000",
+"state": "CA"
+},
+{
+"key": "K12|Princeton Joint Unified",
+"name": "Princeton Joint Unified",
+"system": "K12",
+"county": "Glenn",
+"type": "Unified",
+"cds": "11626460000000",
+"state": "CA"
+},
+{
+"key": "K12|Stony Creek Joint Unified",
+"name": "Stony Creek Joint Unified",
+"system": "K12",
+"county": "Glenn",
+"type": "Unified",
+"cds": "11626530000000",
+"state": "CA"
+},
+{
+"key": "K12|Willows Unified",
+"name": "Willows Unified",
+"system": "K12",
+"county": "Glenn",
+"type": "Unified",
+"cds": "11626610000000",
+"state": "CA"
+},
+{
+"key": "K12|Arcata Elementary",
+"name": "Arcata Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12626790000000",
+"state": "CA"
+},
+{
+"key": "K12|Big Lagoon Union Elementary",
+"name": "Big Lagoon Union Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12626950000000",
+"state": "CA"
+},
+{
+"key": "K12|Blue Lake Union Elementary",
+"name": "Blue Lake Union Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12627030000000",
+"state": "CA"
+},
+{
+"key": "K12|Bridgeville Elementary",
+"name": "Bridgeville Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12627290000000",
+"state": "CA"
+},
+{
+"key": "K12|Cuddeback Union Elementary",
+"name": "Cuddeback Union Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12627370000000",
+"state": "CA"
+},
+{
+"key": "K12|Cutten Elementary",
+"name": "Cutten Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12627450000000",
+"state": "CA"
+},
+{
+"key": "K12|Eureka City Schools",
+"name": "Eureka City Schools",
+"system": "K12",
+"county": "Humboldt",
+"type": "Unified",
+"cds": "12755150000000",
+"state": "CA"
+},
+{
+"key": "K12|Ferndale Unified",
+"name": "Ferndale Unified",
+"system": "K12",
+"county": "Humboldt",
+"type": "Unified",
+"cds": "12753740000000",
+"state": "CA"
+},
+{
+"key": "K12|Fieldbrook Elementary",
+"name": "Fieldbrook Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12627940000000",
+"state": "CA"
+},
+{
+"key": "K12|Fortuna Elementary",
+"name": "Fortuna Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12768020000000",
+"state": "CA"
+},
+{
+"key": "K12|Fortuna Union High",
+"name": "Fortuna Union High",
+"system": "K12",
+"county": "Humboldt",
+"type": "High School",
+"cds": "12628100000000",
+"state": "CA"
+},
+{
+"key": "K12|Freshwater Elementary",
+"name": "Freshwater Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12628280000000",
+"state": "CA"
+},
+{
+"key": "K12|Garfield Elementary",
+"name": "Garfield Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12628360000000",
+"state": "CA"
+},
+{
+"key": "K12|Hydesville Elementary",
+"name": "Hydesville Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12628850000000",
+"state": "CA"
+},
+{
+"key": "K12|Jacoby Creek Elementary",
+"name": "Jacoby Creek Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12628930000000",
+"state": "CA"
+},
+{
+"key": "K12|Klamath-Trinity Joint Unified",
+"name": "Klamath-Trinity Joint Unified",
+"system": "K12",
+"county": "Humboldt",
+"type": "Unified",
+"cds": "12629010000000",
+"state": "CA"
+},
+{
+"key": "K12|Kneeland Elementary",
+"name": "Kneeland Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12629190000000",
+"state": "CA"
+},
+{
+"key": "K12|Loleta Union Elementary",
+"name": "Loleta Union Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12629270000000",
+"state": "CA"
+},
+{
+"key": "K12|Maple Creek Elementary",
+"name": "Maple Creek Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12629350000000",
+"state": "CA"
+},
+{
+"key": "K12|Mattole Unified",
+"name": "Mattole Unified",
+"system": "K12",
+"county": "Humboldt",
+"type": "Unified",
+"cds": "12753820000000",
+"state": "CA"
+},
+{
+"key": "K12|McKinleyville Union Elementary",
+"name": "McKinleyville Union Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12629500000000",
+"state": "CA"
+},
+{
+"key": "K12|Northern Humboldt Union High",
+"name": "Northern Humboldt Union High",
+"system": "K12",
+"county": "Humboldt",
+"type": "High School",
+"cds": "12626870000000",
+"state": "CA"
+},
+{
+"key": "K12|Orick Elementary",
+"name": "Orick Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12629680000000",
+"state": "CA"
+},
+{
+"key": "K12|Pacific Union Elementary",
+"name": "Pacific Union Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12629760000000",
+"state": "CA"
+},
+{
+"key": "K12|Peninsula Union",
+"name": "Peninsula Union",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12629840000000",
+"state": "CA"
+},
+{
+"key": "K12|Rio Dell Elementary",
+"name": "Rio Dell Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12630080000000",
+"state": "CA"
+},
+{
+"key": "K12|Scotia Union Elementary",
+"name": "Scotia Union Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12630240000000",
+"state": "CA"
+},
+{
+"key": "K12|South Bay Union",
+"name": "South Bay Union",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12630320000000",
+"state": "CA"
+},
+{
+"key": "K12|Southern Humboldt Joint Unified",
+"name": "Southern Humboldt Joint Unified",
+"system": "K12",
+"county": "Humboldt",
+"type": "Unified",
+"cds": "12630400000000",
+"state": "CA"
+},
+{
+"key": "K12|Trinidad Union Elementary",
+"name": "Trinidad Union Elementary",
+"system": "K12",
+"county": "Humboldt",
+"type": "Elementary",
+"cds": "12630570000000",
+"state": "CA"
+},
+{
+"key": "K12|Brawley Elementary",
+"name": "Brawley Elementary",
+"system": "K12",
+"county": "Imperial",
+"type": "Elementary",
+"cds": "13630730000000",
+"state": "CA"
+},
+{
+"key": "K12|Brawley Union High",
+"name": "Brawley Union High",
+"system": "K12",
+"county": "Imperial",
+"type": "High School",
+"cds": "13630810000000",
+"state": "CA"
+},
+{
+"key": "K12|Calexico Unified",
+"name": "Calexico Unified",
+"system": "K12",
+"county": "Imperial",
+"type": "Unified",
+"cds": "13630990000000",
+"state": "CA"
+},
+{
+"key": "K12|Calipatria Unified",
+"name": "Calipatria Unified",
+"system": "K12",
+"county": "Imperial",
+"type": "Unified",
+"cds": "13631070000000",
+"state": "CA"
+},
+{
+"key": "K12|Central Union High",
+"name": "Central Union High",
+"system": "K12",
+"county": "Imperial",
+"type": "High School",
+"cds": "13631150000000",
+"state": "CA"
+},
+{
+"key": "K12|El Centro Elementary",
+"name": "El Centro Elementary",
+"system": "K12",
+"county": "Imperial",
+"type": "Elementary",
+"cds": "13631230000000",
+"state": "CA"
+},
+{
+"key": "K12|Heber Elementary",
+"name": "Heber Elementary",
+"system": "K12",
+"county": "Imperial",
+"type": "Elementary",
+"cds": "13631310000000",
+"state": "CA"
+},
+{
+"key": "K12|Holtville Unified",
+"name": "Holtville Unified",
+"system": "K12",
+"county": "Imperial",
+"type": "Unified",
+"cds": "13631490000000",
+"state": "CA"
+},
+{
+"key": "K12|Imperial Unified",
+"name": "Imperial Unified",
+"system": "K12",
+"county": "Imperial",
+"type": "Unified",
+"cds": "13631640000000",
+"state": "CA"
+},
+{
+"key": "K12|Magnolia Union Elementary",
+"name": "Magnolia Union Elementary",
+"system": "K12",
+"county": "Imperial",
+"type": "Elementary",
+"cds": "13631720000000",
+"state": "CA"
+},
+{
+"key": "K12|McCabe Union Elementary",
+"name": "McCabe Union Elementary",
+"system": "K12",
+"county": "Imperial",
+"type": "Elementary",
+"cds": "13631800000000",
+"state": "CA"
+},
+{
+"key": "K12|Meadows Union Elementary",
+"name": "Meadows Union Elementary",
+"system": "K12",
+"county": "Imperial",
+"type": "Elementary",
+"cds": "13631980000000",
+"state": "CA"
+},
+{
+"key": "K12|Mulberry Elementary",
+"name": "Mulberry Elementary",
+"system": "K12",
+"county": "Imperial",
+"type": "Elementary",
+"cds": "13632060000000",
+"state": "CA"
+},
+{
+"key": "K12|San Pasqual Valley Unified",
+"name": "San Pasqual Valley Unified",
+"system": "K12",
+"county": "Imperial",
+"type": "Unified",
+"cds": "13632140000000",
+"state": "CA"
+},
+{
+"key": "K12|Seeley Union Elementary",
+"name": "Seeley Union Elementary",
+"system": "K12",
+"county": "Imperial",
+"type": "Elementary",
+"cds": "13632220000000",
+"state": "CA"
+},
+{
+"key": "K12|Westmorland Union Elementary",
+"name": "Westmorland Union Elementary",
+"system": "K12",
+"county": "Imperial",
+"type": "Elementary",
+"cds": "13632300000000",
+"state": "CA"
+},
+{
+"key": "K12|Big Pine Unified",
+"name": "Big Pine Unified",
+"system": "K12",
+"county": "Inyo",
+"type": "Unified",
+"cds": "14632480000000",
+"state": "CA"
+},
+{
+"key": "K12|Bishop Unified",
+"name": "Bishop Unified",
+"system": "K12",
+"county": "Inyo",
+"type": "Unified",
+"cds": "14766870000000",
+"state": "CA"
+},
+{
+"key": "K12|Death Valley Unified",
+"name": "Death Valley Unified",
+"system": "K12",
+"county": "Inyo",
+"type": "Unified",
+"cds": "14632710000000",
+"state": "CA"
+},
+{
+"key": "K12|Lone Pine Unified",
+"name": "Lone Pine Unified",
+"system": "K12",
+"county": "Inyo",
+"type": "Unified",
+"cds": "14632890000000",
+"state": "CA"
+},
+{
+"key": "K12|Owens Valley Unified",
+"name": "Owens Valley Unified",
+"system": "K12",
+"county": "Inyo",
+"type": "Unified",
+"cds": "14632970000000",
+"state": "CA"
+},
+{
+"key": "K12|Round Valley Joint Elementary",
+"name": "Round Valley Joint Elementary",
+"system": "K12",
+"county": "Inyo",
+"type": "Elementary",
+"cds": "14633050000000",
+"state": "CA"
+},
+{
+"key": "K12|Arvin Union",
+"name": "Arvin Union",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15633130000000",
+"state": "CA"
+},
+{
+"key": "K12|Bakersfield City",
+"name": "Bakersfield City",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15633210000000",
+"state": "CA"
+},
+{
+"key": "K12|Beardsley Elementary",
+"name": "Beardsley Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15633390000000",
+"state": "CA"
+},
+{
+"key": "K12|Blake Elementary",
+"name": "Blake Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15633540000000",
+"state": "CA"
+},
+{
+"key": "K12|Buttonwillow Union Elementary",
+"name": "Buttonwillow Union Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15633700000000",
+"state": "CA"
+},
+{
+"key": "K12|Caliente Union Elementary",
+"name": "Caliente Union Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15633880000000",
+"state": "CA"
+},
+{
+"key": "K12|Delano Joint Union High",
+"name": "Delano Joint Union High",
+"system": "K12",
+"county": "Kern",
+"type": "High School",
+"cds": "15634120000000",
+"state": "CA"
+},
+{
+"key": "K12|Delano Union Elementary",
+"name": "Delano Union Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15634040000000",
+"state": "CA"
+},
+{
+"key": "K12|Di Giorgio Elementary",
+"name": "Di Giorgio Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15634200000000",
+"state": "CA"
+},
+{
+"key": "K12|Edison Elementary",
+"name": "Edison Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15634380000000",
+"state": "CA"
+},
+{
+"key": "K12|El Tejon Unified",
+"name": "El Tejon Unified",
+"system": "K12",
+"county": "Kern",
+"type": "Unified",
+"cds": "15751680000000",
+"state": "CA"
+},
+{
+"key": "K12|Elk Hills Elementary",
+"name": "Elk Hills Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15634460000000",
+"state": "CA"
+},
+{
+"key": "K12|Fairfax Elementary",
+"name": "Fairfax Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15634610000000",
+"state": "CA"
+},
+{
+"key": "K12|Fruitvale Elementary",
+"name": "Fruitvale Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15634790000000",
+"state": "CA"
+},
+{
+"key": "K12|General Shafter Elementary",
+"name": "General Shafter Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15634870000000",
+"state": "CA"
+},
+{
+"key": "K12|Greenfield Union",
+"name": "Greenfield Union",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15635030000000",
+"state": "CA"
+},
+{
+"key": "K12|Kern Union High",
+"name": "Kern Union High",
+"system": "K12",
+"county": "Kern",
+"type": "High School",
+"cds": "15635290000000",
+"state": "CA"
+},
+{
+"key": "K12|Kernville Union Elementary",
+"name": "Kernville Union Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15635450000000",
+"state": "CA"
+},
+{
+"key": "K12|Lakeside Union",
+"name": "Lakeside Union",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15635520000000",
+"state": "CA"
+},
+{
+"key": "K12|Lamont Elementary",
+"name": "Lamont Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15635600000000",
+"state": "CA"
+},
+{
+"key": "K12|Linns Valley-Poso Flat Union",
+"name": "Linns Valley-Poso Flat Union",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15635860000000",
+"state": "CA"
+},
+{
+"key": "K12|Lost Hills Union Elementary",
+"name": "Lost Hills Union Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15635940000000",
+"state": "CA"
+},
+{
+"key": "K12|Maple Elementary",
+"name": "Maple Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15636100000000",
+"state": "CA"
+},
+{
+"key": "K12|Maricopa Unified",
+"name": "Maricopa Unified",
+"system": "K12",
+"county": "Kern",
+"type": "Unified",
+"cds": "15636280000000",
+"state": "CA"
+},
+{
+"key": "K12|McFarland Unified",
+"name": "McFarland Unified",
+"system": "K12",
+"county": "Kern",
+"type": "Unified",
+"cds": "15739080000000",
+"state": "CA"
+},
+{
+"key": "K12|McKittrick Elementary",
+"name": "McKittrick Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15636510000000",
+"state": "CA"
+},
+{
+"key": "K12|Midway Elementary",
+"name": "Midway Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15636690000000",
+"state": "CA"
+},
+{
+"key": "K12|Mojave Unified",
+"name": "Mojave Unified",
+"system": "K12",
+"county": "Kern",
+"type": "Unified",
+"cds": "15636770000000",
+"state": "CA"
+},
+{
+"key": "K12|Muroc Joint Unified",
+"name": "Muroc Joint Unified",
+"system": "K12",
+"county": "Kern",
+"type": "Unified",
+"cds": "15636850000000",
+"state": "CA"
+},
+{
+"key": "K12|Norris Elementary",
+"name": "Norris Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15636930000000",
+"state": "CA"
+},
+{
+"key": "K12|Panama-Buena Vista Union",
+"name": "Panama-Buena Vista Union",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15633620000000",
+"state": "CA"
+},
+{
+"key": "K12|Pond Union Elementary",
+"name": "Pond Union Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15637190000000",
+"state": "CA"
+},
+{
+"key": "K12|Richland Union Elementary",
+"name": "Richland Union Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15635780000000",
+"state": "CA"
+},
+{
+"key": "K12|Rio Bravo-Greeley Union Elementary",
+"name": "Rio Bravo-Greeley Union Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15735440000000",
+"state": "CA"
+},
+{
+"key": "K12|Rosedale Union Elementary",
+"name": "Rosedale Union Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15637500000000",
+"state": "CA"
+},
+{
+"key": "K12|Semitropic Elementary",
+"name": "Semitropic Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15637680000000",
+"state": "CA"
+},
+{
+"key": "K12|Sierra Sands Unified",
+"name": "Sierra Sands Unified",
+"system": "K12",
+"county": "Kern",
+"type": "Unified",
+"cds": "15737420000000",
+"state": "CA"
+},
+{
+"key": "K12|South Fork Union",
+"name": "South Fork Union",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15637840000000",
+"state": "CA"
+},
+{
+"key": "K12|Southern Kern Unified",
+"name": "Southern Kern Unified",
+"system": "K12",
+"county": "Kern",
+"type": "Unified",
+"cds": "15637760000000",
+"state": "CA"
+},
+{
+"key": "K12|Standard Elementary",
+"name": "Standard Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15637920000000",
+"state": "CA"
+},
+{
+"key": "K12|Taft City",
+"name": "Taft City",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15638000000000",
+"state": "CA"
+},
+{
+"key": "K12|Taft Union High",
+"name": "Taft Union High",
+"system": "K12",
+"county": "Kern",
+"type": "High School",
+"cds": "15638180000000",
+"state": "CA"
+},
+{
+"key": "K12|Tehachapi Unified",
+"name": "Tehachapi Unified",
+"system": "K12",
+"county": "Kern",
+"type": "Unified",
+"cds": "15638260000000",
+"state": "CA"
+},
+{
+"key": "K12|Vineland Elementary",
+"name": "Vineland Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15638340000000",
+"state": "CA"
+},
+{
+"key": "K12|Wasco Union Elementary",
+"name": "Wasco Union Elementary",
+"system": "K12",
+"county": "Kern",
+"type": "Elementary",
+"cds": "15638420000000",
+"state": "CA"
+},
+{
+"key": "K12|Wasco Union High",
+"name": "Wasco Union High",
+"system": "K12",
+"county": "Kern",
+"type": "High School",
+"cds": "15638590000000",
+"state": "CA"
+},
+{
+"key": "K12|Armona Union Elementary",
+"name": "Armona Union Elementary",
+"system": "K12",
+"county": "Kings",
+"type": "Elementary",
+"cds": "16638750000000",
+"state": "CA"
+},
+{
+"key": "K12|Central Union Elementary",
+"name": "Central Union Elementary",
+"system": "K12",
+"county": "Kings",
+"type": "Elementary",
+"cds": "16638830000000",
+"state": "CA"
+},
+{
+"key": "K12|Corcoran Joint Unified",
+"name": "Corcoran Joint Unified",
+"system": "K12",
+"county": "Kings",
+"type": "Unified",
+"cds": "16638910000000",
+"state": "CA"
+},
+{
+"key": "K12|Hanford Elementary",
+"name": "Hanford Elementary",
+"system": "K12",
+"county": "Kings",
+"type": "Elementary",
+"cds": "16639170000000",
+"state": "CA"
+},
+{
+"key": "K12|Hanford Joint Union High",
+"name": "Hanford Joint Union High",
+"system": "K12",
+"county": "Kings",
+"type": "High School",
+"cds": "16639250000000",
+"state": "CA"
+},
+{
+"key": "K12|Island Union Elementary",
+"name": "Island Union Elementary",
+"system": "K12",
+"county": "Kings",
+"type": "Elementary",
+"cds": "16639330000000",
+"state": "CA"
+},
+{
+"key": "K12|Kings River-Hardwick Union Elementary",
+"name": "Kings River-Hardwick Union Elementary",
+"system": "K12",
+"county": "Kings",
+"type": "Elementary",
+"cds": "16639410000000",
+"state": "CA"
+},
+{
+"key": "K12|Kit Carson Union Elementary",
+"name": "Kit Carson Union Elementary",
+"system": "K12",
+"county": "Kings",
+"type": "Elementary",
+"cds": "16639580000000",
+"state": "CA"
+},
+{
+"key": "K12|Lakeside Union Elementary",
+"name": "Lakeside Union Elementary",
+"system": "K12",
+"county": "Kings",
+"type": "Elementary",
+"cds": "37681890000000",
+"state": "CA"
+},
+{
+"key": "K12|Lemoore Union Elementary",
+"name": "Lemoore Union Elementary",
+"system": "K12",
+"county": "Kings",
+"type": "Elementary",
+"cds": "16639740000000",
+"state": "CA"
+},
+{
+"key": "K12|Lemoore Union High",
+"name": "Lemoore Union High",
+"system": "K12",
+"county": "Kings",
+"type": "High School",
+"cds": "16639820000000",
+"state": "CA"
+},
+{
+"key": "K12|Pioneer Union Elementary",
+"name": "Pioneer Union Elementary",
+"system": "K12",
+"county": "Kings",
+"type": "Elementary",
+"cds": "16639900000000",
+"state": "CA"
+},
+{
+"key": "K12|Reef-Sunset Unified",
+"name": "Reef-Sunset Unified",
+"system": "K12",
+"county": "Kings",
+"type": "Unified",
+"cds": "16739320000000",
+"state": "CA"
+},
+{
+"key": "K12|Kelseyville Unified",
+"name": "Kelseyville Unified",
+"system": "K12",
+"county": "Lake",
+"type": "Unified",
+"cds": "17640140000000",
+"state": "CA"
+},
+{
+"key": "K12|Konocti Unified",
+"name": "Konocti Unified",
+"system": "K12",
+"county": "Lake",
+"type": "Unified",
+"cds": "17640220000000",
+"state": "CA"
+},
+{
+"key": "K12|Lakeport Unified",
+"name": "Lakeport Unified",
+"system": "K12",
+"county": "Lake",
+"type": "Unified",
+"cds": "17640300000000",
+"state": "CA"
+},
+{
+"key": "K12|Lucerne Elementary",
+"name": "Lucerne Elementary",
+"system": "K12",
+"county": "Lake",
+"type": "Elementary",
+"cds": "17640480000000",
+"state": "CA"
+},
+{
+"key": "K12|Middletown Unified",
+"name": "Middletown Unified",
+"system": "K12",
+"county": "Lake",
+"type": "Unified",
+"cds": "17640550000000",
+"state": "CA"
+},
+{
+"key": "K12|Upper Lake Unified",
+"name": "Upper Lake Unified",
+"system": "K12",
+"county": "Lake",
+"type": "Unified",
+"cds": "17769760000000",
+"state": "CA"
+},
+{
+"key": "K12|Big Valley Joint Unified",
+"name": "Big Valley Joint Unified",
+"system": "K12",
+"county": "Lassen",
+"type": "Unified",
+"cds": "18640890000000",
+"state": "CA"
+},
+{
+"key": "K12|Fort Sage Unified",
+"name": "Fort Sage Unified",
+"system": "K12",
+"county": "Lassen",
+"type": "Unified",
+"cds": "18750360000000",
+"state": "CA"
+},
+{
+"key": "K12|Janesville Union Elementary",
+"name": "Janesville Union Elementary",
+"system": "K12",
+"county": "Lassen",
+"type": "Elementary",
+"cds": "18641050000000",
+"state": "CA"
+},
+{
+"key": "K12|Johnstonville Elementary",
+"name": "Johnstonville Elementary",
+"system": "K12",
+"county": "Lassen",
+"type": "Elementary",
+"cds": "18641130000000",
+"state": "CA"
+},
+{
+"key": "K12|Lassen Union High",
+"name": "Lassen Union High",
+"system": "K12",
+"county": "Lassen",
+"type": "High School",
+"cds": "18641390000000",
+"state": "CA"
+},
+{
+"key": "K12|Ravendale-Termo Elementary",
+"name": "Ravendale-Termo Elementary",
+"system": "K12",
+"county": "Lassen",
+"type": "Elementary",
+"cds": "18641620000000",
+"state": "CA"
+},
+{
+"key": "K12|Richmond Elementary",
+"name": "Richmond Elementary",
+"system": "K12",
+"county": "Lassen",
+"type": "Elementary",
+"cds": "18641700000000",
+"state": "CA"
+},
+{
+"key": "K12|Shaffer Union Elementary",
+"name": "Shaffer Union Elementary",
+"system": "K12",
+"county": "Lassen",
+"type": "Elementary",
+"cds": "18641880000000",
+"state": "CA"
+},
+{
+"key": "K12|Susanville Elementary",
+"name": "Susanville Elementary",
+"system": "K12",
+"county": "Lassen",
+"type": "Elementary",
+"cds": "18641960000000",
+"state": "CA"
+},
+{
+"key": "K12|Westwood Unified",
+"name": "Westwood Unified",
+"system": "K12",
+"county": "Lassen",
+"type": "Unified",
+"cds": "18642040000000",
+"state": "CA"
+},
+{
+"key": "K12|ABC Unified",
+"name": "ABC Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19642120000000",
+"state": "CA"
+},
+{
+"key": "K12|Acton-Agua Dulce Unified",
+"name": "Acton-Agua Dulce Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19753090000000",
+"state": "CA"
+},
+{
+"key": "K12|Alhambra Unified",
+"name": "Alhambra Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19757130000000",
+"state": "CA"
+},
+{
+"key": "K12|Antelope Valley Union High",
+"name": "Antelope Valley Union High",
+"system": "K12",
+"county": "Los Angeles",
+"type": "High School",
+"cds": "19642460000000",
+"state": "CA"
+},
+{
+"key": "K12|Arcadia Unified",
+"name": "Arcadia Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19642610000000",
+"state": "CA"
+},
+{
+"key": "K12|Azusa Unified",
+"name": "Azusa Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19642790000000",
+"state": "CA"
+},
+{
+"key": "K12|Baldwin Park Unified",
+"name": "Baldwin Park Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19642870000000",
+"state": "CA"
+},
+{
+"key": "K12|Bassett Unified",
+"name": "Bassett Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19642950000000",
+"state": "CA"
+},
+{
+"key": "K12|Bellflower Unified",
+"name": "Bellflower Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19643030000000",
+"state": "CA"
+},
+{
+"key": "K12|Beverly Hills Unified",
+"name": "Beverly Hills Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19643110000000",
+"state": "CA"
+},
+{
+"key": "K12|Bonita Unified",
+"name": "Bonita Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19643290000000",
+"state": "CA"
+},
+{
+"key": "K12|Burbank Unified",
+"name": "Burbank Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19643370000000",
+"state": "CA"
+},
+{
+"key": "K12|Castaic Union",
+"name": "Castaic Union",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19643450000000",
+"state": "CA"
+},
+{
+"key": "K12|Centinela Valley Union High",
+"name": "Centinela Valley Union High",
+"system": "K12",
+"county": "Los Angeles",
+"type": "High School",
+"cds": "19643520000000",
+"state": "CA"
+},
+{
+"key": "K12|Charter Oak Unified",
+"name": "Charter Oak Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19643780000000",
+"state": "CA"
+},
+{
+"key": "K12|Claremont Unified",
+"name": "Claremont Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19643940000000",
+"state": "CA"
+},
+{
+"key": "K12|Compton Unified",
+"name": "Compton Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19734370000000",
+"state": "CA"
+},
+{
+"key": "K12|Covina-Valley Unified",
+"name": "Covina-Valley Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19644360000000",
+"state": "CA"
+},
+{
+"key": "K12|Culver City Unified",
+"name": "Culver City Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19644440000000",
+"state": "CA"
+},
+{
+"key": "K12|Downey Unified",
+"name": "Downey Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19644510000000",
+"state": "CA"
+},
+{
+"key": "K12|Duarte Unified",
+"name": "Duarte Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19644690000000",
+"state": "CA"
+},
+{
+"key": "K12|East Whittier City Elementary",
+"name": "East Whittier City Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19644850000000",
+"state": "CA"
+},
+{
+"key": "K12|Eastside Union Elementary",
+"name": "Eastside Union Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19644770000000",
+"state": "CA"
+},
+{
+"key": "K12|El Monte City",
+"name": "El Monte City",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19645010000000",
+"state": "CA"
+},
+{
+"key": "K12|El Monte Union High",
+"name": "El Monte Union High",
+"system": "K12",
+"county": "Los Angeles",
+"type": "High School",
+"cds": "19645190000000",
+"state": "CA"
+},
+{
+"key": "K12|El Rancho Unified",
+"name": "El Rancho Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19645270000000",
+"state": "CA"
+},
+{
+"key": "K12|El Segundo Unified",
+"name": "El Segundo Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19645350000000",
+"state": "CA"
+},
+{
+"key": "K12|Garvey Elementary",
+"name": "Garvey Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19645500000000",
+"state": "CA"
+},
+{
+"key": "K12|Glendale Unified",
+"name": "Glendale Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19645680000000",
+"state": "CA"
+},
+{
+"key": "K12|Glendora Unified",
+"name": "Glendora Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19645760000000",
+"state": "CA"
+},
+{
+"key": "K12|Gorman Joint",
+"name": "Gorman Joint",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19645840000000",
+"state": "CA"
+},
+{
+"key": "K12|Hacienda la Puente Unified",
+"name": "Hacienda la Puente Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19734450000000",
+"state": "CA"
+},
+{
+"key": "K12|Hawthorne",
+"name": "Hawthorne",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19645920000000",
+"state": "CA"
+},
+{
+"key": "K12|Hermosa Beach City Elementary",
+"name": "Hermosa Beach City Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19646000000000",
+"state": "CA"
+},
+{
+"key": "K12|Hughes-Elizabeth Lakes Union Elementary",
+"name": "Hughes-Elizabeth Lakes Union Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19646260000000",
+"state": "CA"
+},
+{
+"key": "K12|Inglewood Unified",
+"name": "Inglewood Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19646340000000",
+"state": "CA"
+},
+{
+"key": "K12|Keppel Union Elementary",
+"name": "Keppel Union Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19646420000000",
+"state": "CA"
+},
+{
+"key": "K12|La Canada Unified",
+"name": "La Canada Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19646590000000",
+"state": "CA"
+},
+{
+"key": "K12|Lancaster Elementary",
+"name": "Lancaster Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19646670000000",
+"state": "CA"
+},
+{
+"key": "K12|Las Virgenes Unified",
+"name": "Las Virgenes Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19646830000000",
+"state": "CA"
+},
+{
+"key": "K12|Lawndale Elementary",
+"name": "Lawndale Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19646910000000",
+"state": "CA"
+},
+{
+"key": "K12|Lennox",
+"name": "Lennox",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19647090000000",
+"state": "CA"
+},
+{
+"key": "K12|Little Lake City Elementary",
+"name": "Little Lake City Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19647170000000",
+"state": "CA"
+},
+{
+"key": "K12|Long Beach Unified",
+"name": "Long Beach Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19647250000000",
+"state": "CA"
+},
+{
+"key": "K12|Los Angeles Unified",
+"name": "Los Angeles Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19647330000000",
+"state": "CA"
+},
+{
+"key": "K12|Los Nietos",
+"name": "Los Nietos",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19647580000000",
+"state": "CA"
+},
+{
+"key": "K12|Lowell Joint",
+"name": "Lowell Joint",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19647660000000",
+"state": "CA"
+},
+{
+"key": "K12|Lynwood Unified",
+"name": "Lynwood Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19647740000000",
+"state": "CA"
+},
+{
+"key": "K12|Manhattan Beach Unified",
+"name": "Manhattan Beach Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19753330000000",
+"state": "CA"
+},
+{
+"key": "K12|Monrovia Unified",
+"name": "Monrovia Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19647900000000",
+"state": "CA"
+},
+{
+"key": "K12|Montebello Unified",
+"name": "Montebello Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19648080000000",
+"state": "CA"
+},
+{
+"key": "K12|Mountain View Elementary",
+"name": "Mountain View Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "36677850000000",
+"state": "CA"
+},
+{
+"key": "K12|Newhall",
+"name": "Newhall",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19648320000000",
+"state": "CA"
+},
+{
+"key": "K12|Norwalk-La Mirada Unified",
+"name": "Norwalk-La Mirada Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19648400000000",
+"state": "CA"
+},
+{
+"key": "K12|Palmdale Elementary",
+"name": "Palmdale Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19648570000000",
+"state": "CA"
+},
+{
+"key": "K12|Palos Verdes Peninsula Unified",
+"name": "Palos Verdes Peninsula Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19648650000000",
+"state": "CA"
+},
+{
+"key": "K12|Paramount Unified",
+"name": "Paramount Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19648730000000",
+"state": "CA"
+},
+{
+"key": "K12|Pasadena Unified",
+"name": "Pasadena Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19648810000000",
+"state": "CA"
+},
+{
+"key": "K12|Pomona Unified",
+"name": "Pomona Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19649070000000",
+"state": "CA"
+},
+{
+"key": "K12|Redondo Beach Unified",
+"name": "Redondo Beach Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19753410000000",
+"state": "CA"
+},
+{
+"key": "K12|Rosemead Elementary",
+"name": "Rosemead Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19649310000000",
+"state": "CA"
+},
+{
+"key": "K12|Rowland Unified",
+"name": "Rowland Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19734520000000",
+"state": "CA"
+},
+{
+"key": "K12|San Gabriel Unified",
+"name": "San Gabriel Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19752910000000",
+"state": "CA"
+},
+{
+"key": "K12|San Marino Unified",
+"name": "San Marino Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19649640000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Monica-Malibu Unified",
+"name": "Santa Monica-Malibu Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19649800000000",
+"state": "CA"
+},
+{
+"key": "K12|Saugus Union",
+"name": "Saugus Union",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19649980000000",
+"state": "CA"
+},
+{
+"key": "K12|South Pasadena Unified",
+"name": "South Pasadena Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19650290000000",
+"state": "CA"
+},
+{
+"key": "K12|South Whittier Elementary",
+"name": "South Whittier Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19650370000000",
+"state": "CA"
+},
+{
+"key": "K12|Sulphur Springs Union",
+"name": "Sulphur Springs Union",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19650450000000",
+"state": "CA"
+},
+{
+"key": "K12|Temple City Unified",
+"name": "Temple City Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19650520000000",
+"state": "CA"
+},
+{
+"key": "K12|Torrance Unified",
+"name": "Torrance Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19650600000000",
+"state": "CA"
+},
+{
+"key": "K12|Valle Lindo Elementary",
+"name": "Valle Lindo Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19650780000000",
+"state": "CA"
+},
+{
+"key": "K12|Walnut Valley Unified",
+"name": "Walnut Valley Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19734600000000",
+"state": "CA"
+},
+{
+"key": "K12|West Covina Unified",
+"name": "West Covina Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19650940000000",
+"state": "CA"
+},
+{
+"key": "K12|Westside Union Elementary",
+"name": "Westside Union Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19651020000000",
+"state": "CA"
+},
+{
+"key": "K12|Whittier City Elementary",
+"name": "Whittier City Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19651100000000",
+"state": "CA"
+},
+{
+"key": "K12|Whittier Union High",
+"name": "Whittier Union High",
+"system": "K12",
+"county": "Los Angeles",
+"type": "High School",
+"cds": "19651280000000",
+"state": "CA"
+},
+{
+"key": "K12|William S. Hart Union High",
+"name": "William S. Hart Union High",
+"system": "K12",
+"county": "Los Angeles",
+"type": "High School with Jr. High Program",
+"cds": "19651360000000",
+"state": "CA"
+},
+{
+"key": "K12|Wilsona Elementary",
+"name": "Wilsona Elementary",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Elementary",
+"cds": "19651510000000",
+"state": "CA"
+},
+{
+"key": "K12|Wiseburn Unified",
+"name": "Wiseburn Unified",
+"system": "K12",
+"county": "Los Angeles",
+"type": "Unified",
+"cds": "19768690000000",
+"state": "CA"
+},
+{
+"key": "K12|Alview-Dairyland Union Elementary",
+"name": "Alview-Dairyland Union Elementary",
+"system": "K12",
+"county": "Madera",
+"type": "Elementary",
+"cds": "20651770000000",
+"state": "CA"
+},
+{
+"key": "K12|Bass Lake Joint Union Elementary",
+"name": "Bass Lake Joint Union Elementary",
+"system": "K12",
+"county": "Madera",
+"type": "Elementary",
+"cds": "20651850000000",
+"state": "CA"
+},
+{
+"key": "K12|Chawanakee Unified",
+"name": "Chawanakee Unified",
+"system": "K12",
+"county": "Madera",
+"type": "Unified",
+"cds": "20756060000000",
+"state": "CA"
+},
+{
+"key": "K12|Chowchilla Elementary",
+"name": "Chowchilla Elementary",
+"system": "K12",
+"county": "Madera",
+"type": "Elementary",
+"cds": "20651930000000",
+"state": "CA"
+},
+{
+"key": "K12|Chowchilla Union High",
+"name": "Chowchilla Union High",
+"system": "K12",
+"county": "Madera",
+"type": "High School",
+"cds": "20652010000000",
+"state": "CA"
+},
+{
+"key": "K12|Golden Valley Unified",
+"name": "Golden Valley Unified",
+"system": "K12",
+"county": "Madera",
+"type": "Unified",
+"cds": "20755800000000",
+"state": "CA"
+},
+{
+"key": "K12|Madera Unified",
+"name": "Madera Unified",
+"system": "K12",
+"county": "Madera",
+"type": "Unified",
+"cds": "20652430000000",
+"state": "CA"
+},
+{
+"key": "K12|Raymond-Knowles Union Elementary",
+"name": "Raymond-Knowles Union Elementary",
+"system": "K12",
+"county": "Madera",
+"type": "Elementary",
+"cds": "20652760000000",
+"state": "CA"
+},
+{
+"key": "K12|Yosemite Unified",
+"name": "Yosemite Unified",
+"system": "K12",
+"county": "Madera",
+"type": "Unified",
+"cds": "20764140000000",
+"state": "CA"
+},
+{
+"key": "K12|Bolinas-Stinson Union",
+"name": "Bolinas-Stinson Union",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21653000000000",
+"state": "CA"
+},
+{
+"key": "K12|Kentfield Elementary",
+"name": "Kentfield Elementary",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21653340000000",
+"state": "CA"
+},
+{
+"key": "K12|Laguna Joint Elementary",
+"name": "Laguna Joint Elementary",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21653420000000",
+"state": "CA"
+},
+{
+"key": "K12|Lagunitas Elementary",
+"name": "Lagunitas Elementary",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21653590000000",
+"state": "CA"
+},
+{
+"key": "K12|Larkspur-Corte Madera",
+"name": "Larkspur-Corte Madera",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21653670000000",
+"state": "CA"
+},
+{
+"key": "K12|Mill Valley Elementary",
+"name": "Mill Valley Elementary",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21653910000000",
+"state": "CA"
+},
+{
+"key": "K12|Miller Creek Elementary",
+"name": "Miller Creek Elementary",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21653180000000",
+"state": "CA"
+},
+{
+"key": "K12|Nicasio",
+"name": "Nicasio",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21654090000000",
+"state": "CA"
+},
+{
+"key": "K12|Novato Unified",
+"name": "Novato Unified",
+"system": "K12",
+"county": "Marin",
+"type": "Unified",
+"cds": "21654170000000",
+"state": "CA"
+},
+{
+"key": "K12|Reed Union Elementary",
+"name": "Reed Union Elementary",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21654250000000",
+"state": "CA"
+},
+{
+"key": "K12|Ross Elementary",
+"name": "Ross Elementary",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21654330000000",
+"state": "CA"
+},
+{
+"key": "K12|Ross Valley Elementary",
+"name": "Ross Valley Elementary",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21750020000000",
+"state": "CA"
+},
+{
+"key": "K12|San Rafael City Elementary",
+"name": "San Rafael City Elementary",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21654580000000",
+"state": "CA"
+},
+{
+"key": "K12|San Rafael City High",
+"name": "San Rafael City High",
+"system": "K12",
+"county": "Marin",
+"type": "High School",
+"cds": "21654660000000",
+"state": "CA"
+},
+{
+"key": "K12|Sausalito Marin City",
+"name": "Sausalito Marin City",
+"system": "K12",
+"county": "Marin",
+"type": "Elementary",
+"cds": "21654740000000",
+"state": "CA"
+},
+{
+"key": "K12|Shoreline Unified",
+"name": "Shoreline Unified",
+"system": "K12",
+"county": "Marin",
+"type": "Unified",
+"cds": "21733610000000",
+"state": "CA"
+},
+{
+"key": "K12|Tamalpais Union High",
+"name": "Tamalpais Union High",
+"system": "K12",
+"county": "Marin",
+"type": "High School",
+"cds": "21654820000000",
+"state": "CA"
+},
+{
+"key": "K12|Mariposa County Unified",
+"name": "Mariposa County Unified",
+"system": "K12",
+"county": "Mariposa",
+"type": "Unified",
+"cds": "22655320000000",
+"state": "CA"
+},
+{
+"key": "K12|Anderson Valley Unified",
+"name": "Anderson Valley Unified",
+"system": "K12",
+"county": "Mendocino",
+"type": "Unified",
+"cds": "23655400000000",
+"state": "CA"
+},
+{
+"key": "K12|Arena Union Elementary",
+"name": "Arena Union Elementary",
+"system": "K12",
+"county": "Mendocino",
+"type": "Elementary",
+"cds": "23655570000000",
+"state": "CA"
+},
+{
+"key": "K12|Fort Bragg Unified",
+"name": "Fort Bragg Unified",
+"system": "K12",
+"county": "Mendocino",
+"type": "Unified",
+"cds": "23655650000000",
+"state": "CA"
+},
+{
+"key": "K12|Laytonville Unified",
+"name": "Laytonville Unified",
+"system": "K12",
+"county": "Mendocino",
+"type": "Unified",
+"cds": "23739160000000",
+"state": "CA"
+},
+{
+"key": "K12|Leggett Valley Unified",
+"name": "Leggett Valley Unified",
+"system": "K12",
+"county": "Mendocino",
+"type": "Unified",
+"cds": "23752180000000",
+"state": "CA"
+},
+{
+"key": "K12|Manchester Union Elementary",
+"name": "Manchester Union Elementary",
+"system": "K12",
+"county": "Mendocino",
+"type": "Elementary",
+"cds": "23655730000000",
+"state": "CA"
+},
+{
+"key": "K12|Mendocino Unified",
+"name": "Mendocino Unified",
+"system": "K12",
+"county": "Mendocino",
+"type": "Unified",
+"cds": "23655810000000",
+"state": "CA"
+},
+{
+"key": "K12|Point Arena Joint Union High",
+"name": "Point Arena Joint Union High",
+"system": "K12",
+"county": "Mendocino",
+"type": "High School",
+"cds": "23655990000000",
+"state": "CA"
+},
+{
+"key": "K12|Potter Valley Community Unified",
+"name": "Potter Valley Community Unified",
+"system": "K12",
+"county": "Mendocino",
+"type": "Unified",
+"cds": "23738660000000",
+"state": "CA"
+},
+{
+"key": "K12|Round Valley Unified",
+"name": "Round Valley Unified",
+"system": "K12",
+"county": "Mendocino",
+"type": "Unified",
+"cds": "23656070000000",
+"state": "CA"
+},
+{
+"key": "K12|Ukiah Unified",
+"name": "Ukiah Unified",
+"system": "K12",
+"county": "Mendocino",
+"type": "Unified",
+"cds": "23656150000000",
+"state": "CA"
+},
+{
+"key": "K12|Willits Unified",
+"name": "Willits Unified",
+"system": "K12",
+"county": "Mendocino",
+"type": "Unified",
+"cds": "23656230000000",
+"state": "CA"
+},
+{
+"key": "K12|Atwater Elementary",
+"name": "Atwater Elementary",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24656310000000",
+"state": "CA"
+},
+{
+"key": "K12|Ballico-Cressey Elementary",
+"name": "Ballico-Cressey Elementary",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24656490000000",
+"state": "CA"
+},
+{
+"key": "K12|Delhi Unified",
+"name": "Delhi Unified",
+"system": "K12",
+"county": "Merced",
+"type": "Unified",
+"cds": "24753660000000",
+"state": "CA"
+},
+{
+"key": "K12|Dos Palos Oro Loma Joint Unified",
+"name": "Dos Palos Oro Loma Joint Unified",
+"system": "K12",
+"county": "Merced",
+"type": "Unified",
+"cds": "24753170000000",
+"state": "CA"
+},
+{
+"key": "K12|El Nido Elementary",
+"name": "El Nido Elementary",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24656800000000",
+"state": "CA"
+},
+{
+"key": "K12|Gustine Unified",
+"name": "Gustine Unified",
+"system": "K12",
+"county": "Merced",
+"type": "Unified",
+"cds": "24736190000000",
+"state": "CA"
+},
+{
+"key": "K12|Hilmar Unified",
+"name": "Hilmar Unified",
+"system": "K12",
+"county": "Merced",
+"type": "Unified",
+"cds": "24656980000000",
+"state": "CA"
+},
+{
+"key": "K12|Le Grand Union Elementary",
+"name": "Le Grand Union Elementary",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24657220000000",
+"state": "CA"
+},
+{
+"key": "K12|Le Grand Union High",
+"name": "Le Grand Union High",
+"system": "K12",
+"county": "Merced",
+"type": "High School",
+"cds": "24657300000000",
+"state": "CA"
+},
+{
+"key": "K12|Livingston Union",
+"name": "Livingston Union",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24657480000000",
+"state": "CA"
+},
+{
+"key": "K12|Los Banos Unified",
+"name": "Los Banos Unified",
+"system": "K12",
+"county": "Merced",
+"type": "Unified",
+"cds": "24657550000000",
+"state": "CA"
+},
+{
+"key": "K12|McSwain Union Elementary",
+"name": "McSwain Union Elementary",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24657630000000",
+"state": "CA"
+},
+{
+"key": "K12|Merced City Elementary",
+"name": "Merced City Elementary",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24657710000000",
+"state": "CA"
+},
+{
+"key": "K12|Merced River Union Elementary",
+"name": "Merced River Union Elementary",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24737260000000",
+"state": "CA"
+},
+{
+"key": "K12|Merced Union High",
+"name": "Merced Union High",
+"system": "K12",
+"county": "Merced",
+"type": "High School",
+"cds": "24657890000000",
+"state": "CA"
+},
+{
+"key": "K12|Plainsburg Union Elementary",
+"name": "Plainsburg Union Elementary",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24658130000000",
+"state": "CA"
+},
+{
+"key": "K12|Planada Elementary",
+"name": "Planada Elementary",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24658210000000",
+"state": "CA"
+},
+{
+"key": "K12|Snelling-Merced Falls Union Elementary",
+"name": "Snelling-Merced Falls Union Elementary",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24658390000000",
+"state": "CA"
+},
+{
+"key": "K12|Weaver Union",
+"name": "Weaver Union",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24658620000000",
+"state": "CA"
+},
+{
+"key": "K12|Winton",
+"name": "Winton",
+"system": "K12",
+"county": "Merced",
+"type": "Elementary",
+"cds": "24658700000000",
+"state": "CA"
+},
+{
+"key": "K12|Modoc Joint Unified",
+"name": "Modoc Joint Unified",
+"system": "K12",
+"county": "Modoc",
+"type": "Unified",
+"cds": "25735850000000",
+"state": "CA"
+},
+{
+"key": "K12|Surprise Valley Joint Unified",
+"name": "Surprise Valley Joint Unified",
+"system": "K12",
+"county": "Modoc",
+"type": "Unified",
+"cds": "25658960000000",
+"state": "CA"
+},
+{
+"key": "K12|Tulelake Basin Joint Unified",
+"name": "Tulelake Basin Joint Unified",
+"system": "K12",
+"county": "Modoc",
+"type": "Unified",
+"cds": "25735930000000",
+"state": "CA"
+},
+{
+"key": "K12|Eastern Sierra Unified",
+"name": "Eastern Sierra Unified",
+"system": "K12",
+"county": "Mono",
+"type": "Unified",
+"cds": "26736680000000",
+"state": "CA"
+},
+{
+"key": "K12|Mammoth Unified",
+"name": "Mammoth Unified",
+"system": "K12",
+"county": "Mono",
+"type": "Unified",
+"cds": "26736920000000",
+"state": "CA"
+},
+{
+"key": "K12|Alisal Union",
+"name": "Alisal Union",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27659610000000",
+"state": "CA"
+},
+{
+"key": "K12|Big Sur Unified",
+"name": "Big Sur Unified",
+"system": "K12",
+"county": "Monterey",
+"type": "Unified",
+"cds": "27751500000000",
+"state": "CA"
+},
+{
+"key": "K12|Bradley Union Elementary",
+"name": "Bradley Union Elementary",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27659790000000",
+"state": "CA"
+},
+{
+"key": "K12|Carmel Unified",
+"name": "Carmel Unified",
+"system": "K12",
+"county": "Monterey",
+"type": "Unified",
+"cds": "27659870000000",
+"state": "CA"
+},
+{
+"key": "K12|Chualar Union",
+"name": "Chualar Union",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27659950000000",
+"state": "CA"
+},
+{
+"key": "K12|Gonzales Unified",
+"name": "Gonzales Unified",
+"system": "K12",
+"county": "Monterey",
+"type": "Unified",
+"cds": "27754730000000",
+"state": "CA"
+},
+{
+"key": "K12|Graves Elementary",
+"name": "Graves Elementary",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27660270000000",
+"state": "CA"
+},
+{
+"key": "K12|Greenfield Union Elementary",
+"name": "Greenfield Union Elementary",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27660350000000",
+"state": "CA"
+},
+{
+"key": "K12|King City Union",
+"name": "King City Union",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27660500000000",
+"state": "CA"
+},
+{
+"key": "K12|Lagunita Elementary",
+"name": "Lagunita Elementary",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27660760000000",
+"state": "CA"
+},
+{
+"key": "K12|Mission Union Elementary",
+"name": "Mission Union Elementary",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27660840000000",
+"state": "CA"
+},
+{
+"key": "K12|Monterey Peninsula Unified",
+"name": "Monterey Peninsula Unified",
+"system": "K12",
+"county": "Monterey",
+"type": "Unified",
+"cds": "27660920000000",
+"state": "CA"
+},
+{
+"key": "K12|North Monterey County Unified",
+"name": "North Monterey County Unified",
+"system": "K12",
+"county": "Monterey",
+"type": "Unified",
+"cds": "27738250000000",
+"state": "CA"
+},
+{
+"key": "K12|Pacific Grove Unified",
+"name": "Pacific Grove Unified",
+"system": "K12",
+"county": "Monterey",
+"type": "Unified",
+"cds": "27661340000000",
+"state": "CA"
+},
+{
+"key": "K12|Salinas City Elementary",
+"name": "Salinas City Elementary",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27661420000000",
+"state": "CA"
+},
+{
+"key": "K12|Salinas Union High",
+"name": "Salinas Union High",
+"system": "K12",
+"county": "Monterey",
+"type": "High School with Jr. High Program",
+"cds": "27661590000000",
+"state": "CA"
+},
+{
+"key": "K12|San Antonio Union Elementary",
+"name": "San Antonio Union Elementary",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27661670000000",
+"state": "CA"
+},
+{
+"key": "K12|San Ardo Union Elementary",
+"name": "San Ardo Union Elementary",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27661750000000",
+"state": "CA"
+},
+{
+"key": "K12|San Lucas Union Elementary",
+"name": "San Lucas Union Elementary",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27661830000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Rita Union Elementary",
+"name": "Santa Rita Union Elementary",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27661910000000",
+"state": "CA"
+},
+{
+"key": "K12|Soledad Unified",
+"name": "Soledad Unified",
+"system": "K12",
+"county": "Monterey",
+"type": "Unified",
+"cds": "27754400000000",
+"state": "CA"
+},
+{
+"key": "K12|South Monterey County Joint Union High",
+"name": "South Monterey County Joint Union High",
+"system": "K12",
+"county": "Monterey",
+"type": "High School",
+"cds": "27660680000000",
+"state": "CA"
+},
+{
+"key": "K12|Spreckels Union Elementary",
+"name": "Spreckels Union Elementary",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27662250000000",
+"state": "CA"
+},
+{
+"key": "K12|Washington Union Elementary",
+"name": "Washington Union Elementary",
+"system": "K12",
+"county": "Monterey",
+"type": "Elementary",
+"cds": "27662330000000",
+"state": "CA"
+},
+{
+"key": "K12|Calistoga Joint Unified",
+"name": "Calistoga Joint Unified",
+"system": "K12",
+"county": "Napa",
+"type": "Unified",
+"cds": "28662410000000",
+"state": "CA"
+},
+{
+"key": "K12|Howell Mountain Elementary",
+"name": "Howell Mountain Elementary",
+"system": "K12",
+"county": "Napa",
+"type": "Elementary",
+"cds": "28662580000000",
+"state": "CA"
+},
+{
+"key": "K12|Napa Valley Unified",
+"name": "Napa Valley Unified",
+"system": "K12",
+"county": "Napa",
+"type": "Unified",
+"cds": "28662660000000",
+"state": "CA"
+},
+{
+"key": "K12|Pope Valley Union Elementary",
+"name": "Pope Valley Union Elementary",
+"system": "K12",
+"county": "Napa",
+"type": "Elementary",
+"cds": "28662820000000",
+"state": "CA"
+},
+{
+"key": "K12|Saint Helena Unified",
+"name": "Saint Helena Unified",
+"system": "K12",
+"county": "Napa",
+"type": "Unified",
+"cds": "28662900000000",
+"state": "CA"
+},
+{
+"key": "K12|Chicago Park Elementary",
+"name": "Chicago Park Elementary",
+"system": "K12",
+"county": "Nevada",
+"type": "Elementary",
+"cds": "29663160000000",
+"state": "CA"
+},
+{
+"key": "K12|Clear Creek Elementary",
+"name": "Clear Creek Elementary",
+"system": "K12",
+"county": "Nevada",
+"type": "Elementary",
+"cds": "29663240000000",
+"state": "CA"
+},
+{
+"key": "K12|Grass Valley Elementary",
+"name": "Grass Valley Elementary",
+"system": "K12",
+"county": "Nevada",
+"type": "Elementary",
+"cds": "29663320000000",
+"state": "CA"
+},
+{
+"key": "K12|Nevada City Elementary",
+"name": "Nevada City Elementary",
+"system": "K12",
+"county": "Nevada",
+"type": "Elementary",
+"cds": "29663400000000",
+"state": "CA"
+},
+{
+"key": "K12|Nevada Joint Union High",
+"name": "Nevada Joint Union High",
+"system": "K12",
+"county": "Nevada",
+"type": "High School",
+"cds": "29663570000000",
+"state": "CA"
+},
+{
+"key": "K12|Penn Valley Union Elementary",
+"name": "Penn Valley Union Elementary",
+"system": "K12",
+"county": "Nevada",
+"type": "Elementary",
+"cds": "29768770000000",
+"state": "CA"
+},
+{
+"key": "K12|Pleasant Ridge Union Elementary",
+"name": "Pleasant Ridge Union Elementary",
+"system": "K12",
+"county": "Nevada",
+"type": "Elementary",
+"cds": "29663730000000",
+"state": "CA"
+},
+{
+"key": "K12|Twin Ridges Elementary",
+"name": "Twin Ridges Elementary",
+"system": "K12",
+"county": "Nevada",
+"type": "Elementary",
+"cds": "29664150000000",
+"state": "CA"
+},
+{
+"key": "K12|Union Hill Elementary",
+"name": "Union Hill Elementary",
+"system": "K12",
+"county": "Nevada",
+"type": "Elementary",
+"cds": "29664070000000",
+"state": "CA"
+},
+{
+"key": "K12|Anaheim Elementary",
+"name": "Anaheim Elementary",
+"system": "K12",
+"county": "Orange",
+"type": "Elementary",
+"cds": "30664230000000",
+"state": "CA"
+},
+{
+"key": "K12|Anaheim Union High",
+"name": "Anaheim Union High",
+"system": "K12",
+"county": "Orange",
+"type": "High School with Jr. High Program",
+"cds": "30664310000000",
+"state": "CA"
+},
+{
+"key": "K12|Brea-Olinda Unified",
+"name": "Brea-Olinda Unified",
+"system": "K12",
+"county": "Orange",
+"type": "Unified",
+"cds": "30664490000000",
+"state": "CA"
+},
+{
+"key": "K12|Buena Park Elementary",
+"name": "Buena Park Elementary",
+"system": "K12",
+"county": "Orange",
+"type": "Elementary",
+"cds": "30664560000000",
+"state": "CA"
+},
+{
+"key": "K12|Capistrano Unified",
+"name": "Capistrano Unified",
+"system": "K12",
+"county": "Orange",
+"type": "Unified",
+"cds": "30664640000000",
+"state": "CA"
+},
+{
+"key": "K12|Centralia Elementary",
+"name": "Centralia Elementary",
+"system": "K12",
+"county": "Orange",
+"type": "Elementary",
+"cds": "30664720000000",
+"state": "CA"
+},
+{
+"key": "K12|Cypress Elementary",
+"name": "Cypress Elementary",
+"system": "K12",
+"county": "Orange",
+"type": "Elementary",
+"cds": "30664800000000",
+"state": "CA"
+},
+{
+"key": "K12|Fountain Valley Elementary",
+"name": "Fountain Valley Elementary",
+"system": "K12",
+"county": "Orange",
+"type": "Elementary",
+"cds": "30664980000000",
+"state": "CA"
+},
+{
+"key": "K12|Fullerton Elementary",
+"name": "Fullerton Elementary",
+"system": "K12",
+"county": "Orange",
+"type": "Elementary",
+"cds": "30665060000000",
+"state": "CA"
+},
+{
+"key": "K12|Fullerton Joint Union High",
+"name": "Fullerton Joint Union High",
+"system": "K12",
+"county": "Orange",
+"type": "High School",
+"cds": "30665140000000",
+"state": "CA"
+},
+{
+"key": "K12|Garden Grove Unified",
+"name": "Garden Grove Unified",
+"system": "K12",
+"county": "Orange",
+"type": "Unified",
+"cds": "30665220000000",
+"state": "CA"
+},
+{
+"key": "K12|Huntington Beach City Elementary",
+"name": "Huntington Beach City Elementary",
+"system": "K12",
+"county": "Orange",
+"type": "Elementary",
+"cds": "30665300000000",
+"state": "CA"
+},
+{
+"key": "K12|Huntington Beach Union High",
+"name": "Huntington Beach Union High",
+"system": "K12",
+"county": "Orange",
+"type": "High School",
+"cds": "30665480000000",
+"state": "CA"
+},
+{
+"key": "K12|Irvine Unified",
+"name": "Irvine Unified",
+"system": "K12",
+"county": "Orange",
+"type": "Unified",
+"cds": "30736500000000",
+"state": "CA"
+},
+{
+"key": "K12|La Habra City Elementary",
+"name": "La Habra City Elementary",
+"system": "K12",
+"county": "Orange",
+"type": "Elementary",
+"cds": "30665630000000",
+"state": "CA"
+},
+{
+"key": "K12|Laguna Beach Unified",
+"name": "Laguna Beach Unified",
+"system": "K12",
+"county": "Orange",
+"type": "Unified",
+"cds": "30665550000000",
+"state": "CA"
+},
+{
+"key": "K12|Los Alamitos Unified",
+"name": "Los Alamitos Unified",
+"system": "K12",
+"county": "Orange",
+"type": "Unified",
+"cds": "30739240000000",
+"state": "CA"
+},
+{
+"key": "K12|Magnolia Elementary",
+"name": "Magnolia Elementary",
+"system": "K12",
+"county": "Orange",
+"type": "Elementary",
+"cds": "30665890000000",
+"state": "CA"
+},
+{
+"key": "K12|Newport-Mesa Unified",
+"name": "Newport-Mesa Unified",
+"system": "K12",
+"county": "Orange",
+"type": "Unified",
+"cds": "30665970000000",
+"state": "CA"
+},
+{
+"key": "K12|Ocean View",
+"name": "Ocean View",
+"system": "K12",
+"county": "Orange",
+"type": "Elementary",
+"cds": "56725120000000",
+"state": "CA"
+},
+{
+"key": "K12|Orange Unified",
+"name": "Orange Unified",
+"system": "K12",
+"county": "Orange",
+"type": "Unified",
+"cds": "30666210000000",
+"state": "CA"
+},
+{
+"key": "K12|Placentia-Yorba Linda Unified",
+"name": "Placentia-Yorba Linda Unified",
+"system": "K12",
+"county": "Orange",
+"type": "Unified",
+"cds": "30666470000000",
+"state": "CA"
+},
+{
+"key": "K12|Saddleback Valley Unified",
+"name": "Saddleback Valley Unified",
+"system": "K12",
+"county": "Orange",
+"type": "Unified",
+"cds": "30736350000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Ana Unified",
+"name": "Santa Ana Unified",
+"system": "K12",
+"county": "Orange",
+"type": "Unified",
+"cds": "30666700000000",
+"state": "CA"
+},
+{
+"key": "K12|Savanna Elementary",
+"name": "Savanna Elementary",
+"system": "K12",
+"county": "Orange",
+"type": "Elementary",
+"cds": "30666960000000",
+"state": "CA"
+},
+{
+"key": "K12|Tustin Unified",
+"name": "Tustin Unified",
+"system": "K12",
+"county": "Orange",
+"type": "Unified",
+"cds": "30736430000000",
+"state": "CA"
+},
+{
+"key": "K12|Westminster",
+"name": "Westminster",
+"system": "K12",
+"county": "Orange",
+"type": "Elementary",
+"cds": "30667460000000",
+"state": "CA"
+},
+{
+"key": "K12|Ackerman Charter",
+"name": "Ackerman Charter",
+"system": "K12",
+"county": "Placer",
+"type": "Elementary",
+"cds": "31667610000000",
+"state": "CA"
+},
+{
+"key": "K12|Alta-Dutch Flat Union Elementary",
+"name": "Alta-Dutch Flat Union Elementary",
+"system": "K12",
+"county": "Placer",
+"type": "Elementary",
+"cds": "31667790000000",
+"state": "CA"
+},
+{
+"key": "K12|Auburn Union Elementary",
+"name": "Auburn Union Elementary",
+"system": "K12",
+"county": "Placer",
+"type": "Elementary",
+"cds": "31667870000000",
+"state": "CA"
+},
+{
+"key": "K12|Colfax Elementary",
+"name": "Colfax Elementary",
+"system": "K12",
+"county": "Placer",
+"type": "Elementary",
+"cds": "31667950000000",
+"state": "CA"
+},
+{
+"key": "K12|Dry Creek Joint Elementary",
+"name": "Dry Creek Joint Elementary",
+"system": "K12",
+"county": "Placer",
+"type": "Elementary",
+"cds": "31668030000000",
+"state": "CA"
+},
+{
+"key": "K12|Eureka Union",
+"name": "Eureka Union",
+"system": "K12",
+"county": "Placer",
+"type": "Elementary",
+"cds": "31668290000000",
+"state": "CA"
+},
+{
+"key": "K12|Foresthill Union Elementary",
+"name": "Foresthill Union Elementary",
+"system": "K12",
+"county": "Placer",
+"type": "Elementary",
+"cds": "31668370000000",
+"state": "CA"
+},
+{
+"key": "K12|Loomis Union Elementary",
+"name": "Loomis Union Elementary",
+"system": "K12",
+"county": "Placer",
+"type": "Elementary",
+"cds": "31668450000000",
+"state": "CA"
+},
+{
+"key": "K12|Newcastle Elementary",
+"name": "Newcastle Elementary",
+"system": "K12",
+"county": "Placer",
+"type": "Elementary",
+"cds": "31668520000000",
+"state": "CA"
+},
+{
+"key": "K12|Placer Hills Union Elementary",
+"name": "Placer Hills Union Elementary",
+"system": "K12",
+"county": "Placer",
+"type": "Elementary",
+"cds": "31668860000000",
+"state": "CA"
+},
+{
+"key": "K12|Placer Union High",
+"name": "Placer Union High",
+"system": "K12",
+"county": "Placer",
+"type": "High School",
+"cds": "31668940000000",
+"state": "CA"
+},
+{
+"key": "K12|Rocklin Unified",
+"name": "Rocklin Unified",
+"system": "K12",
+"county": "Placer",
+"type": "Unified",
+"cds": "31750850000000",
+"state": "CA"
+},
+{
+"key": "K12|Roseville City Elementary",
+"name": "Roseville City Elementary",
+"system": "K12",
+"county": "Placer",
+"type": "Elementary",
+"cds": "31669100000000",
+"state": "CA"
+},
+{
+"key": "K12|Roseville Joint Union High",
+"name": "Roseville Joint Union High",
+"system": "K12",
+"county": "Placer",
+"type": "High School",
+"cds": "31669280000000",
+"state": "CA"
+},
+{
+"key": "K12|Tahoe-Truckee Unified",
+"name": "Tahoe-Truckee Unified",
+"system": "K12",
+"county": "Placer",
+"type": "Unified",
+"cds": "31669440000000",
+"state": "CA"
+},
+{
+"key": "K12|Western Placer Unified",
+"name": "Western Placer Unified",
+"system": "K12",
+"county": "Placer",
+"type": "Unified",
+"cds": "31669510000000",
+"state": "CA"
+},
+{
+"key": "K12|Plumas Unified",
+"name": "Plumas Unified",
+"system": "K12",
+"county": "Plumas",
+"type": "Unified",
+"cds": "32669690000000",
+"state": "CA"
+},
+{
+"key": "K12|Alvord Unified",
+"name": "Alvord Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33669770000000",
+"state": "CA"
+},
+{
+"key": "K12|Banning Unified",
+"name": "Banning Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33669850000000",
+"state": "CA"
+},
+{
+"key": "K12|Beaumont Unified",
+"name": "Beaumont Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33669930000000",
+"state": "CA"
+},
+{
+"key": "K12|Coachella Valley Unified",
+"name": "Coachella Valley Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33736760000000",
+"state": "CA"
+},
+{
+"key": "K12|Corona-Norco Unified",
+"name": "Corona-Norco Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33670330000000",
+"state": "CA"
+},
+{
+"key": "K12|Desert Center Unified",
+"name": "Desert Center Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33670410000000",
+"state": "CA"
+},
+{
+"key": "K12|Desert Sands Unified",
+"name": "Desert Sands Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33670580000000",
+"state": "CA"
+},
+{
+"key": "K12|Hemet Unified",
+"name": "Hemet Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33670820000000",
+"state": "CA"
+},
+{
+"key": "K12|Jurupa Unified",
+"name": "Jurupa Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33670900000000",
+"state": "CA"
+},
+{
+"key": "K12|Lake Elsinore Unified",
+"name": "Lake Elsinore Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33751760000000",
+"state": "CA"
+},
+{
+"key": "K12|Menifee Union Elementary",
+"name": "Menifee Union Elementary",
+"system": "K12",
+"county": "Riverside",
+"type": "Elementary",
+"cds": "33671160000000",
+"state": "CA"
+},
+{
+"key": "K12|Moreno Valley Unified",
+"name": "Moreno Valley Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33671240000000",
+"state": "CA"
+},
+{
+"key": "K12|Murrieta Valley Unified",
+"name": "Murrieta Valley Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33752000000000",
+"state": "CA"
+},
+{
+"key": "K12|Nuview Union",
+"name": "Nuview Union",
+"system": "K12",
+"county": "Riverside",
+"type": "Elementary",
+"cds": "33671570000000",
+"state": "CA"
+},
+{
+"key": "K12|Palm Springs Unified",
+"name": "Palm Springs Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33671730000000",
+"state": "CA"
+},
+{
+"key": "K12|Palo Verde Unified",
+"name": "Palo Verde Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33671810000000",
+"state": "CA"
+},
+{
+"key": "K12|Perris Elementary",
+"name": "Perris Elementary",
+"system": "K12",
+"county": "Riverside",
+"type": "Elementary",
+"cds": "33671990000000",
+"state": "CA"
+},
+{
+"key": "K12|Perris Union High",
+"name": "Perris Union High",
+"system": "K12",
+"county": "Riverside",
+"type": "High School with Jr. High Program",
+"cds": "33672070000000",
+"state": "CA"
+},
+{
+"key": "K12|Riverside Unified",
+"name": "Riverside Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33672150000000",
+"state": "CA"
+},
+{
+"key": "K12|Romoland Elementary",
+"name": "Romoland Elementary",
+"system": "K12",
+"county": "Riverside",
+"type": "Elementary",
+"cds": "33672310000000",
+"state": "CA"
+},
+{
+"key": "K12|San Jacinto Unified",
+"name": "San Jacinto Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33672490000000",
+"state": "CA"
+},
+{
+"key": "K12|Temecula Valley Unified",
+"name": "Temecula Valley Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33751920000000",
+"state": "CA"
+},
+{
+"key": "K12|Val Verde Unified",
+"name": "Val Verde Unified",
+"system": "K12",
+"county": "Riverside",
+"type": "Unified",
+"cds": "33752420000000",
+"state": "CA"
+},
+{
+"key": "K12|Arcohe Union Elementary",
+"name": "Arcohe Union Elementary",
+"system": "K12",
+"county": "Sacramento",
+"type": "Elementary",
+"cds": "34672800000000",
+"state": "CA"
+},
+{
+"key": "K12|Center Joint Unified",
+"name": "Center Joint Unified",
+"system": "K12",
+"county": "Sacramento",
+"type": "Unified",
+"cds": "34739730000000",
+"state": "CA"
+},
+{
+"key": "K12|Elk Grove Unified",
+"name": "Elk Grove Unified",
+"system": "K12",
+"county": "Sacramento",
+"type": "Unified",
+"cds": "34673140000000",
+"state": "CA"
+},
+{
+"key": "K12|Elverta Joint Elementary",
+"name": "Elverta Joint Elementary",
+"system": "K12",
+"county": "Sacramento",
+"type": "Elementary",
+"cds": "34673220000000",
+"state": "CA"
+},
+{
+"key": "K12|Folsom-Cordova Unified",
+"name": "Folsom-Cordova Unified",
+"system": "K12",
+"county": "Sacramento",
+"type": "Unified",
+"cds": "34673300000000",
+"state": "CA"
+},
+{
+"key": "K12|Galt Joint Union Elementary",
+"name": "Galt Joint Union Elementary",
+"system": "K12",
+"county": "Sacramento",
+"type": "Elementary",
+"cds": "34673480000000",
+"state": "CA"
+},
+{
+"key": "K12|Galt Joint Union High",
+"name": "Galt Joint Union High",
+"system": "K12",
+"county": "Sacramento",
+"type": "High School",
+"cds": "34673550000000",
+"state": "CA"
+},
+{
+"key": "K12|Natomas Unified",
+"name": "Natomas Unified",
+"system": "K12",
+"county": "Sacramento",
+"type": "Unified",
+"cds": "34752830000000",
+"state": "CA"
+},
+{
+"key": "K12|River Delta Joint Unified",
+"name": "River Delta Joint Unified",
+"system": "K12",
+"county": "Sacramento",
+"type": "Unified",
+"cds": "34674130000000",
+"state": "CA"
+},
+{
+"key": "K12|Robla Elementary",
+"name": "Robla Elementary",
+"system": "K12",
+"county": "Sacramento",
+"type": "Elementary",
+"cds": "34674210000000",
+"state": "CA"
+},
+{
+"key": "K12|Sacramento City Unified",
+"name": "Sacramento City Unified",
+"system": "K12",
+"county": "Sacramento",
+"type": "Unified",
+"cds": "34674390000000",
+"state": "CA"
+},
+{
+"key": "K12|San Juan Unified",
+"name": "San Juan Unified",
+"system": "K12",
+"county": "Sacramento",
+"type": "Unified",
+"cds": "34674470000000",
+"state": "CA"
+},
+{
+"key": "K12|Twin Rivers Unified",
+"name": "Twin Rivers Unified",
+"system": "K12",
+"county": "Sacramento",
+"type": "Unified",
+"cds": "34765050000000",
+"state": "CA"
+},
+{
+"key": "K12|Aromas/San Juan Unified",
+"name": "Aromas/San Juan Unified",
+"system": "K12",
+"county": "San Benito",
+"type": "Unified",
+"cds": "35752590000000",
+"state": "CA"
+},
+{
+"key": "K12|Bitterwater-Tully Elementary",
+"name": "Bitterwater-Tully Elementary",
+"system": "K12",
+"county": "San Benito",
+"type": "Elementary",
+"cds": "35674540000000",
+"state": "CA"
+},
+{
+"key": "K12|Cienega Union Elementary",
+"name": "Cienega Union Elementary",
+"system": "K12",
+"county": "San Benito",
+"type": "Elementary",
+"cds": "35674620000000",
+"state": "CA"
+},
+{
+"key": "K12|Hollister",
+"name": "Hollister",
+"system": "K12",
+"county": "San Benito",
+"type": "Elementary",
+"cds": "35674700000000",
+"state": "CA"
+},
+{
+"key": "K12|Jefferson Elementary",
+"name": "Jefferson Elementary",
+"system": "K12",
+"county": "San Benito",
+"type": "Elementary",
+"cds": "41689160000000",
+"state": "CA"
+},
+{
+"key": "K12|North County Joint Union Elementary",
+"name": "North County Joint Union Elementary",
+"system": "K12",
+"county": "San Benito",
+"type": "Elementary",
+"cds": "35675040000000",
+"state": "CA"
+},
+{
+"key": "K12|Panoche Elementary",
+"name": "Panoche Elementary",
+"system": "K12",
+"county": "San Benito",
+"type": "Elementary",
+"cds": "35675200000000",
+"state": "CA"
+},
+{
+"key": "K12|San Benito High",
+"name": "San Benito High",
+"system": "K12",
+"county": "San Benito",
+"type": "High School",
+"cds": "35675380000000",
+"state": "CA"
+},
+{
+"key": "K12|Southside Elementary",
+"name": "Southside Elementary",
+"system": "K12",
+"county": "San Benito",
+"type": "Elementary",
+"cds": "35675530000000",
+"state": "CA"
+},
+{
+"key": "K12|Tres Pinos Union Elementary",
+"name": "Tres Pinos Union Elementary",
+"system": "K12",
+"county": "San Benito",
+"type": "Elementary",
+"cds": "35675610000000",
+"state": "CA"
+},
+{
+"key": "K12|Willow Grove Union Elementary",
+"name": "Willow Grove Union Elementary",
+"system": "K12",
+"county": "San Benito",
+"type": "Elementary",
+"cds": "35675790000000",
+"state": "CA"
+},
+{
+"key": "K12|Adelanto Elementary",
+"name": "Adelanto Elementary",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Elementary",
+"cds": "36675870000000",
+"state": "CA"
+},
+{
+"key": "K12|Alta Loma Elementary",
+"name": "Alta Loma Elementary",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Elementary",
+"cds": "36675950000000",
+"state": "CA"
+},
+{
+"key": "K12|Apple Valley Unified",
+"name": "Apple Valley Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36750770000000",
+"state": "CA"
+},
+{
+"key": "K12|Baker Valley Unified",
+"name": "Baker Valley Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36738580000000",
+"state": "CA"
+},
+{
+"key": "K12|Barstow Unified",
+"name": "Barstow Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36676110000000",
+"state": "CA"
+},
+{
+"key": "K12|Bear Valley Unified",
+"name": "Bear Valley Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36676370000000",
+"state": "CA"
+},
+{
+"key": "K12|Central Elementary",
+"name": "Central Elementary",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Elementary",
+"cds": "36676450000000",
+"state": "CA"
+},
+{
+"key": "K12|Chaffey Joint Union High",
+"name": "Chaffey Joint Union High",
+"system": "K12",
+"county": "San Bernardino",
+"type": "High School",
+"cds": "36676520000000",
+"state": "CA"
+},
+{
+"key": "K12|Chino Valley Unified",
+"name": "Chino Valley Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36676780000000",
+"state": "CA"
+},
+{
+"key": "K12|Colton Joint Unified",
+"name": "Colton Joint Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36676860000000",
+"state": "CA"
+},
+{
+"key": "K12|Cucamonga Elementary",
+"name": "Cucamonga Elementary",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Elementary",
+"cds": "36676940000000",
+"state": "CA"
+},
+{
+"key": "K12|Etiwanda Elementary",
+"name": "Etiwanda Elementary",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Elementary",
+"cds": "36677020000000",
+"state": "CA"
+},
+{
+"key": "K12|Fontana Unified",
+"name": "Fontana Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36677100000000",
+"state": "CA"
+},
+{
+"key": "K12|Helendale Elementary",
+"name": "Helendale Elementary",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Elementary",
+"cds": "36677360000000",
+"state": "CA"
+},
+{
+"key": "K12|Hesperia Unified",
+"name": "Hesperia Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36750440000000",
+"state": "CA"
+},
+{
+"key": "K12|Lucerne Valley Unified",
+"name": "Lucerne Valley Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36750510000000",
+"state": "CA"
+},
+{
+"key": "K12|Morongo Unified",
+"name": "Morongo Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36677770000000",
+"state": "CA"
+},
+{
+"key": "K12|Mountain View Elementary",
+"name": "Mountain View Elementary",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Elementary",
+"cds": "36677850000000",
+"state": "CA"
+},
+{
+"key": "K12|Mt. Baldy Joint Elementary",
+"name": "Mt. Baldy Joint Elementary",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Elementary",
+"cds": "36677930000000",
+"state": "CA"
+},
+{
+"key": "K12|Needles Unified",
+"name": "Needles Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36678010000000",
+"state": "CA"
+},
+{
+"key": "K12|Ontario-Montclair",
+"name": "Ontario-Montclair",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Elementary",
+"cds": "36678190000000",
+"state": "CA"
+},
+{
+"key": "K12|Oro Grande Elementary",
+"name": "Oro Grande Elementary",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Elementary",
+"cds": "36678270000000",
+"state": "CA"
+},
+{
+"key": "K12|Redlands Unified",
+"name": "Redlands Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36678430000000",
+"state": "CA"
+},
+{
+"key": "K12|Rialto Unified",
+"name": "Rialto Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36678500000000",
+"state": "CA"
+},
+{
+"key": "K12|Rim of the World Unified",
+"name": "Rim of the World Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36678680000000",
+"state": "CA"
+},
+{
+"key": "K12|San Bernardino City Unified",
+"name": "San Bernardino City Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36678760000000",
+"state": "CA"
+},
+{
+"key": "K12|Silver Valley Unified",
+"name": "Silver Valley Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36738900000000",
+"state": "CA"
+},
+{
+"key": "K12|Snowline Joint Unified",
+"name": "Snowline Joint Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36739570000000",
+"state": "CA"
+},
+{
+"key": "K12|Trona Joint Unified",
+"name": "Trona Joint Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36678920000000",
+"state": "CA"
+},
+{
+"key": "K12|Upland Unified",
+"name": "Upland Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36750690000000",
+"state": "CA"
+},
+{
+"key": "K12|Victor Elementary",
+"name": "Victor Elementary",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Elementary",
+"cds": "36679180000000",
+"state": "CA"
+},
+{
+"key": "K12|Victor Valley Union High",
+"name": "Victor Valley Union High",
+"system": "K12",
+"county": "San Bernardino",
+"type": "High School with Jr. High Program",
+"cds": "36679340000000",
+"state": "CA"
+},
+{
+"key": "K12|Yucaipa-Calimesa Joint Unified",
+"name": "Yucaipa-Calimesa Joint Unified",
+"system": "K12",
+"county": "San Bernardino",
+"type": "Unified",
+"cds": "36679590000000",
+"state": "CA"
+},
+{
+"key": "K12|Alpine Union Elementary",
+"name": "Alpine Union Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37679670000000",
+"state": "CA"
+},
+{
+"key": "K12|Bonsall Unified",
+"name": "Bonsall Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37768510000000",
+"state": "CA"
+},
+{
+"key": "K12|Borrego Springs Unified",
+"name": "Borrego Springs Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37679830000000",
+"state": "CA"
+},
+{
+"key": "K12|Cajon Valley Union",
+"name": "Cajon Valley Union",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37679910000000",
+"state": "CA"
+},
+{
+"key": "K12|Cardiff Elementary",
+"name": "Cardiff Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37680070000000",
+"state": "CA"
+},
+{
+"key": "K12|Carlsbad Unified",
+"name": "Carlsbad Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37735510000000",
+"state": "CA"
+},
+{
+"key": "K12|Chula Vista Elementary",
+"name": "Chula Vista Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37680230000000",
+"state": "CA"
+},
+{
+"key": "K12|Coronado Unified",
+"name": "Coronado Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37680310000000",
+"state": "CA"
+},
+{
+"key": "K12|Dehesa Elementary",
+"name": "Dehesa Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37680490000000",
+"state": "CA"
+},
+{
+"key": "K12|Del Mar Union Elementary",
+"name": "Del Mar Union Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37680560000000",
+"state": "CA"
+},
+{
+"key": "K12|Encinitas Union Elementary",
+"name": "Encinitas Union Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37680800000000",
+"state": "CA"
+},
+{
+"key": "K12|Escondido Union",
+"name": "Escondido Union",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37680980000000",
+"state": "CA"
+},
+{
+"key": "K12|Escondido Union High",
+"name": "Escondido Union High",
+"system": "K12",
+"county": "San Diego",
+"type": "High School",
+"cds": "37681060000000",
+"state": "CA"
+},
+{
+"key": "K12|Fallbrook Union Elementary",
+"name": "Fallbrook Union Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37681140000000",
+"state": "CA"
+},
+{
+"key": "K12|Fallbrook Union High",
+"name": "Fallbrook Union High",
+"system": "K12",
+"county": "San Diego",
+"type": "High School",
+"cds": "37681220000000",
+"state": "CA"
+},
+{
+"key": "K12|Grossmont Union High",
+"name": "Grossmont Union High",
+"system": "K12",
+"county": "San Diego",
+"type": "High School",
+"cds": "37681300000000",
+"state": "CA"
+},
+{
+"key": "K12|Jamul-Dulzura Union Elementary",
+"name": "Jamul-Dulzura Union Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37681550000000",
+"state": "CA"
+},
+{
+"key": "K12|Julian Union Elementary",
+"name": "Julian Union Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37681630000000",
+"state": "CA"
+},
+{
+"key": "K12|Julian Union High",
+"name": "Julian Union High",
+"system": "K12",
+"county": "San Diego",
+"type": "High School",
+"cds": "37681710000000",
+"state": "CA"
+},
+{
+"key": "K12|La Mesa-Spring Valley",
+"name": "La Mesa-Spring Valley",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37681970000000",
+"state": "CA"
+},
+{
+"key": "K12|Lakeside Union Elementary",
+"name": "Lakeside Union Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37681890000000",
+"state": "CA"
+},
+{
+"key": "K12|Lemon Grove",
+"name": "Lemon Grove",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37682050000000",
+"state": "CA"
+},
+{
+"key": "K12|Mountain Empire Unified",
+"name": "Mountain Empire Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37682130000000",
+"state": "CA"
+},
+{
+"key": "K12|National Elementary",
+"name": "National Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37682210000000",
+"state": "CA"
+},
+{
+"key": "K12|Oceanside Unified",
+"name": "Oceanside Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37735690000000",
+"state": "CA"
+},
+{
+"key": "K12|Poway Unified",
+"name": "Poway Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37682960000000",
+"state": "CA"
+},
+{
+"key": "K12|Ramona City Unified",
+"name": "Ramona City Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37683040000000",
+"state": "CA"
+},
+{
+"key": "K12|Rancho Santa Fe Elementary",
+"name": "Rancho Santa Fe Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37683120000000",
+"state": "CA"
+},
+{
+"key": "K12|San Diego Unified",
+"name": "San Diego Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37683380000000",
+"state": "CA"
+},
+{
+"key": "K12|San Dieguito Union High",
+"name": "San Dieguito Union High",
+"system": "K12",
+"county": "San Diego",
+"type": "High School with Jr. High Program",
+"cds": "37683460000000",
+"state": "CA"
+},
+{
+"key": "K12|San Marcos Unified",
+"name": "San Marcos Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37737910000000",
+"state": "CA"
+},
+{
+"key": "K12|San Pasqual Union Elementary",
+"name": "San Pasqual Union Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37683530000000",
+"state": "CA"
+},
+{
+"key": "K12|San Ysidro Elementary",
+"name": "San Ysidro Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37683790000000",
+"state": "CA"
+},
+{
+"key": "K12|Santee",
+"name": "Santee",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37683610000000",
+"state": "CA"
+},
+{
+"key": "K12|Solana Beach Elementary",
+"name": "Solana Beach Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37683870000000",
+"state": "CA"
+},
+{
+"key": "K12|South Bay Union Elementary",
+"name": "South Bay Union Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37683950000000",
+"state": "CA"
+},
+{
+"key": "K12|Spencer Valley Elementary",
+"name": "Spencer Valley Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37684030000000",
+"state": "CA"
+},
+{
+"key": "K12|Sweetwater Union High",
+"name": "Sweetwater Union High",
+"system": "K12",
+"county": "San Diego",
+"type": "High School with Jr. High Program",
+"cds": "37684110000000",
+"state": "CA"
+},
+{
+"key": "K12|Vallecitos Elementary",
+"name": "Vallecitos Elementary",
+"system": "K12",
+"county": "San Diego",
+"type": "Elementary",
+"cds": "37684370000000",
+"state": "CA"
+},
+{
+"key": "K12|Valley Center-Pauma Unified",
+"name": "Valley Center-Pauma Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37756140000000",
+"state": "CA"
+},
+{
+"key": "K12|Vista Unified",
+"name": "Vista Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37684520000000",
+"state": "CA"
+},
+{
+"key": "K12|Warner Unified",
+"name": "Warner Unified",
+"system": "K12",
+"county": "San Diego",
+"type": "Unified",
+"cds": "37754160000000",
+"state": "CA"
+},
+{
+"key": "K12|San Francisco Unified",
+"name": "San Francisco Unified",
+"system": "K12",
+"county": "San Francisco",
+"type": "Unified",
+"cds": "38684780000000",
+"state": "CA"
+},
+{
+"key": "K12|Banta Unified",
+"name": "Banta Unified",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Unified",
+"cds": "39773880000000",
+"state": "CA"
+},
+{
+"key": "K12|Escalon Unified",
+"name": "Escalon Unified",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Unified",
+"cds": "39685020000000",
+"state": "CA"
+},
+{
+"key": "K12|Jefferson Elementary",
+"name": "Jefferson Elementary",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Elementary",
+"cds": "41689160000000",
+"state": "CA"
+},
+{
+"key": "K12|Lammersville Joint Unified",
+"name": "Lammersville Joint Unified",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Unified",
+"cds": "39767600000000",
+"state": "CA"
+},
+{
+"key": "K12|Lincoln Unified",
+"name": "Lincoln Unified",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Unified",
+"cds": "39685690000000",
+"state": "CA"
+},
+{
+"key": "K12|Linden Unified",
+"name": "Linden Unified",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Unified",
+"cds": "39685770000000",
+"state": "CA"
+},
+{
+"key": "K12|Lodi Unified",
+"name": "Lodi Unified",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Unified",
+"cds": "39685850000000",
+"state": "CA"
+},
+{
+"key": "K12|Manteca Unified",
+"name": "Manteca Unified",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Unified",
+"cds": "39685930000000",
+"state": "CA"
+},
+{
+"key": "K12|New Hope Elementary",
+"name": "New Hope Elementary",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Elementary",
+"cds": "39686190000000",
+"state": "CA"
+},
+{
+"key": "K12|New Jerusalem Elementary",
+"name": "New Jerusalem Elementary",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Elementary",
+"cds": "39686270000000",
+"state": "CA"
+},
+{
+"key": "K12|Oak View Union Elementary",
+"name": "Oak View Union Elementary",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Elementary",
+"cds": "39686350000000",
+"state": "CA"
+},
+{
+"key": "K12|Ripon Unified",
+"name": "Ripon Unified",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Unified",
+"cds": "39686500000000",
+"state": "CA"
+},
+{
+"key": "K12|Stockton Unified",
+"name": "Stockton Unified",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Unified",
+"cds": "39686760000000",
+"state": "CA"
+},
+{
+"key": "K12|Tracy Joint Unified",
+"name": "Tracy Joint Unified",
+"system": "K12",
+"county": "San Joaquin",
+"type": "Unified",
+"cds": "39754990000000",
+"state": "CA"
+},
+{
+"key": "K12|Atascadero Unified",
+"name": "Atascadero Unified",
+"system": "K12",
+"county": "San Luis Obispo",
+"type": "Unified",
+"cds": "40687000000000",
+"state": "CA"
+},
+{
+"key": "K12|Cayucos Elementary",
+"name": "Cayucos Elementary",
+"system": "K12",
+"county": "San Luis Obispo",
+"type": "Elementary",
+"cds": "40687260000000",
+"state": "CA"
+},
+{
+"key": "K12|Coast Unified",
+"name": "Coast Unified",
+"system": "K12",
+"county": "San Luis Obispo",
+"type": "Unified",
+"cds": "40754650000000",
+"state": "CA"
+},
+{
+"key": "K12|Lucia Mar Unified",
+"name": "Lucia Mar Unified",
+"system": "K12",
+"county": "San Luis Obispo",
+"type": "Unified",
+"cds": "40687590000000",
+"state": "CA"
+},
+{
+"key": "K12|Paso Robles Joint Unified",
+"name": "Paso Robles Joint Unified",
+"system": "K12",
+"county": "San Luis Obispo",
+"type": "Unified",
+"cds": "40754570000000",
+"state": "CA"
+},
+{
+"key": "K12|Pleasant Valley Joint Union Elementary",
+"name": "Pleasant Valley Joint Union Elementary",
+"system": "K12",
+"county": "San Luis Obispo",
+"type": "Elementary",
+"cds": "40687910000000",
+"state": "CA"
+},
+{
+"key": "K12|San Luis Coastal Unified",
+"name": "San Luis Coastal Unified",
+"system": "K12",
+"county": "San Luis Obispo",
+"type": "Unified",
+"cds": "40688090000000",
+"state": "CA"
+},
+{
+"key": "K12|San Miguel Joint Union Elementary",
+"name": "San Miguel Joint Union Elementary",
+"system": "K12",
+"county": "San Luis Obispo",
+"type": "Elementary",
+"cds": "40688250000000",
+"state": "CA"
+},
+{
+"key": "K12|Shandon Joint Unified",
+"name": "Shandon Joint Unified",
+"system": "K12",
+"county": "San Luis Obispo",
+"type": "Unified",
+"cds": "40688330000000",
+"state": "CA"
+},
+{
+"key": "K12|Templeton Unified",
+"name": "Templeton Unified",
+"system": "K12",
+"county": "San Luis Obispo",
+"type": "Unified",
+"cds": "40688410000000",
+"state": "CA"
+},
+{
+"key": "K12|Bayshore Elementary",
+"name": "Bayshore Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41688580000000",
+"state": "CA"
+},
+{
+"key": "K12|Belmont-Redwood Shores Elementary",
+"name": "Belmont-Redwood Shores Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41688660000000",
+"state": "CA"
+},
+{
+"key": "K12|Brisbane Elementary",
+"name": "Brisbane Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41688740000000",
+"state": "CA"
+},
+{
+"key": "K12|Burlingame Elementary",
+"name": "Burlingame Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41688820000000",
+"state": "CA"
+},
+{
+"key": "K12|Cabrillo Unified",
+"name": "Cabrillo Unified",
+"system": "K12",
+"county": "San Mateo",
+"type": "Unified",
+"cds": "41688900000000",
+"state": "CA"
+},
+{
+"key": "K12|Hillsborough City Elementary",
+"name": "Hillsborough City Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41689080000000",
+"state": "CA"
+},
+{
+"key": "K12|Jefferson Elementary",
+"name": "Jefferson Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41689160000000",
+"state": "CA"
+},
+{
+"key": "K12|Jefferson Union High",
+"name": "Jefferson Union High",
+"system": "K12",
+"county": "San Mateo",
+"type": "High School",
+"cds": "41689240000000",
+"state": "CA"
+},
+{
+"key": "K12|La Honda-Pescadero Unified",
+"name": "La Honda-Pescadero Unified",
+"system": "K12",
+"county": "San Mateo",
+"type": "Unified",
+"cds": "41689400000000",
+"state": "CA"
+},
+{
+"key": "K12|Las Lomitas Elementary",
+"name": "Las Lomitas Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41689570000000",
+"state": "CA"
+},
+{
+"key": "K12|Menlo Park City Elementary",
+"name": "Menlo Park City Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41689650000000",
+"state": "CA"
+},
+{
+"key": "K12|Millbrae Elementary",
+"name": "Millbrae Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41689730000000",
+"state": "CA"
+},
+{
+"key": "K12|Pacifica",
+"name": "Pacifica",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41689320000000",
+"state": "CA"
+},
+{
+"key": "K12|Portola Valley Elementary",
+"name": "Portola Valley Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41689810000000",
+"state": "CA"
+},
+{
+"key": "K12|Ravenswood City Elementary",
+"name": "Ravenswood City Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41689990000000",
+"state": "CA"
+},
+{
+"key": "K12|Redwood City Elementary",
+"name": "Redwood City Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41690050000000",
+"state": "CA"
+},
+{
+"key": "K12|San Bruno Park Elementary",
+"name": "San Bruno Park Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41690130000000",
+"state": "CA"
+},
+{
+"key": "K12|San Carlos Elementary",
+"name": "San Carlos Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41690210000000",
+"state": "CA"
+},
+{
+"key": "K12|San Mateo Union High",
+"name": "San Mateo Union High",
+"system": "K12",
+"county": "San Mateo",
+"type": "High School",
+"cds": "41690470000000",
+"state": "CA"
+},
+{
+"key": "K12|San Mateo-Foster City",
+"name": "San Mateo-Foster City",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41690390000000",
+"state": "CA"
+},
+{
+"key": "K12|Sequoia Union High",
+"name": "Sequoia Union High",
+"system": "K12",
+"county": "San Mateo",
+"type": "High School",
+"cds": "41690620000000",
+"state": "CA"
+},
+{
+"key": "K12|South San Francisco Unified",
+"name": "South San Francisco Unified",
+"system": "K12",
+"county": "San Mateo",
+"type": "Unified",
+"cds": "41690700000000",
+"state": "CA"
+},
+{
+"key": "K12|Woodside Elementary",
+"name": "Woodside Elementary",
+"system": "K12",
+"county": "San Mateo",
+"type": "Elementary",
+"cds": "41690880000000",
+"state": "CA"
+},
+{
+"key": "K12|Ballard Elementary",
+"name": "Ballard Elementary",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42691040000000",
+"state": "CA"
+},
+{
+"key": "K12|Blochman Union Elementary",
+"name": "Blochman Union Elementary",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42691120000000",
+"state": "CA"
+},
+{
+"key": "K12|Buellton Union Elementary",
+"name": "Buellton Union Elementary",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42691380000000",
+"state": "CA"
+},
+{
+"key": "K12|Carpinteria Unified",
+"name": "Carpinteria Unified",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Unified",
+"cds": "42691460000000",
+"state": "CA"
+},
+{
+"key": "K12|Cold Spring Elementary",
+"name": "Cold Spring Elementary",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42691610000000",
+"state": "CA"
+},
+{
+"key": "K12|College Elementary",
+"name": "College Elementary",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42691790000000",
+"state": "CA"
+},
+{
+"key": "K12|Cuyama Joint Unified",
+"name": "Cuyama Joint Unified",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Unified",
+"cds": "42750100000000",
+"state": "CA"
+},
+{
+"key": "K12|Goleta Union Elementary",
+"name": "Goleta Union Elementary",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42691950000000",
+"state": "CA"
+},
+{
+"key": "K12|Guadalupe Union Elementary",
+"name": "Guadalupe Union Elementary",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42692030000000",
+"state": "CA"
+},
+{
+"key": "K12|Hope Elementary",
+"name": "Hope Elementary",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "54719440000000",
+"state": "CA"
+},
+{
+"key": "K12|Lompoc Unified",
+"name": "Lompoc Unified",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Unified",
+"cds": "42692290000000",
+"state": "CA"
+},
+{
+"key": "K12|Los Olivos Elementary",
+"name": "Los Olivos Elementary",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42692450000000",
+"state": "CA"
+},
+{
+"key": "K12|Montecito Union Elementary",
+"name": "Montecito Union Elementary",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42692520000000",
+"state": "CA"
+},
+{
+"key": "K12|Orcutt Union Elementary",
+"name": "Orcutt Union Elementary",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42692600000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Barbara Unified",
+"name": "Santa Barbara Unified",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Unified",
+"cds": "42767860000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Maria Joint Union High",
+"name": "Santa Maria Joint Union High",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "High School",
+"cds": "42693100000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Maria-Bonita",
+"name": "Santa Maria-Bonita",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42691200000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Ynez Valley Union High",
+"name": "Santa Ynez Valley Union High",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "High School",
+"cds": "42693280000000",
+"state": "CA"
+},
+{
+"key": "K12|Solvang Elementary",
+"name": "Solvang Elementary",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42693360000000",
+"state": "CA"
+},
+{
+"key": "K12|Vista del Mar Union",
+"name": "Vista del Mar Union",
+"system": "K12",
+"county": "Santa Barbara",
+"type": "Elementary",
+"cds": "42693440000000",
+"state": "CA"
+},
+{
+"key": "K12|Alum Rock Union Elementary",
+"name": "Alum Rock Union Elementary",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43693690000000",
+"state": "CA"
+},
+{
+"key": "K12|Berryessa Union Elementary",
+"name": "Berryessa Union Elementary",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43693770000000",
+"state": "CA"
+},
+{
+"key": "K12|Cambrian",
+"name": "Cambrian",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43693850000000",
+"state": "CA"
+},
+{
+"key": "K12|Campbell Union",
+"name": "Campbell Union",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43693930000000",
+"state": "CA"
+},
+{
+"key": "K12|Campbell Union High",
+"name": "Campbell Union High",
+"system": "K12",
+"county": "Santa Clara",
+"type": "High School",
+"cds": "43694010000000",
+"state": "CA"
+},
+{
+"key": "K12|Cupertino Union",
+"name": "Cupertino Union",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43694190000000",
+"state": "CA"
+},
+{
+"key": "K12|East Side Union High",
+"name": "East Side Union High",
+"system": "K12",
+"county": "Santa Clara",
+"type": "High School",
+"cds": "43694270000000",
+"state": "CA"
+},
+{
+"key": "K12|Evergreen Elementary",
+"name": "Evergreen Elementary",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43694350000000",
+"state": "CA"
+},
+{
+"key": "K12|Franklin-McKinley Elementary",
+"name": "Franklin-McKinley Elementary",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43694500000000",
+"state": "CA"
+},
+{
+"key": "K12|Fremont Union High",
+"name": "Fremont Union High",
+"system": "K12",
+"county": "Santa Clara",
+"type": "High School",
+"cds": "43694680000000",
+"state": "CA"
+},
+{
+"key": "K12|Gilroy Unified",
+"name": "Gilroy Unified",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Unified",
+"cds": "43694840000000",
+"state": "CA"
+},
+{
+"key": "K12|Lakeside Joint",
+"name": "Lakeside Joint",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43694920000000",
+"state": "CA"
+},
+{
+"key": "K12|Loma Prieta Joint Union Elementary",
+"name": "Loma Prieta Joint Union Elementary",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43695000000000",
+"state": "CA"
+},
+{
+"key": "K12|Los Altos Elementary",
+"name": "Los Altos Elementary",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43695180000000",
+"state": "CA"
+},
+{
+"key": "K12|Los Gatos Union Elementary",
+"name": "Los Gatos Union Elementary",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43695260000000",
+"state": "CA"
+},
+{
+"key": "K12|Los Gatos-Saratoga Union High",
+"name": "Los Gatos-Saratoga Union High",
+"system": "K12",
+"county": "Santa Clara",
+"type": "High School",
+"cds": "43695340000000",
+"state": "CA"
+},
+{
+"key": "K12|Luther Burbank",
+"name": "Luther Burbank",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43695420000000",
+"state": "CA"
+},
+{
+"key": "K12|Milpitas Unified",
+"name": "Milpitas Unified",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Unified",
+"cds": "43733870000000",
+"state": "CA"
+},
+{
+"key": "K12|Moreland",
+"name": "Moreland",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43695750000000",
+"state": "CA"
+},
+{
+"key": "K12|Morgan Hill Unified",
+"name": "Morgan Hill Unified",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Unified",
+"cds": "43695830000000",
+"state": "CA"
+},
+{
+"key": "K12|Mountain View Whisman",
+"name": "Mountain View Whisman",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43695910000000",
+"state": "CA"
+},
+{
+"key": "K12|Mountain View-Los Altos Union High",
+"name": "Mountain View-Los Altos Union High",
+"system": "K12",
+"county": "Santa Clara",
+"type": "High School",
+"cds": "43696090000000",
+"state": "CA"
+},
+{
+"key": "K12|Mt. Pleasant Elementary",
+"name": "Mt. Pleasant Elementary",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43696170000000",
+"state": "CA"
+},
+{
+"key": "K12|Oak Grove Elementary",
+"name": "Oak Grove Elementary",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43696250000000",
+"state": "CA"
+},
+{
+"key": "K12|Orchard Elementary",
+"name": "Orchard Elementary",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43696330000000",
+"state": "CA"
+},
+{
+"key": "K12|Palo Alto Unified",
+"name": "Palo Alto Unified",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Unified",
+"cds": "43696410000000",
+"state": "CA"
+},
+{
+"key": "K12|San Jose Unified",
+"name": "San Jose Unified",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Unified",
+"cds": "43696660000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Clara Unified",
+"name": "Santa Clara Unified",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Unified",
+"cds": "43696740000000",
+"state": "CA"
+},
+{
+"key": "K12|Saratoga Union Elementary",
+"name": "Saratoga Union Elementary",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43696820000000",
+"state": "CA"
+},
+{
+"key": "K12|Sunnyvale",
+"name": "Sunnyvale",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43696900000000",
+"state": "CA"
+},
+{
+"key": "K12|Union Elementary",
+"name": "Union Elementary",
+"system": "K12",
+"county": "Santa Clara",
+"type": "Elementary",
+"cds": "43697080000000",
+"state": "CA"
+},
+{
+"key": "K12|Bonny Doon Union Elementary",
+"name": "Bonny Doon Union Elementary",
+"system": "K12",
+"county": "Santa Cruz",
+"type": "Elementary",
+"cds": "44697320000000",
+"state": "CA"
+},
+{
+"key": "K12|Happy Valley Elementary",
+"name": "Happy Valley Elementary",
+"system": "K12",
+"county": "Santa Cruz",
+"type": "Elementary",
+"cds": "44697570000000",
+"state": "CA"
+},
+{
+"key": "K12|Live Oak Elementary",
+"name": "Live Oak Elementary",
+"system": "K12",
+"county": "Santa Cruz",
+"type": "Elementary",
+"cds": "44697650000000",
+"state": "CA"
+},
+{
+"key": "K12|Mountain Elementary",
+"name": "Mountain Elementary",
+"system": "K12",
+"county": "Santa Cruz",
+"type": "Elementary",
+"cds": "44697730000000",
+"state": "CA"
+},
+{
+"key": "K12|Pacific Elementary",
+"name": "Pacific Elementary",
+"system": "K12",
+"county": "Santa Cruz",
+"type": "Elementary",
+"cds": "44697810000000",
+"state": "CA"
+},
+{
+"key": "K12|Pajaro Valley Unified",
+"name": "Pajaro Valley Unified",
+"system": "K12",
+"county": "Santa Cruz",
+"type": "Unified",
+"cds": "44697990000000",
+"state": "CA"
+},
+{
+"key": "K12|San Lorenzo Valley Unified",
+"name": "San Lorenzo Valley Unified",
+"system": "K12",
+"county": "Santa Cruz",
+"type": "Unified",
+"cds": "44698070000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Cruz City Elementary",
+"name": "Santa Cruz City Elementary",
+"system": "K12",
+"county": "Santa Cruz",
+"type": "Elementary",
+"cds": "44698150000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Cruz City High",
+"name": "Santa Cruz City High",
+"system": "K12",
+"county": "Santa Cruz",
+"type": "High School with Jr. High Program",
+"cds": "44698230000000",
+"state": "CA"
+},
+{
+"key": "K12|Scotts Valley Unified",
+"name": "Scotts Valley Unified",
+"system": "K12",
+"county": "Santa Cruz",
+"type": "Unified",
+"cds": "44754320000000",
+"state": "CA"
+},
+{
+"key": "K12|Soquel Union Elementary",
+"name": "Soquel Union Elementary",
+"system": "K12",
+"county": "Santa Cruz",
+"type": "Elementary",
+"cds": "44698490000000",
+"state": "CA"
+},
+{
+"key": "K12|Anderson Union High",
+"name": "Anderson Union High",
+"system": "K12",
+"county": "Shasta",
+"type": "High School",
+"cds": "45698560000000",
+"state": "CA"
+},
+{
+"key": "K12|Bella Vista Elementary",
+"name": "Bella Vista Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45698720000000",
+"state": "CA"
+},
+{
+"key": "K12|Black Butte Union Elementary",
+"name": "Black Butte Union Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45698800000000",
+"state": "CA"
+},
+{
+"key": "K12|Cascade Union Elementary",
+"name": "Cascade Union Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45699140000000",
+"state": "CA"
+},
+{
+"key": "K12|Castle Rock Union Elementary",
+"name": "Castle Rock Union Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45699220000000",
+"state": "CA"
+},
+{
+"key": "K12|Columbia Elementary",
+"name": "Columbia Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45699480000000",
+"state": "CA"
+},
+{
+"key": "K12|Cottonwood Union Elementary",
+"name": "Cottonwood Union Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45699550000000",
+"state": "CA"
+},
+{
+"key": "K12|Enterprise Elementary",
+"name": "Enterprise Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45699710000000",
+"state": "CA"
+},
+{
+"key": "K12|Fall River Joint Unified",
+"name": "Fall River Joint Unified",
+"system": "K12",
+"county": "Shasta",
+"type": "Unified",
+"cds": "45699890000000",
+"state": "CA"
+},
+{
+"key": "K12|French Gulch-Whiskeytown Elementary",
+"name": "French Gulch-Whiskeytown Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45699970000000",
+"state": "CA"
+},
+{
+"key": "K12|Gateway Unified",
+"name": "Gateway Unified",
+"system": "K12",
+"county": "Shasta",
+"type": "Unified",
+"cds": "45752670000000",
+"state": "CA"
+},
+{
+"key": "K12|Grant Elementary",
+"name": "Grant Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45700030000000",
+"state": "CA"
+},
+{
+"key": "K12|Happy Valley Union Elementary",
+"name": "Happy Valley Union Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45700110000000",
+"state": "CA"
+},
+{
+"key": "K12|Igo, Ono, Platina Union Elementary",
+"name": "Igo, Ono, Platina Union Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45700290000000",
+"state": "CA"
+},
+{
+"key": "K12|Junction Elementary",
+"name": "Junction Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "47703670000000",
+"state": "CA"
+},
+{
+"key": "K12|Millville Elementary",
+"name": "Millville Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45700520000000",
+"state": "CA"
+},
+{
+"key": "K12|Mountain Union Elementary",
+"name": "Mountain Union Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45737000000000",
+"state": "CA"
+},
+{
+"key": "K12|North Cow Creek Elementary",
+"name": "North Cow Creek Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45700780000000",
+"state": "CA"
+},
+{
+"key": "K12|Oak Run Elementary",
+"name": "Oak Run Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45700860000000",
+"state": "CA"
+},
+{
+"key": "K12|Pacheco Union Elementary",
+"name": "Pacheco Union Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45700940000000",
+"state": "CA"
+},
+{
+"key": "K12|Redding Elementary",
+"name": "Redding Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45701100000000",
+"state": "CA"
+},
+{
+"key": "K12|Shasta Union Elementary",
+"name": "Shasta Union Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45701280000000",
+"state": "CA"
+},
+{
+"key": "K12|Shasta Union High",
+"name": "Shasta Union High",
+"system": "K12",
+"county": "Shasta",
+"type": "High School",
+"cds": "45701360000000",
+"state": "CA"
+},
+{
+"key": "K12|Whitmore Union Elementary",
+"name": "Whitmore Union Elementary",
+"system": "K12",
+"county": "Shasta",
+"type": "Elementary",
+"cds": "45701690000000",
+"state": "CA"
+},
+{
+"key": "K12|Sierra-Plumas Joint Unified",
+"name": "Sierra-Plumas Joint Unified",
+"system": "K12",
+"county": "Sierra",
+"type": "Unified",
+"cds": "46701770000000",
+"state": "CA"
+},
+{
+"key": "K12|Big Springs Union Elementary",
+"name": "Big Springs Union Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47701850000000",
+"state": "CA"
+},
+{
+"key": "K12|Bogus Elementary",
+"name": "Bogus Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47701930000000",
+"state": "CA"
+},
+{
+"key": "K12|Butte Valley Unified",
+"name": "Butte Valley Unified",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Unified",
+"cds": "47736840000000",
+"state": "CA"
+},
+{
+"key": "K12|Butteville Union Elementary",
+"name": "Butteville Union Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47702010000000",
+"state": "CA"
+},
+{
+"key": "K12|Delphic Elementary",
+"name": "Delphic Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47702270000000",
+"state": "CA"
+},
+{
+"key": "K12|Dunsmuir Elementary",
+"name": "Dunsmuir Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47702430000000",
+"state": "CA"
+},
+{
+"key": "K12|Dunsmuir Joint Union High",
+"name": "Dunsmuir Joint Union High",
+"system": "K12",
+"county": "Siskiyou",
+"type": "High School",
+"cds": "47702500000000",
+"state": "CA"
+},
+{
+"key": "K12|Gazelle Union Elementary",
+"name": "Gazelle Union Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47703180000000",
+"state": "CA"
+},
+{
+"key": "K12|Grenada Elementary",
+"name": "Grenada Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47703260000000",
+"state": "CA"
+},
+{
+"key": "K12|Happy Camp Union Elementary",
+"name": "Happy Camp Union Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47703340000000",
+"state": "CA"
+},
+{
+"key": "K12|Hornbrook Elementary",
+"name": "Hornbrook Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47703590000000",
+"state": "CA"
+},
+{
+"key": "K12|Junction Elementary",
+"name": "Junction Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47703670000000",
+"state": "CA"
+},
+{
+"key": "K12|Klamath River Union Elementary",
+"name": "Klamath River Union Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47703750000000",
+"state": "CA"
+},
+{
+"key": "K12|Little Shasta Elementary",
+"name": "Little Shasta Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47703830000000",
+"state": "CA"
+},
+{
+"key": "K12|McCloud Union Elementary",
+"name": "McCloud Union Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47704090000000",
+"state": "CA"
+},
+{
+"key": "K12|Montague Elementary",
+"name": "Montague Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47704170000000",
+"state": "CA"
+},
+{
+"key": "K12|Mt. Shasta Union Elementary",
+"name": "Mt. Shasta Union Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47704250000000",
+"state": "CA"
+},
+{
+"key": "K12|Scott Valley Unified",
+"name": "Scott Valley Unified",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Unified",
+"cds": "47764550000000",
+"state": "CA"
+},
+{
+"key": "K12|Seiad Elementary",
+"name": "Seiad Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47704580000000",
+"state": "CA"
+},
+{
+"key": "K12|Siskiyou Union High",
+"name": "Siskiyou Union High",
+"system": "K12",
+"county": "Siskiyou",
+"type": "High School",
+"cds": "47704660000000",
+"state": "CA"
+},
+{
+"key": "K12|Weed Union Elementary",
+"name": "Weed Union Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47704820000000",
+"state": "CA"
+},
+{
+"key": "K12|Willow Creek Elementary",
+"name": "Willow Creek Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47704900000000",
+"state": "CA"
+},
+{
+"key": "K12|Yreka Union Elementary",
+"name": "Yreka Union Elementary",
+"system": "K12",
+"county": "Siskiyou",
+"type": "Elementary",
+"cds": "47705080000000",
+"state": "CA"
+},
+{
+"key": "K12|Yreka Union High",
+"name": "Yreka Union High",
+"system": "K12",
+"county": "Siskiyou",
+"type": "High School",
+"cds": "47705160000000",
+"state": "CA"
+},
+{
+"key": "K12|Benicia Unified",
+"name": "Benicia Unified",
+"system": "K12",
+"county": "Solano",
+"type": "Unified",
+"cds": "48705240000000",
+"state": "CA"
+},
+{
+"key": "K12|Dixon Unified",
+"name": "Dixon Unified",
+"system": "K12",
+"county": "Solano",
+"type": "Unified",
+"cds": "48705320000000",
+"state": "CA"
+},
+{
+"key": "K12|Fairfield-Suisun Unified",
+"name": "Fairfield-Suisun Unified",
+"system": "K12",
+"county": "Solano",
+"type": "Unified",
+"cds": "48705400000000",
+"state": "CA"
+},
+{
+"key": "K12|Travis Unified",
+"name": "Travis Unified",
+"system": "K12",
+"county": "Solano",
+"type": "Unified",
+"cds": "48705650000000",
+"state": "CA"
+},
+{
+"key": "K12|Vacaville Unified",
+"name": "Vacaville Unified",
+"system": "K12",
+"county": "Solano",
+"type": "Unified",
+"cds": "48705730000000",
+"state": "CA"
+},
+{
+"key": "K12|Vallejo City Unified",
+"name": "Vallejo City Unified",
+"system": "K12",
+"county": "Solano",
+"type": "Unified",
+"cds": "48705810000000",
+"state": "CA"
+},
+{
+"key": "K12|Alexander Valley Union Elementary",
+"name": "Alexander Valley Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49705990000000",
+"state": "CA"
+},
+{
+"key": "K12|Bellevue Union",
+"name": "Bellevue Union",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49706150000000",
+"state": "CA"
+},
+{
+"key": "K12|Bennett Valley Union Elementary",
+"name": "Bennett Valley Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49706230000000",
+"state": "CA"
+},
+{
+"key": "K12|Cinnabar Elementary",
+"name": "Cinnabar Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49706490000000",
+"state": "CA"
+},
+{
+"key": "K12|Cloverdale Unified",
+"name": "Cloverdale Unified",
+"system": "K12",
+"county": "Sonoma",
+"type": "Unified",
+"cds": "49706560000000",
+"state": "CA"
+},
+{
+"key": "K12|Cotati-Rohnert Park Unified",
+"name": "Cotati-Rohnert Park Unified",
+"system": "K12",
+"county": "Sonoma",
+"type": "Unified",
+"cds": "49738820000000",
+"state": "CA"
+},
+{
+"key": "K12|Dunham Elementary",
+"name": "Dunham Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49706720000000",
+"state": "CA"
+},
+{
+"key": "K12|Forestville Union Elementary",
+"name": "Forestville Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49706800000000",
+"state": "CA"
+},
+{
+"key": "K12|Fort Ross Elementary",
+"name": "Fort Ross Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49706980000000",
+"state": "CA"
+},
+{
+"key": "K12|Geyserville Unified",
+"name": "Geyserville Unified",
+"system": "K12",
+"county": "Sonoma",
+"type": "Unified",
+"cds": "49707060000000",
+"state": "CA"
+},
+{
+"key": "K12|Gravenstein Union Elementary",
+"name": "Gravenstein Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49707140000000",
+"state": "CA"
+},
+{
+"key": "K12|Guerneville Elementary",
+"name": "Guerneville Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49707220000000",
+"state": "CA"
+},
+{
+"key": "K12|Harmony Union Elementary",
+"name": "Harmony Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49707300000000",
+"state": "CA"
+},
+{
+"key": "K12|Healdsburg Unified",
+"name": "Healdsburg Unified",
+"system": "K12",
+"county": "Sonoma",
+"type": "Unified",
+"cds": "49753900000000",
+"state": "CA"
+},
+{
+"key": "K12|Horicon Elementary",
+"name": "Horicon Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49707630000000",
+"state": "CA"
+},
+{
+"key": "K12|Kenwood",
+"name": "Kenwood",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49707890000000",
+"state": "CA"
+},
+{
+"key": "K12|Liberty Elementary",
+"name": "Liberty Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "54719850000000",
+"state": "CA"
+},
+{
+"key": "K12|Mark West Union Elementary",
+"name": "Mark West Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49708050000000",
+"state": "CA"
+},
+{
+"key": "K12|Monte Rio Union Elementary",
+"name": "Monte Rio Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49708130000000",
+"state": "CA"
+},
+{
+"key": "K12|Montgomery Elementary",
+"name": "Montgomery Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49708210000000",
+"state": "CA"
+},
+{
+"key": "K12|Oak Grove Union Elementary",
+"name": "Oak Grove Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49708390000000",
+"state": "CA"
+},
+{
+"key": "K12|Old Adobe Union",
+"name": "Old Adobe Union",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49708470000000",
+"state": "CA"
+},
+{
+"key": "K12|Petaluma City Elementary",
+"name": "Petaluma City Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49708540000000",
+"state": "CA"
+},
+{
+"key": "K12|Petaluma Joint Union High",
+"name": "Petaluma Joint Union High",
+"system": "K12",
+"county": "Sonoma",
+"type": "High School with Jr. High Program",
+"cds": "49708620000000",
+"state": "CA"
+},
+{
+"key": "K12|Piner-Olivet Union Elementary",
+"name": "Piner-Olivet Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49708700000000",
+"state": "CA"
+},
+{
+"key": "K12|Rincon Valley Union Elementary",
+"name": "Rincon Valley Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49708960000000",
+"state": "CA"
+},
+{
+"key": "K12|Roseland",
+"name": "Roseland",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49709040000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Rosa City Elementary",
+"name": "Santa Rosa City Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49709120000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Rosa High",
+"name": "Santa Rosa High",
+"system": "K12",
+"county": "Sonoma",
+"type": "High School with Jr. High Program",
+"cds": "49709200000000",
+"state": "CA"
+},
+{
+"key": "K12|Sebastopol Union Elementary",
+"name": "Sebastopol Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49709380000000",
+"state": "CA"
+},
+{
+"key": "K12|Sonoma Valley Unified",
+"name": "Sonoma Valley Unified",
+"system": "K12",
+"county": "Sonoma",
+"type": "Unified",
+"cds": "49709530000000",
+"state": "CA"
+},
+{
+"key": "K12|Twin Hills Union Elementary",
+"name": "Twin Hills Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49709610000000",
+"state": "CA"
+},
+{
+"key": "K12|Two Rock Union",
+"name": "Two Rock Union",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49709790000000",
+"state": "CA"
+},
+{
+"key": "K12|Waugh Elementary",
+"name": "Waugh Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49709950000000",
+"state": "CA"
+},
+{
+"key": "K12|West Side Union Elementary",
+"name": "West Side Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49710010000000",
+"state": "CA"
+},
+{
+"key": "K12|West Sonoma County Union High",
+"name": "West Sonoma County Union High",
+"system": "K12",
+"county": "Sonoma",
+"type": "High School",
+"cds": "49706070000000",
+"state": "CA"
+},
+{
+"key": "K12|Wilmar Union Elementary",
+"name": "Wilmar Union Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49710190000000",
+"state": "CA"
+},
+{
+"key": "K12|Windsor Unified",
+"name": "Windsor Unified",
+"system": "K12",
+"county": "Sonoma",
+"type": "Unified",
+"cds": "49753580000000",
+"state": "CA"
+},
+{
+"key": "K12|Wright Elementary",
+"name": "Wright Elementary",
+"system": "K12",
+"county": "Sonoma",
+"type": "Elementary",
+"cds": "49710350000000",
+"state": "CA"
+},
+{
+"key": "K12|Ceres Unified",
+"name": "Ceres Unified",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Unified",
+"cds": "50710430000000",
+"state": "CA"
+},
+{
+"key": "K12|Chatom Union",
+"name": "Chatom Union",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50710500000000",
+"state": "CA"
+},
+{
+"key": "K12|Denair Unified",
+"name": "Denair Unified",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Unified",
+"cds": "50710680000000",
+"state": "CA"
+},
+{
+"key": "K12|Empire Union Elementary",
+"name": "Empire Union Elementary",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50710760000000",
+"state": "CA"
+},
+{
+"key": "K12|Gratton Elementary",
+"name": "Gratton Elementary",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50710840000000",
+"state": "CA"
+},
+{
+"key": "K12|Hart-Ransom Union Elementary",
+"name": "Hart-Ransom Union Elementary",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50710920000000",
+"state": "CA"
+},
+{
+"key": "K12|Hickman Community Charter",
+"name": "Hickman Community Charter",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50711000000000",
+"state": "CA"
+},
+{
+"key": "K12|Hughson Unified",
+"name": "Hughson Unified",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Unified",
+"cds": "50755490000000",
+"state": "CA"
+},
+{
+"key": "K12|Keyes Union",
+"name": "Keyes Union",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50711340000000",
+"state": "CA"
+},
+{
+"key": "K12|Knights Ferry Elementary",
+"name": "Knights Ferry Elementary",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50711420000000",
+"state": "CA"
+},
+{
+"key": "K12|Modesto City Elementary",
+"name": "Modesto City Elementary",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50711670000000",
+"state": "CA"
+},
+{
+"key": "K12|Modesto City High",
+"name": "Modesto City High",
+"system": "K12",
+"county": "Stanislaus",
+"type": "High School",
+"cds": "50711750000000",
+"state": "CA"
+},
+{
+"key": "K12|Newman-Crows Landing Unified",
+"name": "Newman-Crows Landing Unified",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Unified",
+"cds": "50736010000000",
+"state": "CA"
+},
+{
+"key": "K12|Oakdale Joint Unified",
+"name": "Oakdale Joint Unified",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Unified",
+"cds": "50755640000000",
+"state": "CA"
+},
+{
+"key": "K12|Paradise Elementary",
+"name": "Paradise Elementary",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50712090000000",
+"state": "CA"
+},
+{
+"key": "K12|Patterson Joint Unified",
+"name": "Patterson Joint Unified",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Unified",
+"cds": "50712170000000",
+"state": "CA"
+},
+{
+"key": "K12|Riverbank Unified",
+"name": "Riverbank Unified",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Unified",
+"cds": "50755560000000",
+"state": "CA"
+},
+{
+"key": "K12|Roberts Ferry Union Elementary",
+"name": "Roberts Ferry Union Elementary",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50712330000000",
+"state": "CA"
+},
+{
+"key": "K12|Salida Union Elementary",
+"name": "Salida Union Elementary",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50712660000000",
+"state": "CA"
+},
+{
+"key": "K12|Shiloh Elementary",
+"name": "Shiloh Elementary",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50712740000000",
+"state": "CA"
+},
+{
+"key": "K12|Stanislaus Union Elementary",
+"name": "Stanislaus Union Elementary",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50712820000000",
+"state": "CA"
+},
+{
+"key": "K12|Sylvan Union Elementary",
+"name": "Sylvan Union Elementary",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50712900000000",
+"state": "CA"
+},
+{
+"key": "K12|Turlock Unified",
+"name": "Turlock Unified",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Unified",
+"cds": "50757390000000",
+"state": "CA"
+},
+{
+"key": "K12|Valley Home Joint Elementary",
+"name": "Valley Home Joint Elementary",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Elementary",
+"cds": "50713240000000",
+"state": "CA"
+},
+{
+"key": "K12|Waterford Unified",
+"name": "Waterford Unified",
+"system": "K12",
+"county": "Stanislaus",
+"type": "Unified",
+"cds": "50755720000000",
+"state": "CA"
+},
+{
+"key": "K12|Brittan Elementary",
+"name": "Brittan Elementary",
+"system": "K12",
+"county": "Sutter",
+"type": "Elementary",
+"cds": "51713570000000",
+"state": "CA"
+},
+{
+"key": "K12|Browns Elementary",
+"name": "Browns Elementary",
+"system": "K12",
+"county": "Sutter",
+"type": "Elementary",
+"cds": "51713650000000",
+"state": "CA"
+},
+{
+"key": "K12|East Nicolaus Joint Union High",
+"name": "East Nicolaus Joint Union High",
+"system": "K12",
+"county": "Sutter",
+"type": "High School",
+"cds": "51713730000000",
+"state": "CA"
+},
+{
+"key": "K12|Franklin Elementary",
+"name": "Franklin Elementary",
+"system": "K12",
+"county": "Sutter",
+"type": "Elementary",
+"cds": "51713810000000",
+"state": "CA"
+},
+{
+"key": "K12|Live Oak Unified",
+"name": "Live Oak Unified",
+"system": "K12",
+"county": "Sutter",
+"type": "Unified",
+"cds": "51713990000000",
+"state": "CA"
+},
+{
+"key": "K12|Marcum-Illinois Union Elementary",
+"name": "Marcum-Illinois Union Elementary",
+"system": "K12",
+"county": "Sutter",
+"type": "Elementary",
+"cds": "51714070000000",
+"state": "CA"
+},
+{
+"key": "K12|Meridian Elementary",
+"name": "Meridian Elementary",
+"system": "K12",
+"county": "Sutter",
+"type": "Elementary",
+"cds": "51714150000000",
+"state": "CA"
+},
+{
+"key": "K12|Nuestro Elementary",
+"name": "Nuestro Elementary",
+"system": "K12",
+"county": "Sutter",
+"type": "Elementary",
+"cds": "51714230000000",
+"state": "CA"
+},
+{
+"key": "K12|Pleasant Grove Joint Union Elementary",
+"name": "Pleasant Grove Joint Union Elementary",
+"system": "K12",
+"county": "Sutter",
+"type": "Elementary",
+"cds": "51714310000000",
+"state": "CA"
+},
+{
+"key": "K12|Sutter Union High",
+"name": "Sutter Union High",
+"system": "K12",
+"county": "Sutter",
+"type": "High School",
+"cds": "51714490000000",
+"state": "CA"
+},
+{
+"key": "K12|Winship-Robbins",
+"name": "Winship-Robbins",
+"system": "K12",
+"county": "Sutter",
+"type": "Elementary",
+"cds": "51714560000000",
+"state": "CA"
+},
+{
+"key": "K12|Yuba City Unified",
+"name": "Yuba City Unified",
+"system": "K12",
+"county": "Sutter",
+"type": "Unified",
+"cds": "51714640000000",
+"state": "CA"
+},
+{
+"key": "K12|Antelope Elementary",
+"name": "Antelope Elementary",
+"system": "K12",
+"county": "Tehama",
+"type": "Elementary",
+"cds": "52714720000000",
+"state": "CA"
+},
+{
+"key": "K12|Corning Union Elementary",
+"name": "Corning Union Elementary",
+"system": "K12",
+"county": "Tehama",
+"type": "Elementary",
+"cds": "52714980000000",
+"state": "CA"
+},
+{
+"key": "K12|Corning Union High",
+"name": "Corning Union High",
+"system": "K12",
+"county": "Tehama",
+"type": "High School",
+"cds": "52715060000000",
+"state": "CA"
+},
+{
+"key": "K12|Evergreen Union",
+"name": "Evergreen Union",
+"system": "K12",
+"county": "Tehama",
+"type": "Elementary",
+"cds": "52715220000000",
+"state": "CA"
+},
+{
+"key": "K12|Flournoy Union Elementary",
+"name": "Flournoy Union Elementary",
+"system": "K12",
+"county": "Tehama",
+"type": "Elementary",
+"cds": "52715300000000",
+"state": "CA"
+},
+{
+"key": "K12|Gerber Union Elementary",
+"name": "Gerber Union Elementary",
+"system": "K12",
+"county": "Tehama",
+"type": "Elementary",
+"cds": "52715480000000",
+"state": "CA"
+},
+{
+"key": "K12|Kirkwood Elementary",
+"name": "Kirkwood Elementary",
+"system": "K12",
+"county": "Tehama",
+"type": "Elementary",
+"cds": "52715550000000",
+"state": "CA"
+},
+{
+"key": "K12|Lassen View Union Elementary",
+"name": "Lassen View Union Elementary",
+"system": "K12",
+"county": "Tehama",
+"type": "Elementary",
+"cds": "52715630000000",
+"state": "CA"
+},
+{
+"key": "K12|Los Molinos Unified",
+"name": "Los Molinos Unified",
+"system": "K12",
+"county": "Tehama",
+"type": "Unified",
+"cds": "52715710000000",
+"state": "CA"
+},
+{
+"key": "K12|Red Bluff Joint Union High",
+"name": "Red Bluff Joint Union High",
+"system": "K12",
+"county": "Tehama",
+"type": "High School",
+"cds": "52716390000000",
+"state": "CA"
+},
+{
+"key": "K12|Red Bluff Union Elementary",
+"name": "Red Bluff Union Elementary",
+"system": "K12",
+"county": "Tehama",
+"type": "Elementary",
+"cds": "52716210000000",
+"state": "CA"
+},
+{
+"key": "K12|Reeds Creek Elementary",
+"name": "Reeds Creek Elementary",
+"system": "K12",
+"county": "Tehama",
+"type": "Elementary",
+"cds": "52716470000000",
+"state": "CA"
+},
+{
+"key": "K12|Richfield Elementary",
+"name": "Richfield Elementary",
+"system": "K12",
+"county": "Tehama",
+"type": "Elementary",
+"cds": "52716540000000",
+"state": "CA"
+},
+{
+"key": "K12|Burnt Ranch Elementary",
+"name": "Burnt Ranch Elementary",
+"system": "K12",
+"county": "Trinity",
+"type": "Elementary",
+"cds": "53716620000000",
+"state": "CA"
+},
+{
+"key": "K12|Coffee Creek Elementary",
+"name": "Coffee Creek Elementary",
+"system": "K12",
+"county": "Trinity",
+"type": "Elementary",
+"cds": "53716700000000",
+"state": "CA"
+},
+{
+"key": "K12|Douglas City Elementary",
+"name": "Douglas City Elementary",
+"system": "K12",
+"county": "Trinity",
+"type": "Elementary",
+"cds": "53716960000000",
+"state": "CA"
+},
+{
+"key": "K12|Junction City Elementary",
+"name": "Junction City Elementary",
+"system": "K12",
+"county": "Trinity",
+"type": "Elementary",
+"cds": "53717380000000",
+"state": "CA"
+},
+{
+"key": "K12|Lewiston Elementary",
+"name": "Lewiston Elementary",
+"system": "K12",
+"county": "Trinity",
+"type": "Elementary",
+"cds": "53717460000000",
+"state": "CA"
+},
+{
+"key": "K12|Mountain Valley Unified",
+"name": "Mountain Valley Unified",
+"system": "K12",
+"county": "Trinity",
+"type": "Unified",
+"cds": "53750280000000",
+"state": "CA"
+},
+{
+"key": "K12|Southern Trinity Joint Unified",
+"name": "Southern Trinity Joint Unified",
+"system": "K12",
+"county": "Trinity",
+"type": "Unified",
+"cds": "53738330000000",
+"state": "CA"
+},
+{
+"key": "K12|Trinity Alps Unified",
+"name": "Trinity Alps Unified",
+"system": "K12",
+"county": "Trinity",
+"type": "Unified",
+"cds": "53765130000000",
+"state": "CA"
+},
+{
+"key": "K12|Trinity Center Elementary",
+"name": "Trinity Center Elementary",
+"system": "K12",
+"county": "Trinity",
+"type": "Elementary",
+"cds": "53717610000000",
+"state": "CA"
+},
+{
+"key": "K12|Allensworth Elementary",
+"name": "Allensworth Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54717950000000",
+"state": "CA"
+},
+{
+"key": "K12|Alpaugh Unified",
+"name": "Alpaugh Unified",
+"system": "K12",
+"county": "Tulare",
+"type": "Unified",
+"cds": "54718030000000",
+"state": "CA"
+},
+{
+"key": "K12|Alta Vista Elementary",
+"name": "Alta Vista Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54718110000000",
+"state": "CA"
+},
+{
+"key": "K12|Buena Vista Elementary",
+"name": "Buena Vista Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54718290000000",
+"state": "CA"
+},
+{
+"key": "K12|Burton Elementary",
+"name": "Burton Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54718370000000",
+"state": "CA"
+},
+{
+"key": "K12|Columbine Elementary",
+"name": "Columbine Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54718520000000",
+"state": "CA"
+},
+{
+"key": "K12|Cutler-Orosi Joint Unified",
+"name": "Cutler-Orosi Joint Unified",
+"system": "K12",
+"county": "Tulare",
+"type": "Unified",
+"cds": "54718600000000",
+"state": "CA"
+},
+{
+"key": "K12|Dinuba Unified",
+"name": "Dinuba Unified",
+"system": "K12",
+"county": "Tulare",
+"type": "Unified",
+"cds": "54755310000000",
+"state": "CA"
+},
+{
+"key": "K12|Ducor Union Elementary",
+"name": "Ducor Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54718940000000",
+"state": "CA"
+},
+{
+"key": "K12|Earlimart Elementary",
+"name": "Earlimart Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54719020000000",
+"state": "CA"
+},
+{
+"key": "K12|Exeter Unified",
+"name": "Exeter Unified",
+"system": "K12",
+"county": "Tulare",
+"type": "Unified",
+"cds": "54768360000000",
+"state": "CA"
+},
+{
+"key": "K12|Farmersville Unified",
+"name": "Farmersville Unified",
+"system": "K12",
+"county": "Tulare",
+"type": "Unified",
+"cds": "54753250000000",
+"state": "CA"
+},
+{
+"key": "K12|Hope Elementary",
+"name": "Hope Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54719440000000",
+"state": "CA"
+},
+{
+"key": "K12|Hot Springs Elementary",
+"name": "Hot Springs Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54719510000000",
+"state": "CA"
+},
+{
+"key": "K12|Kings River Union Elementary",
+"name": "Kings River Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54719690000000",
+"state": "CA"
+},
+{
+"key": "K12|Liberty Elementary",
+"name": "Liberty Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54719850000000",
+"state": "CA"
+},
+{
+"key": "K12|Lindsay Unified",
+"name": "Lindsay Unified",
+"system": "K12",
+"county": "Tulare",
+"type": "Unified",
+"cds": "54719930000000",
+"state": "CA"
+},
+{
+"key": "K12|Monson-Sultana Joint Union Elementary",
+"name": "Monson-Sultana Joint Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54720090000000",
+"state": "CA"
+},
+{
+"key": "K12|Oak Valley Union Elementary",
+"name": "Oak Valley Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54720170000000",
+"state": "CA"
+},
+{
+"key": "K12|Outside Creek Elementary",
+"name": "Outside Creek Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54720250000000",
+"state": "CA"
+},
+{
+"key": "K12|Palo Verde Union Elementary",
+"name": "Palo Verde Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54720330000000",
+"state": "CA"
+},
+{
+"key": "K12|Pixley Union Elementary",
+"name": "Pixley Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54720410000000",
+"state": "CA"
+},
+{
+"key": "K12|Pleasant View Elementary",
+"name": "Pleasant View Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54720580000000",
+"state": "CA"
+},
+{
+"key": "K12|Porterville Unified",
+"name": "Porterville Unified",
+"system": "K12",
+"county": "Tulare",
+"type": "Unified",
+"cds": "54755230000000",
+"state": "CA"
+},
+{
+"key": "K12|Richgrove Elementary",
+"name": "Richgrove Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54720820000000",
+"state": "CA"
+},
+{
+"key": "K12|Rockford Elementary",
+"name": "Rockford Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54720900000000",
+"state": "CA"
+},
+{
+"key": "K12|Saucelito Elementary",
+"name": "Saucelito Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54721080000000",
+"state": "CA"
+},
+{
+"key": "K12|Sequoia Union Elementary",
+"name": "Sequoia Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54721160000000",
+"state": "CA"
+},
+{
+"key": "K12|Springville Union Elementary",
+"name": "Springville Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54721320000000",
+"state": "CA"
+},
+{
+"key": "K12|Stone Corral Elementary",
+"name": "Stone Corral Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54721400000000",
+"state": "CA"
+},
+{
+"key": "K12|Strathmore Union Elementary",
+"name": "Strathmore Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54721570000000",
+"state": "CA"
+},
+{
+"key": "K12|Sundale Union Elementary",
+"name": "Sundale Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54721730000000",
+"state": "CA"
+},
+{
+"key": "K12|Sunnyside Union Elementary",
+"name": "Sunnyside Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54721810000000",
+"state": "CA"
+},
+{
+"key": "K12|Terra Bella Union Elementary",
+"name": "Terra Bella Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54721990000000",
+"state": "CA"
+},
+{
+"key": "K12|Three Rivers Union Elementary",
+"name": "Three Rivers Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54722070000000",
+"state": "CA"
+},
+{
+"key": "K12|Tipton Elementary",
+"name": "Tipton Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54722150000000",
+"state": "CA"
+},
+{
+"key": "K12|Traver Joint Elementary",
+"name": "Traver Joint Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54722230000000",
+"state": "CA"
+},
+{
+"key": "K12|Tulare City",
+"name": "Tulare City",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54722310000000",
+"state": "CA"
+},
+{
+"key": "K12|Tulare Joint Union High",
+"name": "Tulare Joint Union High",
+"system": "K12",
+"county": "Tulare",
+"type": "High School",
+"cds": "54722490000000",
+"state": "CA"
+},
+{
+"key": "K12|Visalia Unified",
+"name": "Visalia Unified",
+"system": "K12",
+"county": "Tulare",
+"type": "Unified",
+"cds": "54722560000000",
+"state": "CA"
+},
+{
+"key": "K12|Waukena Joint Union Elementary",
+"name": "Waukena Joint Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54722640000000",
+"state": "CA"
+},
+{
+"key": "K12|Woodlake Unified",
+"name": "Woodlake Unified",
+"system": "K12",
+"county": "Tulare",
+"type": "Unified",
+"cds": "54767940000000",
+"state": "CA"
+},
+{
+"key": "K12|Woodville Union Elementary",
+"name": "Woodville Union Elementary",
+"system": "K12",
+"county": "Tulare",
+"type": "Elementary",
+"cds": "54722980000000",
+"state": "CA"
+},
+{
+"key": "K12|Belleview Elementary",
+"name": "Belleview Elementary",
+"system": "K12",
+"county": "Tuolumne",
+"type": "Elementary",
+"cds": "55723060000000",
+"state": "CA"
+},
+{
+"key": "K12|Big Oak Flat-Groveland Unified",
+"name": "Big Oak Flat-Groveland Unified",
+"system": "K12",
+"county": "Tuolumne",
+"type": "Unified",
+"cds": "55751840000000",
+"state": "CA"
+},
+{
+"key": "K12|Columbia Union",
+"name": "Columbia Union",
+"system": "K12",
+"county": "Tuolumne",
+"type": "Elementary",
+"cds": "55723480000000",
+"state": "CA"
+},
+{
+"key": "K12|Curtis Creek Elementary",
+"name": "Curtis Creek Elementary",
+"system": "K12",
+"county": "Tuolumne",
+"type": "Elementary",
+"cds": "55723550000000",
+"state": "CA"
+},
+{
+"key": "K12|Jamestown Elementary",
+"name": "Jamestown Elementary",
+"system": "K12",
+"county": "Tuolumne",
+"type": "Elementary",
+"cds": "55723630000000",
+"state": "CA"
+},
+{
+"key": "K12|Sonora Elementary",
+"name": "Sonora Elementary",
+"system": "K12",
+"county": "Tuolumne",
+"type": "Elementary",
+"cds": "55723710000000",
+"state": "CA"
+},
+{
+"key": "K12|Sonora Union High",
+"name": "Sonora Union High",
+"system": "K12",
+"county": "Tuolumne",
+"type": "High School",
+"cds": "55723890000000",
+"state": "CA"
+},
+{
+"key": "K12|Soulsbyville Elementary",
+"name": "Soulsbyville Elementary",
+"system": "K12",
+"county": "Tuolumne",
+"type": "Elementary",
+"cds": "55723970000000",
+"state": "CA"
+},
+{
+"key": "K12|Summerville Elementary",
+"name": "Summerville Elementary",
+"system": "K12",
+"county": "Tuolumne",
+"type": "Elementary",
+"cds": "55724050000000",
+"state": "CA"
+},
+{
+"key": "K12|Summerville Union High",
+"name": "Summerville Union High",
+"system": "K12",
+"county": "Tuolumne",
+"type": "High School",
+"cds": "55724130000000",
+"state": "CA"
+},
+{
+"key": "K12|Twain Harte-Long Barn Union Elementary",
+"name": "Twain Harte-Long Barn Union Elementary",
+"system": "K12",
+"county": "Tuolumne",
+"type": "Elementary",
+"cds": "55724210000000",
+"state": "CA"
+},
+{
+"key": "K12|Briggs Elementary",
+"name": "Briggs Elementary",
+"system": "K12",
+"county": "Ventura",
+"type": "Elementary",
+"cds": "56724470000000",
+"state": "CA"
+},
+{
+"key": "K12|Conejo Valley Unified",
+"name": "Conejo Valley Unified",
+"system": "K12",
+"county": "Ventura",
+"type": "Unified",
+"cds": "56737590000000",
+"state": "CA"
+},
+{
+"key": "K12|Fillmore Unified",
+"name": "Fillmore Unified",
+"system": "K12",
+"county": "Ventura",
+"type": "Unified",
+"cds": "56724540000000",
+"state": "CA"
+},
+{
+"key": "K12|Hueneme Elementary",
+"name": "Hueneme Elementary",
+"system": "K12",
+"county": "Ventura",
+"type": "Elementary",
+"cds": "56724620000000",
+"state": "CA"
+},
+{
+"key": "K12|Mesa Union Elementary",
+"name": "Mesa Union Elementary",
+"system": "K12",
+"county": "Ventura",
+"type": "Elementary",
+"cds": "56724700000000",
+"state": "CA"
+},
+{
+"key": "K12|Moorpark Unified",
+"name": "Moorpark Unified",
+"system": "K12",
+"county": "Ventura",
+"type": "Unified",
+"cds": "56739400000000",
+"state": "CA"
+},
+{
+"key": "K12|Mupu Elementary",
+"name": "Mupu Elementary",
+"system": "K12",
+"county": "Ventura",
+"type": "Elementary",
+"cds": "56725040000000",
+"state": "CA"
+},
+{
+"key": "K12|Oak Park Unified",
+"name": "Oak Park Unified",
+"system": "K12",
+"county": "Ventura",
+"type": "Unified",
+"cds": "56738740000000",
+"state": "CA"
+},
+{
+"key": "K12|Ocean View",
+"name": "Ocean View",
+"system": "K12",
+"county": "Ventura",
+"type": "Elementary",
+"cds": "56725120000000",
+"state": "CA"
+},
+{
+"key": "K12|Ojai Unified",
+"name": "Ojai Unified",
+"system": "K12",
+"county": "Ventura",
+"type": "Unified",
+"cds": "56725200000000",
+"state": "CA"
+},
+{
+"key": "K12|Oxnard",
+"name": "Oxnard",
+"system": "K12",
+"county": "Ventura",
+"type": "Elementary",
+"cds": "56725380000000",
+"state": "CA"
+},
+{
+"key": "K12|Oxnard Union High",
+"name": "Oxnard Union High",
+"system": "K12",
+"county": "Ventura",
+"type": "High School",
+"cds": "56725460000000",
+"state": "CA"
+},
+{
+"key": "K12|Pleasant Valley",
+"name": "Pleasant Valley",
+"system": "K12",
+"county": "Ventura",
+"type": "Elementary",
+"cds": "56725530000000",
+"state": "CA"
+},
+{
+"key": "K12|Rio Elementary",
+"name": "Rio Elementary",
+"system": "K12",
+"county": "Ventura",
+"type": "Elementary",
+"cds": "56725610000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Clara Elementary",
+"name": "Santa Clara Elementary",
+"system": "K12",
+"county": "Ventura",
+"type": "Elementary",
+"cds": "56725790000000",
+"state": "CA"
+},
+{
+"key": "K12|Santa Paula Unified",
+"name": "Santa Paula Unified",
+"system": "K12",
+"county": "Ventura",
+"type": "Unified",
+"cds": "56768280000000",
+"state": "CA"
+},
+{
+"key": "K12|Simi Valley Unified",
+"name": "Simi Valley Unified",
+"system": "K12",
+"county": "Ventura",
+"type": "Unified",
+"cds": "56726030000000",
+"state": "CA"
+},
+{
+"key": "K12|Somis Union",
+"name": "Somis Union",
+"system": "K12",
+"county": "Ventura",
+"type": "Elementary",
+"cds": "56726110000000",
+"state": "CA"
+},
+{
+"key": "K12|Ventura Unified",
+"name": "Ventura Unified",
+"system": "K12",
+"county": "Ventura",
+"type": "Unified",
+"cds": "56726520000000",
+"state": "CA"
+},
+{
+"key": "K12|Davis Joint Unified",
+"name": "Davis Joint Unified",
+"system": "K12",
+"county": "Yolo",
+"type": "Unified",
+"cds": "57726780000000",
+"state": "CA"
+},
+{
+"key": "K12|Esparto Unified",
+"name": "Esparto Unified",
+"system": "K12",
+"county": "Yolo",
+"type": "Unified",
+"cds": "57726860000000",
+"state": "CA"
+},
+{
+"key": "K12|Washington Unified",
+"name": "Washington Unified",
+"system": "K12",
+"county": "Yolo",
+"type": "Unified",
+"cds": "57726940000000",
+"state": "CA"
+},
+{
+"key": "K12|Winters Joint Unified",
+"name": "Winters Joint Unified",
+"system": "K12",
+"county": "Yolo",
+"type": "Unified",
+"cds": "57727020000000",
+"state": "CA"
+},
+{
+"key": "K12|Woodland Joint Unified",
+"name": "Woodland Joint Unified",
+"system": "K12",
+"county": "Yolo",
+"type": "Unified",
+"cds": "57727100000000",
+"state": "CA"
+},
+{
+"key": "K12|Camptonville Elementary",
+"name": "Camptonville Elementary",
+"system": "K12",
+"county": "Yuba",
+"type": "Elementary",
+"cds": "58727280000000",
+"state": "CA"
+},
+{
+"key": "K12|Marysville Joint Unified",
+"name": "Marysville Joint Unified",
+"system": "K12",
+"county": "Yuba",
+"type": "Unified",
+"cds": "58727360000000",
+"state": "CA"
+},
+{
+"key": "K12|Plumas Lake Elementary",
+"name": "Plumas Lake Elementary",
+"system": "K12",
+"county": "Yuba",
+"type": "Elementary",
+"cds": "58727440000000",
+"state": "CA"
+},
+{
+"key": "K12|Wheatland",
+"name": "Wheatland",
+"system": "K12",
+"county": "Yuba",
+"type": "Elementary",
+"cds": "58727510000000",
+"state": "CA"
+},
+{
+"key": "K12|Wheatland Union High",
+"name": "Wheatland Union High",
+"system": "K12",
+"county": "Yuba",
+"type": "High School",
+"cds": "58727690000000",
+"state": "CA"
+}
+]

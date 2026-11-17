@@ -1,0 +1,13 @@
+{
+ "OR": {"name": "Oregon", "boards": "university boards of trustees (UO, OSU, PSU, SOU, WOU, EOU, OIT), community college boards, school district boards"},
+ "WA": {"name": "Washington", "boards": "university boards of regents/trustees (UW, WSU, WWU, CWU, EWU, Evergreen), SBCTC community and technical college boards of trustees, school boards"},
+ "NV": {"name": "Nevada", "boards": "Nevada System of Higher Education Board of Regents (UNLV, UNR, NSU, CSN, TMCC, WNC, GBC), county school district boards"},
+ "AZ": {"name": "Arizona", "boards": "Arizona Board of Regents (ASU, UA, NAU), community college district governing boards (Maricopa, Pima, etc.), school district governing boards"},
+ "UT": {"name": "Utah", "boards": "Utah Board of Higher Education and institutional boards of trustees (U of U, USU, UVU, Weber, SUU, Utah Tech, Snow, SLCC), school boards"},
+ "IL": {"name": "Illinois", "boards": "university boards of trustees (UIUC/UIC/UIS, NIU, ISU, SIU, EIU, WIU, NEIU, CSU, GSU), Illinois community college district boards, school boards"},
+ "IA": {"name": "Iowa", "boards": "Iowa Board of Regents (U of Iowa, ISU, UNI), community college boards of trustees, school boards"},
+ "WI": {"name": "Wisconsin", "boards": "Universities of Wisconsin Board of Regents and campuses, Wisconsin Technical College System district boards, school boards"},
+ "MN": {"name": "Minnesota", "boards": "University of Minnesota Board of Regents, Minnesota State Board of Trustees and campuses, school boards"},
+ "IN": {"name": "Indiana", "boards": "university boards of trustees (IU, Purdue, Ball State, ISU, USI, IU Indianapolis), Ivy Tech Community College trustees, school boards"},
+ "MO": {"name": "Missouri", "boards": "University of Missouri System Board of Curators, regional university boards of regents/governors, community college boards, school boards"}
+}

@@ -1,0 +1,1096 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EduNestRadar | A Copia Rentals technology</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F4F6F9; --surface:#FFFFFF; --sunk:#EBEFF4; --ink:#12213A; --muted:#5B6B82; --line:#D6DDE7;
+  --euc:#1B3A64; --euc-soft:#E3EBF5; --pacific:#1F5FAD; --gold:#8A6514; --gold-wash:#F6EBCF; --clay:#A33A2B;
+  --display:"IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --body:"IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; --brand:#0E2340;
+  color-scheme: light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0D1522; --surface:#142033; --sunk:#1B2940; --ink:#E6ECF4; --muted:#9AA9BE; --line:#2A3A52;
+    --euc:#8DB3E2; --euc-soft:#1E3352; --pacific:#8DB9F0; --gold:#E0BC63; --gold-wash:#3A3220; --clay:#E99484;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0D1522; --surface:#142033; --sunk:#1B2940; --ink:#E6ECF4; --muted:#9AA9BE; --line:#2A3A52;
+  --euc:#8DB3E2; --euc-soft:#1E3352; --pacific:#8DB9F0; --gold:#E0BC63; --gold-wash:#3A3220; --clay:#E99484;
+  color-scheme: dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 15px/1.55 var(--body);font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--brand)}
+a{color:var(--pacific)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--pacific);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* Header */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--brand);color:#fff;border-bottom:3px solid #B8923A}
+.top .wrap{display:flex;align-items:center;gap:16px;min-height:64px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
+.brand{display:flex;align-items:center;gap:12px;margin-right:auto}
+.mark{width:34px;height:34px;flex:none}
+.brand h1{font:600 20px/1.1 var(--display);letter-spacing:0;margin:0;color:#fff}
+.brand p{margin:3px 0 0;font-size:12.5px;color:rgba(255,255,255,.72)}
+nav.tabs{display:flex;gap:2px;background:rgba(255,255,255,.08);padding:3px;border-radius:6px}
+nav.tabs button{border:0;background:transparent;padding:7px 16px;border-radius:4px;cursor:pointer;font-weight:500;color:rgba(255,255,255,.78)}
+nav.tabs button[aria-selected="true"]{background:#fff;color:#0E2340}
+.top .btn.primary{background:#B8923A;border-color:#B8923A;color:#0E2340}
+.top .btn.primary:hover{filter:brightness(1.08)}
+.btn{border:1px solid var(--line);background:var(--surface);padding:9px 16px;border-radius:6px;cursor:pointer;font-weight:600}
+.btn:hover{border-color:var(--muted)}
+.btn.primary{background:var(--euc);border-color:var(--euc);color:var(--paper)}
+.btn.primary:hover{filter:brightness(1.08)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.btn.small{padding:5px 11px;font-size:13px}
+
+/* Pipeline — the signature element */
+.pipe{margin:28px 0 8px}
+.pipe-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.pipe-head h2{font:600 24px/1.25 var(--display);margin:0;max-width:720px}
+.pipe-head .meta{color:var(--muted);font-size:13px}
+.track{display:grid;grid-template-columns:repeat(6,1fr);border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.stage{position:relative;border:0;border-right:1px solid var(--line);background:transparent;text-align:left;padding:14px 14px 16px;cursor:pointer;min-width:0}
+.stage:last-child{border-right:0}
+.stage.pre{background:var(--gold-wash)}
+.stage[aria-pressed="true"]{box-shadow:inset 0 -4px 0 var(--euc)}
+.stage{display:flex;flex-direction:column;justify-content:flex-start}
+.stage .n{font:600 30px/1 var(--display)}
+.stage .lbl{display:block;font-weight:600;font-size:13.5px;margin-top:6px}
+.stage .hint{display:block;font-size:12px;color:var(--muted);margin-top:2px;line-height:1.35}
+.track-cap{display:grid;grid-template-columns:3fr 3fr;font-size:12.5px;color:var(--muted);margin-top:6px}
+.track-cap span:first-child{color:var(--gold);font-weight:600}
+.track-cap span:last-child{text-align:right}
+
+/* Layout */
+main{padding-bottom:60px}
+.cols{display:grid;grid-template-columns:240px 1fr;gap:28px;margin-top:24px}
+aside.filters{position:sticky;top:calc(env(safe-area-inset-top,0px) + 84px);align-self:start;display:flex;flex-direction:column;gap:16px}
+.field{display:flex;flex-direction:column;gap:5px}
+.field label,.field .lab{font-size:13px;font-weight:600}
+.field input[type=search],.field input[type=text],.field input[type=url],select,textarea{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;width:100%}
+textarea{min-height:180px;resize:vertical;line-height:1.45}
+.check{display:flex;gap:8px;align-items:center;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 11px;font-size:13px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+/* Lead cards */
+.list{display:flex;flex-direction:column;gap:18px}
+.lead{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:20px 22px}
+.lead.hot{border-left:5px solid var(--gold)}
+.lead-top{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;flex-wrap:wrap}
+.lead h3{font:600 19px/1.25 var(--display);margin:0}
+.sub{font-size:13px;color:var(--muted);margin-top:3px}
+.badge{display:inline-block;font-size:12.5px;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap}
+.badge.hot{background:var(--gold-wash);color:var(--gold)}
+.badge.warm{background:var(--euc-soft);color:var(--euc)}
+.badge.watch{background:var(--sunk);color:var(--muted)}
+.mini{display:flex;gap:3px;margin-top:8px;justify-content:flex-end}
+.mini i{width:20px;height:6px;border-radius:3px;background:var(--sunk)}
+.mini i.on{background:var(--euc)}
+.mini i.pre{background:var(--gold-wash)}
+.mini i.pre.on{background:var(--gold)}
+.headline{font-weight:600;margin:14px 0 4px;max-width:75ch}
+.summary{margin:0;max-width:75ch;color:var(--ink)}
+.evidence{margin:16px 0 0;display:flex;flex-direction:column;gap:12px}
+.ev{border-left:3px solid var(--gold);padding:2px 0 2px 14px}
+.ev q{font-style:italic;font-size:16px;quotes:"“" "”"}
+.ev .src{font-size:12.5px;color:var(--muted);margin-top:3px}
+.ev .para{font-size:14.5px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px 24px;margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);font-size:14px}
+.facts .k{font-size:12.5px;color:var(--muted);display:block}
+.lead-foot{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:14px}
+.lead-foot select{width:auto}
+details.notes{flex:1;min-width:220px}
+details.notes summary{cursor:pointer;font-size:13.5px;color:var(--pacific)}
+details.notes textarea{min-height:70px;margin-top:6px}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:8px;padding:28px;text-align:center;color:var(--muted)}
+.note{font-size:13px;color:var(--muted)}
+.warn{font-size:13.5px;background:var(--gold-wash);color:var(--ink);border-radius:10px;padding:10px 14px;margin-top:14px}
+
+/* Coverage */
+.cov-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0 18px}
+.cov{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px}
+.cov b{font:600 20px/1 var(--display)}
+.cov .bar{height:6px;background:var(--sunk);border-radius:3px;margin-top:10px;overflow:hidden}
+.cov .bar i{display:block;height:100%;background:var(--euc)}
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-weight:600;font-size:13px;color:var(--muted);background:var(--sunk)}
+tr:last-child td{border-bottom:0}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--line);margin-right:7px}
+.dot.on{background:var(--euc)}
+.row-tools{display:flex;gap:12px;flex-wrap:wrap;align-items:end;margin-bottom:14px}
+.row-tools .field{min-width:180px}
+
+/* Scan */
+.scan-grid{display:grid;grid-template-columns:minmax(0,760px);gap:24px;margin-top:24px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:22px}
+.panel h3{font:600 20px/1.25 var(--display);margin:0 0 4px}
+.panel > p{margin:0 0 16px;color:var(--muted);max-width:60ch}
+.form{display:flex;flex-direction:column;gap:14px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.preview{font-size:13.5px;background:var(--sunk);border-radius:10px;padding:12px 14px}
+.cmd{display:flex;gap:8px;margin-top:8px}
+.cmd input{flex:1;font-weight:600}
+.queued{margin-top:18px;display:flex;flex-direction:column;gap:8px}
+.qrow{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;border-top:1px solid var(--line);padding-top:8px}
+.result{border:1px solid var(--line);border-radius:8px;padding:14px;margin-top:12px;background:var(--paper)}
+.ok{color:var(--euc);font-weight:600;font-size:12.5px}
+.bad{color:var(--clay);font-weight:600;font-size:12.5px}
+.status{font-size:13.5px;margin-top:8px;min-height:1.4em}
+.hidden{display:none !important}
+
+.viewbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:transparent;padding:6px 14px;font-size:13px;font-weight:500;cursor:pointer;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--euc);color:var(--surface)}
+.rtbl td{white-space:normal;vertical-align:top;font-size:13.5px}
+.rtbl td.nm{font-weight:600;min-width:180px}
+.rtbl td.nm .note{font-weight:400}
+.cols > div{min-width:0}
+.rtbl td.evc{min-width:260px;max-width:420px;color:var(--muted)}
+.rtbl td.evc q{font-style:italic;color:var(--ink)}
+.notice{border:1px solid var(--line);border-left:4px solid var(--euc);background:var(--surface);border-radius:6px;padding:12px 14px;font-size:14px}
+.qtable{margin-top:18px}
+.qtable th,.qtable td{font-size:13px}
+.pill{display:inline-block;font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px}
+.pill.done{background:var(--euc-soft);color:var(--euc)}
+.pill.pend{background:var(--gold-wash);color:var(--gold)}
+.badge.client{background:#E7E2F6;color:#4B3A8C}
+:root[data-theme="dark"] .badge.client{background:#2E2650;color:#C9BDF5}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .badge.client{background:#2E2650;color:#C9BDF5}}
+.lead.client{border-left:5px solid #6B57B8}
+.sec{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line)}
+.sec h4{margin:0 0 8px;font:600 13px/1.3 var(--body);color:var(--muted)}
+.people{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
+.person{border:1px solid var(--line);border-radius:6px;padding:8px 10px;font-size:13.5px;background:var(--paper)}
+.person b{display:block;font-weight:600}
+.person .note a{font-size:12px}
+.fund{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;font-size:14px}
+.pill.unf{background:#F9E0DC;color:var(--clay)}
+.pill.plan{background:var(--euc-soft);color:var(--euc)}
+.pill.com{background:#DDF0E3;color:#1E6B3A}
+.pill.unk{background:var(--sunk);color:var(--muted)}
+.trig{display:flex;gap:10px;align-items:baseline;font-size:14px;margin-top:4px}
+.date{font-weight:600;white-space:nowrap;min-width:92px}
+.date.soon{color:var(--clay)}
+.mapwrap{display:grid;grid-template-columns:minmax(0,2fr) minmax(300px,1fr);gap:18px}
+.mapbox{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px}
+.mapbox svg{width:100%;height:auto;display:block}
+.mapside{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px;max-height:720px;overflow:auto}
+.dot-hot{fill:#B8923A}.dot-warm{fill:#1F5FAD}.dot-watch{fill:#8C99AB}.dot-client{fill:#6B57B8}
+.mapdot{cursor:pointer;stroke:var(--surface);stroke-width:1.5}
+.mapdot.sel{stroke:var(--ink);stroke-width:2.5}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+.near{border-top:1px solid var(--line);padding:8px 0;font-size:13.5px;cursor:pointer}
+.near:hover{color:var(--pacific)}
+.cal{display:flex;flex-direction:column;gap:10px;margin-top:20px}
+.calrow{display:grid;grid-template-columns:130px 1fr;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+.calrow .when{font-weight:600}
+.calrow .when span{display:block;font-weight:400;font-size:12.5px;color:var(--muted)}
+.calrow h4{margin:0 0 4px;font:600 15px/1.35 var(--body)}
+.calrow .tags{margin-top:6px;display:flex;gap:6px;flex-wrap:wrap}
+.calrow .tags button{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:2px 10px;font-size:12.5px;cursor:pointer}
+@media (max-width:900px){.mapwrap{grid-template-columns:1fr}.calrow{grid-template-columns:1fr}}
+.pill.grow{background:rgba(52,211,153,.14);color:#6EE7B7;box-shadow:0 0 12px rgba(52,211,153,.2);vertical-align:3px;font-size:11px}
+.scanlog{font:400 12.5px/1.7 var(--mono);color:#9EDCFF;max-height:360px;overflow:auto;background:rgba(3,10,22,.5);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.scanlog .ok{color:#6EE7B7}.scanlog .bad{color:#FDA4AF}
+.track[hidden]{display:none !important}
+.relnote{margin:12px 0 0;padding:8px 12px;border-radius:8px;background:rgba(167,139,250,.12);border:1px solid rgba(167,139,250,.35);color:#E4DCFF;font-size:13.5px}
+.srole{font:500 11px var(--mono);color:#9EDCFF;letter-spacing:.03em;margin-bottom:3px}
+.person a.mail{font-weight:600;word-break:break-all}
+.person .verify{color:var(--gold);font-size:12px}
+.miss{display:inline-block;font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;background:#F9E0DC;color:var(--clay)}
+mark.kw{background:var(--gold-wash);color:inherit;padding:0 2px;border-radius:3px}
+.kanban{display:grid;grid-template-columns:repeat(6,minmax(190px,1fr));gap:10px;overflow-x:auto;padding-bottom:6px}
+.kcol{background:var(--sunk);border-radius:8px;padding:8px;min-height:240px}
+.kcol.over{outline:2px dashed var(--euc)}
+.kcol h4{margin:2px 4px 8px;font:600 13px var(--body);display:flex;justify-content:space-between}
+.kcard{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 10px;margin-bottom:8px;cursor:grab;font-size:13px}
+.kcard b{display:block;font-weight:600;margin-bottom:3px}
+.kcard.hot{border-left:4px solid #B8923A}.kcard.client{border-left:4px solid #6B57B8}
+.loss{margin-top:8px;display:none}
+.loss.on{display:block}
+.login{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#0E2340;padding:20px;z-index:50}
+.logincard{width:100%;max-width:380px;background:#13294B;border:1px solid #2A4472;border-top:3px solid #B8923A;border-radius:10px;padding:32px 28px;color:#fff;display:flex;flex-direction:column;gap:8px}
+.logincard h1{font:600 26px/1.1 var(--display);margin:10px 0 0}
+.logincard .tag{margin:0 0 14px;color:rgba(255,255,255,.72);font-size:14px}
+.logincard label{font-size:13px;font-weight:600;color:rgba(255,255,255,.85);margin-top:6px}
+.logincard input{background:#0E2340;border:1px solid #2A4472;color:#fff;border-radius:6px;padding:10px 12px;font-size:15px}
+.logincard .btn.primary{margin-top:14px;background:#B8923A;border-color:#B8923A;color:#0E2340;padding:11px}
+.lerr{min-height:1.2em;color:#F2A69A;font-size:13.5px;margin:4px 0 0}
+.lfoot{font-size:12px;color:rgba(255,255,255,.55);margin:6px 0 0}
+.sitefoot{margin:40px 0 20px;padding-top:14px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+@media print{header.top,aside.filters,.viewbar .seg,#exportBtn,.lead-foot{display:none !important}.cols{display:block}}
+@media (max-width: 900px){
+  .cols{grid-template-columns:1fr}
+  aside.filters{position:static}
+  .scan-grid{grid-template-columns:1fr}
+  .cov-bar{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width: 640px){
+  .track{grid-template-columns:repeat(3,1fr)}
+  .stage:nth-child(3){border-right:0}
+  .stage:nth-child(-n+3){border-bottom:1px solid var(--line)}
+  .pipe-head h2{font-size:24px}
+  header.top{position:static}
+  .track-cap{display:none}
+  .two{grid-template-columns:1fr}
+  nav.tabs{width:100%}
+  nav.tabs button{flex:1}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none !important;animation:none !important}}
+
+/* ===================== EduNestRadar: future-age theme ===================== */
+:root,:root:not([data-theme="light"]),:root[data-theme="light"],:root[data-theme="dark"]{
+  --paper:#050B16; --surface:rgba(12,24,44,.66); --sunk:rgba(148,190,255,.05); --ink:#E6F1FF; --muted:#8CA3C2; --line:rgba(120,170,255,.16);
+  --euc:#38BDF8; --euc-soft:rgba(56,189,248,.12); --pacific:#67E8F9; --gold:#F5B942; --gold-wash:rgba(245,185,66,.10); --clay:#FB7185;
+  --brand:#050B16; --display:"Space Grotesk","IBM Plex Sans","Segoe UI",sans-serif; --body:"IBM Plex Sans","Segoe UI","Helvetica Neue",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,monospace; --glow:0 0 0 1px rgba(56,189,248,.18),0 18px 50px rgba(2,132,199,.16);
+  color-scheme:dark;
+}
+body{color:var(--ink);background:
+  radial-gradient(1100px 620px at 88% -12%,rgba(56,189,248,.16),transparent 60%),
+  radial-gradient(900px 520px at -12% 22%,rgba(139,92,246,.11),transparent 60%),
+  radial-gradient(700px 400px at 50% 110%,rgba(245,185,66,.06),transparent 60%),
+  linear-gradient(rgba(120,170,255,.045) 1px,transparent 1px) 0 0/44px 44px,
+  linear-gradient(90deg,rgba(120,170,255,.045) 1px,transparent 1px) 0 0/44px 44px,#050B16;background-attachment:fixed}
+body::before{background:#050B16}
+::selection{background:rgba(56,189,248,.35)}
+*{scrollbar-color:rgba(120,170,255,.3) transparent;scrollbar-width:thin}
+.wrap{max-width:1600px;padding:0 28px}
+a{color:var(--pacific)}
+/* header */
+header.top{background:rgba(5,11,22,.72);-webkit-backdrop-filter:blur(16px) saturate(150%);backdrop-filter:blur(16px) saturate(150%);border-bottom:1px solid rgba(56,189,248,.22);box-shadow:0 10px 30px rgba(0,0,0,.35)}
+header.top::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:linear-gradient(90deg,transparent,#22D3EE 30%,#A78BFA 60%,transparent);opacity:.7}
+.brand h1{font:600 21px/1.1 var(--display);letter-spacing:.01em}
+.brand p{font:400 11.5px/1.3 var(--mono);color:#7FA7D1;letter-spacing:.02em}
+.brand .mark path[fill="#B8923A"]{transform-origin:17px 17px;animation:sweep 4s linear infinite}
+nav.tabs{background:rgba(148,190,255,.06);border:1px solid var(--line);border-radius:10px}
+nav.tabs button{color:#9DB4D3;border-radius:7px;font-weight:500}
+nav.tabs button[aria-selected="true"]{background:linear-gradient(135deg,rgba(34,211,238,.22),rgba(59,130,246,.22));color:#E6F1FF;box-shadow:inset 0 0 0 1px rgba(56,189,248,.45),0 0 18px rgba(56,189,248,.25)}
+.btn{background:rgba(148,190,255,.06);border:1px solid var(--line);color:var(--ink);border-radius:8px;transition:border-color .2s,box-shadow .2s,transform .2s}
+.btn:hover{border-color:rgba(56,189,248,.55);box-shadow:0 0 18px rgba(56,189,248,.2)}
+.btn.primary,.top .btn.primary{background:linear-gradient(135deg,#22D3EE,#3B82F6);border:0;color:#031022;font-weight:600;box-shadow:0 0 22px rgba(34,211,238,.35)}
+.btn.primary:hover{transform:translateY(-1px);box-shadow:0 0 30px rgba(34,211,238,.55)}
+/* inputs */
+.field input[type=search],.field input[type=text],.field input[type=url],select,textarea{background:rgba(148,190,255,.05);border:1px solid var(--line);color:var(--ink);border-radius:8px}
+select option{background:#0B1628;color:#E6F1FF}
+input:focus,select:focus,textarea:focus{outline:none;border-color:rgba(56,189,248,.65);box-shadow:0 0 0 3px rgba(56,189,248,.15)}
+.field label,.field .lab{font:500 12px/1.3 var(--mono);color:#8CA3C2;letter-spacing:.02em}
+.chip{background:rgba(148,190,255,.05);border-color:var(--line);color:#C9D8EC}
+.chip[aria-pressed="true"]{background:rgba(56,189,248,.18);border-color:rgba(56,189,248,.6);color:#E6F1FF;box-shadow:0 0 14px rgba(56,189,248,.25)}
+/* pipeline */
+.pipe-head h2{font:600 28px/1.2 var(--display);letter-spacing:-.01em;background:linear-gradient(90deg,#E6F1FF,#9EDCFF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pipe-head .meta{font:400 12px var(--mono);color:#7FA7D1}
+.track{background:var(--surface);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:14px;box-shadow:var(--glow)}
+.stage{border-right-color:var(--line);transition:background .25s}
+.stage:hover{background:rgba(56,189,248,.06)}
+.stage.pre{background:linear-gradient(180deg,rgba(245,185,66,.10),rgba(245,185,66,.03))}
+.stage .n{font:600 34px/1 var(--mono);color:#E6F1FF;text-shadow:0 0 18px rgba(56,189,248,.35)}
+.stage.pre .n{color:#FFD27A;text-shadow:0 0 20px rgba(245,185,66,.45)}
+.stage .lbl{color:#DCE9FA}
+.stage[aria-pressed="true"]{box-shadow:inset 0 -3px 0 #22D3EE,inset 0 0 30px rgba(34,211,238,.12)}
+.track-cap span:first-child{color:var(--gold)}
+.track-cap{font:400 11.5px var(--mono)}
+/* layout: filters become a full-width command bar */
+.cols{grid-template-columns:1fr;gap:18px}
+aside.filters{position:static;flex-direction:row;flex-wrap:wrap;align-items:flex-end;gap:14px 20px;padding:16px 18px;background:var(--surface);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:14px}
+aside.filters .field{flex:1 1 180px;min-width:160px}
+aside.filters .field:first-child{flex:2 1 260px}
+aside.filters .check{white-space:nowrap;font-size:13.5px}
+aside.filters #exportBtn{margin-left:auto}
+/* panels */
+.lead,.panel,.cov,.mapbox,.mapside,.calrow,.tbl-wrap,.notice,.empty,.kcol{background:var(--surface);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:14px}
+.lead{transition:border-color .25s,box-shadow .25s,transform .25s}
+.lead:hover{border-color:rgba(56,189,248,.45);box-shadow:var(--glow)}
+.lead.hot{border-left:3px solid var(--gold);box-shadow:inset 6px 0 18px -10px rgba(245,185,66,.6)}
+.lead.client{border-left:3px solid #A78BFA}
+.lead h3,.panel h3{font-family:var(--display);color:#F2F8FF}
+.sec{border-top-color:var(--line)}.facts{border-top-color:var(--line)}
+.sec h4,.facts .k{font:500 11.5px var(--mono);color:#7FA7D1;letter-spacing:.03em}
+.person{background:rgba(148,190,255,.04);border-color:var(--line);border-radius:10px}
+.ev{border-left:2px solid var(--gold);box-shadow:-6px 0 14px -10px rgba(245,185,66,.8)}
+mark.kw{background:rgba(34,211,238,.14);color:#A5F3FC;box-shadow:0 0 0 1px rgba(34,211,238,.25)}
+.mini i{background:rgba(148,190,255,.12)}.mini i.on{background:#38BDF8;box-shadow:0 0 8px rgba(56,189,248,.7)}.mini i.pre{background:rgba(245,185,66,.18)}.mini i.pre.on{background:#F5B942;box-shadow:0 0 8px rgba(245,185,66,.7)}
+.badge{border:1px solid transparent;font:500 11.5px/1.4 var(--mono);letter-spacing:.02em}
+.badge.hot{background:rgba(245,185,66,.12);color:#FFD27A;border-color:rgba(245,185,66,.4);box-shadow:0 0 14px rgba(245,185,66,.18)}
+.badge.warm{background:rgba(56,189,248,.12);color:#9EDCFF;border-color:rgba(56,189,248,.35)}
+.badge.watch{background:rgba(148,190,255,.07);color:#9DB4D3;border-color:var(--line)}
+.badge.client,:root[data-theme="dark"] .badge.client{background:rgba(167,139,250,.14);color:#D4C6FF;border-color:rgba(167,139,250,.4)}
+.pill{font-family:var(--mono);font-weight:500;font-size:11.5px}
+.pill.unf{background:rgba(251,113,133,.14);color:#FDA4AF}.pill.plan,.pill.done{background:rgba(56,189,248,.14);color:#9EDCFF}
+.pill.com{background:rgba(52,211,153,.14);color:#6EE7B7}.pill.unk{background:rgba(148,190,255,.08);color:#9DB4D3}
+.pill.pend{background:rgba(245,185,66,.14);color:#FFD27A}
+.seg{background:rgba(148,190,255,.05);border-color:var(--line);border-radius:10px}
+.seg button{color:#9DB4D3;font-family:var(--mono);font-size:12.5px}
+.seg button[aria-pressed="true"]{background:linear-gradient(135deg,rgba(34,211,238,.28),rgba(59,130,246,.28));color:#E6F1FF}
+#countNote{font:400 12px var(--mono);color:#7FA7D1}
+/* table */
+.tbl-wrap{overflow-x:auto}
+th{background:rgba(148,190,255,.06);color:#7FA7D1;font:500 11.5px var(--mono);letter-spacing:.03em;border-bottom-color:var(--line)}
+td{border-bottom-color:var(--line)}
+.rtbl tbody tr{transition:background .2s}
+.rtbl tbody tr:hover{background:rgba(56,189,248,.07);box-shadow:inset 3px 0 0 #22D3EE}
+.rtbl td.evc{min-width:200px;max-width:320px}
+.rtbl td.nm{min-width:150px}
+.date{font-family:var(--mono)}.date.soon{color:#FDA4AF;text-shadow:0 0 12px rgba(251,113,133,.4)}
+.rtbl th{white-space:normal}
+.rtbl td:nth-child(7){max-width:230px}
+.pill,.badge{white-space:nowrap}
+@media (max-width:1560px){.rtbl th:nth-child(2),.rtbl td:nth-child(2),.rtbl th:nth-child(3),.rtbl td:nth-child(3){display:none}}
+@media (max-width:1240px){.rtbl th:nth-child(6),.rtbl td:nth-child(6),.rtbl th:nth-child(8),.rtbl td:nth-child(8){display:none}}
+@media (max-width:980px){
+  .rtbl thead{display:none}.rtbl,.rtbl tbody,.rtbl tr{display:block;width:100%}
+  .rtbl tr{display:grid !important;grid-template-columns:1fr 1fr;gap:4px 14px;padding:14px 16px;border-bottom:1px solid var(--line)}
+  .rtbl td{display:block !important;border:0;padding:2px 0;max-width:none !important;min-width:0 !important}
+  .rtbl td.nm,.rtbl td.evc{grid-column:1/-1}
+  .rtbl td:nth-child(2),.rtbl td:nth-child(3),.rtbl td:nth-child(6),.rtbl td:nth-child(8){display:none !important}
+}
+@media (max-width:600px){.rtbl tr{grid-template-columns:1fr}}
+@media (max-width:760px){.wrap{padding:0 16px}aside.filters .field{flex:1 1 100%}aside.filters #exportBtn{margin-left:0}}
+aside.filters .field:has(.chips){flex:0 0 auto}
+aside.filters .chips{flex-wrap:nowrap}
+@media (max-width:900px){aside.filters .chips{flex-wrap:wrap}aside.filters .field:has(.chips){flex:1 1 100%}}
+/* kanban, map, calendar, coverage */
+.kanban{grid-template-columns:repeat(6,minmax(176px,1fr))}
+.kcol{border-radius:12px}.kcol h4{font:500 12px var(--mono);color:#9EDCFF}
+.kcard{background:rgba(10,20,38,.85);border-color:var(--line);border-radius:10px;transition:transform .2s,box-shadow .2s}
+.kcard:hover{transform:translateY(-2px);box-shadow:var(--glow)}
+.kcard.hot{border-left:3px solid var(--gold)}.kcard.client{border-left:3px solid #A78BFA}
+.dot-hot{fill:#F5B942}.dot-warm{fill:#38BDF8}.dot-watch{fill:#7C8BA3}.dot-client{fill:#A78BFA}
+.mapdot{stroke:#050B16;filter:drop-shadow(0 0 5px rgba(56,189,248,.8))}
+.mapdot.dot-hot{filter:drop-shadow(0 0 7px rgba(245,185,66,.95));transform-box:fill-box;transform-origin:center;animation:blip 2.4s ease-in-out infinite}
+.mapbox polygon{fill:rgba(56,189,248,.05);stroke:rgba(56,189,248,.55);filter:drop-shadow(0 0 6px rgba(56,189,248,.35))}
+.mapbox text{fill:#7FA7D1;font-family:var(--mono)}
+.legend i[style*="B8923A"]{background:#F5B942 !important}.legend i[style*="1F5FAD"]{background:#38BDF8 !important}.legend i[style*="6B57B8"]{background:#A78BFA !important}
+.near{border-top-color:var(--line)}
+.cov b{font-family:var(--mono);color:#E6F1FF}.cov .bar{background:rgba(148,190,255,.08)}.cov .bar i{background:linear-gradient(90deg,#22D3EE,#3B82F6);box-shadow:0 0 10px rgba(34,211,238,.6)}
+.dot.on{background:#22D3EE;box-shadow:0 0 8px #22D3EE}
+.calrow .when{font-family:var(--mono);color:#9EDCFF}
+.sitefoot{font:400 11.5px var(--mono);color:#6F8BB0;border-top-color:var(--line)}
+.warn{background:rgba(245,185,66,.10);color:#FFE3A6;border:1px solid rgba(245,185,66,.3)}
+@keyframes sweep{to{transform:rotate(360deg)}}
+@keyframes blip{0%,100%{transform:scale(1)}50%{transform:scale(1.45)}}
+/* ---------- login ---------- */
+.login{background:radial-gradient(900px 600px at 50% 40%,rgba(14,40,80,.9),#03070F 70%);overflow:hidden}
+.login::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(120,170,255,.06) 1px,transparent 1px) 0 0/44px 44px,linear-gradient(90deg,rgba(120,170,255,.06) 1px,transparent 1px) 0 0/44px 44px;mask-image:radial-gradient(circle at 50% 45%,#000 30%,transparent 75%);-webkit-mask-image:radial-gradient(circle at 50% 45%,#000 30%,transparent 75%)}
+.radar{position:absolute;left:50%;top:50%;width:min(120vmin,1100px);aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;pointer-events:none}
+.radar .rings{position:absolute;inset:0;border-radius:50%;background:repeating-radial-gradient(circle,transparent 0 59px,rgba(56,189,248,.16) 60px 61px);mask-image:radial-gradient(circle,#000 55%,transparent 72%);-webkit-mask-image:radial-gradient(circle,#000 55%,transparent 72%)}
+.radar .rings::after{content:"";position:absolute;inset:0;background:linear-gradient(rgba(56,189,248,.14),rgba(56,189,248,.14)) center/1px 100% no-repeat,linear-gradient(rgba(56,189,248,.14),rgba(56,189,248,.14)) center/100% 1px no-repeat}
+.radar .sweep{position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 0deg,rgba(34,211,238,.32),rgba(34,211,238,.05) 40deg,transparent 70deg);mask-image:radial-gradient(circle,#000 55%,transparent 72%);-webkit-mask-image:radial-gradient(circle,#000 55%,transparent 72%);animation:sweep 5s linear infinite}
+.radar .blip{position:absolute;left:var(--x);top:var(--y);width:8px;height:8px;margin:-4px;border-radius:50%;background:#F5B942;box-shadow:0 0 14px #F5B942;opacity:0;animation:ping 5s linear infinite;animation-delay:var(--d)}
+.radar .blip.c{background:#22D3EE;box-shadow:0 0 14px #22D3EE}
+@keyframes ping{0%{opacity:0;transform:scale(.4)}4%{opacity:1;transform:scale(1.4)}40%{opacity:.25;transform:scale(1)}100%{opacity:0}}
+.hud{position:absolute;font:400 11px/1.6 var(--mono);color:rgba(158,220,255,.55);letter-spacing:.04em;pointer-events:none}
+.hud-tl{top:max(20px,env(safe-area-inset-top));left:24px}.hud-br{bottom:max(20px,env(safe-area-inset-bottom));right:24px;text-align:right}
+.logincard{position:relative;z-index:2;background:rgba(8,18,36,.62);-webkit-backdrop-filter:blur(18px) saturate(150%);backdrop-filter:blur(18px) saturate(150%);border:1px solid rgba(56,189,248,.28);border-top:1px solid rgba(56,189,248,.28);border-radius:18px;box-shadow:0 0 0 1px rgba(56,189,248,.08),0 30px 80px rgba(0,0,0,.55),0 0 60px rgba(34,211,238,.12);transition:transform .6s cubic-bezier(.2,.8,.2,1),opacity .5s,filter .6s}
+.logincard::before{content:"";position:absolute;inset:-1px;border-radius:18px;padding:1px;background:conic-gradient(from var(--a,0deg),transparent 0 70%,#22D3EE 80%,#A78BFA 90%,transparent);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:spinb 4s linear infinite;pointer-events:none}
+@property --a{syntax:"<angle>";inherits:false;initial-value:0deg}
+@keyframes spinb{to{--a:360deg}}
+.logincard h1{font:600 30px/1.1 var(--display);letter-spacing:.01em;background:linear-gradient(90deg,#FFFFFF,#9EDCFF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.logincard .tag{font:400 12px var(--mono);color:#7FA7D1}
+.logincard label{font:500 11.5px var(--mono);color:#8CA3C2;letter-spacing:.03em}
+.logincard input{background:rgba(3,10,22,.7);border:1px solid rgba(120,170,255,.22);font-family:var(--mono)}
+.logincard input:focus{border-color:#22D3EE;box-shadow:0 0 0 3px rgba(34,211,238,.18)}
+.logincard .btn.primary{background:linear-gradient(135deg,#22D3EE,#3B82F6);color:#031022;letter-spacing:.02em}
+.logincard.leaving{transform:scale(.92) translateY(-10px);opacity:0;filter:blur(8px)}
+.login.leaving .radar .sweep{animation-duration:.6s}
+.login.leaving{transition:opacity .6s .9s}
+/* ---------- transition ---------- */
+.warp{position:fixed;inset:0;z-index:60;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px;pointer-events:none}
+.warp[hidden]{display:none}
+.warp-core{position:relative;width:140px;height:140px}
+.warp-ring{position:absolute;inset:0;border-radius:50%;border:1px solid rgba(34,211,238,.8);box-shadow:0 0 30px rgba(34,211,238,.5),inset 0 0 30px rgba(34,211,238,.3);animation:ringpulse 1.2s ease-out infinite}
+.warp-ring.r2{animation-delay:.4s;border-color:rgba(167,139,250,.8)}.warp-ring.r3{animation-delay:.8s;border-color:rgba(245,185,66,.8)}
+@keyframes ringpulse{0%{transform:scale(.3);opacity:1}100%{transform:scale(1.6);opacity:0}}
+.warp-log{font:400 13px/1.9 var(--mono);color:#9EDCFF;min-height:9.5em;min-width:min(420px,86vw)}
+.warp-log div{opacity:0;transform:translateX(-6px);animation:logIn .35s forwards}
+.warp-log div::before{content:"› ";color:#22D3EE}
+.warp-log div.ok{color:#6EE7B7}
+@keyframes logIn{to{opacity:1;transform:none}}
+.warp-bar{width:min(420px,86vw);height:3px;background:rgba(120,170,255,.15);border-radius:3px;overflow:hidden}
+.warp-bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,#22D3EE,#A78BFA,#F5B942);box-shadow:0 0 14px #22D3EE;transition:width 1.4s cubic-bezier(.4,0,.2,1)}
+.warp.exit .warp-core{animation:coreOut .7s forwards}.warp.exit .warp-log,.warp.exit .warp-bar{transition:opacity .3s;opacity:0}
+@keyframes coreOut{to{transform:scale(14);opacity:0}}
+.flash{position:fixed;inset:0;z-index:59;background:radial-gradient(circle at 50% 50%,rgba(158,220,255,.55),rgba(5,11,22,0) 60%);opacity:0;pointer-events:none}
+.flash.go{animation:flash .9s ease-out}
+@keyframes flash{0%{opacity:0}25%{opacity:1}100%{opacity:0}}
+#app.materialize{animation:materialize .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes materialize{from{clip-path:inset(50% 0 50% 0);filter:brightness(2) saturate(.2) blur(6px)}60%{filter:brightness(1.2) blur(0)}to{clip-path:inset(0 0 0 0);filter:none}}
+.scanline{position:fixed;left:0;right:0;top:0;height:120px;z-index:58;pointer-events:none;background:linear-gradient(180deg,transparent,rgba(34,211,238,.18) 70%,rgba(158,240,255,.9) 98%,transparent);opacity:0}
+.scanline.go{animation:scan 1.1s cubic-bezier(.4,0,.2,1) .15s}
+@keyframes scan{0%{transform:translateY(-130px);opacity:1}100%{transform:translateY(100vh);opacity:1}}
+.rise{animation:rise .7s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i,0)*70ms + .35s)}
+@keyframes rise{from{opacity:0;transform:translateY(14px);filter:blur(4px)}to{opacity:1;transform:none;filter:none}}
+@media (prefers-reduced-motion: reduce){.radar .sweep,.radar .blip,.logincard::before,.brand .mark path,.mapdot.dot-hot{animation:none !important}}
+</style>
+</head>
+<body>
+<div id="login" class="login">
+  <div class="radar" aria-hidden="true"><div class="rings"></div><div class="sweep"></div>
+    <i class="blip" style="--x:31%;--y:28%;--d:.55s"></i><i class="blip c" style="--x:62%;--y:22%;--d:.9s"></i><i class="blip" style="--x:74%;--y:46%;--d:1.6s"></i><i class="blip c" style="--x:66%;--y:71%;--d:2.4s"></i><i class="blip" style="--x:38%;--y:76%;--d:3.2s"></i><i class="blip c" style="--x:22%;--y:55%;--d:4.1s"></i><i class="blip" style="--x:46%;--y:38%;--d:4.6s"></i>
+  </div>
+  <div class="hud hud-tl">edunestradar://secure-node<br>scanning 12 states for campus housing</div>
+  <div class="hud hud-br">AES-256 encrypted session<br>Copia Rentals</div>
+  <form class="logincard" id="loginForm" autocomplete="on">
+    <svg class="mark" viewBox="0 0 34 34" aria-hidden="true" style="width:44px;height:44px"><circle cx="17" cy="17" r="15.5" fill="none" stroke="#fff" stroke-width="1.5"/><circle cx="17" cy="17" r="9.5" fill="none" stroke="#fff" stroke-width="1.2" opacity=".55"/><path d="M17 17 L17 1.5 A15.5 15.5 0 0 1 31.4 11.3 Z" fill="#B8923A" opacity=".8"/><path d="M11 19.5 L17 14 L23 19.5 V24 H11 Z" fill="#fff"/></svg>
+    <h1>EduNestRadar</h1>
+    <p class="tag">A Copia Rentals technology</p>
+    <label for="lu">Username</label><input id="lu" name="username" autocomplete="username" required>
+    <label for="lp">Password</label><input id="lp" name="password" type="password" autocomplete="current-password" required>
+    <button class="btn primary" type="submit" id="lbtn">Authenticate</button>
+    <p class="lerr" id="lerr" role="alert"></p>
+    <p class="lfoot">Authorized Volz Company users only.</p>
+  </form>
+</div>
+<div id="warp" class="warp" hidden aria-live="polite"><div class="warp-core"><div class="warp-ring"></div><div class="warp-ring r2"></div><div class="warp-ring r3"></div></div><div class="warp-log" id="warpLog"></div><div class="warp-bar"><i id="warpBar"></i></div></div>
+<div class="flash" id="flash"></div><div class="scanline" id="scanline"></div>
+<div id="app" hidden>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 34 34" aria-hidden="true">
+        <circle cx="17" cy="17" r="15.5" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <circle cx="17" cy="17" r="9.5" fill="none" stroke="#fff" stroke-width="1.2" opacity=".55"/>
+        <path d="M17 17 L17 1.5 A15.5 15.5 0 0 1 31.4 11.3 Z" fill="#B8923A" opacity=".8"/>
+        <path d="M11 19.5 L17 14 L23 19.5 V24 H11 Z" fill="#fff"/>
+      </svg>
+      <div>
+        <h1>EduNestRadar</h1>
+        <p>A Copia Rentals technology. Prepared for Volz Company</p>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="opps" aria-selected="true">Opportunities</button>
+      <button role="tab" data-tab="calendar" aria-selected="false">Calendar</button>
+      <button role="tab" data-tab="coverage" aria-selected="false">Coverage</button>
+      <button role="tab" data-tab="scan" aria-selected="false">Scan</button>
+      
+    </nav>
+    <button class="btn primary" id="runScanTop">Sign out</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="loadNote" class="warn hidden"></div>
+
+  <!-- OPPORTUNITIES -->
+  <section id="tab-opps">
+    <div class="pipe">
+      <div class="pipe-head">
+        <h2 id="pipeTitle">Where California campuses stand on housing</h2>
+        <span class="meta" id="pipeMeta"></span>
+      </div>
+      <div class="track" id="track" hidden></div>
+      
+    </div>
+
+    <div class="cols">
+      <aside class="filters">
+        <div class="field"><label for="q">Search</label><input id="q" type="search" placeholder="Institution, county, firm"></div>
+        <div class="field"><span class="lab">System</span><div class="chips" id="sysChips"></div></div>
+        <div class="field"><span class="lab">Housing type</span><div class="chips" id="houseChips"></div></div>
+        <label class="check"><input type="checkbox" id="preOnly"> Priority only (pre-RFP, no advisor)</label>
+        <div class="field"><label for="stateF">State</label><select id="stateF"><option value="all">All 12 states</option></select></div>
+        <div class="field"><label for="fundF">Funding</label>
+          <select id="fundF"><option value="all">All</option><option value="Unfunded">Unfunded: needs a financing path</option><option value="Planned">Planned in capital program</option><option value="Partial">Partially funded</option><option value="Committed">Funded or financed</option><option value="Unknown">Not yet identified</option></select></div>
+        <label class="check"><input type="checkbox" id="growthOnly"> Big funding boost only</label>
+        <label class="check"><input type="checkbox" id="unverified"> Include leads awaiting board-minutes verification</label>
+        <label class="check"><input type="checkbox" id="hideClients"> Hide existing Volz Company relationships</label>
+        <label class="check"><input type="checkbox" id="missOnly"> Contacts without an email on file</label>
+        
+        <div class="field"><label for="sortF">Sort by</label>
+          <select id="sortF"><option value="tier">Best opportunity first</option><option value="growth">Biggest funding boost (% of budget)</option><option value="updated">Most recent evidence</option><option value="name">Institution name</option></select></div>
+        <button class="btn small" id="exportBtn">Export report (CSV)</button>
+      </aside>
+      <div>
+        <div class="viewbar"><span class="note" id="countNote"></span><div class="seg" role="group" aria-label="View"><button data-v="cards" aria-pressed="false">Cards</button><button data-v="table" aria-pressed="true">Table</button><button data-v="kanban" aria-pressed="false">Kanban</button><button data-v="map" aria-pressed="false">Map</button></div></div>
+        <div class="list" id="leadList"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALENDAR -->
+  <section id="tab-calendar" class="hidden">
+    <div class="pipe-head" style="margin-top:28px"><h2 style="font:600 24px/1.25 var(--display);margin:0">Upcoming decision points</h2><span class="meta" id="calMeta"></span></div>
+    <div class="row-tools" style="margin-top:14px"><div class="field"><label for="calWin">Window</label><select id="calWin"><option value="30">Next 30 days</option><option value="120" selected>Next 4 months</option><option value="9999">All upcoming</option></select></div><label class="check"><input type="checkbox" id="calPast"> Include past 60 days</label><button class="btn small" id="icsBtn">Add to calendar (.ics)</button></div>
+    <div class="cal" id="calList"></div>
+  </section>
+
+  <!-- COVERAGE -->
+  <section id="tab-coverage" class="hidden">
+    <div class="cov-bar" id="covBar"></div>
+    <h3 style="font:600 18px var(--display);margin:8px 0 10px">Other states</h3>
+    <div class="tbl-wrap" style="margin-bottom:22px"><table><thead><tr><th>State</th><th>Universities swept</th><th>Colleges swept</th><th>K–12 swept</th><th>Opportunities</th></tr></thead><tbody id="stBody"></tbody></table></div>
+    <h3 style="font:600 18px var(--display);margin:8px 0 10px">California institutions</h3>
+    <div class="row-tools">
+      <div class="field"><label for="covSys">System</label><select id="covSys"><option value="all">All systems</option><option value="UC">University of California</option><option value="CSU">California State University</option><option value="CCC">Community colleges</option><option value="K12">K–12 districts</option></select></div>
+      <div class="field" style="flex:1"><label for="covQ">Find an institution</label><input id="covQ" type="search" placeholder="Name or county"></div>
+      <label class="check"><input type="checkbox" id="covUnscanned"> Not scanned yet</label>
+    </div>
+    <div class="tbl-wrap"><table><thead><tr><th>Institution</th><th>System</th><th>County or type</th><th>Last scanned</th><th>Signals</th></tr></thead><tbody id="covBody"></tbody></table></div>
+    <div style="margin-top:12px;display:flex;gap:12px;align-items:center"><button class="btn small" id="covMore">Show more</button><span class="note" id="covCount"></span></div>
+  </section>
+
+  <!-- SCAN -->
+  <section id="tab-scan" class="hidden">
+    <div class="pipe-head" style="margin-top:28px"><h2>Scan board minutes now</h2><span class="meta" id="scMeta"></span></div>
+    <div class="scan-grid" style="grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start">
+      <div class="panel">
+        <h3>Run a scan from this page</h3>
+        <p>Claude reads each institution’s own board minutes, agenda packets, staff reports and master plans. News is never cited. Results appear here immediately and are saved in this browser.</p>
+        <div class="form">
+          <div class="field"><label for="scMode">What to scan</label>
+            <select id="scMode"><option value="new">California institutions not yet scanned</option><option value="stale">California institutions scanned longest ago</option><option value="people">Find stakeholders for opportunities missing them</option><option value="verify">Re-verify leads awaiting board minutes</option></select></div>
+          <div class="two">
+            <div class="field"><label for="scSys">Institutions</label><select id="scSys"><option value="all">Community colleges and K–12 first, then UC and CSU</option><option value="CCC">Community colleges</option><option value="K12">K–12 districts</option><option value="UC">University of California</option><option value="CSU">California State University</option></select></div>
+            <div class="field"><label for="scN">How many per run</label><select id="scN"><option>10</option><option selected>25</option><option>50</option><option>100</option><option value="9999">All remaining</option></select></div>
+          </div>
+          <div class="field"><label for="scKey">Anthropic API key</label><input id="scKey" type="password" autocomplete="off" placeholder="sk-ant-…"><span class="note">Stored only in this browser. Don’t save it on a shared computer.</span></div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn primary" id="scGo">Start scan</button><button class="btn" id="scStop" disabled>Stop</button></div>
+          <div class="preview" id="scPreview"></div>
+        </div>
+      </div>
+      <div class="panel">
+        <h3>Progress</h3>
+        <div class="warp-bar" style="width:100%;margin:6px 0 12px"><i id="scBar" style="transition:width .4s"></i></div>
+        <div id="scLog" class="scanlog"></div>
+        <h3 style="margin-top:22px">Publish to everyone</h3>
+        <p>Results found here are saved in this browser only. To share them with the team, download the updated data file and upload it to <code>assets/</code> on the website, replacing the old one.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn primary" id="pubJs">Download website data file</button><button class="btn" id="pubJson">Download source data (JSON)</button></div>
+      </div>
+    </div>
+  </section>
+  <footer class="sitefoot">EduNestRadar, a Copia Rentals technology. Prepared for Volz Company. <span id="asOf"></span></footer>
+</main>
+</div>
+
+<script>
+/* ---------- Institution universe ---------- */
+const UC = ["UC Berkeley","UC Davis","UC Irvine","UCLA","UC Merced","UC Riverside","UC San Diego","UC San Francisco","UC Santa Barbara","UC Santa Cruz","UC Law San Francisco"];
+const CSU = ["CSU Bakersfield","CSU Channel Islands","Chico State","CSU Dominguez Hills","Cal State East Bay","Fresno State","Cal State Fullerton","Cal Poly Humboldt","Cal State Long Beach","Cal State LA","CSU Monterey Bay","CSU Northridge","Cal Poly Pomona","Sacramento State","CSU San Bernardino","San Diego State","San Francisco State","San José State","Cal Poly San Luis Obispo","CSU San Marcos","Sonoma State","Stanislaus State"];
+const CCC = ["Allan Hancock College","American River College","Antelope Valley College","Bakersfield College","Barstow Community College","Berkeley City College","Butte College","Cabrillo College","Calbright College","Cañada College","Cerritos College","Cerro Coso Community College","Chabot College","Chaffey College","Citrus College","City College of San Francisco","Clovis Community College","Coastline College","College of Alameda","College of Marin","College of San Mateo","College of the Canyons","College of the Desert","College of the Redwoods","College of the Sequoias","College of the Siskiyous","Columbia College","Compton College","Contra Costa College","Copper Mountain College","Cosumnes River College","Crafton Hills College","Cuesta College","Cuyamaca College","Cypress College","De Anza College","Diablo Valley College","East Los Angeles College","El Camino College","Evergreen Valley College","Feather River College","Folsom Lake College","Foothill College","Fresno City College","Fullerton College","Gavilan College","Glendale Community College","Golden West College","Grossmont College","Hartnell College","Imperial Valley College","Irvine Valley College","Lake Tahoe Community College","Laney College","Las Positas College","Lassen College","Long Beach City College","Los Angeles City College","Los Angeles Harbor College","Los Angeles Mission College","Los Angeles Pierce College","Los Angeles Southwest College","Los Angeles Trade-Technical College","Los Angeles Valley College","Los Medanos College","Madera Community College","Mendocino College","Merced College","Merritt College","MiraCosta College","Mission College","Modesto Junior College","Monterey Peninsula College","Moorpark College","Moreno Valley College","Mt. San Antonio College","Mt. San Jacinto College","Napa Valley College","Norco College","Ohlone College","Orange Coast College","Oxnard College","Palo Verde College","Palomar College","Pasadena City College","Porterville College","Reedley College","Rio Hondo College","Riverside City College","Sacramento City College","Saddleback College","San Bernardino Valley College","San Diego City College","San Diego Mesa College","San Diego Miramar College","San Joaquin Delta College","San José City College","Santa Ana College","Santa Barbara City College","Santa Monica College","Santa Rosa Junior College","Santiago Canyon College","Shasta College","Sierra College","Skyline College","Solano Community College","Southwestern College","Taft College","Ventura College","Victor Valley College","West Hills College Coalinga","West Hills College Lemoore","West Los Angeles College","West Valley College","Woodland Community College","Yuba College"];
+const K12RAW = [["Alameda","Alameda Unified","Unified"],["Alameda","Albany City Unified","Unified"],["Alameda","Berkeley Unified","Unified"],["Alameda","Castro Valley Unified","Unified"],["Alameda","Dublin Unified","Unified"],["Alameda","Emery Unified","Unified"],["Alameda","Fremont Unified","Unified"],["Alameda","Hayward Unified","Unified"],["Alameda","Livermore Valley Joint Unified","Unified"],["Alameda","Mountain House Elementary","Elementary"],["Alameda","New Haven Unified","Unified"],["Alameda","Newark Unified","Unified"],["Alameda","Oakland Unified","Unified"],["Alameda","Piedmont City Unified","Unified"],["Alameda","Pleasanton Unified","Unified"],["Alameda","San Leandro Unified","Unified"],["Alameda","San Lorenzo Unified","Unified"],["Alameda","Sunol Glen Unified","Unified"],["Alpine","Alpine County Unified","Unified"],["Amador","Amador County Unified","Unified"],["Butte","Bangor Union Elementary","Elementary"],["Butte","Biggs Unified","Unified"],["Butte","Chico Unified","Unified"],["Butte","Durham Unified","Unified"],["Butte","Golden Feather Union Elementary","Elementary"],["Butte","Gridley Unified","Unified"],["Butte","Manzanita Elementary","Elementary"],["Butte","Oroville City Elementary","Elementary"],["Butte","Oroville Union High","High School"],["Butte","Palermo Union Elementary","Elementary"],["Butte","Paradise Unified","Unified"],["Butte","Pioneer Union Elementary","Elementary"],["Butte","Thermalito Union","Elementary"],["Calaveras","Bret Harte Union High","High School"],["Calaveras","Calaveras Unified","Unified"],["Calaveras","Mark Twain Union Elementary","Elementary"],["Calaveras","Vallecito Union","Elementary"],["Colusa","Colusa Unified","Unified"],["Colusa","Maxwell Unified","Unified"],["Colusa","Pierce Joint Unified","Unified"],["Colusa","Williams Unified","Unified"],["Contra Costa","Acalanes Union High","High School"],["Contra Costa","Antioch Unified","Unified"],["Contra Costa","Brentwood Union Elementary","Elementary"],["Contra Costa","Byron Union Elementary","Elementary"],["Contra Costa","Canyon Elementary","Elementary"],["Contra Costa","John Swett Unified","Unified"],["Contra Costa","Knightsen Elementary","Elementary"],["Contra Costa","Lafayette Elementary","Elementary"],["Contra Costa","Liberty Union High","High School"],["Contra Costa","Martinez Unified","Unified"],["Contra Costa","Moraga Elementary","Elementary"],["Contra Costa","Mt. Diablo Unified","Unified"],["Contra Costa","Oakley Union Elementary","Elementary"],["Contra Costa","Orinda Union Elementary","Elementary"],["Contra Costa","Pittsburg Unified","Unified"],["Contra Costa","San Ramon Valley Unified","Unified"],["Contra Costa","Walnut Creek Elementary","Elementary"],["Contra Costa","West Contra Costa Unified","Unified"],["Del Norte","Del Norte County Unified","Unified"],["El Dorado","Black Oak Mine Unified","Unified"],["El Dorado","Buckeye Union Elementary","Elementary"],["El Dorado","Camino Union Elementary","Elementary"],["El Dorado","El Dorado Union High","High School"],["El Dorado","Gold Oak Union Elementary","Elementary"],["El Dorado","Gold Trail Union Elementary","Elementary"],["El Dorado","Indian Diggings Elementary","Elementary"],["El Dorado","Lake Tahoe Unified","Unified"],["El Dorado","Latrobe","Elementary"],["El Dorado","Mother Lode Union Elementary","Elementary"],["El Dorado","Pioneer Union Elementary","Elementary"],["El Dorado","Placerville Union Elementary","Elementary"],["El Dorado","Pollock Pines Elementary","Elementary"],["El Dorado","Rescue Union Elementary","Elementary"],["El Dorado","Silver Fork Elementary","Elementary"],["Fresno","Alvina Elementary","Elementary"],["Fresno","Big Creek Elementary","Elementary"],["Fresno","Burrel Union Elementary","Elementary"],["Fresno","Caruthers Unified","Unified"],["Fresno","Central Unified","Unified"],["Fresno","Clay Joint Elementary","Elementary"],["Fresno","Clovis Unified","Unified"],["Fresno","Coalinga-Huron Unified","Unified"],["Fresno","Firebaugh-Las Deltas Unified","Unified"],["Fresno","Fowler Unified","Unified"],["Fresno","Fresno Unified","Unified"],["Fresno","Golden Plains Unified","Unified"],["Fresno","Kerman Unified","Unified"],["Fresno","Kings Canyon Joint Unified","Unified"],["Fresno","Kingsburg Elementary Charter","Elementary"],["Fresno","Kingsburg Joint Union High","High School"],["Fresno","Laton Joint Unified","Unified"],["Fresno","Mendota Unified","Unified"],["Fresno","Orange Center","Elementary"],["Fresno","Pacific Union Elementary","Elementary"],["Fresno","Parlier Unified","Unified"],["Fresno","Pine Ridge Elementary","Elementary"],["Fresno","Raisin City Elementary","Elementary"],["Fresno","Riverdale Joint Unified","Unified"],["Fresno","Sanger Unified","Unified"],["Fresno","Selma Unified","Unified"],["Fresno","Sierra Unified","Unified"],["Fresno","Washington Colony Elementary","Elementary"],["Fresno","Washington Unified","Unified"],["Fresno","West Park Elementary","Elementary"],["Fresno","Westside Elementary","Elementary"],["Glenn","Capay Joint Union Elementary","Elementary"],["Glenn","Hamilton Unified","Unified"],["Glenn","Lake Elementary","Elementary"],["Glenn","Orland Joint Unified","Unified"],["Glenn","Plaza Elementary","Elementary"],["Glenn","Princeton Joint Unified","Unified"],["Glenn","Stony Creek Joint Unified","Unified"],["Glenn","Willows Unified","Unified"],["Humboldt","Arcata Elementary","Elementary"],["Humboldt","Big Lagoon Union Elementary","Elementary"],["Humboldt","Blue Lake Union Elementary","Elementary"],["Humboldt","Bridgeville Elementary","Elementary"],["Humboldt","Cuddeback Union Elementary","Elementary"],["Humboldt","Cutten Elementary","Elementary"],["Humboldt","Eureka City Schools","Unified"],["Humboldt","Ferndale Unified","Unified"],["Humboldt","Fieldbrook Elementary","Elementary"],["Humboldt","Fortuna Elementary","Elementary"],["Humboldt","Fortuna Union High","High School"],["Humboldt","Freshwater Elementary","Elementary"],["Humboldt","Garfield Elementary","Elementary"],["Humboldt","Hydesville Elementary","Elementary"],["Humboldt","Jacoby Creek Elementary","Elementary"],["Humboldt","Klamath-Trinity Joint Unified","Unified"],["Humboldt","Kneeland Elementary","Elementary"],["Humboldt","Loleta Union Elementary","Elementary"],["Humboldt","Maple Creek Elementary","Elementary"],["Humboldt","Mattole Unified","Unified"],["Humboldt","McKinleyville Union Elementary","Elementary"],["Humboldt","Northern Humboldt Union High","High School"],["Humboldt","Orick Elementary","Elementary"],["Humboldt","Pacific Union Elementary","Elementary"],["Humboldt","Peninsula Union","Elementary"],["Humboldt","Rio Dell Elementary","Elementary"],["Humboldt","Scotia Union Elementary","Elementary"],["Humboldt","South Bay Union","Elementary"],["Humboldt","Southern Humboldt Joint Unified","Unified"],["Humboldt","Trinidad Union Elementary","Elementary"],["Imperial","Brawley Elementary","Elementary"],["Imperial","Brawley Union High","High School"],["Imperial","Calexico Unified","Unified"],["Imperial","Calipatria Unified","Unified"],["Imperial","Central Union High","High School"],["Imperial","El Centro Elementary","Elementary"],["Imperial","Heber Elementary","Elementary"],["Imperial","Holtville Unified","Unified"],["Imperial","Imperial Unified","Unified"],["Imperial","Magnolia Union Elementary","Elementary"],["Imperial","McCabe Union Elementary","Elementary"],["Imperial","Meadows Union Elementary","Elementary"],["Imperial","Mulberry Elementary","Elementary"],["Imperial","San Pasqual Valley Unified","Unified"],["Imperial","Seeley Union Elementary","Elementary"],["Imperial","Westmorland Union Elementary","Elementary"],["Inyo","Big Pine Unified","Unified"],["Inyo","Bishop Unified","Unified"],["Inyo","Death Valley Unified","Unified"],["Inyo","Lone Pine Unified","Unified"],["Inyo","Owens Valley Unified","Unified"],["Inyo","Round Valley Joint Elementary","Elementary"],["Kern","Arvin Union","Elementary"],["Kern","Bakersfield City","Elementary"],["Kern","Beardsley Elementary","Elementary"],["Kern","Blake Elementary","Elementary"],["Kern","Buttonwillow Union Elementary","Elementary"],["Kern","Caliente Union Elementary","Elementary"],["Kern","Delano Joint Union High","High School"],["Kern","Delano Union Elementary","Elementary"],["Kern","Di Giorgio Elementary","Elementary"],["Kern","Edison Elementary","Elementary"],["Kern","El Tejon Unified","Unified"],["Kern","Elk Hills Elementary","Elementary"],["Kern","Fairfax Elementary","Elementary"],["Kern","Fruitvale Elementary","Elementary"],["Kern","General Shafter Elementary","Elementary"],["Kern","Greenfield Union","Elementary"],["Kern","Kern Union High","High School"],["Kern","Kernville Union Elementary","Elementary"],["Kern","Lakeside Union","Elementary"],["Kern","Lamont Elementary","Elementary"],["Kern","Linns Valley-Poso Flat Union","Elementary"],["Kern","Lost Hills Union Elementary","Elementary"],["Kern","Maple Elementary","Elementary"],["Kern","Maricopa Unified","Unified"],["Kern","McFarland Unified","Unified"],["Kern","McKittrick Elementary","Elementary"],["Kern","Midway Elementary","Elementary"],["Kern","Mojave Unified","Unified"],["Kern","Muroc Joint Unified","Unified"],["Kern","Norris Elementary","Elementary"],["Kern","Panama-Buena Vista Union","Elementary"],["Kern","Pond Union Elementary","Elementary"],["Kern","Richland Union Elementary","Elementary"],["Kern","Rio Bravo-Greeley Union Elementary","Elementary"],["Kern","Rosedale Union Elementary","Elementary"],["Kern","Semitropic Elementary","Elementary"],["Kern","Sierra Sands Unified","Unified"],["Kern","South Fork Union","Elementary"],["Kern","Southern Kern Unified","Unified"],["Kern","Standard Elementary","Elementary"],["Kern","Taft City","Elementary"],["Kern","Taft Union High","High School"],["Kern","Tehachapi Unified","Unified"],["Kern","Vineland Elementary","Elementary"],["Kern","Wasco Union Elementary","Elementary"],["Kern","Wasco Union High","High School"],["Kings","Armona Union Elementary","Elementary"],["Kings","Central Union Elementary","Elementary"],["Kings","Corcoran Joint Unified","Unified"],["Kings","Hanford Elementary","Elementary"],["Kings","Hanford Joint Union High","High School"],["Kings","Island Union Elementary","Elementary"],["Kings","Kings River-Hardwick Union Elementary","Elementary"],["Kings","Kit Carson Union Elementary","Elementary"],["Kings","Lakeside Union Elementary","Elementary"],["Kings","Lemoore Union Elementary","Elementary"],["Kings","Lemoore Union High","High School"],["Kings","Pioneer Union Elementary","Elementary"],["Kings","Reef-Sunset Unified","Unified"],["Lake","Kelseyville Unified","Unified"],["Lake","Konocti Unified","Unified"],["Lake","Lakeport Unified","Unified"],["Lake","Lucerne Elementary","Elementary"],["Lake","Middletown Unified","Unified"],["Lake","Upper Lake Unified","Unified"],["Lassen","Big Valley Joint Unified","Unified"],["Lassen","Fort Sage Unified","Unified"],["Lassen","Janesville Union Elementary","Elementary"],["Lassen","Johnstonville Elementary","Elementary"],["Lassen","Lassen Union High","High School"],["Lassen","Ravendale-Termo Elementary","Elementary"],["Lassen","Richmond Elementary","Elementary"],["Lassen","Shaffer Union Elementary","Elementary"],["Lassen","Susanville Elementary","Elementary"],["Lassen","Westwood Unified","Unified"],["Los Angeles","ABC Unified","Unified"],["Los Angeles","Acton-Agua Dulce Unified","Unified"],["Los Angeles","Alhambra Unified","Unified"],["Los Angeles","Antelope Valley Union High","High School"],["Los Angeles","Arcadia Unified","Unified"],["Los Angeles","Azusa Unified","Unified"],["Los Angeles","Baldwin Park Unified","Unified"],["Los Angeles","Bassett Unified","Unified"],["Los Angeles","Bellflower Unified","Unified"],["Los Angeles","Beverly Hills Unified","Unified"],["Los Angeles","Bonita Unified","Unified"],["Los Angeles","Burbank Unified","Unified"],["Los Angeles","Castaic Union","Elementary"],["Los Angeles","Centinela Valley Union High","High School"],["Los Angeles","Charter Oak Unified","Unified"],["Los Angeles","Claremont Unified","Unified"],["Los Angeles","Compton Unified","Unified"],["Los Angeles","Covina-Valley Unified","Unified"],["Los Angeles","Culver City Unified","Unified"],["Los Angeles","Downey Unified","Unified"],["Los Angeles","Duarte Unified","Unified"],["Los Angeles","East Whittier City Elementary","Elementary"],["Los Angeles","Eastside Union Elementary","Elementary"],["Los Angeles","El Monte City","Elementary"],["Los Angeles","El Monte Union High","High School"],["Los Angeles","El Rancho Unified","Unified"],["Los Angeles","El Segundo Unified","Unified"],["Los Angeles","Garvey Elementary","Elementary"],["Los Angeles","Glendale Unified","Unified"],["Los Angeles","Glendora Unified","Unified"],["Los Angeles","Gorman Joint","Elementary"],["Los Angeles","Hacienda la Puente Unified","Unified"],["Los Angeles","Hawthorne","Elementary"],["Los Angeles","Hermosa Beach City Elementary","Elementary"],["Los Angeles","Hughes-Elizabeth Lakes Union Elementary","Elementary"],["Los Angeles","Inglewood Unified","Unified"],["Los Angeles","Keppel Union Elementary","Elementary"],["Los Angeles","La Canada Unified","Unified"],["Los Angeles","Lancaster Elementary","Elementary"],["Los Angeles","Las Virgenes Unified","Unified"],["Los Angeles","Lawndale Elementary","Elementary"],["Los Angeles","Lennox","Elementary"],["Los Angeles","Little Lake City Elementary","Elementary"],["Los Angeles","Long Beach Unified","Unified"],["Los Angeles","Los Angeles Unified","Unified"],["Los Angeles","Los Nietos","Elementary"],["Los Angeles","Lowell Joint","Elementary"],["Los Angeles","Lynwood Unified","Unified"],["Los Angeles","Manhattan Beach Unified","Unified"],["Los Angeles","Monrovia Unified","Unified"],["Los Angeles","Montebello Unified","Unified"],["Los Angeles","Mountain View Elementary","Elementary"],["Los Angeles","Newhall","Elementary"],["Los Angeles","Norwalk-La Mirada Unified","Unified"],["Los Angeles","Palmdale Elementary","Elementary"],["Los Angeles","Palos Verdes Peninsula Unified","Unified"],["Los Angeles","Paramount Unified","Unified"],["Los Angeles","Pasadena Unified","Unified"],["Los Angeles","Pomona Unified","Unified"],["Los Angeles","Redondo Beach Unified","Unified"],["Los Angeles","Rosemead Elementary","Elementary"],["Los Angeles","Rowland Unified","Unified"],["Los Angeles","San Gabriel Unified","Unified"],["Los Angeles","San Marino Unified","Unified"],["Los Angeles","Santa Monica-Malibu Unified","Unified"],["Los Angeles","Saugus Union","Elementary"],["Los Angeles","South Pasadena Unified","Unified"],["Los Angeles","South Whittier Elementary","Elementary"],["Los Angeles","Sulphur Springs Union","Elementary"],["Los Angeles","Temple City Unified","Unified"],["Los Angeles","Torrance Unified","Unified"],["Los Angeles","Valle Lindo Elementary","Elementary"],["Los Angeles","Walnut Valley Unified","Unified"],["Los Angeles","West Covina Unified","Unified"],["Los Angeles","Westside Union Elementary","Elementary"],["Los Angeles","Whittier City Elementary","Elementary"],["Los Angeles","Whittier Union High","High School"],["Los Angeles","William S. Hart Union High","High School with Jr. High Program"],["Los Angeles","Wilsona Elementary","Elementary"],["Los Angeles","Wiseburn Unified","Unified"],["Madera","Alview-Dairyland Union Elementary","Elementary"],["Madera","Bass Lake Joint Union Elementary","Elementary"],["Madera","Chawanakee Unified","Unified"],["Madera","Chowchilla Elementary","Elementary"],["Madera","Chowchilla Union High","High School"],["Madera","Golden Valley Unified","Unified"],["Madera","Madera Unified","Unified"],["Madera","Raymond-Knowles Union Elementary","Elementary"],["Madera","Yosemite Unified","Unified"],["Marin","Bolinas-Stinson Union","Elementary"],["Marin","Kentfield Elementary","Elementary"],["Marin","Laguna Joint Elementary","Elementary"],["Marin","Lagunitas Elementary","Elementary"],["Marin","Larkspur-Corte Madera","Elementary"],["Marin","Mill Valley Elementary","Elementary"],["Marin","Miller Creek Elementary","Elementary"],["Marin","Nicasio","Elementary"],["Marin","Novato Unified","Unified"],["Marin","Reed Union Elementary","Elementary"],["Marin","Ross Elementary","Elementary"],["Marin","Ross Valley Elementary","Elementary"],["Marin","San Rafael City Elementary","Elementary"],["Marin","San Rafael City High","High School"],["Marin","Sausalito Marin City","Elementary"],["Marin","Shoreline Unified","Unified"],["Marin","Tamalpais Union High","High School"],["Mariposa","Mariposa County Unified","Unified"],["Mendocino","Anderson Valley Unified","Unified"],["Mendocino","Arena Union Elementary","Elementary"],["Mendocino","Fort Bragg Unified","Unified"],["Mendocino","Laytonville Unified","Unified"],["Mendocino","Leggett Valley Unified","Unified"],["Mendocino","Manchester Union Elementary","Elementary"],["Mendocino","Mendocino Unified","Unified"],["Mendocino","Point Arena Joint Union High","High School"],["Mendocino","Potter Valley Community Unified","Unified"],["Mendocino","Round Valley Unified","Unified"],["Mendocino","Ukiah Unified","Unified"],["Mendocino","Willits Unified","Unified"],["Merced","Atwater Elementary","Elementary"],["Merced","Ballico-Cressey Elementary","Elementary"],["Merced","Delhi Unified","Unified"],["Merced","Dos Palos Oro Loma Joint Unified","Unified"],["Merced","El Nido Elementary","Elementary"],["Merced","Gustine Unified","Unified"],["Merced","Hilmar Unified","Unified"],["Merced","Le Grand Union Elementary","Elementary"],["Merced","Le Grand Union High","High School"],["Merced","Livingston Union","Elementary"],["Merced","Los Banos Unified","Unified"],["Merced","McSwain Union Elementary","Elementary"],["Merced","Merced City Elementary","Elementary"],["Merced","Merced River Union Elementary","Elementary"],["Merced","Merced Union High","High School"],["Merced","Plainsburg Union Elementary","Elementary"],["Merced","Planada Elementary","Elementary"],["Merced","Snelling-Merced Falls Union Elementary","Elementary"],["Merced","Weaver Union","Elementary"],["Merced","Winton","Elementary"],["Modoc","Modoc Joint Unified","Unified"],["Modoc","Surprise Valley Joint Unified","Unified"],["Modoc","Tulelake Basin Joint Unified","Unified"],["Mono","Eastern Sierra Unified","Unified"],["Mono","Mammoth Unified","Unified"],["Monterey","Alisal Union","Elementary"],["Monterey","Big Sur Unified","Unified"],["Monterey","Bradley Union Elementary","Elementary"],["Monterey","Carmel Unified","Unified"],["Monterey","Chualar Union","Elementary"],["Monterey","Gonzales Unified","Unified"],["Monterey","Graves Elementary","Elementary"],["Monterey","Greenfield Union Elementary","Elementary"],["Monterey","King City Union","Elementary"],["Monterey","Lagunita Elementary","Elementary"],["Monterey","Mission Union Elementary","Elementary"],["Monterey","Monterey Peninsula Unified","Unified"],["Monterey","North Monterey County Unified","Unified"],["Monterey","Pacific Grove Unified","Unified"],["Monterey","Salinas City Elementary","Elementary"],["Monterey","Salinas Union High","High School with Jr. High Program"],["Monterey","San Antonio Union Elementary","Elementary"],["Monterey","San Ardo Union Elementary","Elementary"],["Monterey","San Lucas Union Elementary","Elementary"],["Monterey","Santa Rita Union Elementary","Elementary"],["Monterey","Soledad Unified","Unified"],["Monterey","South Monterey County Joint Union High","High School"],["Monterey","Spreckels Union Elementary","Elementary"],["Monterey","Washington Union Elementary","Elementary"],["Napa","Calistoga Joint Unified","Unified"],["Napa","Howell Mountain Elementary","Elementary"],["Napa","Napa Valley Unified","Unified"],["Napa","Pope Valley Union Elementary","Elementary"],["Napa","Saint Helena Unified","Unified"],["Nevada","Chicago Park Elementary","Elementary"],["Nevada","Clear Creek Elementary","Elementary"],["Nevada","Grass Valley Elementary","Elementary"],["Nevada","Nevada City Elementary","Elementary"],["Nevada","Nevada Joint Union High","High School"],["Nevada","Penn Valley Union Elementary","Elementary"],["Nevada","Pleasant Ridge Union Elementary","Elementary"],["Nevada","Twin Ridges Elementary","Elementary"],["Nevada","Union Hill Elementary","Elementary"],["Orange","Anaheim Elementary","Elementary"],["Orange","Anaheim Union High","High School with Jr. High Program"],["Orange","Brea-Olinda Unified","Unified"],["Orange","Buena Park Elementary","Elementary"],["Orange","Capistrano Unified","Unified"],["Orange","Centralia Elementary","Elementary"],["Orange","Cypress Elementary","Elementary"],["Orange","Fountain Valley Elementary","Elementary"],["Orange","Fullerton Elementary","Elementary"],["Orange","Fullerton Joint Union High","High School"],["Orange","Garden Grove Unified","Unified"],["Orange","Huntington Beach City Elementary","Elementary"],["Orange","Huntington Beach Union High","High School"],["Orange","Irvine Unified","Unified"],["Orange","La Habra City Elementary","Elementary"],["Orange","Laguna Beach Unified","Unified"],["Orange","Los Alamitos Unified","Unified"],["Orange","Magnolia Elementary","Elementary"],["Orange","Newport-Mesa Unified","Unified"],["Orange","Ocean View","Elementary"],["Orange","Orange Unified","Unified"],["Orange","Placentia-Yorba Linda Unified","Unified"],["Orange","Saddleback Valley Unified","Unified"],["Orange","Santa Ana Unified","Unified"],["Orange","Savanna Elementary","Elementary"],["Orange","Tustin Unified","Unified"],["Orange","Westminster","Elementary"],["Placer","Ackerman Charter","Elementary"],["Placer","Alta-Dutch Flat Union Elementary","Elementary"],["Placer","Auburn Union Elementary","Elementary"],["Placer","Colfax Elementary","Elementary"],["Placer","Dry Creek Joint Elementary","Elementary"],["Placer","Eureka Union","Elementary"],["Placer","Foresthill Union Elementary","Elementary"],["Placer","Loomis Union Elementary","Elementary"],["Placer","Newcastle Elementary","Elementary"],["Placer","Placer Hills Union Elementary","Elementary"],["Placer","Placer Union High","High School"],["Placer","Rocklin Unified","Unified"],["Placer","Roseville City Elementary","Elementary"],["Placer","Roseville Joint Union High","High School"],["Placer","Tahoe-Truckee Unified","Unified"],["Placer","Western Placer Unified","Unified"],["Plumas","Plumas Unified","Unified"],["Riverside","Alvord Unified","Unified"],["Riverside","Banning Unified","Unified"],["Riverside","Beaumont Unified","Unified"],["Riverside","Coachella Valley Unified","Unified"],["Riverside","Corona-Norco Unified","Unified"],["Riverside","Desert Center Unified","Unified"],["Riverside","Desert Sands Unified","Unified"],["Riverside","Hemet Unified","Unified"],["Riverside","Jurupa Unified","Unified"],["Riverside","Lake Elsinore Unified","Unified"],["Riverside","Menifee Union Elementary","Elementary"],["Riverside","Moreno Valley Unified","Unified"],["Riverside","Murrieta Valley Unified","Unified"],["Riverside","Nuview Union","Elementary"],["Riverside","Palm Springs Unified","Unified"],["Riverside","Palo Verde Unified","Unified"],["Riverside","Perris Elementary","Elementary"],["Riverside","Perris Union High","High School with Jr. High Program"],["Riverside","Riverside Unified","Unified"],["Riverside","Romoland Elementary","Elementary"],["Riverside","San Jacinto Unified","Unified"],["Riverside","Temecula Valley Unified","Unified"],["Riverside","Val Verde Unified","Unified"],["Sacramento","Arcohe Union Elementary","Elementary"],["Sacramento","Center Joint Unified","Unified"],["Sacramento","Elk Grove Unified","Unified"],["Sacramento","Elverta Joint Elementary","Elementary"],["Sacramento","Folsom-Cordova Unified","Unified"],["Sacramento","Galt Joint Union Elementary","Elementary"],["Sacramento","Galt Joint Union High","High School"],["Sacramento","Natomas Unified","Unified"],["Sacramento","River Delta Joint Unified","Unified"],["Sacramento","Robla Elementary","Elementary"],["Sacramento","Sacramento City Unified","Unified"],["Sacramento","San Juan Unified","Unified"],["Sacramento","Twin Rivers Unified","Unified"],["San Benito","Aromas/San Juan Unified","Unified"],["San Benito","Bitterwater-Tully Elementary","Elementary"],["San Benito","Cienega Union Elementary","Elementary"],["San Benito","Hollister","Elementary"],["San Benito","Jefferson Elementary","Elementary"],["San Benito","North County Joint Union Elementary","Elementary"],["San Benito","Panoche Elementary","Elementary"],["San Benito","San Benito High","High School"],["San Benito","Southside Elementary","Elementary"],["San Benito","Tres Pinos Union Elementary","Elementary"],["San Benito","Willow Grove Union Elementary","Elementary"],["San Bernardino","Adelanto Elementary","Elementary"],["San Bernardino","Alta Loma Elementary","Elementary"],["San Bernardino","Apple Valley Unified","Unified"],["San Bernardino","Baker Valley Unified","Unified"],["San Bernardino","Barstow Unified","Unified"],["San Bernardino","Bear Valley Unified","Unified"],["San Bernardino","Central Elementary","Elementary"],["San Bernardino","Chaffey Joint Union High","High School"],["San Bernardino","Chino Valley Unified","Unified"],["San Bernardino","Colton Joint Unified","Unified"],["San Bernardino","Cucamonga Elementary","Elementary"],["San Bernardino","Etiwanda Elementary","Elementary"],["San Bernardino","Fontana Unified","Unified"],["San Bernardino","Helendale Elementary","Elementary"],["San Bernardino","Hesperia Unified","Unified"],["San Bernardino","Lucerne Valley Unified","Unified"],["San Bernardino","Morongo Unified","Unified"],["San Bernardino","Mountain View Elementary","Elementary"],["San Bernardino","Mt. Baldy Joint Elementary","Elementary"],["San Bernardino","Needles Unified","Unified"],["San Bernardino","Ontario-Montclair","Elementary"],["San Bernardino","Oro Grande Elementary","Elementary"],["San Bernardino","Redlands Unified","Unified"],["San Bernardino","Rialto Unified","Unified"],["San Bernardino","Rim of the World Unified","Unified"],["San Bernardino","San Bernardino City Unified","Unified"],["San Bernardino","Silver Valley Unified","Unified"],["San Bernardino","Snowline Joint Unified","Unified"],["San Bernardino","Trona Joint Unified","Unified"],["San Bernardino","Upland Unified","Unified"],["San Bernardino","Victor Elementary","Elementary"],["San Bernardino","Victor Valley Union High","High School with Jr. High Program"],["San Bernardino","Yucaipa-Calimesa Joint Unified","Unified"],["San Diego","Alpine Union Elementary","Elementary"],["San Diego","Bonsall Unified","Unified"],["San Diego","Borrego Springs Unified","Unified"],["San Diego","Cajon Valley Union","Elementary"],["San Diego","Cardiff Elementary","Elementary"],["San Diego","Carlsbad Unified","Unified"],["San Diego","Chula Vista Elementary","Elementary"],["San Diego","Coronado Unified","Unified"],["San Diego","Dehesa Elementary","Elementary"],["San Diego","Del Mar Union Elementary","Elementary"],["San Diego","Encinitas Union Elementary","Elementary"],["San Diego","Escondido Union","Elementary"],["San Diego","Escondido Union High","High School"],["San Diego","Fallbrook Union Elementary","Elementary"],["San Diego","Fallbrook Union High","High School"],["San Diego","Grossmont Union High","High School"],["San Diego","Jamul-Dulzura Union Elementary","Elementary"],["San Diego","Julian Union Elementary","Elementary"],["San Diego","Julian Union High","High School"],["San Diego","La Mesa-Spring Valley","Elementary"],["San Diego","Lakeside Union Elementary","Elementary"],["San Diego","Lemon Grove","Elementary"],["San Diego","Mountain Empire Unified","Unified"],["San Diego","National Elementary","Elementary"],["San Diego","Oceanside Unified","Unified"],["San Diego","Poway Unified","Unified"],["San Diego","Ramona City Unified","Unified"],["San Diego","Rancho Santa Fe Elementary","Elementary"],["San Diego","San Diego Unified","Unified"],["San Diego","San Dieguito Union High","High School with Jr. High Program"],["San Diego","San Marcos Unified","Unified"],["San Diego","San Pasqual Union Elementary","Elementary"],["San Diego","San Ysidro Elementary","Elementary"],["San Diego","Santee","Elementary"],["San Diego","Solana Beach Elementary","Elementary"],["San Diego","South Bay Union Elementary","Elementary"],["San Diego","Spencer Valley Elementary","Elementary"],["San Diego","Sweetwater Union High","High School with Jr. High Program"],["San Diego","Vallecitos Elementary","Elementary"],["San Diego","Valley Center-Pauma Unified","Unified"],["San Diego","Vista Unified","Unified"],["San Diego","Warner Unified","Unified"],["San Francisco","San Francisco Unified","Unified"],["San Joaquin","Banta Unified","Unified"],["San Joaquin","Escalon Unified","Unified"],["San Joaquin","Jefferson Elementary","Elementary"],["San Joaquin","Lammersville Joint Unified","Unified"],["San Joaquin","Lincoln Unified","Unified"],["San Joaquin","Linden Unified","Unified"],["San Joaquin","Lodi Unified","Unified"],["San Joaquin","Manteca Unified","Unified"],["San Joaquin","New Hope Elementary","Elementary"],["San Joaquin","New Jerusalem Elementary","Elementary"],["San Joaquin","Oak View Union Elementary","Elementary"],["San Joaquin","Ripon Unified","Unified"],["San Joaquin","Stockton Unified","Unified"],["San Joaquin","Tracy Joint Unified","Unified"],["San Luis Obispo","Atascadero Unified","Unified"],["San Luis Obispo","Cayucos Elementary","Elementary"],["San Luis Obispo","Coast Unified","Unified"],["San Luis Obispo","Lucia Mar Unified","Unified"],["San Luis Obispo","Paso Robles Joint Unified","Unified"],["San Luis Obispo","Pleasant Valley Joint Union Elementary","Elementary"],["San Luis Obispo","San Luis Coastal Unified","Unified"],["San Luis Obispo","San Miguel Joint Union Elementary","Elementary"],["San Luis Obispo","Shandon Joint Unified","Unified"],["San Luis Obispo","Templeton Unified","Unified"],["San Mateo","Bayshore Elementary","Elementary"],["San Mateo","Belmont-Redwood Shores Elementary","Elementary"],["San Mateo","Brisbane Elementary","Elementary"],["San Mateo","Burlingame Elementary","Elementary"],["San Mateo","Cabrillo Unified","Unified"],["San Mateo","Hillsborough City Elementary","Elementary"],["San Mateo","Jefferson Elementary","Elementary"],["San Mateo","Jefferson Union High","High School"],["San Mateo","La Honda-Pescadero Unified","Unified"],["San Mateo","Las Lomitas Elementary","Elementary"],["San Mateo","Menlo Park City Elementary","Elementary"],["San Mateo","Millbrae Elementary","Elementary"],["San Mateo","Pacifica","Elementary"],["San Mateo","Portola Valley Elementary","Elementary"],["San Mateo","Ravenswood City Elementary","Elementary"],["San Mateo","Redwood City Elementary","Elementary"],["San Mateo","San Bruno Park Elementary","Elementary"],["San Mateo","San Carlos Elementary","Elementary"],["San Mateo","San Mateo Union High","High School"],["San Mateo","San Mateo-Foster City","Elementary"],["San Mateo","Sequoia Union High","High School"],["San Mateo","South San Francisco Unified","Unified"],["San Mateo","Woodside Elementary","Elementary"],["Santa Barbara","Ballard Elementary","Elementary"],["Santa Barbara","Blochman Union Elementary","Elementary"],["Santa Barbara","Buellton Union Elementary","Elementary"],["Santa Barbara","Carpinteria Unified","Unified"],["Santa Barbara","Cold Spring Elementary","Elementary"],["Santa Barbara","College Elementary","Elementary"],["Santa Barbara","Cuyama Joint Unified","Unified"],["Santa Barbara","Goleta Union Elementary","Elementary"],["Santa Barbara","Guadalupe Union Elementary","Elementary"],["Santa Barbara","Hope Elementary","Elementary"],["Santa Barbara","Lompoc Unified","Unified"],["Santa Barbara","Los Olivos Elementary","Elementary"],["Santa Barbara","Montecito Union Elementary","Elementary"],["Santa Barbara","Orcutt Union Elementary","Elementary"],["Santa Barbara","Santa Barbara Unified","Unified"],["Santa Barbara","Santa Maria Joint Union High","High School"],["Santa Barbara","Santa Maria-Bonita","Elementary"],["Santa Barbara","Santa Ynez Valley Union High","High School"],["Santa Barbara","Solvang Elementary","Elementary"],["Santa Barbara","Vista del Mar Union","Elementary"],["Santa Clara","Alum Rock Union Elementary","Elementary"],["Santa Clara","Berryessa Union Elementary","Elementary"],["Santa Clara","Cambrian","Elementary"],["Santa Clara","Campbell Union","Elementary"],["Santa Clara","Campbell Union High","High School"],["Santa Clara","Cupertino Union","Elementary"],["Santa Clara","East Side Union High","High School"],["Santa Clara","Evergreen Elementary","Elementary"],["Santa Clara","Franklin-McKinley Elementary","Elementary"],["Santa Clara","Fremont Union High","High School"],["Santa Clara","Gilroy Unified","Unified"],["Santa Clara","Lakeside Joint","Elementary"],["Santa Clara","Loma Prieta Joint Union Elementary","Elementary"],["Santa Clara","Los Altos Elementary","Elementary"],["Santa Clara","Los Gatos Union Elementary","Elementary"],["Santa Clara","Los Gatos-Saratoga Union High","High School"],["Santa Clara","Luther Burbank","Elementary"],["Santa Clara","Milpitas Unified","Unified"],["Santa Clara","Moreland","Elementary"],["Santa Clara","Morgan Hill Unified","Unified"],["Santa Clara","Mountain View Whisman","Elementary"],["Santa Clara","Mountain View-Los Altos Union High","High School"],["Santa Clara","Mt. Pleasant Elementary","Elementary"],["Santa Clara","Oak Grove Elementary","Elementary"],["Santa Clara","Orchard Elementary","Elementary"],["Santa Clara","Palo Alto Unified","Unified"],["Santa Clara","San Jose Unified","Unified"],["Santa Clara","Santa Clara Unified","Unified"],["Santa Clara","Saratoga Union Elementary","Elementary"],["Santa Clara","Sunnyvale","Elementary"],["Santa Clara","Union Elementary","Elementary"],["Santa Cruz","Bonny Doon Union Elementary","Elementary"],["Santa Cruz","Happy Valley Elementary","Elementary"],["Santa Cruz","Live Oak Elementary","Elementary"],["Santa Cruz","Mountain Elementary","Elementary"],["Santa Cruz","Pacific Elementary","Elementary"],["Santa Cruz","Pajaro Valley Unified","Unified"],["Santa Cruz","San Lorenzo Valley Unified","Unified"],["Santa Cruz","Santa Cruz City Elementary","Elementary"],["Santa Cruz","Santa Cruz City High","High School with Jr. High Program"],["Santa Cruz","Scotts Valley Unified","Unified"],["Santa Cruz","Soquel Union Elementary","Elementary"],["Shasta","Anderson Union High","High School"],["Shasta","Bella Vista Elementary","Elementary"],["Shasta","Black Butte Union Elementary","Elementary"],["Shasta","Cascade Union Elementary","Elementary"],["Shasta","Castle Rock Union Elementary","Elementary"],["Shasta","Columbia Elementary","Elementary"],["Shasta","Cottonwood Union Elementary","Elementary"],["Shasta","Enterprise Elementary","Elementary"],["Shasta","Fall River Joint Unified","Unified"],["Shasta","French Gulch-Whiskeytown Elementary","Elementary"],["Shasta","Gateway Unified","Unified"],["Shasta","Grant Elementary","Elementary"],["Shasta","Happy Valley Union Elementary","Elementary"],["Shasta","Igo, Ono, Platina Union Elementary","Elementary"],["Shasta","Junction Elementary","Elementary"],["Shasta","Millville Elementary","Elementary"],["Shasta","Mountain Union Elementary","Elementary"],["Shasta","North Cow Creek Elementary","Elementary"],["Shasta","Oak Run Elementary","Elementary"],["Shasta","Pacheco Union Elementary","Elementary"],["Shasta","Redding Elementary","Elementary"],["Shasta","Shasta Union Elementary","Elementary"],["Shasta","Shasta Union High","High School"],["Shasta","Whitmore Union Elementary","Elementary"],["Sierra","Sierra-Plumas Joint Unified","Unified"],["Siskiyou","Big Springs Union Elementary","Elementary"],["Siskiyou","Bogus Elementary","Elementary"],["Siskiyou","Butte Valley Unified","Unified"],["Siskiyou","Butteville Union Elementary","Elementary"],["Siskiyou","Delphic Elementary","Elementary"],["Siskiyou","Dunsmuir Elementary","Elementary"],["Siskiyou","Dunsmuir Joint Union High","High School"],["Siskiyou","Gazelle Union Elementary","Elementary"],["Siskiyou","Grenada Elementary","Elementary"],["Siskiyou","Happy Camp Union Elementary","Elementary"],["Siskiyou","Hornbrook Elementary","Elementary"],["Siskiyou","Junction Elementary","Elementary"],["Siskiyou","Klamath River Union Elementary","Elementary"],["Siskiyou","Little Shasta Elementary","Elementary"],["Siskiyou","McCloud Union Elementary","Elementary"],["Siskiyou","Montague Elementary","Elementary"],["Siskiyou","Mt. Shasta Union Elementary","Elementary"],["Siskiyou","Scott Valley Unified","Unified"],["Siskiyou","Seiad Elementary","Elementary"],["Siskiyou","Siskiyou Union High","High School"],["Siskiyou","Weed Union Elementary","Elementary"],["Siskiyou","Willow Creek Elementary","Elementary"],["Siskiyou","Yreka Union Elementary","Elementary"],["Siskiyou","Yreka Union High","High School"],["Solano","Benicia Unified","Unified"],["Solano","Dixon Unified","Unified"],["Solano","Fairfield-Suisun Unified","Unified"],["Solano","Travis Unified","Unified"],["Solano","Vacaville Unified","Unified"],["Solano","Vallejo City Unified","Unified"],["Sonoma","Alexander Valley Union Elementary","Elementary"],["Sonoma","Bellevue Union","Elementary"],["Sonoma","Bennett Valley Union Elementary","Elementary"],["Sonoma","Cinnabar Elementary","Elementary"],["Sonoma","Cloverdale Unified","Unified"],["Sonoma","Cotati-Rohnert Park Unified","Unified"],["Sonoma","Dunham Elementary","Elementary"],["Sonoma","Forestville Union Elementary","Elementary"],["Sonoma","Fort Ross Elementary","Elementary"],["Sonoma","Geyserville Unified","Unified"],["Sonoma","Gravenstein Union Elementary","Elementary"],["Sonoma","Guerneville Elementary","Elementary"],["Sonoma","Harmony Union Elementary","Elementary"],["Sonoma","Healdsburg Unified","Unified"],["Sonoma","Horicon Elementary","Elementary"],["Sonoma","Kashia Elementary","Lapsed"],["Sonoma","Kenwood","Elementary"],["Sonoma","Liberty Elementary","Elementary"],["Sonoma","Mark West Union Elementary","Elementary"],["Sonoma","Monte Rio Union Elementary","Elementary"],["Sonoma","Montgomery Elementary","Elementary"],["Sonoma","Oak Grove Union Elementary","Elementary"],["Sonoma","Old Adobe Union","Elementary"],["Sonoma","Petaluma City Elementary","Elementary"],["Sonoma","Petaluma Joint Union High","High School with Jr. High Program"],["Sonoma","Piner-Olivet Union Elementary","Elementary"],["Sonoma","Rincon Valley Union Elementary","Elementary"],["Sonoma","Roseland","Elementary"],["Sonoma","Santa Rosa City Elementary","Elementary"],["Sonoma","Santa Rosa High","High School with Jr. High Program"],["Sonoma","Sebastopol Union Elementary","Elementary"],["Sonoma","Sonoma Valley Unified","Unified"],["Sonoma","Twin Hills Union Elementary","Elementary"],["Sonoma","Two Rock Union","Elementary"],["Sonoma","Waugh Elementary","Elementary"],["Sonoma","West Side Union Elementary","Elementary"],["Sonoma","West Sonoma County Union High","High School"],["Sonoma","Wilmar Union Elementary","Elementary"],["Sonoma","Windsor Unified","Unified"],["Sonoma","Wright Elementary","Elementary"],["Stanislaus","Ceres Unified","Unified"],["Stanislaus","Chatom Union","Elementary"],["Stanislaus","Denair Unified","Unified"],["Stanislaus","Empire Union Elementary","Elementary"],["Stanislaus","Gratton Elementary","Elementary"],["Stanislaus","Hart-Ransom Union Elementary","Elementary"],["Stanislaus","Hickman Community Charter","Elementary"],["Stanislaus","Hughson Unified","Unified"],["Stanislaus","Keyes Union","Elementary"],["Stanislaus","Knights Ferry Elementary","Elementary"],["Stanislaus","Modesto City Elementary","Elementary"],["Stanislaus","Modesto City High","High School"],["Stanislaus","Newman-Crows Landing Unified","Unified"],["Stanislaus","Oakdale Joint Unified","Unified"],["Stanislaus","Paradise Elementary","Elementary"],["Stanislaus","Patterson Joint Unified","Unified"],["Stanislaus","Riverbank Unified","Unified"],["Stanislaus","Roberts Ferry Union Elementary","Elementary"],["Stanislaus","Salida Union Elementary","Elementary"],["Stanislaus","Shiloh Elementary","Elementary"],["Stanislaus","Stanislaus Union Elementary","Elementary"],["Stanislaus","Sylvan Union Elementary","Elementary"],["Stanislaus","Turlock Unified","Unified"],["Stanislaus","Valley Home Joint Elementary","Elementary"],["Stanislaus","Waterford Unified","Unified"],["Sutter","Brittan Elementary","Elementary"],["Sutter","Browns Elementary","Elementary"],["Sutter","East Nicolaus Joint Union High","High School"],["Sutter","Franklin Elementary","Elementary"],["Sutter","Live Oak Unified","Unified"],["Sutter","Marcum-Illinois Union Elementary","Elementary"],["Sutter","Meridian Elementary","Elementary"],["Sutter","Nuestro Elementary","Elementary"],["Sutter","Pleasant Grove Joint Union Elementary","Elementary"],["Sutter","Sutter Union High","High School"],["Sutter","Winship-Robbins","Elementary"],["Sutter","Yuba City Unified","Unified"],["Tehama","Antelope Elementary","Elementary"],["Tehama","Corning Union Elementary","Elementary"],["Tehama","Corning Union High","High School"],["Tehama","Evergreen Union","Elementary"],["Tehama","Flournoy Union Elementary","Elementary"],["Tehama","Gerber Union Elementary","Elementary"],["Tehama","Kirkwood Elementary","Elementary"],["Tehama","Lassen View Union Elementary","Elementary"],["Tehama","Los Molinos Unified","Unified"],["Tehama","Red Bluff Joint Union High","High School"],["Tehama","Red Bluff Union Elementary","Elementary"],["Tehama","Reeds Creek Elementary","Elementary"],["Tehama","Richfield Elementary","Elementary"],["Trinity","Burnt Ranch Elementary","Elementary"],["Trinity","Coffee Creek Elementary","Elementary"],["Trinity","Douglas City Elementary","Elementary"],["Trinity","Junction City Elementary","Elementary"],["Trinity","Lewiston Elementary","Elementary"],["Trinity","Mountain Valley Unified","Unified"],["Trinity","Southern Trinity Joint Unified","Unified"],["Trinity","Trinity Alps Unified","Unified"],["Trinity","Trinity Center Elementary","Elementary"],["Tulare","Allensworth Elementary","Elementary"],["Tulare","Alpaugh Unified","Unified"],["Tulare","Alta Vista Elementary","Elementary"],["Tulare","Buena Vista Elementary","Elementary"],["Tulare","Burton Elementary","Elementary"],["Tulare","Columbine Elementary","Elementary"],["Tulare","Cutler-Orosi Joint Unified","Unified"],["Tulare","Dinuba Unified","Unified"],["Tulare","Ducor Union Elementary","Elementary"],["Tulare","Earlimart Elementary","Elementary"],["Tulare","Exeter Unified","Unified"],["Tulare","Farmersville Unified","Unified"],["Tulare","Hope Elementary","Elementary"],["Tulare","Hot Springs Elementary","Elementary"],["Tulare","Kings River Union Elementary","Elementary"],["Tulare","Liberty Elementary","Elementary"],["Tulare","Lindsay Unified","Unified"],["Tulare","Monson-Sultana Joint Union Elementary","Elementary"],["Tulare","Oak Valley Union Elementary","Elementary"],["Tulare","Outside Creek Elementary","Elementary"],["Tulare","Palo Verde Union Elementary","Elementary"],["Tulare","Pixley Union Elementary","Elementary"],["Tulare","Pleasant View Elementary","Elementary"],["Tulare","Porterville Unified","Unified"],["Tulare","Richgrove Elementary","Elementary"],["Tulare","Rockford Elementary","Elementary"],["Tulare","Saucelito Elementary","Elementary"],["Tulare","Sequoia Union Elementary","Elementary"],["Tulare","Springville Union Elementary","Elementary"],["Tulare","Stone Corral Elementary","Elementary"],["Tulare","Strathmore Union Elementary","Elementary"],["Tulare","Sundale Union Elementary","Elementary"],["Tulare","Sunnyside Union Elementary","Elementary"],["Tulare","Terra Bella Union Elementary","Elementary"],["Tulare","Three Rivers Union Elementary","Elementary"],["Tulare","Tipton Elementary","Elementary"],["Tulare","Traver Joint Elementary","Elementary"],["Tulare","Tulare City","Elementary"],["Tulare","Tulare Joint Union High","High School"],["Tulare","Visalia Unified","Unified"],["Tulare","Waukena Joint Union Elementary","Elementary"],["Tulare","Woodlake Unified","Unified"],["Tulare","Woodville Union Elementary","Elementary"],["Tuolumne","Belleview Elementary","Elementary"],["Tuolumne","Big Oak Flat-Groveland Unified","Unified"],["Tuolumne","Columbia Union","Elementary"],["Tuolumne","Curtis Creek Elementary","Elementary"],["Tuolumne","Jamestown Elementary","Elementary"],["Tuolumne","Sonora Elementary","Elementary"],["Tuolumne","Sonora Union High","High School"],["Tuolumne","Soulsbyville Elementary","Elementary"],["Tuolumne","Summerville Elementary","Elementary"],["Tuolumne","Summerville Union High","High School"],["Tuolumne","Twain Harte-Long Barn Union Elementary","Elementary"],["Ventura","Briggs Elementary","Elementary"],["Ventura","Conejo Valley Unified","Unified"],["Ventura","Fillmore Unified","Unified"],["Ventura","Hueneme Elementary","Elementary"],["Ventura","Mesa Union Elementary","Elementary"],["Ventura","Moorpark Unified","Unified"],["Ventura","Mupu Elementary","Elementary"],["Ventura","Oak Park Unified","Unified"],["Ventura","Ocean View","Elementary"],["Ventura","Ojai Unified","Unified"],["Ventura","Oxnard","Elementary"],["Ventura","Oxnard Union High","High School"],["Ventura","Pleasant Valley","Elementary"],["Ventura","Rio Elementary","Elementary"],["Ventura","Santa Clara Elementary","Elementary"],["Ventura","Santa Paula Unified","Unified"],["Ventura","Simi Valley Unified","Unified"],["Ventura","Somis Union","Elementary"],["Ventura","Ventura Unified","Unified"],["Yolo","Davis Joint Unified","Unified"],["Yolo","Esparto Unified","Unified"],["Yolo","Washington Unified","Unified"],["Yolo","Winters Joint Unified","Unified"],["Yolo","Woodland Joint Unified","Unified"],["Yuba","Camptonville Elementary","Elementary"],["Yuba","Marysville Joint Unified","Unified"],["Yuba","Plumas Lake Elementary","Elementary"],["Yuba","Wheatland","Elementary"],["Yuba","Wheatland Union High","High School"]];
+const SYSNAME = {UC:"University of California",CSU:"California State University",CCC:"Community college",K12:"K–12 district",PU:"Public university",CC:"Community or technical college"};
+const STATENAME = {CA:"California",OR:"Oregon",WA:"Washington",NV:"Nevada",AZ:"Arizona",UT:"Utah",IL:"Illinois",IA:"Iowa",WI:"Wisconsin",MN:"Minnesota",IN:"Indiana",MO:"Missouri"};
+const SYSGROUP = s => ({UC:"univ",CSU:"univ",PU:"univ",CCC:"cc",CC:"cc",K12:"K12"})[s]||"other";
+const SHORTSYS = s => ({UC:"UC",CSU:"CSU",PU:"University",CCC:"Comm. college",CC:"Comm. college",K12:"K–12"})[s]||s;
+let sweeps={};
+const INST = [
+  ...UC.map(n=>({n,s:"UC",c:""})),
+  ...CSU.map(n=>({n,s:"CSU",c:""})),
+  ...CCC.map(n=>({n,s:"CCC",c:""})),
+  ...K12RAW.filter(r=>r[2]!=="Lapsed").map(r=>({n:r[1],s:"K12",c:r[0],t:r[2]}))
+];
+const K12ORDER = {"Unified":0,"High School":1,"High School with Jr. High Program":1,"Elementary":2};
+const ikey = i => i.s+"|"+i.n;
+const INSTBYKEY = Object.fromEntries(INST.map(i=>[ikey(i),i]));
+
+/* ---------- Stages ---------- */
+const STAGES = [
+  {n:1,name:"Board discussion",hint:"Trustees raising housing, staff directed to explore"},
+  {n:2,name:"Feasibility",hint:"Study scoped, procured or underway"},
+  {n:3,name:"In a master plan",hint:"Housing named in an FMP, LRDP or capital plan"},
+  {n:4,name:"Advisor engaged",hint:"A consultant or advisor has been hired"},
+  {n:5,name:"Developer solicitation",hint:"RFP or RFQ out, or a partner in negotiation"},
+  {n:6,name:"Approved or building",hint:"Financing approved, under construction or open"}
+];
+const tierOf = l => l.relationship==="client" ? "client" : (l.stage<=3 && !(l.advisors||[]).length) ? "hot" : (l.stage<=4 ? "warm" : "watch");
+const TIERLABEL = {hot:"Priority: pre-RFP",warm:"Advisor engaged",watch:"Monitor",client:"Existing Volz Company relationship"};
+
+/* ---------- State ---------- */
+let db=null, downloads=null;
+let leads=[], coverage={}, scans=[];
+const F = {q:"",sys:"all",house:"all",pre:false,status:"all",sort:"tier",stage:0,view:"table",fund:"all",hideClients:false,miss:false,sel:null};
+function saveView(){ try{ localStorage.setItem("edunest-view",JSON.stringify({sys:F.sys,house:F.house,pre:F.pre,status:F.status,sort:F.sort,view:F.view,fund:F.fund,hideClients:F.hideClients,miss:F.miss,state:F.state,growth:F.growth,unverified:F.unverified})); }catch(e){} }
+(function(){ try{ const v=JSON.parse(localStorage.getItem("edunest-view")||"null"); if(v) Object.assign(F,v); }catch(e){} })();
+let covLimit=100;
+const $ = id => document.getElementById(id);
+const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const today = () => new Date().toISOString().slice(0,10);
+const slug = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,60);
+
+/* ---------- Tabs ---------- */
+function showTab(t){
+  document.querySelectorAll("nav.tabs button").forEach(b=>b.setAttribute("aria-selected", b.dataset.tab===t));
+  ["opps","calendar","coverage","scan"].forEach(x=>$("tab-"+x).classList.toggle("hidden", x!==t));
+  if(t==="coverage") renderCoverage();
+  if(t==="calendar") renderCalendar();
+  if(t==="scan") renderScanner();
+  window.scrollTo({top:0});
+}
+document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
+$("runScanTop").onclick=()=>{ try{sessionStorage.removeItem("edunest-key");}catch(e){} location.reload(); };
+
+/* ---------- Filters ---------- */
+function chips(el, opts, key){
+  el.innerHTML = opts.map(([v,l])=>`<button class="chip" data-v="${v}" aria-pressed="${F[key]===v}">${l}</button>`).join("");
+  el.querySelectorAll("button").forEach(b=>b.onclick=()=>{F[key]=b.dataset.v; chips(el,opts,key); renderLeads();});
+}
+if(!["all","univ","cc","K12"].includes(F.sys)) F.sys="all"; if(!F.state) F.state="all";
+chips($("sysChips"),[["all","All"],["univ","Universities"],["cc","Community colleges"],["K12","K–12"]],"sys");
+chips($("houseChips"),[["all","All"],["Student","Student"],["Faculty & staff","Faculty & staff"],["Workforce","K–12 workforce"]],"house");
+$("q").oninput=e=>{F.q=e.target.value.toLowerCase();renderLeads();};
+$("preOnly").onchange=e=>{F.pre=e.target.checked;renderLeads();};
+
+$("fundF").onchange=e=>{F.fund=e.target.value;renderLeads();};
+$("stateF").innerHTML=`<option value="all">All 12 states</option>`+Object.entries(STATENAME).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
+$("stateF").onchange=e=>{F.state=e.target.value;F.sel=null;saveView();renderLeads();};
+$("hideClients").onchange=e=>{F.hideClients=e.target.checked;saveView();renderLeads();};
+$("unverified").onchange=e=>{F.unverified=e.target.checked;saveView();renderLeads();};
+$("growthOnly").onchange=e=>{F.growth=e.target.checked;saveView();renderLeads();};
+$("missOnly").onchange=e=>{F.miss=e.target.checked;saveView();renderLeads();};
+$("sortF").onchange=e=>{F.sort=e.target.value;saveView();renderLeads();};
+
+/* ---------- Pipeline ---------- */
+function renderTrack(){
+  const counts = STAGES.map(s=>leads.filter(l=>l.stage===s.n).length);
+  $("track").innerHTML = STAGES.map((s,i)=>`<button class="stage ${s.n<=3?"pre":""}" data-n="${s.n}" aria-pressed="${F.stage===s.n}">
+    <span class="n">${counts[i]}</span><span class="lbl">${s.name}</span><span class="hint">${s.hint}</span></button>`).join("");
+  $("track").querySelectorAll(".stage").forEach(b=>b.onclick=()=>{const n=+b.dataset.n;F.stage=F.stage===n?0:n;renderTrack();renderLeads();});
+  const hot = leads.filter(l=>tierOf(l)==="hot").length;
+  $("pipeTitle").textContent = leads.length ? `${hot} priority ${hot===1?"opportunity":"opportunities"}: pre-RFP, no advisor named` : "Where California campuses stand on housing";
+  const scannedN = Object.keys(coverage).length;
+  const nStates=new Set(leads.map(l=>l.state||"CA")).size;
+  const caLeft=INST.filter(i=>!coverage[ikey(i)]).length;
+  $("pipeMeta").innerHTML = `${leads.filter(l=>!l.needsPrimary).length} verified opportunities across ${nStates} states${caLeft?`. ${caLeft.toLocaleString()} California institutions not yet scanned: <a href="#" id="goScan">scan them now</a>`:""}`;
+  const gs=$("goScan"); if(gs) gs.onclick=ev=>{ev.preventDefault();showTab("scan");};
+}
+
+/* ---------- Leads ---------- */
+function filtered(){
+  let L = leads.filter(l=>{
+    if(F.sys!=="all" && SYSGROUP(l.system)!==F.sys) return false;
+    if(F.state!=="all" && (l.state||"CA")!==F.state) return false;
+    if(F.house!=="all" && !(l.housing||[]).includes(F.house)) return false;
+    if(F.pre && tierOf(l)!=="hot") return false;
+    if(F.stage && l.stage!==F.stage) return false;
+    if(F.fund!=="all" && ((l.funding||{}).status||"Unknown")!==F.fund) return false;
+    if(F.hideClients && l.relationship==="client") return false;
+    if(F.miss && primaryContact(l)) return false;
+    if(F.growth && !(l.growth&&l.growth.amount)) return false;
+    if(!F.unverified && l.needsPrimary) return false;
+    if(F.q){
+      const hay = [l.inst,l.county,l.headline,l.summary,...(l.advisors||[]).map(a=>a.name),...(l.contacts||[]).map(c=>c.name+" "+c.title),(l.funding||{}).source].join(" ").toLowerCase();
+      if(!hay.includes(F.q)) return false;
+    }
+    return true;
+  });
+  const T={hot:0,warm:1,watch:2,client:3};
+  if(F.sort==="tier") L.sort((a,b)=>T[tierOf(a)]-T[tierOf(b)] || a.stage-b.stage || String(b.updated).localeCompare(String(a.updated)));
+  if(F.sort==="updated") L.sort((a,b)=>String(b.latestEvidence||b.updated).localeCompare(String(a.latestEvidence||a.updated)));
+  if(F.sort==="name") L.sort((a,b)=>a.inst.localeCompare(b.inst));
+  if(F.sort==="growth") L.sort((a,b)=>((b.growth||{}).pct||0)-((a.growth||{}).pct||0) || ((b.growth||{}).amount||0)-((a.growth||{}).amount||0) || T[tierOf(a)]-T[tierOf(b)]);
+  return L;
+}
+const TODAY = today();
+const fmtDate = d => { if(!d) return ""; const x=new Date(d+"T12:00:00"); return isNaN(x)?d:x.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}); };
+const daysTo = d => Math.round((new Date(d+"T12:00:00")-new Date(TODAY+"T12:00:00"))/864e5);
+let calendar=[];
+function triggersFor(l){
+  const own=(l.triggers||[]).map(t=>({...t}));
+  const sys=calendar.filter(e=>(e.leadIds||[]).includes(l.id)||(e.systems||[]).includes(l.system)&&!(e.leadIds||[]).length);
+  return [...own,...sys].filter(t=>t.date>=TODAY).sort((a,b)=>a.date.localeCompare(b.date));
+}
+const primaryContact = l => (l.contacts||[]).find(c=>c.email) || (l.contacts||[]).find(c=>c.phone) || null;
+const KW=/(public-private partnership|P3|RFP|RFQ|request for proposals|revenue bonds?|ground lease|feasibility|workforce housing|faculty and staff housing|student housing|affordable housing|surplus|developer)/gi;
+const hl = s => esc(s).replace(KW, m=>`<mark class="kw">${m}</mark>`);
+const fmtUSD=n=>n>=1e9?`$${(n/1e9).toFixed(n%1e9?1:0)}B`:n>=1e6?`$${Math.round(n/1e6)}M`:`$${Math.round(n/1e3)}K`;
+const growthPill=l=>l.growth&&l.growth.amount?`<span class="pill grow" title="${esc(l.growth.label||"")}">Boost ${fmtUSD(l.growth.amount)}${l.growth.pct?` (${Math.round(l.growth.pct)}% of budget)`:""}</span>`:"";
+const FUNDCLS={Unfunded:"unf",Planned:"plan",Partial:"plan",Committed:"com",Unknown:"unk"};
+function fundPill(f){ f=f||{}; const s=f.status||"Unknown"; return `<span class="pill ${FUNDCLS[s]||"unk"}">${s==="Unknown"?"Not identified":esc(s)}</span>`; }
+function contactHTML(c){ return `<div class="person">${c.stakeholder?`<div class="srole">${esc(c.stakeholder)}</div>`:""}<b>${esc(c.name)}</b>${esc(c.title||"")}${c.email?`<div><a class="mail" href="mailto:${esc(c.email)}">${esc(c.email)}</a></div>`:""}${c.phone?`<div><a href="tel:${esc(c.phone.replace(/[^0-9+x]/g,""))}">${esc(c.phone)}</a>${c.contactNote?` <span class="note">${esc(c.contactNote)}</span>`:""}</div>`:""}${c.verify?`<div class="verify">${esc(c.verify)}</div>`:""}${c.role?`<div class="note">${esc(c.role)}</div>`:""}${c.url?`<div class="note"><a href="${esc(c.url)}" target="_blank" rel="noopener">Source</a>${c.source?` ${esc(c.source)}`:""}</div>`:""}</div>`; }
+function leadCard(l){
+  const t = tierOf(l);
+  const mini = STAGES.map(s=>`<i class="${s.n<=3?"pre":""} ${s.n<=l.stage?"on":""}"></i>`).join("");
+  const ev = (l.evidence||[]).filter(e=>e.primary!==false).map(e=>`<div class="ev">
+      ${e.quote?`<q>${hl(e.quote)}</q>`:`<div class="para">${hl(e.note||"")}</div>`}
+      <div class="src">${esc(e.source)}${e.type?`, ${esc(e.type)}`:""}${e.date?`, ${esc(e.date)}`:""}${e.url?` <a href="${esc(e.url)}" target="_blank" rel="noopener">Open source</a>`:""}</div>
+    </div>`).join("");
+  const adv = (l.advisors||[]).length ? l.advisors.map(a=>`${esc(a.name)}${a.role?` <span class="note">(${esc(a.role)})</span>`:""}`).join("<br>") : "None announced";
+  return `<article class="lead ${t}" data-id="${esc(l.id)}">
+    <div class="lead-top">
+      <div><h3>${esc(l.inst)} ${growthPill(l)}${l._new?' <span class="pill pend" style="vertical-align:3px">New</span>':""}</h3><div class="sub">${esc(SYSNAME[l.system]||l.system)}${l.county?`, ${esc(l.county)} County`:""}, ${esc(STATENAME[l.state||"CA"]||l.state)}. ${esc((l.housing||[]).join(", "))} housing</div></div>
+      <div style="text-align:right"><span class="badge ${t}">${TIERLABEL[t]}</span><div class="mini" title="Stage ${l.stage}: ${esc(STAGES[l.stage-1].name)}">${mini}</div></div>
+    </div>
+    ${l.relationship==="client"&&l.relationshipNote?`<p class="relnote"><b>Volz Company relationship:</b> ${esc(l.relationshipNote)}</p>`:""}<p class="headline">${esc(l.headline)}</p>
+    <p class="summary">${esc(l.summary)}</p>
+    <div class="evidence">${ev}</div>
+    <div class="facts">
+      <div><span class="k">Stage</span>${esc(STAGES[l.stage-1].name)}</div>
+      <div><span class="k">Advisors or partners named</span>${adv}</div>
+      <div><span class="k">Recommended action</span>${esc(l.nextStep||"")}</div>
+    </div>
+    <div class="sec"><h4>Stakeholders</h4>${(l.contacts||[]).length?`<div class="people">${l.contacts.map(contactHTML).join("")}</div>`:`<span class="note">Not yet identified. Run <b>Scan → Find stakeholders</b> to look up the president, VP of student services and VP of administrative services.</span>`}</div>
+    ${l.growth&&l.growth.amount?`<div class="sec"><h4>Funding boost</h4><div class="fund">${growthPill(l)}<span>${esc(l.growth.label||"")}${l.growth.date?`, ${esc(fmtDate(l.growth.date))}`:""}${l.growth.url?` <a href="${esc(l.growth.url)}" target="_blank" rel="noopener">Source</a>`:""}</span></div></div>`:""}<div class="sec"><h4>Funding</h4><div class="fund">${fundPill(l.funding)}<span>${esc((l.funding||{}).source||"No funding source identified yet")}${(l.funding||{}).amount?`, ${esc(l.funding.amount)}`:""}</span></div>${(l.funding||{}).note?`<p class="note" style="margin:6px 0 0">${esc(l.funding.note)}</p>`:""}</div>
+    <div class="sec"><h4>Upcoming</h4>${(()=>{const tr=triggersFor(l);return tr.length?tr.slice(0,4).map(t=>`<div class="trig"><span class="date ${daysTo(t.date)<=14?"soon":""}">${fmtDate(t.date)}</span><span>${esc(t.label)}${t.confirmed===false?` <span class="note">(expected)</span>`:""}${t.url?` <a href="${esc(t.url)}" target="_blank" rel="noopener">Agenda</a>`:""}</span></div>`).join(""):`<span class="note">No scheduled decision point found yet.</span>`;})()}</div>
+    <div class="lead-foot">
+      <details class="notes" ${l.notes?"open":""}><summary>Internal notes</summary><textarea class="nt" placeholder="Who we know there, last contact, next touch">${esc(l.notes||"")}</textarea></details>
+      <span class="note">Updated ${esc(l.updated||"")}</span>
+    </div>
+  </article>`;
+}
+function tableView(L){
+  const rows=L.map(l=>{const e=(l.evidence||[]).find(e=>e.primary!==false)||{};const t=tierOf(l);
+    return `<tr data-id="${esc(l.id)}" style="cursor:pointer"><td class="nm">${esc(l.inst)}${growthPill(l)?`<div>${growthPill(l)}</div>`:""}${l._new?' <span class="pill pend">New</span>':""}<div class="note">${esc((l.county?l.county+" County, ":"")+(l.state||"CA"))}</div></td><td>${esc(SHORTSYS(l.system))}</td><td>${esc((l.housing||[]).join(", "))}</td><td>${esc(STAGES[l.stage-1].name)}</td><td><span class="badge ${t}">${TIERLABEL[t]}</span></td><td>${(l.advisors||[]).length?esc(l.advisors.map(a=>a.name).join("; ")):"None announced"}</td><td>${(()=>{const c=primaryContact(l)||(l.contacts||[])[0];return c?`${esc(c.name)}<div class="note">${esc(c.title||"")}</div>${c.email?`<a href="mailto:${esc(c.email)}" onclick="event.stopPropagation()">${esc(c.email)}</a>`:(c.phone?`<a href="tel:${esc(c.phone.replace(/[^0-9+x]/g,""))}" onclick="event.stopPropagation()">${esc(c.phone)}</a>`:"")}`:`<span class="note">—</span>`;})()}</td><td>${fundPill(l.funding)}</td><td>${(()=>{const t=triggersFor(l)[0];return t?`<span class="date ${daysTo(t.date)<=14?"soon":""}">${fmtDate(t.date)}</span><div class="note">${esc(t.label)}</div>`:`<span class="note">—</span>`;})()}</td><td class="evc">${e.quote?`<q>${esc(e.quote)}</q>`:esc(e.note||"")}<div>${esc(e.source||"")}${e.date?`, ${esc(e.date)}`:""}${e.url?` <a href="${esc(e.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Source</a>`:""}</div></td></tr>`;}).join("");
+  return `<div class="tbl-wrap"><table class="rtbl"><thead><tr><th>Institution</th><th>System</th><th>Housing</th><th>Stage</th><th>Classification</th><th>Advisors named</th><th>Stakeholder</th><th>Funding</th><th>Next decision point</th><th>Evidence</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+const CA=[[42,-124.21],[42,-120],[39,-120],[35,-114.63],[34.87,-114.63],[34.3,-114.14],[33.7,-114.53],[33.03,-114.47],[32.72,-114.72],[32.53,-117.12],[33.2,-117.39],[33.73,-118.29],[34.03,-118.77],[34.41,-119.69],[34.45,-120.47],[35.16,-120.65],[35.66,-121.28],[36.3,-121.9],[36.6,-121.9],[36.95,-122.03],[37.5,-122.5],[37.8,-122.51],[38.03,-122.98],[38.95,-123.73],[40,-124.1],[40.44,-124.41],[41,-124.11],[41.75,-124.2],[42,-124.21]];
+const PX=(lat,lon)=>[ (lon+124.6)*41.5+10, (42.2-lat)*52+10 ];
+function milesBetween(a,b){const R=3959,t=x=>x*Math.PI/180;const dLa=t(b.lat-a.lat),dLo=t(b.lon-a.lon);const q=Math.sin(dLa/2)**2+Math.cos(t(a.lat))*Math.cos(t(b.lat))*Math.sin(dLo/2)**2;return 2*R*Math.asin(Math.sqrt(q));}
+const STATEC={CA:[37.2,-119.5],OR:[43.9,-120.6],WA:[47.4,-120.5],NV:[39.3,-116.6],AZ:[34.3,-111.7],UT:[39.3,-111.7],IL:[40.0,-89.2],IA:[42.0,-93.5],WI:[44.6,-89.9],MN:[46.3,-94.3],IN:[39.9,-86.3],MO:[38.4,-92.5]};
+function mapView(L){
+  const pts=L.filter(l=>l.loc&&l.loc.lat);
+  const caOnly=pts.length>0&&pts.every(l=>(l.state||"CA")==="CA");
+  let proj, W=465, H=530, base="", lbl="";
+  if(caOnly){
+    proj=PX;
+    base=`<polygon points="${CA.map(([a,b])=>PX(a,b).map(v=>v.toFixed(1)).join(",")).join(" ")}" fill="var(--sunk)" stroke="var(--line)" stroke-width="1.5"/>`;
+    lbl=[["San Francisco",37.77,-122.42],["Sacramento",38.58,-121.49],["Fresno",36.74,-119.79],["Los Angeles",34.05,-118.24],["San Diego",32.72,-117.16]].map(([n,a,b])=>{const [x,y]=PX(a,b);return `<text x="${(x+9).toFixed(0)}" y="${(y+4).toFixed(0)}" font-size="11" fill="var(--muted)">${n}</text>`;}).join("");
+  } else {
+    const states=[...new Set((pts.length?pts:leads).map(l=>l.state||"CA"))];
+    const ref=[...pts.map(l=>[l.loc.lat,l.loc.lon]),...states.map(s=>STATEC[s]).filter(Boolean)];
+    let la0=Math.min(...ref.map(r=>r[0]))-1.5, la1=Math.max(...ref.map(r=>r[0]))+1.5, lo0=Math.min(...ref.map(r=>r[1]))-2, lo1=Math.max(...ref.map(r=>r[1]))+2;
+    const k=Math.cos((la0+la1)/2*Math.PI/180); W=900; const sx=(W-40)/((lo1-lo0)*k); H=Math.max(320,Math.min(620,(la1-la0)*sx+40));
+    const sy=(H-40)/(la1-la0), s=Math.min(sx,sy);
+    proj=(lat,lon)=>[20+(lon-lo0)*k*s, 20+(la1-lat)*s];
+    let g="";
+    for(let lo=Math.ceil(lo0/5)*5;lo<=lo1;lo+=5){const [x]=proj(la0,lo);g+=`<line x1="${x.toFixed(1)}" y1="0" x2="${x.toFixed(1)}" y2="${H}" stroke="var(--line)" stroke-dasharray="2 6"/>`;}
+    for(let la=Math.ceil(la0/5)*5;la<=la1;la+=5){const [,y]=proj(la,lo0);g+=`<line x1="0" y1="${y.toFixed(1)}" x2="${W}" y2="${y.toFixed(1)}" stroke="var(--line)" stroke-dasharray="2 6"/>`;}
+    base=g; lbl=states.filter(s=>STATEC[s]).map(s=>{const [x,y]=proj(...STATEC[s]);return `<text x="${x.toFixed(0)}" y="${y.toFixed(0)}" text-anchor="middle" font-size="13" fill="var(--muted)" opacity=".75" style="letter-spacing:.08em">${STATENAME[s]}</text>`;}).join("");
+  }
+  const dots=pts.map(l=>{const [x,y]=proj(l.loc.lat,l.loc.lon);const t=tierOf(l);return `<circle class="mapdot dot-${t} ${F.sel===l.id?"sel":""}" data-id="${esc(l.id)}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${t==="hot"?7:5.5}"><title>${esc(l.inst)}: ${TIERLABEL[t]}</title></circle>`;}).join("");
+  return `<div class="mapwrap"><div class="mapbox"><svg viewBox="0 0 ${W} ${H.toFixed(0)}" role="img" aria-label="Map of opportunities">${base}${lbl}${dots}</svg><div class="legend"><span><i style="background:#B8923A"></i>Priority: pre-RFP</span><span><i style="background:#1F5FAD"></i>Advisor engaged</span><span><i style="background:#8C99AB"></i>Monitor</span><span><i style="background:#6B57B8"></i>Volz engagement</span></div><p class="note" style="margin:6px 0 0">${pts.length} of ${L.length} filtered opportunities mapped. Pick a state to zoom in. Positions are approximate campus locations.</p></div><div class="mapside" id="mapSide">${mapSide(L)}</div></div>`;
+}
+function mapSide(L){
+  const l=L.find(x=>x.id===F.sel);
+  if(!l) return `<h3 style="margin:0 0 6px;font:600 17px/1.3 var(--display)">Plan a trip</h3><p class="note" style="margin:0">Select any marker to see that opportunity and everything else within 60 miles, ranked by priority.</p>`;
+  const near=L.filter(x=>x.id!==l.id&&x.loc&&x.loc.lat).map(x=>({x,d:milesBetween(l.loc,x.loc)})).filter(o=>o.d<=60).sort((a,b)=>({hot:0,warm:1,watch:2,client:3}[tierOf(a.x)]-{hot:0,warm:1,watch:2,client:3}[tierOf(b.x)])||a.d-b.d);
+  const t=tierOf(l);
+  return `<span class="badge ${t}">${TIERLABEL[t]}</span><h3 style="margin:8px 0 2px;font:600 18px/1.3 var(--display)">${esc(l.inst)}</h3><p class="note" style="margin:0 0 8px">${esc((l.loc||{}).city||"")}. ${esc(STAGES[l.stage-1].name)}</p><p style="margin:0 0 10px;font-size:14px">${esc(l.headline)}</p><button class="btn small" id="openCard">Open full profile</button><h4 style="margin:18px 0 4px;font:600 13px var(--body);color:var(--muted)">Within 60 miles (${near.length})</h4>${near.length?near.map(o=>`<div class="near" data-id="${esc(o.x.id)}"><span class="badge ${tierOf(o.x)}" style="font-size:11px">${TIERLABEL[tierOf(o.x)]}</span> <b>${esc(o.x.inst)}</b> <span class="note">${Math.round(o.d)} mi</span></div>`).join(""):`<p class="note">No other filtered opportunities nearby.</p>`}`;
+}
+function bindMap(L){
+  const el=$("leadList");
+  el.querySelectorAll(".mapdot").forEach(c=>c.onclick=()=>{F.sel=c.dataset.id;renderLeads();});
+  el.querySelectorAll(".near").forEach(n=>n.onclick=()=>{F.sel=n.dataset.id;renderLeads();});
+  const ob=$("openCard"); if(ob) ob.onclick=()=>{const id=F.sel;F.view="cards";setSeg();renderLeads();setTimeout(()=>document.querySelector(`.lead[data-id="${id}"]`)?.scrollIntoView({block:"start"}),50);};
+}
+function renderCalendar(){
+  const win=+$("calWin").value, past=$("calPast").checked;
+  const lo = past ? new Date(Date.now()-60*864e5).toISOString().slice(0,10) : TODAY;
+  const items=[];
+  calendar.forEach(e=>items.push({...e}));
+  leads.forEach(l=>(l.triggers||[]).forEach(t=>items.push({...t,leadIds:[l.id]})));
+  const L=items.filter(e=>e.date>=lo && daysTo(e.date)<=win).sort((a,b)=>a.date.localeCompare(b.date));
+  $("calMeta").textContent = `${L.length} ${L.length===1?"event":"events"}`;
+  const byId=Object.fromEntries(leads.map(l=>[l.id,l]));
+  $("calList").innerHTML = L.length ? L.map(e=>{const d=daysTo(e.date);const ls=(e.leadIds||[]).map(i=>byId[i]).filter(Boolean);
+    return `<div class="calrow"><div class="when">${fmtDate(e.date)}<span>${d<0?`${-d} days ago`:d===0?"Today":`In ${d} days`}${e.confirmed===false?", expected":""}</span></div><div><h4>${esc(e.label)}</h4><div class="note">${esc(e.body||"")}${e.url?` <a href="${esc(e.url)}" target="_blank" rel="noopener">Agenda or source</a>`:""}</div>${e.why?`<p style="margin:6px 0 0;font-size:14px">${esc(e.why)}</p>`:""}${ls.length?`<div class="tags">${ls.map(l=>`<button data-id="${esc(l.id)}">${esc(l.inst)}</button>`).join("")}</div>`:""}</div></div>`;}).join("") : `<div class="empty">No decision points in this window. Widen the window or run a scan to look for new agendas.</div>`;
+  $("calList").querySelectorAll(".tags button").forEach(b=>b.onclick=()=>{showTab("opps");F.view="cards";setSeg();renderLeads();setTimeout(()=>document.querySelector(`.lead[data-id="${b.dataset.id}"]`)?.scrollIntoView({block:"start"}),60);});
+}
+$("calWin").onchange=renderCalendar; $("calPast").onchange=renderCalendar;
+$("icsBtn").onclick=async()=>{
+  const items=[...calendar,...leads.flatMap(l=>(l.triggers||[]).map(t=>({...t,leadIds:[l.id]})))].filter(e=>e.date>=TODAY);
+  const esc2=s=>String(s||"").replace(/[\\,;]/g,m=>"\\"+m).replace(/\n/g," ");
+  const ics=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//EduNest Radar//EN",...items.flatMap((e,i)=>{const d=e.date.replace(/-/g,"");const nd=new Date(e.date+"T12:00:00");nd.setDate(nd.getDate()+1);const d2=nd.toISOString().slice(0,10).replace(/-/g,"");return ["BEGIN:VEVENT",`UID:edunest-${d}-${i}@volz`,`DTSTAMP:${TODAY.replace(/-/g,"")}T000000Z`,`DTSTART;VALUE=DATE:${d}`,`DTEND;VALUE=DATE:${d2}`,`SUMMARY:${esc2(e.label)}`,`DESCRIPTION:${esc2((e.body||"")+" "+(e.url||""))}`,"END:VEVENT"];}),"END:VCALENDAR"].join("\r\n");
+  if(!downloads){ flash("Downloads aren’t available in this view."); return; }
+  try{ await downloads.save({filename:"edunest-decision-points.ics",data:ics}); }catch(e){}
+};
+function setSeg(){ document.querySelectorAll(".seg button").forEach(b=>b.setAttribute("aria-pressed", b.dataset.v===F.view)); }
+document.querySelectorAll(".seg button").forEach(b=>b.onclick=()=>{F.view=b.dataset.v;setSeg();saveView();renderLeads();});
+function renderLeads(){
+  renderTrack();
+  const L = filtered();
+  const el = $("leadList");
+  if(!leads.length){
+    el.innerHTML = `<div class="empty">No opportunities loaded.</div>`;
+    return;
+  }
+  const nNew=leads.filter(l=>l._new).length;
+  $("countNote").textContent = `Showing ${L.length} of ${leads.length} opportunities${nNew?`. ${nNew} new since your last visit`:""}`;
+  if(!L.length){ el.innerHTML = `<div class="empty">Nothing matches these filters. Clear a filter or pick another stage.</div>`; return; }
+  if(F.view==="map"){ el.innerHTML = mapView(L); bindMap(L); return; }
+  if(F.view==="kanban"){ el.innerHTML = `<div class="kanban">${STAGES.map(s=>{const col=L.filter(l=>l.stage===s.n);return `<div class="kcol" data-n="${s.n}"><h4><span>${s.name}</span><span class="note">${col.length}</span></h4>${col.map(l=>{const c=primaryContact(l);return `<div class="kcard ${tierOf(l)}" draggable="true" data-id="${esc(l.id)}"><b>${esc(l.inst)}</b><span class="note">${TIERLABEL[tierOf(l)]}</span>${(c||(l.contacts||[])[0])?`<div class="note">${esc((c||l.contacts[0]).name)}</div>`:""}</div>`;}).join("")}</div>`;}).join("")}</div><p class="note">Drag a card to another column to change its stage.</p>`;
+    el.querySelectorAll(".kcard").forEach(k=>{k.ondragstart=ev=>ev.dataTransfer.setData("text/plain",k.dataset.id); k.ondblclick=()=>{const id=k.dataset.id;F.view="cards";setSeg();renderLeads();setTimeout(()=>document.querySelector(`.lead[data-id="${id}"]`)?.scrollIntoView({block:"start"}),50);};});
+    el.querySelectorAll(".kcol").forEach(c=>{c.ondragover=ev=>{ev.preventDefault();c.classList.add("over");};c.ondragleave=()=>c.classList.remove("over");c.ondrop=ev=>{ev.preventDefault();c.classList.remove("over");const id=ev.dataTransfer.getData("text/plain");const n=+c.dataset.n;const l=leads.find(x=>x.id===id);if(l&&l.stage!==n){writeLead(id,{stage:n,updated:today()});}};});
+    return; }
+  if(F.view==="table"){ el.innerHTML = tableView(L); el.querySelectorAll("tr[data-id]").forEach(r=>r.onclick=()=>{F.view="cards";setSeg();renderLeads();setTimeout(()=>document.querySelector(`.lead[data-id="${r.dataset.id}"]`)?.scrollIntoView({block:"start"}),50);}); return; }
+  el.innerHTML = L.map(leadCard).join("");
+  el.querySelectorAll(".lead").forEach(card=>{
+    const id = card.dataset.id;
+    const nt = card.querySelector(".nt");
+    nt.onchange = e => writeLead(id,{notes:e.target.value});
+  });
+}
+const EDITS_KEY="edunest-edits-v1";
+function loadEdits(){ try{ return JSON.parse(localStorage.getItem(EDITS_KEY)||"{}"); }catch(e){ return {}; } }
+async function writeLead(id, patch){
+  const all=loadEdits(); all[id]={...(all[id]||{}),...patch};
+  try{ localStorage.setItem(EDITS_KEY,JSON.stringify(all)); }catch(e){ flash("This browser blocked saving. Changes will last until you close the tab."); }
+  leads=leads.map(l=>l.id===id?{...l,...patch}:l); renderLeads();
+}
+function flash(msg){ const n=$("loadNote"); n.textContent=msg; n.classList.remove("hidden"); setTimeout(()=>n.classList.add("hidden"),6000); }
+
+/* ---------- Export ---------- */
+$("exportBtn").onclick = async ()=>{
+  const rows=[["Institution","System","County","Housing","Stage","Classification","Headline","Evidence quote","Source","Date","URL","Advisors","Key contacts","Key contact email","Funding status","Funding source","Next decision point","Next decision date","Recommended action","Volz relationship","Notes"]];
+  filtered().forEach(l=>{
+    const e=(l.evidence||[])[0]||{};
+    rows.push([l.inst,l.system,l.county||"",(l.housing||[]).join("; "),STAGES[l.stage-1].name,TIERLABEL[tierOf(l)],l.headline,e.quote||e.note||"",e.source||"",e.date||"",e.url||"",(l.advisors||[]).map(a=>a.name).join("; ")||"None announced",(l.contacts||[]).map(c=>c.name+" ("+(c.title||"")+")").join("; "),(primaryContact(l)||{}).email||"",(l.funding||{}).status||"Unknown",(l.funding||{}).source||"",(triggersFor(l)[0]||{}).label||"",(triggersFor(l)[0]||{}).date||"",l.nextStep||"",l.relationship==="client"?(l.relationshipNote||"Existing Volz Company relationship"):"",l.notes||""]);
+  });
+  const csv = rows.map(r=>r.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(",")).join("\n");
+  if(downloads){
+    try{ await downloads.save({filename:`edunest-radar-${today()}.csv`, data:csv}); }catch(e){ if(e&&e.code!=="cancelled"&&e.code!=="declined") flash("The export didn’t go through. Try again."); }
+  } else flash("Downloads aren’t available in this view.");
+};
+
+/* ---------- Coverage ---------- */
+$("covSys").onchange=()=>{covLimit=100;renderCoverage();};
+$("covQ").oninput=()=>{covLimit=100;renderCoverage();};
+$("covUnscanned").onchange=()=>{covLimit=100;renderCoverage();};
+$("covMore").onclick=()=>{covLimit+=200;renderCoverage();};
+function signalCount(i){ return leads.filter(l=>(l.keys||[]).includes(ikey(i))).length; }
+function renderCoverage(){
+  const bySys = ["UC","CSU","CCC","K12"].map(s=>{
+    const all=INST.filter(i=>i.s===s), done=all.filter(i=>coverage[ikey(i)]).length;
+    return `<div class="cov"><span class="note">${SYSNAME[s]}${s==="K12"?"s":s==="CCC"?"s":""}</span><br><b>${done.toLocaleString()}</b> <span class="note">of ${all.length.toLocaleString()} scanned</span><div class="bar"><i style="width:${(done/all.length*100).toFixed(1)}%"></i></div></div>`;
+  }).join("");
+  $("covBar").innerHTML=bySys;
+  const sw=(s,k)=>{const v=sweeps[`${s}|${k}`];return v?`${fmtDate(v.date)}`:`<span class="note">Queued</span>`;};
+  $("stBody").innerHTML=Object.keys(STATENAME).filter(s=>s!=="CA").map(s=>`<tr><td>${STATENAME[s]}</td><td>${sw(s,"PU")}</td><td>${sw(s,"CC")}</td><td>${sw(s,"K12")}</td><td>${leads.filter(l=>(l.state||"CA")===s).length}</td></tr>`).join("");
+  const sys=$("covSys").value, q=$("covQ").value.toLowerCase(), un=$("covUnscanned").checked;
+  const rows = INST.filter(i=>(sys==="all"||i.s===sys) && (!q || (i.n+" "+i.c).toLowerCase().includes(q)) && (!un || !coverage[ikey(i)]));
+  $("covBody").innerHTML = rows.slice(0,covLimit).map(i=>{
+    const d=coverage[ikey(i)], n=signalCount(i);
+    return `<tr><td><span class="dot ${d?"on":""}"></span>${esc(i.n)}</td><td>${i.s==="K12"?"K–12":i.s}</td><td>${esc(i.c?i.c+", "+(i.t||""):"")}</td><td>${d?esc(d):"Not yet"}</td><td>${n||""}</td></tr>`;
+  }).join("") || `<tr><td colspan="5">No institutions match.</td></tr>`;
+  $("covCount").textContent = `Showing ${Math.min(covLimit,rows.length).toLocaleString()} of ${rows.length.toLocaleString()}`;
+  $("covMore").classList.toggle("hidden", rows.length<=covLimit);
+}
+
+/* ---------- In-browser scanner ---------- */
+const CLIENTS=[{"match": ["Foothill College", "De Anza College", "Foothill-De Anza"], "note": "Workforce housing real estate advisory: RFP preparation and evaluation, negotiation of terms."}, {"match": ["Mountain View Whisman"], "note": "Workforce housing real estate advisory."}, {"match": ["Riverside Community College District", "Riverside City College", "Norco College", "Moreno Valley College", "RCCD"], "note": "Student housing advisory with Scion Advisory Services (2022): planning, programming and grant application project management."}, {"match": ["Pflugerville"], "note": "Teacher housing market and demand study."}, {"match": ["Los Angeles Community College District", "LACCD"], "note": "Affordable student housing market and demand analysis, P3 financial modeling and P3 procurement."}, {"match": ["San Bernardino Community College District", "San Bernardino Valley College", "Crafton Hills College", "SBCCD"], "note": "Housing market and demand, highest and best use, P3 financial modeling and transaction advisory for mixed-use student housing."}, {"match": ["Napa Valley College"], "note": "P3 housing engagement."}, {"match": ["Santa Monica College"], "note": "P3 housing engagement: developer selection for Bundy Campus student housing."}, {"match": ["Santa Rosa Junior College"], "note": "P3 housing engagement."}, {"match": ["Oxnard Union High"], "note": "Proposal submitted for workforce housing advisory and feasibility study (with RNT Architects and ECG)."}, {"match": ["Ventura College"], "note": "Project management and campus transition advisory for affordable student housing."}, {"match": ["Ojai Unified"], "note": "Workforce housing feasibility study."}, {"match": ["Modesto Junior College"], "note": "Student housing market and demand analysis."}, {"match": ["San Juan College"], "note": "Housing market and demand analysis."}, {"match": ["Rio Hondo College"], "note": "Real estate advisory for district housing developments."}, {"match": ["Los Angeles Unified"], "note": "Workforce housing advisory: RFP preparation and negotiation of development deals."}, {"match": ["Morton College"], "note": "Ongoing real estate advisory for the campus."}, {"match": ["Ohlone College"], "note": "Preliminary master plan, site design and financial feasibility for student housing."}, {"match": ["Cal Poly San Luis Obispo"], "note": "P3 advisor and university engagement director for on-campus student housing (with AMCAL)."}, {"match": ["San Mateo County Community College District", "Skyline College", "Cañada College", "College of San Mateo"], "note": "Student and workforce housing feasibility study presented to the Board of Trustees."}, {"match": ["Rio Elementary", "Rio School District"], "note": "Facility planning and on-call architectural/real estate advisory."}, {"match": ["Pleasant Valley"], "state": "CA", "note": "On-call facility planning, site assessments and real estate advisory."}, {"match": ["Ventura Unified"], "note": "On-call facility planning: land use and master planning."}, {"match": ["La Sierra University"], "note": "Faculty and staff housing market and demand analysis."}];
+const SECONDARY=/news|trade press|recap|conference|case study|newsletter|magazine|voter guide|opinion|blog|press release/i;
+const isPrimary=e=>!SECONDARY.test(`${e.type||""} ${e.source||""}`);
+function tagClient(l){ for(const c of CLIENTS){ if(c.state&&(l.state||"CA")!==c.state) continue; if(c.match.some(m=>(l.inst||"").toLowerCase().includes(m.toLowerCase()))){ l.relationship="client"; l.relationshipNote=c.note; return; } } }
+const ROLES=["President","VP Student Services","VP Administrative Services"];
+function roleOf(t){ t=(t||"").toLowerCase(); if(!t) return null;
+  if(/executive assistant|assistant to |assistant vice|associate vice|\bdirector\b|controller|coordinator|specialist|board|trustee|office of the president/.test(t)) return null;
+  if(/student (services|affairs|success|support)|educational services|student life/.test(t)&&/vice|assistant superintendent|associate superintendent|chief student/.test(t)) return "VP Student Services";
+  if(/(vice president|vice chancellor|assistant superintendent|associate superintendent|chief).{0,60}(admin|business|financ|fiscal|operations|biz)|\bcfo\b|chief financial|chief business/.test(t)) return "VP Administrative Services";
+  if(/\b(vice|assistant|associate|deputy|chief of staff)\b/.test(t)) return null;
+  if(/\bpresident\b|\bchancellor\b|\bsuperintendent\b/.test(t)) return "President"; return null; }
+function filterContacts(cs){ const best={}; for(const c0 of cs||[]){ const r=ROLES.includes(c0.stakeholder)?c0.stakeholder:roleOf(c0.title); if(!r) continue; const c={...c0,stakeholder:r,role:r}; const cur=best[r]; if(!cur||(!(cur.email||cur.phone)&&(c.email||c.phone))) best[r]=c; } return ROLES.filter(r=>best[r]).map(r=>best[r]); }
+const RULES=`Stakeholders must be exactly these three roles (one person each): "President" (president; campus chancellor; multi-college district chancellor; K-12 superintendent), "VP Student Services" (VP or vice chancellor of student services/affairs/success; K-12 assistant superintendent of student or educational services), "VP Administrative Services" (VP or vice chancellor of administrative, business or finance services, CFO, chief business officer; K-12 assistant superintendent of business). No trustees, directors or assistants. If you cannot find the others, you MUST still return the President with the president's public email from the official president's or superintendent's office page. Every person needs an email or phone: own published contact ("published"); an email matching a format confirmed by two or more published addresses on the same domain ("format"); their office's published line ("office"); the institution's main number ("main"). Never invent anything.`;
+const SCHEMA=`{"signals":[{"project":"","housing":["Student"|"Faculty & staff"|"Workforce"|"Other campus real estate"],"stage":1-6,"headline":"","summary":"","evidence":[{"quote":"verbatim 8-30 words","source":"","type":"Board minutes|Board agenda|Staff report|Facilities master plan|Capital plan|CEQA filing|Official page","date":"","url":""}],"advisors":[{"name":"","role":""}],"funding":{"status":"Unfunded|Planned|Partial|Committed|Unknown","source":"","amount":""},"upcoming":[{"date":"YYYY-MM-DD","label":"","url":""}],"next_step":""}],"stakeholders":[{"stakeholder":"President|VP Student Services|VP Administrative Services","name":"","title":"","email":"","email_basis":"published|format|office|main","phone":"","contact_note":"","url":""}],"funding_boost":{"type":"Bond|State grant|Federal grant|Appropriation","amount_usd":0,"annual_budget_usd":0,"label":"","date":"","quote":"","url":""}}`;
+const scanPrompt=(name,where)=>`You research public education real estate for Volz Company, a California real estate advisory firm advising public educational institutions on student housing, faculty and staff housing, K-12 employee workforce housing and campus real estate.
+
+Institution: ${name} (${where})
+Today: ${TODAY}
+
+Read this institution's OWN governing board minutes, agenda packets and staff reports from the last 24 months (BoardDocs, Simbli, eScribe, Granicus, district and college websites), its facilities master plan or capital plan and any CEQA filings. Search several ways, e.g. "${name} board minutes housing", "${name} board agenda workforce housing", "${name} student housing", "${name} facilities master plan housing", "${name} surplus property". ONLY primary sources may be cited; never cite news.
+
+Report any housing for students, faculty, staff or employees being discussed, studied, planned, funded or procured, or land being leased or sold for it. Also report any large recent funding boost (bond measure passed, state or federal grant) with the annual operating budget so it can be compared. And identify the stakeholders.
+
+${RULES}
+
+Every signal must cite a primary document URL and a verbatim quote. If nothing qualifies, return an empty signals list but still return stakeholders.
+
+Reply with ONLY one JSON object in a \`\`\`json block:
+${SCHEMA}
+Stages: 1 board discussion; 2 feasibility study; 3 in a master or capital plan; 4 advisor hired; 5 developer RFP/RFQ or negotiation; 6 financing approved, under construction or open.`;
+const peoplePrompt=(name,where)=>`Identify the stakeholders of ${name} (${where}) and how to reach each one, using the official website and staff directory.
+
+${RULES}
+
+Reply with ONLY one JSON object in a \`\`\`json block: {"stakeholders":[{"stakeholder":"President|VP Student Services|VP Administrative Services","name":"","title":"","email":"","email_basis":"published|format|office|main","phone":"","contact_note":"","url":""}]}`;
+const LOCAL_KEY="edunest-local-v1";
+function loadLocal(){ try{ return JSON.parse(localStorage.getItem(LOCAL_KEY)||'{"leads":{},"coverage":{}}'); }catch(e){ return {leads:{},coverage:{}}; } }
+function saveLocal(l){ try{ localStorage.setItem(LOCAL_KEY,JSON.stringify(l)); }catch(e){ scLog("This browser ran out of storage space; download the data file now.","bad"); } }
+let SC={run:false,stop:false};
+function scLog(t,c){ const d=document.createElement("div"); d.textContent=t; if(c) d.className=c; $("scLog").prepend(d); }
+const slugJ=s=>String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,60);
+async function callClaude(prompt,maxUses){
+  const key=$("scKey").value.trim();
+  const r=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"content-type":"application/json","x-api-key":key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
+    body:JSON.stringify({model:"claude-sonnet-5-5",max_tokens:5000,tools:[{type:"web_search_20250305",name:"web_search",max_uses:maxUses||6}],messages:[{role:"user",content:prompt}]})});
+  if(!r.ok){ const t=await r.text(); const e=new Error(`${r.status}: ${t.slice(0,200)}`); e.status=r.status; throw e; }
+  const j=await r.json(); const text=(j.content||[]).filter(b=>b.type==="text").map(b=>b.text).join("");
+  const m=[...text.matchAll(/```json\s*(\{[\s\S]*?\})\s*```/g)]; if(!m.length) return {};
+  try{ return JSON.parse(m[m.length-1][1]); }catch(e){ return {}; }
+}
+function toContacts(list,inst){ return filterContacts((list||[]).filter(s=>s&&s.name).map(s=>{ const c={stakeholder:s.stakeholder,name:s.name,title:s.title||`${s.stakeholder}, ${inst}`,url:s.url||"",source:"Scan"}; if(s.email&&["published","format","office"].includes(s.email_basis)) c.email=s.email; if(s.phone) c.phone=s.phone; if(s.email_basis==="format") c.verify="Address matches the institution’s published email format"; if(["office","main"].includes(s.email_basis)) c.contactNote=s.contact_note||(s.email_basis==="main"?"Main line":"Office line"); return c; }).filter(c=>c.email||c.phone)); }
+function mergeResult(inst,res,local){
+  const key=ikey(inst); let added=0; const people=toContacts(res.stakeholders,inst.n);
+  const atInst=()=>leads.filter(l=>(l.keys||[]).includes(key));
+  for(const s of res.signals||[]){
+    const ev=(s.evidence||[]).filter(e=>/^https?:/.test(e.url||"")&&e.quote&&isPrimary(e)).map(e=>({...e,primary:true}));
+    if(!ev.length) continue;
+    const id=slugJ(inst.n)+"-"+slugJ(s.project||"housing").slice(0,24);
+    let l=leads.find(x=>x.id===id)||(atInst().length===1&&(res.signals||[]).length===1?atInst()[0]:null);
+    const trig=(s.upcoming||[]).filter(u=>/^\d{4}-\d\d-\d\d$/.test(u.date||"")&&u.date>=TODAY).map(u=>({date:u.date,label:u.label||"Board decision",url:u.url||"",confirmed:true}));
+    const f={stage:Math.min(6,Math.max(1,parseInt(s.stage)||1)),headline:s.headline||"",summary:s.summary||"",nextStep:s.next_step||"",funding:s.funding||{status:"Unknown"},updated:TODAY,latestEvidence:TODAY};
+    if(l){ const urls=new Set((l.evidence||[]).map(e=>e.url)); l.evidence=[...(l.evidence||[]),...ev.filter(e=>!urls.has(e.url))]; l.triggers=[...(l.triggers||[]).filter(t=>t.date>=TODAY),...trig]; if(l.relationship==="client") delete f.stage; Object.assign(l,Object.fromEntries(Object.entries(f).filter(([k,v])=>v))); }
+    else { l={id,inst:inst.n,keys:[key],system:inst.s,state:"CA",county:inst.c||"",housing:s.housing&&s.housing.length?s.housing:[inst.s==="K12"?"Workforce":"Student"],evidence:ev,advisors:(s.advisors||[]).filter(a=>a.name),contacts:[],triggers:trig,notes:"",firstSeen:TODAY,origin:"Website scan",...f}; leads.push(l); added++; }
+  }
+  const fb=res.funding_boost; const boost=fb&&fb.amount_usd&&/^https?:/.test(fb.url||"")?{type:fb.type,label:fb.label,date:fb.date,quote:fb.quote,url:fb.url,amount:+fb.amount_usd,budget:+fb.annual_budget_usd||0,pct:fb.annual_budget_usd?Math.round(1000*fb.amount_usd/fb.annual_budget_usd)/10:0}:null;
+  for(const l of atInst()){ l.contacts=filterContacts([...(l.contacts||[]),...people]); if(boost&&(!l.growth||(boost.pct||0)>=(l.growth.pct||0))) l.growth=boost; l.evidence=(l.evidence||[]).map(e=>({...e,primary:e.primary??isPrimary(e)})); l.needsPrimary=!l.evidence.some(e=>e.primary); tagClient(l); local.leads[l.id]=l; }
+  coverage[key]=TODAY; local.coverage[key]=TODAY;
+  return added;
+}
+function scanTargets(){
+  const mode=$("scMode").value, sys=$("scSys").value, n=+$("scN").value;
+  if(mode==="people") return leads.filter(l=>filterContacts(l.contacts).length<3).sort((a,b)=>(a.contacts||[]).length-(b.contacts||[]).length).slice(0,n).map(l=>({lead:l}));
+  if(mode==="verify") return leads.filter(l=>l.needsPrimary).slice(0,n).map(l=>({lead:l,inst:INSTBYKEY[(l.keys||[])[0]]||{n:l.inst,s:l.system,c:l.county}}));
+  const ord={CCC:0,K12:1,UC:2,CSU:3};
+  let pool=INST.filter(i=>sys==="all"||i.s===sys);
+  pool = mode==="new" ? pool.filter(i=>!coverage[ikey(i)]) : pool.slice().sort((a,b)=>(coverage[ikey(a)]||"").localeCompare(coverage[ikey(b)]||""));
+  if(mode==="new") pool.sort((a,b)=>ord[a.s]-ord[b.s]);
+  return pool.slice(0,n).map(i=>({inst:i}));
+}
+function renderScanner(){
+  const left=INST.filter(i=>!coverage[ikey(i)]).length;
+  $("scMeta").textContent=`${(INST.length-left).toLocaleString()} of ${INST.length.toLocaleString()} California institutions scanned. ${leads.filter(l=>filterContacts(l.contacts).length<3).length} opportunities missing a stakeholder.`;
+  const t=scanTargets();
+  $("scPreview").innerHTML = t.length ? `<b>Next ${t.length}:</b> ${t.slice(0,8).map(x=>esc((x.inst||{}).n||x.lead.inst)).join(", ")}${t.length>8?`, and ${t.length-8} more`:""}` : "Nothing left to scan in this group.";
+  try{ if(!$("scKey").value) $("scKey").value=localStorage.getItem("edunest-api-key")||""; }catch(e){}
+}
+["scMode","scSys","scN"].forEach(id=>$(id).onchange=renderScanner);
+$("scStop").onclick=()=>{SC.stop=true;$("scStop").disabled=true;scLog("Stopping after the current institution…");};
+$("scGo").onclick=async()=>{
+  const key=$("scKey").value.trim(); if(!/^sk-ant-/.test(key)){ scLog("Enter an Anthropic API key (starts with sk-ant-).","bad"); return; }
+  try{ localStorage.setItem("edunest-api-key",key); }catch(e){}
+  const targets=scanTargets(); if(!targets.length) return;
+  SC={run:true,stop:false}; $("scGo").disabled=true; $("scStop").disabled=false;
+  const local=loadLocal(); let done=0, found=0, people=0;
+  for(const t of targets){
+    if(SC.stop) break;
+    const name=(t.inst||{}).n||t.lead.inst, where=t.inst?`${SYSNAME[t.inst.s]}${t.inst.c?`, ${t.inst.c} County`:""}, California`:`${SYSNAME[t.lead.system]||t.lead.system}, ${STATENAME[t.lead.state||"CA"]}`;
+    scLog(`Scanning ${name}…`);
+    try{
+      if($("scMode").value==="people"){
+        const res=await callClaude(peoplePrompt(name,where),4); const cs=toContacts(res.stakeholders,name);
+        const before=filterContacts(t.lead.contacts).length; t.lead.contacts=filterContacts([...(t.lead.contacts||[]),...cs]); people+=t.lead.contacts.length-before; local.leads[t.lead.id]=t.lead;
+        scLog(`${name}: ${t.lead.contacts.map(c=>c.stakeholder).join(", ")||"no stakeholders found"}`,t.lead.contacts.length?"ok":"");
+      } else {
+        const res=await callClaude(scanPrompt(name,where),6); const n=mergeResult(t.inst||{n:name,s:t.lead.system,c:t.lead.county},res,local); found+=n;
+        scLog(`${name}: ${(res.signals||[]).length} board-minute signals${n?`, ${n} new opportunities`:""}${res.funding_boost&&res.funding_boost.amount_usd?`, funding boost ${fmtUSD(res.funding_boost.amount_usd)}`:""}`,(res.signals||[]).length?"ok":"");
+      }
+    }catch(e){ scLog(`${name}: ${e.message}`,"bad"); if(e.status===401||e.status===403){ break; } if(e.status===429||e.status===529){ scLog("Rate limited; waiting 60 seconds…"); await sleep(60000); } }
+    done++; $("scBar").style.width=`${Math.round(100*done/targets.length)}%`;
+    saveLocal(local); renderLeads(); renderScanner();
+  }
+  scLog(`Finished: ${done} scanned, ${found} new opportunities, ${people} stakeholders added. Download the website data file to publish.`,"ok");
+  SC.run=false; $("scGo").disabled=false; $("scStop").disabled=true;
+};
+function fullData(){ return {asOf:TODAY,leads:leads.map(({_new,...l})=>l),calendar,coverage,sweeps}; }
+function dl(name,text,type){ const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([text],{type})); a.download=name; document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500); }
+$("pubJson").onclick=()=>dl("edunest-data.json",JSON.stringify(fullData(),null,1),"application/json");
+$("pubJs").onclick=async()=>{
+  try{
+    const raw=sessionStorage.getItem("edunest-key"); if(!raw){ scLog("Sign out and back in, then try again.","bad"); return; }
+    const key=await crypto.subtle.importKey("raw",b64d(raw),{name:"AES-GCM"},false,["encrypt"]);
+    const iv=crypto.getRandomValues(new Uint8Array(12));
+    const ct=await crypto.subtle.encrypt({name:"AES-GCM",iv},key,new TextEncoder().encode(JSON.stringify(fullData())));
+    const enc={v:1,iter:window.EDUNEST_ENC.iter,salt:window.EDUNEST_ENC.salt,iv:b64e(iv),ct:b64e(ct)};
+    dl("edunest-data.js",`window.EDUNEST_ENC=${JSON.stringify(enc)};\n`,"text/javascript");
+    scLog("Downloaded edunest-data.js. Upload it to the website’s assets folder to publish.","ok");
+  }catch(e){ scLog(`Couldn’t build the file: ${e.message}`,"bad"); }
+};
+/* ---------- Boot ---------- */
+setSeg(); $("missOnly").checked=F.miss; $("hideClients").checked=F.hideClients; $("sortF").value=F.sort; $("fundF").value=F.fund; $("preOnly").checked=F.pre; $("stateF").value=F.state||"all"; $("growthOnly").checked=!!F.growth; $("unverified").checked=!!F.unverified;
+renderLeads();
+downloads={save:async({filename,data})=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([data],{type:filename.endsWith(".ics")?"text/calendar":"text/csv"}));a.download=filename;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);}};
+const b64d=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+const b64e=b=>{const u=new Uint8Array(b);let s="";for(let i=0;i<u.length;i+=32768)s+=String.fromCharCode.apply(null,u.subarray(i,i+32768));return btoa(s);};
+async function deriveKey(user,pass,enc){
+  const base=await crypto.subtle.importKey("raw",new TextEncoder().encode(user.trim().toLowerCase()+":"+pass),"PBKDF2",false,["deriveKey"]);
+  return crypto.subtle.deriveKey({name:"PBKDF2",salt:b64d(enc.salt),iterations:enc.iter,hash:"SHA-256"},base,{name:"AES-GCM",length:256},true,["decrypt"]);
+}
+async function openData(key){
+  const enc=window.EDUNEST_ENC;
+  const plain=await crypto.subtle.decrypt({name:"AES-GCM",iv:b64d(enc.iv)},key,b64d(enc.ct));
+  return JSON.parse(new TextDecoder().decode(plain));
+}
+function startApp(data,fast){
+  const edits=loadEdits();
+  leads=(data.leads||[]).map(l=>({...l,...(edits[l.id]||{})})).filter(l=>l.stage>=1&&l.stage<=6);
+  coverage=data.coverage||{}; calendar=data.calendar||[]; sweeps=data.sweeps||{};
+  const loc=loadLocal(); Object.assign(coverage,loc.coverage||{});
+  for(const [id,l] of Object.entries(loc.leads||{})){ const i=leads.findIndex(x=>x.id===id); if(i>=0){ if((l.updated||"")>=(leads[i].updated||"")) leads[i]={...leads[i],...l}; } else leads.push(l); }
+  leads.forEach(l=>{ tagClient(l); (l.evidence||[]).forEach(e=>{ if(e.primary===undefined) e.primary=isPrimary(e); }); l.needsPrimary=!(l.evidence||[]).some(e=>e.primary); });
+  $("asOf").textContent=data.asOf?`Rescanned automatically every 2 hours when the scanner is connected. Last update: ${fmtDate(data.asOf)}.`:"";
+  let lastVisit=""; try{ lastVisit=localStorage.getItem("edunest-lastvisit")||""; localStorage.setItem("edunest-lastvisit",data.asOf||TODAY); }catch(e){}
+  if(lastVisit) leads.forEach(l=>{ if((l.firstSeen||"")>lastVisit) l._new=true; });
+  renderLeads();
+  return reveal(fast);
+}
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+function countUp(){
+  document.querySelectorAll(".stage .n").forEach((el,i)=>{ const to=+el.textContent||0; let t0=null; el.textContent="0";
+    const step=ts=>{ t0??=ts; const k=Math.min(1,(ts-t0)/900); el.textContent=Math.round(to*(1-Math.pow(1-k,3))); if(k<1) requestAnimationFrame(step); };
+    setTimeout(()=>requestAnimationFrame(step),450+i*80); });
+}
+function riseIn(){
+  const els=[...document.querySelectorAll(".stage, aside.filters, .viewbar, .rtbl tbody tr, .lead, .kcol")].slice(0,40);
+  els.forEach((e,i)=>{ e.style.setProperty("--i",i); e.classList.add("rise"); setTimeout(()=>e.classList.remove("rise"),1500+i*70); });
+}
+async function reveal(fast){
+  const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const login=$("login"), app=$("app");
+  if(reduce){ login.style.display="none"; app.hidden=false; return; }
+  if(!fast){
+    login.classList.add("leaving"); $("loginForm").classList.add("leaving");
+    const warp=$("warp"), log=$("warpLog"); warp.hidden=false;
+    const lines=[`Identity verified: ${($("lu").value||"VolzCompany").trim()}`,"Decrypting AES-256 payload",`Indexed ${leads.length} opportunities across ${Object.keys(coverage).length.toLocaleString()} institutions`,"Calibrating radar to California",["Access granted","ok"]];
+    requestAnimationFrame(()=>{$("warpBar").style.width="100%";});
+    for(const ln of lines){ const d=document.createElement("div"); const [t,c]=Array.isArray(ln)?ln:[ln,""]; d.textContent=t; if(c) d.className=c; log.appendChild(d); await sleep(290); }
+    await sleep(180);
+    warp.classList.add("exit"); $("flash").classList.add("go");
+    await sleep(260);
+    login.style.display="none";
+    setTimeout(()=>{warp.hidden=true;},800);
+  } else { login.style.display="none"; }
+  app.hidden=false; app.classList.add("materialize"); $("scanline").classList.add("go");
+  riseIn(); countUp();
+  setTimeout(()=>{app.classList.remove("materialize");$("scanline").classList.remove("go");$("flash").classList.remove("go");},1400);
+}
+(async()=>{
+  try{ await new Promise((res,rej)=>{const s=document.createElement("script");s.src="assets/edunest-data.js?v="+Date.now();s.onload=res;s.onerror=rej;document.head.appendChild(s);}); }catch(e){}
+  if(!window.EDUNEST_ENC){ $("lerr").textContent="Data file missing. Upload assets/edunest-data.js."; return; }
+  if(!(window.crypto&&crypto.subtle)){ $("lerr").textContent="Open this site over https to sign in."; return; }
+  try{ const raw=sessionStorage.getItem("edunest-key"); if(raw){ const key=await crypto.subtle.importKey("raw",b64d(raw),{name:"AES-GCM"},true,["decrypt"]); startApp(await openData(key),true); return; } }catch(e){ try{sessionStorage.removeItem("edunest-key");}catch(_){} }
+  $("lu").focus();
+  $("loginForm").onsubmit=async ev=>{
+    ev.preventDefault(); $("lerr").textContent=""; $("lbtn").disabled=true; $("lbtn").textContent="Decrypting…";
+    try{
+      const key=await deriveKey($("lu").value,$("lp").value,window.EDUNEST_ENC);
+      const data=await openData(key);
+      try{ sessionStorage.setItem("edunest-key",b64e(await crypto.subtle.exportKey("raw",key))); }catch(e){}
+      startApp(data);
+    }catch(e){ $("lerr").textContent="Username or password is incorrect."; $("lp").value=""; $("lp").focus(); }
+    $("lbtn").disabled=false; $("lbtn").textContent="Authenticate";
+  };
+})();
+</script>
+</body>
+</html>

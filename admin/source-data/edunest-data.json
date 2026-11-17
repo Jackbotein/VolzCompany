@@ -1,0 +1,4798 @@
+{
+ "asOf": "2026-11-15",
+ "leads": [
+  {
+   "advisors": [],
+   "county": "Sacramento",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $48.1M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$48.1M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "american-river",
+   "inst": "American River College",
+   "keys": [
+    "CCC|American River College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Sacramento",
+    "lat": 38.65,
+    "lon": -121.35
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $48.1M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Los Angeles",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $61.5M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$61.5M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "antelope-valley",
+   "inst": "Antelope Valley College",
+   "keys": [
+    "CCC|Antelope Valley College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Lancaster",
+    "lat": 34.68,
+    "lon": -118.19
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $61.5M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "abj@calpoly.edu",
+     "name": "Allison Baird-James",
+     "role": "VP Administrative Services",
+     "source": "WSCUC institution record",
+     "title": "Senior Vice President, Administration and Finance / CFO, Cal Poly",
+     "url": "https://www.wscuc.org/institutions/california-polytechnic-state-university-san-luis-obispo/?print=pdf",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "San Luis Obispo",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "Faculty/Staff Housing, 200 units, about $75M auxiliary; Student Housing Tranche 2 (1,837 beds, $500M) and Tranche 3 (944 beds, $230M); Cal Poly Maritime student housing 550 beds plus a 450-bed Phase 2.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, San Luis Obispo page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$75M faculty/staff; $730M student tranches",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Auxiliary funds (faculty/staff); systemwide revenue bonds (student tranches)",
+    "status": "Planned"
+   },
+   "headline": "200 faculty and staff units plus more student housing tranches are in the capital plan.",
+   "housing": [
+    "Faculty & staff",
+    "Student"
+   ],
+   "id": "cal-poly-slo-faculty",
+   "inst": "Cal Poly San Luis Obispo (faculty, staff and Maritime housing)",
+   "keys": [
+    "CSU|Cal Poly San Luis Obispo"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "San Luis Obispo",
+    "lat": 35.31,
+    "lon": -120.65
+   },
+   "nextStep": "The faculty and staff project is the clearest advisory fit. Ask who is running the delivery study.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "Beyond the financed Phase 2, the plan lists Faculty/Staff Housing (200 units, about $75M, auxiliary), Student Housing Program Tranches 2 and 3 (about 2,800 beds), and new student housing at the Cal Poly Maritime campus in Vallejo.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false,
+   "relationship": "client",
+   "relationshipNote": "P3 advisor and university engagement director for on-campus student housing (with AMCAL)."
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "abj@calpoly.edu",
+     "name": "Allison Baird-James",
+     "role": "VP Administrative Services",
+     "source": "WSCUC institution record",
+     "title": "Senior Vice President, Administration and Finance / CFO, Cal Poly",
+     "url": "https://www.wscuc.org/institutions/california-polytechnic-state-university-san-luis-obispo/?print=pdf",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "San Luis Obispo",
+   "evidence": [
+    {
+     "date": "Sep 23, 2026",
+     "quote": "obtain financing in the amount of $647,305,000",
+     "source": "CSU Board of Trustees, Committee on Finance agenda",
+     "type": "Board agenda",
+     "url": "https://www.calstate.edu/csu-system/board-of-trustees/past-meetings/2026/Documents/sept-22-23-2026-FIN.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$647.3M approved Sept 2026",
+    "source": "CSU systemwide revenue bonds",
+    "status": "Committed"
+   },
+   "headline": "Trustees approved financing for Student Housing Phase 2.",
+   "housing": [
+    "Student"
+   ],
+   "id": "cal-poly-slo",
+   "inst": "Cal Poly San Luis Obispo",
+   "keys": [
+    "CSU|Cal Poly San Luis Obispo"
+   ],
+   "latestEvidence": "2026-09-23",
+   "loc": {
+    "city": "San Luis Obispo",
+    "lat": 35.3,
+    "lon": -120.66
+   },
+   "nextStep": "Committed project. Watch the Maritime Academy campus in Vallejo for later housing needs.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 6,
+   "summary": "Approved in September 2026 even though first-year debt service coverage sits below the CSU benchmark, given the importance of housing to the campus.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false,
+   "relationship": "client",
+   "relationshipNote": "P3 advisor and university engagement director for on-campus student housing (with AMCAL)."
+  },
+  {
+   "advisors": [
+    {
+     "name": "BRIDGE Housing and AvalonBay",
+     "role": "Balboa Reservoir developers (city project, not CCSF-owned)"
+    }
+   ],
+   "county": "San Francisco",
+   "evidence": [
+    {
+     "date": "Date not shown in source",
+     "quote": "City College of San Francisco wants to get into the housing game.",
+     "source": "The Ingleside Light",
+     "type": "News report on board direction",
+     "url": "https://www.inglesidelight.com/city-college-san-francisco-student-housing/",
+     "primary": false
+    },
+    {
+     "date": "2020",
+     "note": "Balboa Reservoir development agreement sets aside up to 150 affordable educator units with first preference for City College faculty and staff.",
+     "source": "Office of the Mayor of San Francisco",
+     "type": "City announcement",
+     "url": "https://sfmayor.org/article/mayor-london-breed-and-president-norman-yee-move-balboa-reservoir-housing-project-forward",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Pursuing a state housing grant; faculty units at Balboa Reservoir are developer-financed",
+    "status": "Unknown"
+   },
+   "headline": "Trustees directed administrators to pursue student housing; 150 faculty units are coming at Balboa Reservoir.",
+   "housing": [
+    "Student",
+    "Faculty & staff"
+   ],
+   "id": "ccsf-housing",
+   "inst": "City College of San Francisco",
+   "keys": [
+    "CCC|City College of San Francisco"
+   ],
+   "latestEvidence": "2025-11-17",
+   "loc": {
+    "city": "San Francisco",
+    "lat": 37.725,
+    "lon": -122.45
+   },
+   "nextStep": "CCSF has no delivery partner for its own student housing. It owns other sites, so offer a site and feasibility review.",
+   "notes": "",
+   "origin": "Queued scan",
+   "stage": 1,
+   "summary": "CCSF leadership told administrators to set up student housing and pursue a state grant. Separately, the 1,100-unit Balboa Reservoir project next to the Ocean campus, by BRIDGE Housing and AvalonBay, reserves up to 150 affordable units for City College faculty and staff and broke ground in November 2025.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [],
+   "county": "Butte",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "Creekside Residence Hall, 800 beds, systemwide revenue bonds, about $125.8M.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, Chico page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $125.8M",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Systemwide revenue bonds",
+    "status": "Planned"
+   },
+   "headline": "An 800-bed Creekside Residence Hall is planned.",
+   "housing": [
+    "Student"
+   ],
+   "id": "chico-creekside",
+   "inst": "Chico State",
+   "keys": [
+    "CSU|Chico State"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Chico",
+    "lat": 39.73,
+    "lon": -121.85
+   },
+   "nextStep": "Ask whether Chico is weighing a P3 alternative given CSU debt-capacity pressure.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "Chico State’s self-support list carries the Creekside Residence Hall at about $126M along with a Whitney Hall renovation.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Fresno",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $50.2M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$50.2M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "coalinga",
+   "inst": "West Hills College Coalinga",
+   "keys": [
+    "CCC|West Hills College Coalinga"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Coalinga",
+    "lat": 36.15,
+    "lon": -120.36
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $50.2M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Alameda",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $93.9M project with $42.1M local share.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$93.9M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "college-of-alameda",
+   "inst": "College of Alameda",
+   "keys": [
+    "CCC|College of Alameda"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Alameda",
+    "lat": 37.78,
+    "lon": -122.28
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $93.9M project with $42.1M local share. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Los Angeles",
+   "evidence": [
+    {
+     "date": "Sep 2026",
+     "quote": "Both College of the Canyons and San Diego City College have withdrawn",
+     "source": "CCC Chancellor’s Office 2026–27 Compendium",
+     "type": "State report",
+     "url": "https://www.cccco.edu/wp-content/uploads/2026/09/compendium-of-allocations-and-resources.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$61.9M project",
+    "source": "Withdrew from state lease revenue bond program",
+    "status": "Unfunded"
+   },
+   "headline": "Withdrew its $61.9M state-funded housing project.",
+   "housing": [
+    "Student"
+   ],
+   "id": "college-of-the-canyons",
+   "inst": "College of the Canyons",
+   "keys": [
+    "CCC|College of the Canyons"
+   ],
+   "latestEvidence": "2026-09-15",
+   "loc": {
+    "city": "Santa Clarita",
+    "lat": 34.4,
+    "lon": -118.57
+   },
+   "nextStep": "Find out why it withdrew. If cost or terms were the issue, a P3 or other structure may revive it.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college had a state-approved project in the lease revenue bond program but withdrew. Whether it is pursuing housing another way is unknown.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Tuolumne",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $61.3M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$61.3M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "columbia",
+   "inst": "Columbia College",
+   "keys": [
+    "CCC|Columbia College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Sonora",
+    "lat": 38.03,
+    "lon": -120.4
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $61.3M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [],
+   "county": "Los Angeles",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "Student Housing Ph. II, 840 beds, about $213.9M; Innovation Village Mixed-Use Ph. VI and VII, public-private partnerships, about $271M combined.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, Pomona page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $214M housing",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Systemwide revenue bonds; P3 for Innovation Village",
+    "status": "Planned"
+   },
+   "headline": "Student Housing Phase II (840 beds) and two P3 mixed-use phases are planned.",
+   "housing": [
+    "Student"
+   ],
+   "id": "cpp-housing",
+   "inst": "Cal Poly Pomona",
+   "keys": [
+    "CSU|Cal Poly Pomona"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Pomona",
+    "lat": 34.06,
+    "lon": -117.82
+   },
+   "nextStep": "Ask whether housing will be folded into the Innovation Village P3 phases.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "Pomona lists Student Housing Phase II at about $214M and Innovation Village mixed-use Phases VI and VII as public-private partnerships.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "mstrong@craftonhills.edu",
+     "name": "Michael Strong",
+     "phone": "909-389-3210",
+     "role": "VP Administrative Services",
+     "source": "ACCJC annual fiscal report",
+     "title": "Vice President, Administrative Services, Crafton Hills College",
+     "url": "https://www.craftonhills.edu/faculty-and-staff/committees/institutional-effectiveness-accreditation-and-outcomes-committee/meetings/2023/04-13/annualreportcollege.pdf",
+     "verify": "Source is the 2023 accreditation fiscal report",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "San Bernardino",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $61.3M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$61.3M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "crafton-hills",
+   "inst": "Crafton Hills College",
+   "keys": [
+    "CCC|Crafton Hills College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Yucaipa",
+    "lat": 34.05,
+    "lon": -117.1
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $61.3M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false,
+   "relationship": "client",
+   "relationshipNote": "Housing market and demand, highest and best use, P3 financial modeling and transaction advisory for mixed-use student housing."
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "bradley.olin@csuci.edu",
+     "name": "Bradley Olin",
+     "role": "VP Administrative Services",
+     "source": "WSCUC institution record",
+     "title": "Vice President of Business and Financial Affairs, CSU Channel Islands",
+     "url": "https://www.wscuc.org/institutions/california-state-university-channel-islands/?print=pdf",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Ventura",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "San Miguel Village, 500 spaces, about $83.9M; Mixed-Use Center Ph. 1, 550 spaces, public-private partnership, about $134.7M.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, Channel Islands page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $218M combined",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Systemwide revenue bonds and a public-private partnership",
+    "status": "Planned"
+   },
+   "headline": "San Miguel Village (500 beds) and a P3 mixed-use center (550 spaces) are planned.",
+   "housing": [
+    "Student",
+    "Faculty & staff"
+   ],
+   "id": "csuci-housing",
+   "inst": "CSU Channel Islands",
+   "keys": [
+    "CSU|CSU Channel Islands"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Camarillo",
+    "lat": 34.16,
+    "lon": -119.04
+   },
+   "nextStep": "A P3 is already the stated delivery method. Offer P3 procurement and structuring support early.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "Channel Islands already runs University Glen workforce housing. Its plan adds San Miguel Village and a public-private Mixed-Use Center Phase 1, both slotted around 2029–30.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "name": "Cathy A. Sandeen",
+     "role": "President",
+     "source": "CSU Board agenda, Nov 2026",
+     "title": "President, Cal State East Bay",
+     "url": "https://www.calstate.edu/csu-system/board-of-trustees/past-meetings/2026/Documents/nov-17-18-2026-FIN-CPBG.pdf",
+     "stakeholder": "President"
+    }
+   ],
+   "county": "Contra Costa",
+   "evidence": [
+    {
+     "date": "Nov 18, 2026",
+     "quote": "authorize the release of a Request for Proposals",
+     "source": "CSU Board of Trustees, Joint Committee on Finance and Campus Planning agenda",
+     "type": "Board agenda",
+     "url": "https://www.calstate.edu/csu-system/board-of-trustees/past-meetings/2026/Documents/nov-17-18-2026-FIN-CPBG.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "note": "The university may front consultant, environmental and entitlement costs, to be reimbursed by the developer.",
+    "source": "Ground lease to a developer that finances, builds and operates",
+    "status": "Planned"
+   },
+   "headline": "Trustees vote Nov 18 on authorizing an RFP for a mixed-use housing P3 on the 380-acre Concord Center.",
+   "housing": [
+    "Other campus real estate"
+   ],
+   "id": "csueb-concord",
+   "inst": "Cal State East Bay (Concord Center)",
+   "keys": [
+    "CSU|Cal State East Bay"
+   ],
+   "latestEvidence": "2026-11-18",
+   "loc": {
+    "city": "Concord",
+    "lat": 37.94,
+    "lon": -121.95
+   },
+   "nextStep": "Contact Cal State East Bay before the RFP is drafted. The campus may fund outside consultants for entitlement and environmental work, which is a direct advisory opening.",
+   "notes": "",
+   "origin": "Web sweep: agendas",
+   "stage": 3,
+   "summary": "A 2025 market analysis with CSU Real Estate Services found about 95 developable acres suited to market-rate, senior and intellectual and developmental disability housing plus neighborhood retail. The item would let the campus solicit, evaluate and negotiate with developers under a long-term ground lease.",
+   "system": "CSU",
+   "triggers": [
+    {
+     "confirmed": true,
+     "date": "2026-11-18",
+     "label": "CSU trustees vote on conceptual approval and authority to release an RFP",
+     "url": "https://www.calstate.edu/csu-system/board-of-trustees/past-meetings/2026/Documents/nov-17-18-2026-FIN-CPBG.pdf"
+    }
+   ],
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "name": "Cathy A. Sandeen",
+     "role": "President",
+     "source": "CSU Board agenda, Nov 2026",
+     "title": "President, Cal State East Bay",
+     "url": "https://www.calstate.edu/csu-system/board-of-trustees/past-meetings/2026/Documents/nov-17-18-2026-FIN-CPBG.pdf",
+     "stakeholder": "President"
+    }
+   ],
+   "county": "Alameda",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "Pioneer Heights Student Housing and Parking Ph. 4, 250 beds and 750 parking spaces, about $105.2M.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, East Bay page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $105.2M",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Systemwide revenue bonds",
+    "status": "Planned"
+   },
+   "headline": "Pioneer Heights Phase 4 adds 250 beds and parking.",
+   "housing": [
+    "Student"
+   ],
+   "id": "csueb-pioneer",
+   "inst": "Cal State East Bay",
+   "keys": [
+    "CSU|Cal State East Bay"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Hayward",
+    "lat": 37.66,
+    "lon": -122.06
+   },
+   "nextStep": "Mid-size project; useful for financing or feasibility advisory.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The plan lists Pioneer Heights Student Housing and Parking Phase 4 at about $105M.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "mjarnagin@csumb.edu",
+     "name": "Melissa Jarnagin",
+     "role": "VP Administrative Services",
+     "source": "WSCUC institution record",
+     "title": "Vice President for Administration and Finance / CFO, CSU Monterey Bay",
+     "url": "https://www.wscuc.org/institutions/california-state-university-monterey-bay/",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Monterey",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "Student Housing Ph. IIB and III, 1,000 beds, about $264.4M.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, Monterey Bay page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $264.4M",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Systemwide revenue bonds",
+    "status": "Planned"
+   },
+   "headline": "Student Housing Phases IIB and III would add 1,000 beds.",
+   "housing": [
+    "Student"
+   ],
+   "id": "csumb-housing",
+   "inst": "CSU Monterey Bay",
+   "keys": [
+    "CSU|CSU Monterey Bay"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Seaside",
+    "lat": 36.65,
+    "lon": -121.8
+   },
+   "nextStep": "Large phased program. Confirm if the July 2026 trustees P3 item relates to housing.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The plan lists about $264M for the next two housing phases.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "colin.donahue@csun.edu",
+     "name": "Colin Donahue",
+     "phone": "818-677-2333",
+     "role": "VP Administrative Services",
+     "source": "WSCUC institution record",
+     "title": "Vice President for Administration and Finance / CFO, CSUN",
+     "url": "https://www.wscuc.org/?p=153688",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Los Angeles",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "Faculty Staff Housing, 200 units, auxiliary-funded: about $15.3M for preliminary plans, drawings and equipment, then about $184.8M for construction.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, Northridge page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $200M",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Auxiliary funds plus systemwide revenue bonds",
+    "status": "Planned"
+   },
+   "headline": "A 200-unit faculty and staff housing project is in the CSU five-year capital plan.",
+   "housing": [
+    "Faculty & staff"
+   ],
+   "id": "csun-faculty-housing",
+   "inst": "CSU Northridge",
+   "keys": [
+    "CSU|CSU Northridge"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Northridge",
+    "lat": 34.24,
+    "lon": -118.53
+   },
+   "nextStep": "Design money is slotted for 2026–27, so the delivery model is being decided now. Reach CSUN’s real estate and auxiliary leads about structure and financing.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The plan lists Faculty Staff Housing at Northridge with about $15 million for design in 2026–27 and roughly $185 million for construction, funded through auxiliary and systemwide revenue bonds. No developer or advisor is named.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "ssudhakar@csusb.edu",
+     "name": "Samuel Sudhakar",
+     "role": "VP Administrative Services",
+     "source": "WSCUC institution record",
+     "title": "CFO, Administration and Finance, CSU San Bernardino",
+     "url": "https://www.wscuc.org/?p=153842",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Riverside",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "Palm Desert Campus–College of the Desert Housing, 403 beds, about $99.1M.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, San Bernardino page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $99.1M",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Systemwide revenue bonds",
+    "status": "Planned"
+   },
+   "headline": "A 403-bed shared housing project for the Palm Desert campus and College of the Desert is planned.",
+   "housing": [
+    "Student"
+   ],
+   "id": "csusb-palm-desert",
+   "inst": "CSU San Bernardino and College of the Desert",
+   "keys": [
+    "CSU|CSU San Bernardino",
+    "CCC|College of the Desert"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Palm Desert",
+    "lat": 33.8,
+    "lon": -116.39
+   },
+   "nextStep": "Two public owners need a joint structure. Offer intersegmental deal advisory.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "CSUSB’s plan lists Palm Desert Campus–College of the Desert Housing at about $99M, an intersegmental project serving both institutions.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Orange",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $83.7M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$83.7M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "cypress",
+   "inst": "Cypress College",
+   "keys": [
+    "CCC|Cypress College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Cypress",
+    "lat": 33.83,
+    "lon": -118.03
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $83.7M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Los Angeles",
+   "evidence": [
+    {
+     "date": "Nov 2022",
+     "quote": "No student housing currently exists on the El Camino College campus.",
+     "source": "El Camino CCD BoardDocs, Student Housing Feasibility key findings",
+     "type": "Board packet",
+     "url": "https://go.boarddocs.com/ca/ecccd/Board.nsf/files/CLQ4V60D58B2/$file/El%20Camino%20FA%20Key%20Findings%202022-11-30.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "2022 study compared P3 and state-grant models; no decision found",
+    "status": "Unknown"
+   },
+   "headline": "Feasibility work compared a P3 and state-grant housing program on Lot L.",
+   "housing": [
+    "Student"
+   ],
+   "id": "el-camino",
+   "inst": "El Camino College",
+   "keys": [
+    "CCC|El Camino College"
+   ],
+   "latestEvidence": "2022-11-30",
+   "loc": {
+    "city": "Torrance",
+    "lat": 33.88,
+    "lon": -118.33
+   },
+   "nextStep": "Check 2026 board minutes for a revived item; the P3 analysis is already done.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 2,
+   "summary": "A 2022 board feasibility package sized a roughly 300-bed P3 option and identified Lot L as the preferred site. Current status needs confirming.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "edwin.chandrasekar@sjeccd.edu",
+     "name": "Edwin Chandrasekar",
+     "role": "VP Administrative Services",
+     "source": "SJECCD Administrative Services",
+     "title": "Vice Chancellor, Administrative Services, San José-Evergreen CCD (oversees facilities, bond program and public-private ventures)",
+     "url": "https://www.sjeccd.edu/district-services/administrative-services",
+     "verify": "Address matches the institution’s published email format",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Santa Clara",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $135.5M project, the largest in the round.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$135.5M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "evergreen-valley",
+   "inst": "Evergreen Valley College",
+   "keys": [
+    "CCC|Evergreen Valley College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "San José",
+    "lat": 37.3,
+    "lon": -121.76
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $135.5M project, the largest in the round. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Plumas",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $74.2M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$74.2M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "feather-river",
+   "inst": "Feather River College",
+   "keys": [
+    "CCC|Feather River College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Quincy",
+    "lat": 39.93,
+    "lon": -120.95
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $74.2M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "watsonbret@foothill.edu",
+     "name": "Bret Watson",
+     "role": "VP Administrative Services",
+     "source": "ACCJC annual fiscal report, 2025",
+     "title": "Chief Business Officer, Foothill College",
+     "url": "https://fhweb.foothill.edu/accreditation/2025/FH-2025-Q4-Report-ACCJCAnnualFiscalReport.pdf",
+     "verify": "Address matches the institution’s published email format",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Santa Clara",
+   "evidence": [
+    {
+     "date": "Sep 20, 2025",
+     "quote": "Purchasing existing affordable apartments is more financially feasible",
+     "source": "San José Spotlight",
+     "type": "News report",
+     "url": "https://sanjosespotlight.com/silicon-valley-community-college-district-buys-workforce-housing/",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $54.5M",
+    "source": "District purchase of existing apartments",
+    "status": "Committed"
+   },
+   "headline": "District bought 50 staff apartments instead of building its own.",
+   "housing": [
+    "Faculty & staff"
+   ],
+   "id": "foothill-de-anza",
+   "inst": "Foothill College and De Anza College",
+   "keys": [
+    "CCC|Foothill College",
+    "CCC|De Anza College"
+   ],
+   "latestEvidence": "2025-09-20",
+   "loc": {
+    "city": "Los Altos Hills and Cupertino",
+    "lat": 37.36,
+    "lon": -122.13
+   },
+   "nextStep": "A proven buyer. Ask whether they want more units and offer acquisition advisory.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 6,
+   "summary": "In September 2025 the board approved a roughly $54.5 million purchase of units in Mountain View Whisman’s workforce housing, after costing a new build at about $64.5 million.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": true,
+   "relationship": "client",
+   "relationshipNote": "Workforce housing real estate advisory: RFP preparation and evaluation, negotiation of terms."
+  },
+  {
+   "advisors": [],
+   "county": "Fresno",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Fresno City College, FCC Affordable Housing, $66.4M request, Round 3.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "note": "Costs more than doubled; the second request was not funded.",
+    "source": "State-approved $34.1M plus a further $60.2M requested",
+    "status": "Partial"
+   },
+   "headline": "State-approved housing project more than doubled in cost and needs more money.",
+   "housing": [
+    "Student"
+   ],
+   "id": "fresno-city",
+   "inst": "Fresno City College",
+   "keys": [
+    "CCC|Fresno City College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Fresno",
+    "lat": 36.77,
+    "lon": -119.8
+   },
+   "nextStep": "Cost overrun plus funding gap. Offer value-engineering, phasing and financing advice.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "Fresno City’s state-approved project ($34.1M in state funds) saw costs more than double, and the college sought another $60.2M in Round 3. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "debbiea@csufresno.edu",
+     "name": "Deborah Adishian-Astone",
+     "role": "VP Administrative Services",
+     "source": "WSCUC institution record",
+     "title": "Vice President for Administration and CFO, Fresno State",
+     "url": "https://www.wscuc.org/?p=153304",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Fresno",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "Affordable Student Housing Ph. 2, 175 beds, about $60M.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, Fresno page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $60M",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Systemwide revenue bonds",
+    "status": "Planned"
+   },
+   "headline": "Affordable Student Housing Phase 2 (175 beds) is planned.",
+   "housing": [
+    "Student"
+   ],
+   "id": "fresno-state-ph2",
+   "inst": "Fresno State",
+   "keys": [
+    "CSU|Fresno State"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Fresno",
+    "lat": 36.81,
+    "lon": -119.75
+   },
+   "nextStep": "Follow up on whether Phase 2 will chase Proposition 1 bond money or another structure.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "Phase 1 opened in 2026 with state grant help. Phase 2 is listed at about $60M.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Santa Clara",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $62.1M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$62.1M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "gavilan",
+   "inst": "Gavilan College",
+   "keys": [
+    "CCC|Gavilan College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Gilroy",
+    "lat": 36.97,
+    "lon": -121.57
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $62.1M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [],
+   "county": "Humboldt",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "Student Housing, Health Center, Dining, 500 spaces, about $64.5M campus funds.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, Humboldt page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $64.5M",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Campus reserves",
+    "status": "Planned"
+   },
+   "headline": "A 500-bed student housing, health center and dining project is planned.",
+   "housing": [
+    "Student"
+   ],
+   "id": "humboldt-housing",
+   "inst": "Cal Poly Humboldt",
+   "keys": [
+    "CSU|Cal Poly Humboldt"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Arcata",
+    "lat": 40.87,
+    "lon": -124.08
+   },
+   "nextStep": "Campus reserves alone rarely cover this; offer financing options analysis.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "Humboldt lists a combined student housing, health center and dining project funded with campus reserves.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [
+    {
+     "name": "Scion Advisory Services",
+     "role": "2021 districtwide feasibility study"
+    }
+   ],
+   "contacts": [
+    {
+     "email": "agabel@socccd.edu",
+     "name": "Ann-Marie Gabel",
+     "role": "VP Administrative Services",
+     "source": "SOCCCD budget memo",
+     "title": "Vice Chancellor, Business Services, South Orange County CCD",
+     "url": "https://www.socccd.edu/sites/default/files/2023-01/Jan%202023%20Gov%20Budget%20Memo.pdf",
+     "verify": "Source dated Jan 2023; confirm still in role",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Orange",
+   "evidence": [
+    {
+     "date": "2026",
+     "quote": "Inspire 2035 includes student housing on a 3.4-acre site",
+     "source": "CEQAnet, SOCCCD Inspire 2035 environmental document",
+     "type": "Facilities master plan (CEQA filing)",
+     "url": "https://ceqanet.lci.ca.gov/2011071005/14",
+     "primary": true
+    },
+    {
+     "date": "Sep 2024",
+     "note": "Irvine Valley College, $75.0M project, Round 3.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$75.0M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Inspire 2035 master plan reserves a 3.4-acre site for student housing.",
+   "housing": [
+    "Student"
+   ],
+   "id": "ivc-inspire2035",
+   "inst": "Irvine Valley College",
+   "keys": [
+    "CCC|Irvine Valley College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Irvine",
+    "lat": 33.68,
+    "lon": -117.78
+   },
+   "nextStep": "Scion Advisory did the 2021 demand study; the delivery-phase advisor slot appears open.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "South Orange County CCD’s Inspire 2035 facilities plan keeps a 3.4-acre IVC site for housing, and IVC’s $75M Round 3 state application went unfunded.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Los Angeles",
+   "evidence": [
+    {
+     "date": "Oct 2025",
+     "quote": "exploring new possibilities for student housing",
+     "source": "EdSource, quoting LACCD trustee Sara Hernandez",
+     "type": "News report",
+     "url": "https://edsource.org/2025/new-laws-aim-to-ease-californias-student-housing-crunch/742739",
+     "primary": false
+    },
+    {
+     "date": "Oct 1, 2026",
+     "note": "A Seat 6 trustee candidate urged the district to move aggressively on its commitment of up to $500 million for student and staff housing.",
+     "source": "LA Times voter guide via Yahoo",
+     "type": "News report",
+     "url": "https://www.yahoo.com/news/politics/articles/guide-los-angeles-community-college-100000715.html",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "Up to $500M committed to student and staff housing",
+    "source": "2022 local bond program ($5.3B)",
+    "status": "Partial"
+   },
+   "headline": "District weighing building purchases and on-campus P3s for student and staff housing.",
+   "housing": [
+    "Student",
+    "Faculty & staff"
+   ],
+   "id": "laccd",
+   "inst": "Los Angeles Community College District (9 colleges)",
+   "keys": [
+    "CCC|Los Angeles City College",
+    "CCC|East Los Angeles College",
+    "CCC|Los Angeles Harbor College",
+    "CCC|Los Angeles Mission College",
+    "CCC|Los Angeles Pierce College",
+    "CCC|Los Angeles Southwest College",
+    "CCC|Los Angeles Trade-Technical College",
+    "CCC|Los Angeles Valley College",
+    "CCC|West Los Angeles College"
+   ],
+   "latestEvidence": "2026-10-01",
+   "loc": {
+    "city": "Los Angeles",
+    "lat": 34.05,
+    "lon": -118.29
+   },
+   "nextStep": "Largest single pool of capital in the list. Map which colleges are first in line and offer acquisition versus P3 analysis.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 2,
+   "summary": "Trustees describe housing as a basic need, and the district has committed up to $500 million toward affordable student and staff housing within its $5.3 billion 2022 bond program. Delivery models are still open.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": true,
+   "relationship": "client",
+   "relationshipNote": "Affordable student housing market and demand analysis, P3 financial modeling and P3 procurement."
+  },
+  {
+   "advisors": [],
+   "county": "Alameda",
+   "evidence": [
+    {
+     "date": "Nov 2022",
+     "quote": "a project that could benefit more than 500 students",
+     "source": "The Independent (Livermore)",
+     "type": "News report",
+     "url": "https://www.independentnews.com/news/education_news/chabot-las-positas-community-college-district-seeks-to-build-campus-housing-for-las-positas-students/article_7153ecc6-65e7-11ed-8ce4-7f3ba2878cb7.html",
+     "primary": false
+    },
+    {
+     "date": "Sep 2024",
+     "note": "Las Positas College, $59.2M project, Round 3.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$59.2M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "District applied for Las Positas housing and planned a second project at Chabot.",
+   "housing": [
+    "Student"
+   ],
+   "id": "las-positas-chabot",
+   "inst": "Las Positas College and Chabot College",
+   "keys": [
+    "CCC|Las Positas College",
+    "CCC|Chabot College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Livermore and Hayward",
+    "lat": 37.71,
+    "lon": -121.8
+   },
+   "nextStep": "Two-campus district with no state award. Pitch a districtwide housing strategy.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "Chabot-Las Positas CCD submitted a $59.2M Las Positas housing application in Round 3 and earlier said it would seek housing at the Chabot campus in Hayward too. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Lassen",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $62.5M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$62.5M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "lassen",
+   "inst": "Lassen College",
+   "keys": [
+    "CCC|Lassen College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Susanville",
+    "lat": 40.42,
+    "lon": -120.65
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $62.5M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [],
+   "county": "Los Angeles",
+   "evidence": [
+    {
+     "date": "Oct 6, 2026",
+     "quote": "authorized the District to begin exclusive negotiations for proposed developments",
+     "source": "LAUSD newsroom",
+     "type": "District press release",
+     "url": "https://www.lausd.org/apps/news/article/2240953?categoryId=23516",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Developer-financed affordable housing on district land; no district funding",
+    "status": "Committed"
+   },
+   "headline": "Developers selected for nearly 600 employee units on two district properties.",
+   "housing": [
+    "Workforce"
+   ],
+   "id": "lausd",
+   "inst": "Los Angeles Unified",
+   "keys": [
+    "K12|Los Angeles Unified"
+   ],
+   "latestEvidence": "2026-10-06",
+   "loc": {
+    "city": "Los Angeles",
+    "lat": 34.05,
+    "lon": -118.24
+   },
+   "nextStep": "These two sites are spoken for. Ask about the next tranche of underutilized property.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 5,
+   "summary": "On Oct 6, 2026 the board approved affordable housing developers for two sites and opened exclusive negotiations. Developers finance, build and operate; the district keeps the land.",
+   "system": "K12",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false,
+   "relationship": "client",
+   "relationshipNote": "Workforce housing advisory: RFP preparation and negotiation of development deals."
+  },
+  {
+   "advisors": [
+    {
+     "name": "REACH (Regional Economic Action Coalition)",
+     "role": "process guide"
+    },
+    {
+     "name": "RRM Design Group",
+     "role": "feasibility study"
+    },
+    {
+     "name": "Space Valley Housing Partners with Housing Authority of Santa Barbara County and Abbott Reed",
+     "role": "selected developer team"
+    }
+   ],
+   "county": "Santa Barbara",
+   "evidence": [
+    {
+     "date": "Feb 17, 2026",
+     "quote": "the Board authorized District staff to proceed with negotiating an agreement with SVHP",
+     "source": "Lompoc Unified employee housing page",
+     "type": "District project page",
+     "url": "https://www.lusd.org/employee-housing",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Developer and Housing Authority financing (SVHP team)",
+    "status": "Planned"
+   },
+   "headline": "Negotiating with a developer team for 150–200 employee units on the Jupiter Avenue site.",
+   "housing": [
+    "Workforce"
+   ],
+   "id": "lompoc-usd",
+   "inst": "Lompoc Unified",
+   "keys": [
+    "K12|Lompoc Unified"
+   ],
+   "latestEvidence": "2026-02-17",
+   "loc": {
+    "city": "Lompoc",
+    "lat": 34.64,
+    "lon": -120.46
+   },
+   "nextStep": "Late for a pre-RFP play. Track as a reference deal and watch other districts in the same CSBA cohort.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 5,
+   "summary": "Lompoc was in a 2023 cohort of five districts exploring employee housing with CSBA, UC Berkeley and UCLA support. Three developer proposals arrived by Jan 30, 2026, and the board approved negotiations with the SVHP team on Feb 17, 2026.",
+   "system": "K12",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Los Angeles",
+   "evidence": [
+    {
+     "date": "Aug 20, 2026",
+     "quote": "students will have the opportunity to live and learn on campus",
+     "source": "LBCC board president via Yahoo News",
+     "type": "News report",
+     "url": "https://www.yahoo.com/news/us/articles/california-community-college-breaks-ground-181800009.html",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "431 beds",
+    "source": "Under construction",
+    "status": "Committed"
+   },
+   "headline": "Broke ground on a 431-bed building, with affordable units planned in North Long Beach.",
+   "housing": [
+    "Student"
+   ],
+   "id": "long-beach-city-college",
+   "inst": "Long Beach City College",
+   "keys": [
+    "CCC|Long Beach City College"
+   ],
+   "latestEvidence": "2026-08-20",
+   "loc": {
+    "city": "Long Beach",
+    "lat": 33.83,
+    "lon": -118.13
+   },
+   "nextStep": "Committed. Watch for employee housing, which the district hasn’t addressed yet.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 6,
+   "summary": "The Liberal Arts Campus housing opens fall 2028. A separate affordable housing project in North Long Beach is expected in fall 2029.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": true
+  },
+  {
+   "advisors": [],
+   "contacts": [],
+   "county": "Contra Costa",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $78.2M project with $29.5M local share.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$78.2M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "los-medanos",
+   "inst": "Los Medanos College",
+   "keys": [
+    "CCC|Los Medanos College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Pittsburg",
+    "lat": 38,
+    "lon": -121.86
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $78.2M project with $29.5M local share. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Mendocino",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $57.1M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$57.1M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "mendocino",
+   "inst": "Mendocino College",
+   "keys": [
+    "CCC|Mendocino College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Ukiah",
+    "lat": 39.17,
+    "lon": -123.2
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $57.1M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Merced",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $13.8M project (separate from its shared UC Merced building).",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$13.8M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "merced-college",
+   "inst": "Merced College",
+   "keys": [
+    "CCC|Merced College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Merced",
+    "lat": 37.31,
+    "lon": -120.49
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $13.8M project (separate from its shared UC Merced building). It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "San Diego",
+   "evidence": [
+    {
+     "date": "Jul 2022",
+     "quote": "They’ve also determined they will most likely pursue a public-private partnership",
+     "source": "Voice of San Diego",
+     "type": "News report",
+     "url": "https://voiceofsandiego.org/2022/07/20/community-college-districts-in-san-diego-are-working-to-build-housing-heres-where-those-efforts-stand/",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "State planning grant ($155K); P3 expected",
+    "status": "Unknown"
+   },
+   "headline": "Planning grant funded feasibility work; a P3 was the expected route.",
+   "housing": [
+    "Student"
+   ],
+   "id": "miracosta",
+   "inst": "MiraCosta College",
+   "keys": [
+    "CCC|MiraCosta College"
+   ],
+   "latestEvidence": "2022-07-20",
+   "loc": {
+    "city": "Oceanside",
+    "lat": 33.19,
+    "lon": -117.3
+   },
+   "nextStep": "Check whether the P3 was ever solicited. If not, pitch it.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 2,
+   "summary": "MiraCosta used a state planning grant for feasibility and financial modeling and signaled a public-private partnership. No construction award followed.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": true
+  },
+  {
+   "advisors": [],
+   "county": "Ventura",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $61.0M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$61.0M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "moorpark",
+   "inst": "Moorpark College",
+   "keys": [
+    "CCC|Moorpark College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Moorpark",
+    "lat": 34.3,
+    "lon": -118.83
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $61.0M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Riverside",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $54.2M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$54.2M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "moreno-valley",
+   "inst": "Moreno Valley College",
+   "keys": [
+    "CCC|Moreno Valley College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Moreno Valley",
+    "lat": 33.88,
+    "lon": -117.2
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $54.2M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false,
+   "relationship": "client",
+   "relationshipNote": "Student housing advisory with Scion Advisory Services (2022): planning, programming and grant application project management."
+  },
+  {
+   "advisors": [],
+   "county": "Alameda",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $25.7M project at the Newark Center.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$25.7M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "ohlone-newark",
+   "inst": "Ohlone College",
+   "keys": [
+    "CCC|Ohlone College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Newark",
+    "lat": 37.53,
+    "lon": -122.03
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $25.7M project at the Newark Center. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false,
+   "relationship": "client",
+   "relationshipNote": "Preliminary master plan, site design and financial feasibility for student housing."
+  },
+  {
+   "advisors": [],
+   "county": "Ventura",
+   "evidence": [
+    {
+     "date": "2026",
+     "quote": "considering building housing for its employees on its downtown District Office property",
+     "source": "Ojai Unified workforce housing page",
+     "type": "District project page",
+     "url": "https://www.ojaiusd.org/page/workforce-housing/",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Expected developer financing on district land under the RFP",
+    "status": "Unknown"
+   },
+   "headline": "Workforce housing development RFP posted for the downtown District Office property.",
+   "housing": [
+    "Workforce"
+   ],
+   "id": "ojai-usd",
+   "inst": "Ojai Unified",
+   "keys": [
+    "K12|Ojai Unified"
+   ],
+   "latestEvidence": "2026-01-14",
+   "loc": {
+    "city": "Ojai",
+    "lat": 34.45,
+    "lon": -119.24
+   },
+   "nextStep": "Check the RFP deadline and award status. If a developer is chosen, offer owner-side advisory on the ground lease and deal terms.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 5,
+   "summary": "Feasibility findings were presented Jan 14, 2026, and the district’s workforce housing page now carries a development RFP with a feasibility executive summary, employee survey and topographic study attached. No advisor is named on the district page.",
+   "system": "K12",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false,
+   "relationship": "client",
+   "relationshipNote": "Workforce housing feasibility study."
+  },
+  {
+   "advisors": [],
+   "county": "Orange",
+   "evidence": [
+    {
+     "date": "Mar 31, 2026",
+     "quote": "building residential halls is a stated goal backed by their board of trustees",
+     "source": "CCC Chancellor’s Office conference (Citizen Portal recap)",
+     "type": "Conference recap",
+     "url": "https://citizenportal.ai/articles/7729061/california/executive/other-state-agencies/california-community-colleges/california-community-colleges-conference-spotlights-student-housing-students-urge-campus-built-dorms",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Not identified",
+    "status": "Unknown"
+   },
+   "headline": "College leaders say more residence halls are a board-backed goal.",
+   "housing": [
+    "Student"
+   ],
+   "id": "orange-coast-college",
+   "inst": "Orange Coast College",
+   "keys": [
+    "CCC|Orange Coast College"
+   ],
+   "latestEvidence": "2026-03-31",
+   "loc": {
+    "city": "Costa Mesa",
+    "lat": 33.67,
+    "lon": -117.91
+   },
+   "nextStep": "Confirm in Coast CCD board minutes whether a next housing phase is on an agenda, then reach the district facilities lead.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 1,
+   "summary": "Speaking at the Chancellor’s Office Building for Tomorrow conference, OCC leaders framed residence halls as a long-term priority with Coast CCD board support.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": true
+  },
+  {
+   "advisors": [
+    {
+     "name": "Education Housing Partners",
+     "role": "feasibility study, $195,000 not-to-exceed"
+    }
+   ],
+   "county": "Ventura",
+   "evidence": [
+    {
+     "date": "May 6, 2026",
+     "quote": "79.1% of respondents expressed interest in workforce housing",
+     "source": "OUHSD workforce housing briefing (Citizen Portal recap)",
+     "type": "Board meeting recap",
+     "url": "https://citizenportal.ai/articles/11243783/california/school-districts/oxnard-union-high/ouhsd-proposes-feasibility-study-for-employee-workforce-housing-on-surplus-land",
+     "primary": false
+    },
+    {
+     "date": "Jun 24, 2026",
+     "quote": "award a Measure E-funded feasibility study to Education Housing Partners",
+     "source": "OUHSD Board of Trustees (Citizen Portal recap)",
+     "type": "Board meeting recap",
+     "url": "https://citizenportal.ai/articles/11220170/california/school-districts/oxnard-union-high/board-oks-measure-e-study-for-workforce-housing-trustees-split-on-bond-priorities",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$195K study",
+    "note": "Construction is expected to be developer-financed and cost-neutral to the general fund.",
+    "source": "Measure E bond funds pay for the feasibility study",
+    "status": "Partial"
+   },
+   "headline": "Feasibility study awarded for employee housing on surplus land near Rancho Campana High.",
+   "housing": [
+    "Workforce"
+   ],
+   "id": "oxnard-uhsd",
+   "inst": "Oxnard Union High",
+   "keys": [
+    "K12|Oxnard Union High"
+   ],
+   "latestEvidence": "2026-06-24",
+   "loc": {
+    "city": "Oxnard",
+    "lat": 34.2,
+    "lon": -119.18
+   },
+   "nextStep": "Study runs 3–6 months, so results land around early 2027. Position for the developer-selection or transaction phase and for the second site near Oxnard High.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 4,
+   "summary": "In May 2026 staff briefed trustees on AB 2295 and an employee survey of about 600 staff, recommending a feasibility RFP for the Rancho Campana site and possibly land near Oxnard High. On June 24, 2026 the board voted 4–1 for a $195,000 Measure E–funded study; Brailsford & Dunlavey also submitted a proposal.",
+   "system": "K12",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": true,
+   "relationship": "client",
+   "relationshipNote": "Proposal submitted for workforce housing advisory and feasibility study (with RNT Architects and ECG)."
+  },
+  {
+   "advisors": [],
+   "county": "San Diego",
+   "evidence": [
+    {
+     "date": "Spring 2024",
+     "quote": "Palomar would need to partner with other entities in order to even consider building",
+     "source": "The Telescope (Palomar student news)",
+     "type": "News report on board meeting",
+     "url": "https://the-telescope.com/1471/impact-magazine/spring-2024/secure-housing-secure-success/",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Staff said a financing partner is required",
+    "status": "Unknown"
+   },
+   "headline": "Feasibility study found strong demand; board weighed moving to the next phase.",
+   "housing": [
+    "Student"
+   ],
+   "id": "palomar-housing",
+   "inst": "Palomar College",
+   "keys": [
+    "CCC|Palomar College"
+   ],
+   "latestEvidence": "2024-04-09",
+   "loc": {
+    "city": "San Marcos",
+    "lat": 33.15,
+    "lon": -117.18
+   },
+   "nextStep": "Check 2025–26 governing board minutes for the phase three decision. A partner-led model is what staff said they need.",
+   "notes": "",
+   "origin": "Queued scan",
+   "stage": 2,
+   "summary": "Palomar's housing analysis, presented to the governing board in April 2024, found 66% of 1,005 surveyed students interested. Staff said the college would need partners to build, and the board was to decide whether to proceed to phase three.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": true
+  },
+  {
+   "advisors": [],
+   "county": "Tulare",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $34.2M project, ranked first (76 points).",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$34.2M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "porterville",
+   "inst": "Porterville College",
+   "keys": [
+    "CCC|Porterville College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Porterville",
+    "lat": 36.05,
+    "lon": -119.03
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $34.2M project, ranked first (76 points). It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "elia.blount@rcc.edu",
+     "name": "Elia Blount",
+     "phone": "951-222-8307",
+     "role": "VP Administrative Services",
+     "source": "ACCJC annual fiscal report, 2026",
+     "title": "Vice President, Business Services, Riverside City College",
+     "url": "https://rcc.edu/assets/documents/about/accreditation/2025-2026/2026-Annual-Fiscal-Report-Survey.pdf",
+     "verify": "Address matches the institution’s published email format",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Riverside",
+   "evidence": [
+    {
+     "date": "2026",
+     "quote": "RCCD has identified on-campus housing possibilities at the three colleges",
+     "source": "RCCD Facilities Planning, Student Housing page",
+     "type": "District planning page",
+     "url": "https://rccd.edu/admin/bfs/fpd/housing.html",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Not identified for Norco; Riverside City shares UCR’s state-funded North District 2",
+    "status": "Unknown"
+   },
+   "headline": "Riverside CCD has a draft housing framework fitting housing into each college’s master plan.",
+   "housing": [
+    "Student"
+   ],
+   "id": "rccd-norco-rcc",
+   "inst": "Norco College and Riverside City College",
+   "keys": [
+    "CCC|Norco College",
+    "CCC|Riverside City College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Norco and Riverside",
+    "lat": 33.92,
+    "lon": -117.57
+   },
+   "nextStep": "Norco is the open site. Offer a feasibility and delivery plan.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "RCCD identified on-campus housing sites at Moreno Valley, Norco and Riverside City. Riverside City already shares UCR’s North District 2; Norco declined a recent county housing grant.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false,
+   "relationship": "client",
+   "relationshipNote": "Student housing advisory with Scion Advisory Services (2022): planning, programming and grant application project management."
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "SKibui@riohondo.edu",
+     "name": "Steven Kibui",
+     "phone": "562-463-7088",
+     "role": "VP Administrative Services",
+     "source": "CCFS-311 report, 2024–25",
+     "title": "Vice President, Finance and Business",
+     "url": "https://www.riohondo.edu/wp-content/uploads/2026/01/CCFS-311-Report-2024-2025-Annual.pdf",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Los Angeles",
+   "evidence": [
+    {
+     "date": "Mar 2026",
+     "quote": "The proposed residential building would provide up to 400 beds",
+     "source": "CEQAnet, Rio Hondo CCD Low Income Student Housing MND",
+     "type": "CEQA filing",
+     "url": "https://ceqanet.lci.ca.gov/2026030501",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$49.5M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "400-bed low-income student housing is in environmental review on campus parking lots.",
+   "housing": [
+    "Student"
+   ],
+   "id": "rio-hondo",
+   "inst": "Rio Hondo College",
+   "keys": [
+    "CCC|Rio Hondo College"
+   ],
+   "latestEvidence": "2026-03-01",
+   "loc": {
+    "city": "Whittier",
+    "lat": 34.02,
+    "lon": -118.03
+   },
+   "nextStep": "CEQA is moving but the money isn’t there. Offer financing and delivery options now.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "A draft Mitigated Negative Declaration (March 2026) covers a four-story, 90,000 sq ft building on Lots 1 and 2. The college’s Round 3 state grant request ($49.5M project) was not funded. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false,
+   "relationship": "client",
+   "relationshipNote": "Real estate advisory for district housing developments."
+  },
+  {
+   "advisors": [],
+   "contacts": [],
+   "county": "Sacramento",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "South Village Student Housing, 2,100 beds, about $384.5M; 7700 College Town Housing, 353 beds, auxiliary, about $102.7M.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, Sacramento page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $487M combined",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "State housing funds, systemwide revenue bonds and auxiliary",
+    "status": "Planned"
+   },
+   "headline": "South Village (2,100 beds) and 7700 College Town (353 beds) are planned.",
+   "housing": [
+    "Student"
+   ],
+   "id": "sac-state-housing",
+   "inst": "Sacramento State",
+   "keys": [
+    "CSU|Sacramento State"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Sacramento",
+    "lat": 38.56,
+    "lon": -121.42
+   },
+   "nextStep": "Sac State has used a P3 before. South Village is a large next deal to track early.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "After the Hornet Place P3 was approved in 2025, Sacramento State’s plan lists South Village Student Housing at about $384M and an auxiliary-funded College Town project.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [
+    {
+     "name": "Scion Advisory Services",
+     "role": "2021 feasibility study"
+    }
+   ],
+   "contacts": [
+    {
+     "email": "agabel@socccd.edu",
+     "name": "Ann-Marie Gabel",
+     "role": "VP Administrative Services",
+     "source": "SOCCCD budget memo",
+     "title": "Vice Chancellor, Business Services, South Orange County CCD",
+     "url": "https://www.socccd.edu/sites/default/files/2023-01/Jan%202023%20Gov%20Budget%20Memo.pdf",
+     "verify": "Source dated Jan 2023; confirm still in role",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Orange",
+   "evidence": [
+    {
+     "date": "2025",
+     "quote": "Both Colleges are currently exploring alternative options for providing affordable student housing",
+     "source": "Scion Advisory case study",
+     "type": "Advisor case study",
+     "url": "https://scionadvisory.com/case-study/student-housing-feasibility-study/",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "State grant applied for in 2023, not awarded; exploring alternatives",
+    "status": "Unfunded"
+   },
+   "headline": "District is exploring alternative paths to student housing after state funding fell through.",
+   "housing": [
+    "Student"
+   ],
+   "id": "saddleback",
+   "inst": "Saddleback College",
+   "keys": [
+    "CCC|Saddleback College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Mission Viejo",
+    "lat": 33.56,
+    "lon": -117.66
+   },
+   "nextStep": "Pair with the IVC lead: one district, two campuses, open delivery question.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 2,
+   "summary": "Scion’s 2021 study found enough demand at both SOCCCD colleges; Saddleback applied for state funding in 2023, and both colleges are now looking at other options.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": true
+  },
+  {
+   "advisors": [],
+   "county": "San Diego",
+   "evidence": [
+    {
+     "date": "Aug 2026",
+     "quote": "Affordable Student Housing",
+     "source": "City College FMP Draft Program EIR (section heading)",
+     "type": "Facilities master plan (CEQA filing)",
+     "url": "https://files.ceqanet.lci.ca.gov/327060-2/attachment/wSxTn-hKvqKApc6CdgZPW2ODd_qz2X20-zUlpFpA2ZxhaU8ANXhmn4MZS0MajOp5AipbxqqG-eevn6Oz0",
+     "primary": true
+    },
+    {
+     "date": "Nov 2026",
+     "quote": "800-bed affordable student housing project underway at City College",
+     "source": "Community College Daily",
+     "type": "News report",
+     "url": "https://www.ccdaily.com/2026/11/funding-roundup-466/",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Withdrew from state lease revenue bond program; alternate financing route not yet public",
+    "status": "Partial"
+   },
+   "headline": "Left the state housing program but an 800-bed project is reported underway.",
+   "housing": [
+    "Student"
+   ],
+   "id": "san-diego-city-college",
+   "inst": "San Diego City College",
+   "keys": [
+    "CCC|San Diego City College"
+   ],
+   "latestEvidence": "2026-11-10",
+   "loc": {
+    "city": "San Diego",
+    "lat": 32.717,
+    "lon": -117.15
+   },
+   "nextStep": "Identify the developer or financing partner. Mesa and Miramar, SDCCD’s other colleges, have no housing yet.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 5,
+   "summary": "City College’s master plan EIR covers affordable student housing. San Diego CCD withdrew the project from the state lease revenue bond program, and a November 2026 report says an 800-bed project is underway, so another delivery route is likely in place.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [
+    {
+     "name": "Volz Company",
+     "role": "P3 advisor; running developer selection (Ann Volz, AJ Yoon)"
+    }
+   ],
+   "contacts": [
+    {
+     "name": "Kathryn E. Jeffery",
+     "role": "President",
+     "source": "Board minutes, Jun 2026",
+     "title": "Superintendent/President (successor search underway in 2026)",
+     "url": "https://admin.smc.edu/administration/governance/board-of-trustees/documents/6-9-2026-Minutes.pdf",
+     "stakeholder": "President"
+    },
+    {
+     "name": "Christopher Bonvenuto",
+     "role": "VP Administrative Services",
+     "source": "Board minutes, Jun 2026",
+     "title": "Vice President, Business and Administration",
+     "url": "https://admin.smc.edu/administration/governance/board-of-trustees/documents/6-9-2026-Minutes.pdf",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Los Angeles",
+   "evidence": [
+    {
+     "date": "Jun 9, 2026",
+     "quote": "SMC is working with Volz Company to select a private developer",
+     "source": "Santa Monica CCD Board of Trustees minutes",
+     "type": "Board minutes",
+     "url": "https://admin.smc.edu/administration/governance/board-of-trustees/documents/6-9-2026-Minutes.pdf",
+     "primary": true
+    },
+    {
+     "date": "Jun 9, 2026",
+     "note": "Five-year construction plan lists a $250M Student Housing Complex, locally funded and other, with occupancy targeted for 2030–31.",
+     "source": "Santa Monica CCD Board of Trustees minutes, Recommendation 29",
+     "type": "Board minutes",
+     "url": "https://admin.smc.edu/administration/governance/board-of-trustees/documents/6-9-2026-Minutes.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$250M student housing complex in five-year plan",
+    "source": "Measure SMC bond for predevelopment costs; P3 developer financing",
+    "status": "Partial"
+   },
+   "headline": "Existing Volz engagement: P3 developer selection for 750-bed Bundy Campus student housing.",
+   "housing": [
+    "Student"
+   ],
+   "id": "santa-monica-college",
+   "inst": "Santa Monica College",
+   "keys": [
+    "CCC|Santa Monica College"
+   ],
+   "latestEvidence": "2026-06-09",
+   "loc": {
+    "city": "Santa Monica",
+    "lat": 34.017,
+    "lon": -118.47
+   },
+   "nextStep": "Account-management view, not a prospect. A second 750-bed phase was found feasible in the May 2026 demand update.",
+   "notes": "",
+   "origin": "Web sweep",
+   "relationship": "client",
+   "stage": 5,
+   "summary": "SMC’s board voted in March 2026 to seek proposals from three RFQ-shortlisted firms for a joint-occupancy, design-build-finance student housing project on the Bundy Campus. A Pre-Development Agreement was scheduled for the October 2026 board.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false,
+   "relationshipNote": "P3 housing engagement: developer selection for Bundy Campus student housing."
+  },
+  {
+   "advisors": [
+    {
+     "name": "The Annex Group",
+     "role": "P3 developer"
+    }
+   ],
+   "contacts": [
+    {
+     "name": "Jose Torres",
+     "role": "VP Administrative Services",
+     "source": "ACCJC annual fiscal report, 2023",
+     "title": "Executive Vice Chancellor, Fiscal Services, San Bernardino CCD",
+     "url": "https://www.craftonhills.edu/faculty-and-staff/committees/institutional-effectiveness-accreditation-and-outcomes-committee/meetings/2023/04-13/annualreportcollege.pdf",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "San Bernardino",
+   "evidence": [
+    {
+     "date": "Jun 16, 2026",
+     "quote": "two student housing buildings and two workforce housing buildings by The Annex Group",
+     "source": "CEQAnet, SBVC Student Housing Project",
+     "type": "CEQA filing",
+     "url": "https://ceqanet.lci.ca.gov/2026060718",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Public-private partnership with The Annex Group",
+    "status": "Committed"
+   },
+   "headline": "P3 with The Annex Group for student and workforce housing buildings.",
+   "housing": [
+    "Student",
+    "Faculty & staff"
+   ],
+   "id": "sbvc-annex",
+   "inst": "San Bernardino Valley College",
+   "keys": [
+    "CCC|San Bernardino Valley College"
+   ],
+   "latestEvidence": "2026-06-16",
+   "loc": {
+    "city": "San Bernardino",
+    "lat": 34.09,
+    "lon": -117.31
+   },
+   "nextStep": "Developer in place. Watch Crafton Hills, SBCCD’s other college, which also has an unfunded housing plan.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 5,
+   "summary": "A June 2026 CEQA exemption describes four 4-story buildings, two for students and two for workforce housing, with ground-floor commercial, under a P3 with SBCCD and using AB 648.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false,
+   "relationship": "client",
+   "relationshipNote": "Housing market and demand, highest and best use, P3 financial modeling and transaction advisory for mixed-use student housing."
+  },
+  {
+   "advisors": [
+    {
+     "name": "Greystar",
+     "role": "Developer, Mission Valley private student housing P3 (final approval Nov 18, 2026)"
+    },
+    {
+     "name": "Provident Resources Group",
+     "role": "501(c)(3) owner, Mission Valley P3"
+    }
+   ],
+   "contacts": [
+    {
+     "name": "Adela de la Torre",
+     "role": "President",
+     "source": "CSU Board agenda, Nov 2026",
+     "title": "President, San Diego State",
+     "url": "https://www.calstate.edu/csu-system/board-of-trustees/past-meetings/2026/Documents/nov-17-18-2026-FIN-CPBG.pdf",
+     "stakeholder": "President"
+    }
+   ],
+   "county": "San Diego",
+   "evidence": [
+    {
+     "date": "Jul 22, 2026",
+     "quote": "development of the Mission Valley Affordable Housing Project #2 through a public-private partnership",
+     "source": "CSU Board of Trustees, Committee on Finance agenda",
+     "type": "Board agenda",
+     "url": "https://www.calstate.edu/csu-system/board-of-trustees/past-meetings/2026/Documents/July-20-22-2026-FIN.pdf",
+     "primary": true
+    },
+    {
+     "date": "2026",
+     "note": "The preliminary 2026–27 to 2030–31 Five-Year Capital Outlay Plan carries Adobe Falls Faculty/Staff Housing as a planned project.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan",
+     "type": "Capital plan",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "Adobe Falls about $45.3M",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Adobe Falls: auxiliary funds; Mission Valley: private P3 conduit bonds",
+    "status": "Planned"
+   },
+   "headline": "Adobe Falls faculty and staff housing sits in the CSU five-year capital plan.",
+   "housing": [
+    "Faculty & staff",
+    "Student"
+   ],
+   "id": "sdsu",
+   "inst": "San Diego State",
+   "keys": [
+    "CSU|San Diego State"
+   ],
+   "latestEvidence": "2026-07-22",
+   "loc": {
+    "city": "San Diego",
+    "lat": 32.775,
+    "lon": -117.07
+   },
+   "nextStep": "Mission Valley #2 is committed. Focus on Adobe Falls before it reaches conceptual P3 approval.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 3,
+   "summary": "CSU trustees approved a second Mission Valley affordable housing P3 in July 2026 using the CSU Faculty and Employee Housing Act of 2024. Separately, the 2026–31 capital plan lists Adobe Falls Faculty/Staff Housing as an auxiliary-funded project.",
+   "system": "CSU",
+   "triggers": [
+    {
+     "confirmed": true,
+     "date": "2026-11-18",
+     "label": "CSU trustees vote on final approval of the Mission Valley private student housing P3 (Greystar)",
+     "url": "https://www.calstate.edu/csu-system/board-of-trustees/past-meetings/2026/Documents/nov-17-18-2026-FIN-CPBG.pdf"
+    }
+   ],
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "San Diego",
+   "evidence": [
+    {
+     "date": "Feb 2, 2026",
+     "quote": "San Diego Unified staff may get more than 2,388 housing units on school sites",
+     "source": "San Diego Unified news center",
+     "type": "District news",
+     "url": "https://www.sandiegounified.org/about/newscenter/all_news/trustees_advance_plan_for_2300_housing_units",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Developer partnerships on district land",
+    "status": "Planned"
+   },
+   "headline": "Board advancing more than 2,300 staff units on school sites.",
+   "housing": [
+    "Workforce"
+   ],
+   "id": "sdusd",
+   "inst": "San Diego Unified",
+   "keys": [
+    "K12|San Diego Unified"
+   ],
+   "latestEvidence": "2026-02-02",
+   "loc": {
+    "city": "San Diego",
+    "lat": 32.75,
+    "lon": -117.15
+   },
+   "nextStep": "Mature program. Useful as a reference case when pitching smaller San Diego County districts.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 5,
+   "summary": "Late January 2026 board actions moved a multi-site educator housing program forward, including converting the University Heights headquarters to teacher housing.",
+   "system": "K12",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "wilsonjd@sfsu.edu",
+     "name": "Jeff Wilson",
+     "phone": "415-338-2521",
+     "role": "VP Administrative Services",
+     "source": "SF State directory",
+     "title": "Vice President of Administration and Finance / CFO, SF State",
+     "url": "https://planning.sfsu.edu/jeff-wilson",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "San Francisco",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "Lake Merced Educators’ Village, 250 spaces, systemwide revenue bond funded, about $225M.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, San Francisco page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $225M",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Systemwide revenue bonds (capital plan)",
+    "status": "Planned"
+   },
+   "headline": "Lake Merced Educators’ Village, 250 units, is planned in the capital plan.",
+   "housing": [
+    "Faculty & staff"
+   ],
+   "id": "sfsu-educators-village",
+   "inst": "San Francisco State",
+   "keys": [
+    "CSU|San Francisco State"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "San Francisco",
+    "lat": 37.72,
+    "lon": -122.48
+   },
+   "nextStep": "Educator housing on SF State land is a direct fit. Approach before a conceptual P3 item reaches the trustees.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "San Francisco State’s self-support list includes a $225 million Lake Merced Educators’ Village, alongside renovations of Mary Park and Mary Ward residence halls. No partner is named.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Shasta",
+   "evidence": [
+    {
+     "date": "Mar 19, 2026",
+     "quote": "Student Housing is proposed in two phases on approximately 7.3 acres",
+     "source": "CEQAnet, Shasta College FMP Amendment Two IS/MND",
+     "type": "Facilities master plan (CEQA filing)",
+     "url": "https://ceqanet.lci.ca.gov/2026030860",
+     "primary": true
+    },
+    {
+     "date": "Sep 2024",
+     "note": "Shasta College, $68.1M project, Round 3; not funded.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$68.1M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Facilities master plan amendment adds two-phase student housing.",
+   "housing": [
+    "Student"
+   ],
+   "id": "shasta-college",
+   "inst": "Shasta College",
+   "keys": [
+    "CCC|Shasta College"
+   ],
+   "latestEvidence": "2026-03-19",
+   "loc": {
+    "city": "Redding",
+    "lat": 40.61,
+    "lon": -122.32
+   },
+   "nextStep": "Find out how phase one will be funded and delivered. A rural district may want help choosing between state grant, bonds and a P3.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 3,
+   "summary": "Shasta-Tehama-Trinity Joint CCD released the initial study for Facilities Master Plan Amendment Two in March 2026, with concept designs for student housing alongside public safety training expansions.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "adminfinance@sjsu.edu",
+     "name": "Kathryn Kaoudis",
+     "phone": "408-924-1500",
+     "role": "VP Administrative Services",
+     "source": "SJSU Administration and Finance",
+     "title": "Vice President for Administration and Finance / CFO, SJSU (since Sept 2025)",
+     "url": "https://sjsu.edu/adminfinance/about-us/index.php",
+     "verify": "Office inbox for the VP; no direct address published",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Santa Clara",
+   "evidence": [
+    {
+     "date": "2026",
+     "quote": "Alquist Faculty/Staff/Graduate Student Housing",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan, project line",
+     "type": "Capital plan",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $264M",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Public-private partnership (capital plan)",
+    "status": "Planned"
+   },
+   "headline": "A 500-space faculty, staff and graduate housing P3 is listed in the CSU capital plan.",
+   "housing": [
+    "Faculty & staff",
+    "Student"
+   ],
+   "id": "sjsu",
+   "inst": "San José State",
+   "keys": [
+    "CSU|San José State"
+   ],
+   "latestEvidence": "2026-01-01",
+   "loc": {
+    "city": "San José",
+    "lat": 37.335,
+    "lon": -121.88
+   },
+   "nextStep": "Pre-solicitation. Contact SJSU real estate before the item goes to the trustees for conceptual approval.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 3,
+   "summary": "The preliminary 2026–31 Five-Year Capital Outlay Plan shows the Alquist project at about $264 million with public-private partnership funding. No conceptual P3 approval has come to the trustees yet.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [],
+   "county": "San Mateo",
+   "evidence": [
+    {
+     "date": "Sep 11, 2025",
+     "quote": "Skyline and Cañada will have to reapply in 2026",
+     "source": "The Skyline View, on the 2025 FMP Amendment",
+     "type": "Student news on master plan",
+     "url": "https://www.theskylineview.com/news/2025/09/11/student-housing-construction-at-csm-will-begin-in-early-2026/",
+     "primary": false
+    },
+    {
+     "date": "Sep 2024",
+     "note": "SMCCCD Districtwide Student Housing (Skyline), $70.8M project, Round 3; not funded. The 2026–27 budget approved no new projects.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$70.8M (Skyline) project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Master plan calls for about 300 student beds at each campus, pending state funding.",
+   "housing": [
+    "Student"
+   ],
+   "id": "smcccd-skyline-canada",
+   "inst": "Skyline College and Cañada College",
+   "keys": [
+    "CCC|Skyline College",
+    "CCC|Cañada College"
+   ],
+   "latestEvidence": "2025-09-11",
+   "loc": {
+    "city": "San Bruno and Redwood City",
+    "lat": 37.63,
+    "lon": -122.47
+   },
+   "nextStep": "SMCCCD has built employee housing before. Ask whether they would consider a P3 or alternative financing if state funds fall short again.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 3,
+   "summary": "San Mateo CCCD’s 2025 Facilities Master Plan Amendment pairs a 316-bed project at College of San Mateo with roughly 300-bed buildings at Skyline and Cañada. The two campuses were denied state funding and planned to reapply in 2026.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false,
+   "relationship": "client",
+   "relationshipNote": "Student and workforce housing feasibility study presented to the Board of Trustees."
+  },
+  {
+   "advisors": [],
+   "county": "Solano",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $44.7M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$44.7M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "solano",
+   "inst": "Solano Community College",
+   "keys": [
+    "CCC|Solano Community College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Fairfield",
+    "lat": 38.23,
+    "lon": -122.12
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $44.7M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "msanchez@swccd.edu",
+     "name": "Mark Sanchez, Ed.D.",
+     "role": "President",
+     "source": "Southwestern College leadership page",
+     "title": "Superintendent/President",
+     "url": "https://www.swccd.edu/about-swc/leadership/office-of-the-superintendent-president/",
+     "stakeholder": "President"
+    },
+    {
+     "email": "ogutierrez@swccd.edu",
+     "name": "Omar Gutierrez, Ed.D.",
+     "role": "VP Administrative Services",
+     "source": "Southwestern College leadership page",
+     "title": "Assistant Superintendent / Vice President, Business and Financial Affairs",
+     "url": "https://www.swccd.edu/about-swc/leadership/office-of-the-superintendent-president/",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "San Diego",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Southwestern College, $81.4M project with no local share, Round 3.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$81.4M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Housing in the 2018 master plan; $81.4M state request unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "southwestern",
+   "inst": "Southwestern College",
+   "keys": [
+    "CCC|Southwestern College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Chula Vista",
+    "lat": 32.64,
+    "lon": -117
+   },
+   "nextStep": "With no local funds pledged, alternative financing is the only path. Strong fit.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "Southwestern studied five sites with a planning grant and submitted an $81.4M project in Round 3, the full cost requested from the state. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "rmcauliffe@csustan.edu",
+     "name": "Rose McAuliffe",
+     "role": "VP Administrative Services",
+     "source": "WSCUC institution record",
+     "title": "Vice President for Business and Finance, Stanislaus State",
+     "url": "https://www.wscuc.org/institutions/california-state-university-stanislaus/",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Stanislaus",
+   "evidence": [
+    {
+     "date": "2026",
+     "note": "Residence Life Village V, 450 beds, about $79.1M.",
+     "source": "CSU Preliminary Five-Year Capital Outlay Plan 2026–27 to 2030–31, Stanislaus page",
+     "type": "Capital plan line item",
+     "url": "https://www.calstate.edu/impact-of-the-csu/government/Advocacy-and-State-Relations/legislativereports1/Preliminary%202026-2031%20Five-Year%20Capital%20Outlay%20Plan.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "About $79.1M",
+    "note": "The state housing bond on the November 2026 ballot allocates $175 million to CSU affordable student housing projects.",
+    "source": "Systemwide revenue bonds",
+    "status": "Planned"
+   },
+   "headline": "Residence Life Village V (450 beds) is planned.",
+   "housing": [
+    "Student"
+   ],
+   "id": "stanislaus-rlv5",
+   "inst": "Stanislaus State",
+   "keys": [
+    "CSU|Stanislaus State"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Turlock",
+    "lat": 37.53,
+    "lon": -120.86
+   },
+   "nextStep": "Smaller campus; pitch a feasibility refresh and delivery options.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "Stanislaus lists a 450-bed residence village at about $79M.",
+   "system": "CSU",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "feitelberg@berkeley.edu",
+     "name": "Daniel Feitelberg",
+     "role": "VP Administrative Services",
+     "source": "WSCUC institution record",
+     "title": "Vice Chancellor for Finance and CFO, UC Berkeley (listed as interim)",
+     "url": "https://www.wscuc.org/?p=162044",
+     "verify": "Directory entry may predate current leadership; confirm before sending",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Alameda",
+   "evidence": [
+    {
+     "date": "2026",
+     "quote": "UC Berkeley has identified several additional campus properties for new housing development",
+     "source": "UC Berkeley Housing, construction and redevelopment projects page",
+     "type": "Campus planning page",
+     "url": "https://housing.berkeley.edu/resources/campus-housing-upcoming-construction-and-redevelopment-projects/",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Not identified for future sites",
+    "status": "Unknown"
+   },
+   "headline": "Campus has named additional properties for future housing beyond current projects.",
+   "housing": [
+    "Student"
+   ],
+   "id": "ucb-future-sites",
+   "inst": "UC Berkeley",
+   "keys": [
+    "UC|UC Berkeley"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Berkeley",
+    "lat": 37.87,
+    "lon": -122.26
+   },
+   "nextStep": "Ask which site is next and whether faculty housing is part of it.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "With Anchor House open and Bancroft-Fulton and Channing-Bowditch underway, UC Berkeley says more campus sites are earmarked for new housing once programs are relocated or covenants cleared.",
+   "system": "UC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "name": "Howard Gillman",
+     "role": "President",
+     "source": "New University",
+     "title": "Chancellor, UC Irvine",
+     "url": "https://newuniversity.org/2025/01/28/uc-regents-approve-university-hills-expansion-discuss-financial-aid-experiences/",
+     "stakeholder": "President"
+    }
+   ],
+   "county": "Orange",
+   "evidence": [
+    {
+     "date": "Jul 15, 2026",
+     "quote": "should be a model for all the other UC campuses",
+     "source": "UC Regents Finance and Capital Strategies minutes",
+     "type": "Board minutes",
+     "url": "https://regents.universityofcalifornia.edu/minutes/2026/fin7.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Public-private partnership",
+    "status": "Committed"
+   },
+   "headline": "East Campus Phase 5 approved as a P3 that a Regent called a model for UC.",
+   "housing": [
+    "Student",
+    "Faculty & staff"
+   ],
+   "id": "uci-ec5",
+   "inst": "UC Irvine",
+   "keys": [
+    "UC|UC Irvine"
+   ],
+   "latestEvidence": "2026-07-15",
+   "loc": {
+    "city": "Irvine",
+    "lat": 33.64,
+    "lon": -117.84
+   },
+   "nextStep": "Committed deal. Use as a reference when pitching P3 delivery to other UC campuses.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 5,
+   "summary": "In July 2026 the Regents approved the design of East Campus Student Apartments Phase 5, delivered by public-private partnership. UCI also continues University Hills faculty housing through its campus housing authority.",
+   "system": "UC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "sewardd@uchastings.edu",
+     "name": "David Seward",
+     "role": "VP Administrative Services",
+     "source": "WSCUC institution record",
+     "title": "Chief Financial Officer, UC Law San Francisco (leads Academic Village finance)",
+     "url": "https://www.wscuc.org/?p=162050",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "San Francisco",
+   "evidence": [
+    {
+     "date": "Sep 2026",
+     "quote": "with more housing to follow in a future phase",
+     "source": "UC Law SF magazine",
+     "type": "Institution publication",
+     "url": "https://www.uclawsf.edu/2026/09/14/magazine2026-building-whats-next/",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "2026 bonds (about $131M) fund McAllister Tower; floors 14–23 residential buildout unfunded",
+    "status": "Partial"
+   },
+   "headline": "More Academic Village housing is planned after McAllister Tower reopens in 2027.",
+   "housing": [
+    "Student",
+    "Faculty & staff"
+   ],
+   "id": "uclawsf-next",
+   "inst": "UC Law San Francisco",
+   "keys": [
+    "UC|UC Law San Francisco"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "San Francisco",
+    "lat": 37.78,
+    "lon": -122.415
+   },
+   "nextStep": "Multi-institution model needs financing and partner structuring. Strong advisory fit.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "McAllister Tower adds residences for 200 people in 2027. Floors 14–23 (about 80 units) remain unfunded, and a later phase on Golden Gate Avenue was described as 250–400 workforce units.",
+   "system": "UC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": true
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "email": "sandra.h.kim@ucr.edu",
+     "name": "Sandra Kim",
+     "role": "VP Administrative Services",
+     "source": "WSCUC institution record",
+     "title": "Vice Chancellor of Finance and Administration / CFO, UC Riverside",
+     "url": "https://www.wscuc.org/?p=163557",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Riverside",
+   "evidence": [
+    {
+     "date": "Mar 2026",
+     "quote": "fast-track additional housing complexes on campus",
+     "source": "EdSource, quoting a UC Riverside official",
+     "type": "News report",
+     "url": "https://edsource.org/2026/uc-riverside-enrollment-growth/753291",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "External financing for North District Phase 3, before the Regents Nov 18",
+    "status": "Planned"
+   },
+   "headline": "North District Phase 3 goes to the Regents for budget, financing and design approval on Nov 18.",
+   "housing": [
+    "Student"
+   ],
+   "id": "ucr-fasttrack",
+   "inst": "UC Riverside",
+   "keys": [
+    "UC|UC Riverside"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Riverside",
+    "lat": 33.97,
+    "lon": -117.33
+   },
+   "nextStep": "Phase 3 is committed. Ask about the next phase and faculty housing as enrollment growth continues.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 5,
+   "summary": "UCR is carrying a large share of UC’s planned undergraduate growth and officials say they are looking for ways to speed up new on-campus housing.",
+   "system": "UC",
+   "triggers": [
+    {
+     "confirmed": true,
+     "date": "2026-11-18",
+     "label": "Regents vote on North District Phase 3 budget, financing and design",
+     "url": "https://regents.universityofcalifornia.edu/regmeet/nov26/fin.pdf"
+    }
+   ],
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": true
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "name": "Dennis Assanis",
+     "role": "President",
+     "source": "edhat",
+     "title": "Chancellor, UC Santa Barbara",
+     "url": "https://www.edhat.com/news/uc-santa-barbara-works-to-expand-housing-for-faculty-staff-and-students/",
+     "stakeholder": "President"
+    }
+   ],
+   "county": "Santa Barbara",
+   "evidence": [
+    {
+     "date": "Aug 10, 2026",
+     "quote": "UCSB’s 540-home housing project is still in the planning stages",
+     "source": "Santa Barbara Independent",
+     "type": "News report",
+     "url": "https://www.independent.com/2026/08/10/uc-santa-barbara-to-house-faculty-staff-on-haley-street/",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Alternative financing method approved by Regents in March 2025",
+    "status": "Planned"
+   },
+   "headline": "The 540-home Ocean Road faculty and staff project is still in planning.",
+   "housing": [
+    "Faculty & staff"
+   ],
+   "id": "ucsb",
+   "inst": "UC Santa Barbara",
+   "keys": [
+    "UC|UC Santa Barbara"
+   ],
+   "latestEvidence": "2026-08-10",
+   "loc": {
+    "city": "Goleta",
+    "lat": 34.41,
+    "lon": -119.85
+   },
+   "nextStep": "UCSB uses third-party developers. Offer advisory on the reimagined Ocean Road structure before the developer is chosen.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 3,
+   "summary": "The Regents approved an alternative financing method for a denser, rental-focused Ocean Road in March 2025. Meanwhile UCSB is leasing downtown buildings for faculty and staff, which shows unmet demand.",
+   "system": "UC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": true
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "name": "Pradeep Khosla",
+     "role": "President",
+     "source": "Regents committee roster, Nov 2026",
+     "title": "Chancellor, UC San Diego",
+     "url": "https://regents.universityofcalifornia.edu/regmeet/nov26/fin.pdf",
+     "stakeholder": "President"
+    },
+    {
+     "email": "lfurnstahl@ucsd.edu",
+     "name": "Lawrence Furnstahl",
+     "role": "VP Administrative Services",
+     "source": "WSCUC institution record",
+     "title": "Vice Chancellor, Chief Financial Officer, UC San Diego",
+     "url": "https://www.wscuc.org/?p=162471",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "San Diego",
+   "evidence": [
+    {
+     "date": "2025",
+     "quote": "Faculty and staff housing is also a major focus",
+     "source": "UC Consolidated Capital Report, San Diego campus",
+     "type": "Capital plan",
+     "url": "https://capitalprojectsreport.ucop.edu/pdf/locations/2025-ConsolidatedCapitalReport-UCSanDiego.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "source": "Public-private partnerships for faculty and staff housing; external financing for Pepper Canyon East",
+    "status": "Planned"
+   },
+   "headline": "Faculty and staff housing P3s are planned in the Morena Boulevard and Hillcrest districts.",
+   "housing": [
+    "Faculty & staff",
+    "Student"
+   ],
+   "id": "ucsd-faculty-p3",
+   "inst": "UC San Diego",
+   "keys": [
+    "UC|UC San Diego"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "La Jolla",
+    "lat": 32.88,
+    "lon": -117.23
+   },
+   "nextStep": "Find out whether developers have been selected for Morena or Hillcrest. If not, this is a top target.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "UC San Diego’s capital program names faculty and staff housing as a major focus, delivered through public-private partnerships off the main campus.",
+   "system": "UC",
+   "triggers": [
+    {
+     "confirmed": true,
+     "date": "2026-11-18",
+     "label": "Regents consent item: Pepper Canyon East Phase 1 funding amendment and Phase 2 preliminary plans",
+     "url": "https://regents.universityofcalifornia.edu/regmeet/nov26/fin.pdf"
+    }
+   ],
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "contacts": [
+    {
+     "name": "Rubén Aurelio",
+     "role": "President",
+     "source": "Vallejo Sun",
+     "title": "Superintendent, Vallejo City USD",
+     "url": "https://www.vallejosun.com/vallejo-schools-could-cut-30-of-staff-over-next-three-years",
+     "stakeholder": "President"
+    },
+    {
+     "email": "rfernandez@vcusd.org",
+     "name": "Rubén Fernández",
+     "phone": "707-556-8921 x50059",
+     "role": "VP Administrative Services",
+     "source": "VCUSD cabinet page",
+     "title": "Assistant Superintendent, Business Services and Operations (oversees bond program and facilities)",
+     "url": "https://www.vcusd.org/about-us/our-superintendent",
+     "stakeholder": "VP Administrative Services"
+    }
+   ],
+   "county": "Solano",
+   "evidence": [
+    {
+     "date": "Feb 25, 2026",
+     "quote": "exploring workforce housing on surplus district property",
+     "source": "VCUSD Board Brief, Special Board Workshop",
+     "type": "District board summary",
+     "url": "https://www.vcusd.org/district-news-post/~board/district-news-vallejo-city-unified-school-district-26/post/board-brief-feb-25-2026",
+     "primary": true
+    },
+    {
+     "date": "Feb 2026",
+     "quote": "As long as the district’s not the landlord, that is the key",
+     "source": "Trustee Fox, VCUSD Board of Education (Citizen Portal recap)",
+     "type": "Board meeting recap",
+     "url": "https://citizenportal.ai/articles/7860682/California/School-Districts/Vallejo-City-Unified/Board-asks-staff-to-study-workforce-housing-options-on-district-land",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "note": "District closed three elementary schools and is cutting staff, which frees surplus sites but limits general-fund capacity. Expect a no-cost-to-district model.",
+    "source": "No housing funding identified. Measure S facilities bond ($194M, 2018); trustees have discussed extending the bond tax",
+    "status": "Unknown"
+   },
+   "headline": "Trustees asked staff to scope a workforce housing feasibility study on district land.",
+   "housing": [
+    "Workforce"
+   ],
+   "id": "vallejo-city-usd",
+   "inst": "Vallejo City Unified",
+   "keys": [
+    "K12|Vallejo City Unified"
+   ],
+   "latestEvidence": "2026-02-26",
+   "loc": {
+    "city": "Vallejo",
+    "lat": 38.1,
+    "lon": -122.25
+   },
+   "nextStep": "Reach the business office before the feasibility scope is written; offer the partnership-model and no-landlord structuring the board asked for.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 1,
+   "summary": "At the Feb 26, 2026 meeting the board discussed using surplus district property for teacher and essential-worker housing as a recruitment and retention tool. Staff were directed to return with a study scope covering site assessment, market and salary analysis, partnership models and architectural pre-design, with the district not acting as landlord.",
+   "system": "K12",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "advisors": [
+    {
+     "name": "Ventura Housing",
+     "role": "buyer, North Ventura Avenue site"
+    }
+   ],
+   "county": "Ventura",
+   "evidence": [
+    {
+     "date": "Aug 26, 2026",
+     "quote": "Housing that educators can actually afford supports the District’s educational mission",
+     "source": "Ventura Unified statement via KTLA",
+     "type": "News report of board action",
+     "url": "https://ktla.com/news/ventura-county/socal-school-district-sells-properties-for-housing-development/",
+     "primary": false
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$45M+ in sale proceeds",
+    "source": "Surplus land sales with buyer-financed housing",
+    "status": "Committed"
+   },
+   "headline": "Selling surplus sites with employee housing built into the deals, while weighing school closures.",
+   "housing": [
+    "Workforce"
+   ],
+   "id": "ventura-usd",
+   "inst": "Ventura Unified",
+   "keys": [
+    "K12|Ventura Unified"
+   ],
+   "latestEvidence": "2026-10-17",
+   "loc": {
+    "city": "Ventura",
+    "lat": 34.28,
+    "lon": -119.29
+   },
+   "nextStep": "The district is deciding which of its 26 schools to close. Closed campuses become new surplus sites, so offer disposition and housing-structure advice early.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 5,
+   "summary": "In August 2026 the board approved sales of the Education Service Center and the former Washington Elementary site for more than $45 million, conditioned on affordable workforce housing. In October it approved a third sale, the North Ventura Avenue property, to Ventura Housing for educator housing.",
+   "system": "K12",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": true,
+   "relationship": "client",
+   "relationshipNote": "On-call facility planning: land use and master planning."
+  },
+  {
+   "advisors": [],
+   "county": "San Bernardino",
+   "evidence": [
+    {
+     "date": "Sep 2024",
+     "note": "Round 3 construction application: $62.0M project.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$62.0M project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Student housing project designed and submitted for state funding, still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "victor-valley",
+   "inst": "Victor Valley College",
+   "keys": [
+    "CCC|Victor Valley College"
+   ],
+   "latestEvidence": "2026-11-15",
+   "loc": {
+    "city": "Victorville",
+    "lat": 34.5,
+    "lon": -117.33
+   },
+   "nextStep": "A defined project with a financing gap. Offer alternative funding and P3 analysis before the board picks a path.",
+   "notes": "",
+   "origin": "Web sweep: master plans",
+   "stage": 3,
+   "summary": "The college applied for a state Affordable Student Housing construction grant: $62.0M project. It was not funded in that round. The 2026–27 state budget approved no new community college housing projects, so the plan has no state money behind it.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "advisors": [],
+   "county": "Santa Clara",
+   "evidence": [
+    {
+     "date": "Jul 29, 2026",
+     "quote": "housing is a student success investment, and one we intend to sustain and scale",
+     "source": "SJSU newsroom, quoting the WVMCCD chancellor",
+     "type": "Press release",
+     "url": "https://blogs.sjsu.edu/newsroom/2026/san-jose-state-university-and-west-valley-mission-community-college-district-successfully-complete-first-of-its-kind-joint-housing-pilot/",
+     "primary": true
+    },
+    {
+     "date": "Sep 2024",
+     "note": "Mission College student housing, $81.9M project with $25M local share, Round 3; not funded.",
+     "source": "CCC Chancellor’s Office, Affordable Student Housing construction applications, Round 3 ranked list",
+     "type": "State funding application",
+     "url": "https://www.cccco.edu/wp-content/uploads/2024/10/rankedlist-cccaffordablestudenthousingconstr.-round-3-2024-25-ca-budget-a11y.pdf",
+     "primary": true
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "funding": {
+    "amount": "$81.9M (Mission College) project",
+    "note": "No new community college housing projects were funded in the 2026–27 state budget. Next state application window closes July 1, 2027.",
+    "source": "State Affordable Student Housing construction grant requested, not awarded",
+    "status": "Unfunded"
+   },
+   "headline": "Pilot with San José State done; a $81.9M Mission College housing project is still unfunded.",
+   "housing": [
+    "Student"
+   ],
+   "id": "west-valley-mission",
+   "inst": "West Valley College and Mission College",
+   "keys": [
+    "CCC|West Valley College",
+    "CCC|Mission College"
+   ],
+   "latestEvidence": "2026-07-29",
+   "loc": {
+    "city": "Saratoga and Santa Clara",
+    "lat": 37.26,
+    "lon": -122.01
+   },
+   "nextStep": "They are leasing beds today. Pitch a needs study for their own housing using AB 648 zoning relief.",
+   "notes": "",
+   "origin": "Web sweep",
+   "stage": 3,
+   "summary": "West Valley-Mission CCD put $500,000 and a board resolution behind a pilot that housed 30 of its students in SJSU residence halls during spring and summer 2026. The chancellor called it a model to sustain and grow.",
+   "system": "CCC",
+   "updated": "2026-11-15",
+   "state": "CA",
+   "contacts": [],
+   "needsPrimary": false
+  },
+  {
+   "id": "mt-pleasant-esd",
+   "inst": "Mt. Pleasant Elementary",
+   "keys": [
+    "K12|Mt. Pleasant Elementary"
+   ],
+   "system": "K12",
+   "county": "Santa Clara",
+   "housing": [
+    "Workforce"
+   ],
+   "stage": 2,
+   "headline": "Board declared two sites exempt surplus and approved their sale for staff housing, then opened a 120-day due diligence period.",
+   "summary": "On Feb 11, 2026 trustees voted unanimously to move forward with below-market rental housing for staff on vacant land behind Ida Jew Academy and part of the August Boeger campus. Trustees insisted the project be affordable to the district with no general-fund spending.",
+   "evidence": [
+    {
+     "quote": "moves the project into a 120-day due diligence phase",
+     "source": "MPESD Workforce Housing Project page",
+     "type": "District project page",
+     "date": "Feb 11, 2026",
+     "url": "https://www.mpesd.org/our-district/workforce-housing-project",
+     "primary": true
+    }
+   ],
+   "advisors": [],
+   "contacts": [],
+   "nextStep": "Due diligence ran to about June 2026. Check for a buyer or developer agreement on an upcoming agenda and offer transaction and deal-structure advice.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2026-11-15",
+   "origin": "Web sweep: K-12",
+   "loc": {
+    "lat": 37.36,
+    "lon": -121.8,
+    "city": "San José (east)"
+   },
+   "funding": {
+    "status": "Unknown",
+    "source": "Land sale to a developer; board requires no general-fund spending"
+   },
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "id": "smfcsd",
+   "inst": "San Mateo-Foster City",
+   "keys": [
+    "K12|San Mateo-Foster City"
+   ],
+   "system": "K12",
+   "county": "San Mateo",
+   "housing": [
+    "Workforce"
+   ],
+   "stage": 2,
+   "headline": "Workforce housing feasibility done for two sites; district weighing a bond that could fund it.",
+   "summary": "A staff survey found housing costs a top barrier to retention, and feasibility renderings were prepared for the Knolls and Chess Drive properties. The district hired a firm to test support for a possible 2026 bond measure that could include workforce housing.",
+   "evidence": [
+    {
+     "quote": "more than 70% expressed interest in district-supported housing",
+     "source": "SMFCSD Workforce Housing page",
+     "type": "District project page",
+     "date": "Aug 27, 2025",
+     "url": "https://www.smfcsd.net/our-district/workforce-housing",
+     "primary": true
+    }
+   ],
+   "advisors": [],
+   "contacts": [],
+   "nextStep": "Find out whether the bond went to voters and which site is first. Offer delivery-model and developer-solicitation support.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2025-08-27",
+   "origin": "Web sweep: K-12",
+   "loc": {
+    "lat": 37.56,
+    "lon": -122.31,
+    "city": "San Mateo"
+   },
+   "funding": {
+    "status": "Unknown",
+    "source": "Possible 2026 local bond; delivery model not chosen"
+   },
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "id": "sjusd",
+   "inst": "San Jose Unified",
+   "keys": [
+    "K12|San Jose Unified"
+   ],
+   "system": "K12",
+   "county": "Santa Clara",
+   "housing": [
+    "Workforce"
+   ],
+   "stage": 1,
+   "headline": "District weighing whether to build staff housing on its land or buy existing buildings.",
+   "summary": "Nearly 900 employees told the union they want district-provided housing, and a 2025 district survey found many staff considering leaving over housing costs. Five elementary schools closed in May 2026, adding potential sites.",
+   "evidence": [
+    {
+     "quote": "residents recommended the district look at purchasing vacant properties",
+     "source": "San José Spotlight",
+     "type": "News report on advisory committee",
+     "date": "Jul 2026",
+     "url": "https://sanjosespotlight.com/san-jose-school-district-weighs-workforce-housing-options/",
+     "primary": false
+    }
+   ],
+   "advisors": [],
+   "contacts": [],
+   "nextStep": "Early and undecided between build and buy. Offer an options analysis covering closed school sites and acquisitions.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2026-07-24",
+   "origin": "Web sweep: K-12",
+   "loc": {
+    "lat": 37.31,
+    "lon": -121.89,
+    "city": "San José"
+   },
+   "funding": {
+    "status": "Unknown",
+    "source": "Measure R bond discussed; not committed"
+   },
+   "state": "CA",
+   "needsPrimary": true
+  },
+  {
+   "id": "twin-rivers-usd",
+   "inst": "Twin Rivers Unified",
+   "keys": [
+    "K12|Twin Rivers Unified"
+   ],
+   "system": "K12",
+   "county": "Sacramento",
+   "housing": [
+    "Workforce"
+   ],
+   "stage": 2,
+   "headline": "Feasibility study under way for a staff workforce housing project.",
+   "summary": "After two employee surveys, the district began a feasibility study on scope, scale and viability. The district page stresses it is exploratory, with the board as decision-maker.",
+   "evidence": [
+    {
+     "quote": "we are in the exploratory stage – not development or construction",
+     "source": "Twin Rivers USD Workforce Housing page",
+     "type": "District project page",
+     "date": "2024",
+     "url": "https://www.trusd.net/Departments/Administrative-Services/Workforce-Housing/index.html",
+     "primary": true
+    }
+   ],
+   "advisors": [],
+   "contacts": [],
+   "nextStep": "Confirm whether the study has gone to the board. The project sits under Administrative Services, which is the office to contact.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2024-12-01",
+   "origin": "Web sweep: K-12",
+   "loc": {
+    "lat": 38.66,
+    "lon": -121.42,
+    "city": "North Highlands"
+   },
+   "funding": {
+    "status": "Unknown",
+    "source": "Not identified"
+   },
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "id": "novato-usd",
+   "inst": "Novato Unified",
+   "keys": [
+    "K12|Novato Unified"
+   ],
+   "system": "K12",
+   "county": "Marin",
+   "housing": [
+    "Workforce"
+   ],
+   "stage": 4,
+   "headline": "District has a staff housing development director and a consultant-led site feasibility study.",
+   "summary": "Brookwood Partners was hired on a contract of up to $135,000 to find district sites suited to workforce housing, and the district surveyed staff on housing needs. Officials said a project could take five to eight years.",
+   "evidence": [
+    {
+     "quote": "the actual project could take five to eight years to complete",
+     "source": "Marin Independent Journal",
+     "type": "News report on advisory committee",
+     "date": "Apr 2024",
+     "url": "https://www.pressreader.com/usa/marin-independent-journal/20240417/281599540544749",
+     "primary": false
+    }
+   ],
+   "advisors": [
+    {
+     "name": "Brookwood Partners",
+     "role": "Site feasibility study, up to $135K"
+    }
+   ],
+   "contacts": [],
+   "nextStep": "Feasibility is done; ask what site was chosen and whether a developer solicitation is next.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2024-04-17",
+   "origin": "Web sweep: K-12",
+   "loc": {
+    "lat": 38.11,
+    "lon": -122.57,
+    "city": "Novato"
+   },
+   "funding": {
+    "status": "Unknown",
+    "source": "Not identified"
+   },
+   "state": "CA",
+   "needsPrimary": true
+  },
+  {
+   "id": "davis-jusd",
+   "inst": "Davis Joint Unified",
+   "keys": [
+    "K12|Davis Joint Unified"
+   ],
+   "system": "K12",
+   "county": "Yolo",
+   "housing": [
+    "Workforce"
+   ],
+   "stage": 2,
+   "headline": "Plan for 200+ below-market staff units at Harper Junior High; phase one about 48 units.",
+   "summary": "The district’s chief strategy officer presented survey results and concept designs, proposing to relocate sports fields to free more than 12 acres. Rents would be 30–50% below market, with funding from property sales or a bond still to be decided.",
+   "evidence": [
+    {
+     "quote": "the district considers land at Harper Junior High to be the best location",
+     "source": "Davis Enterprise",
+     "type": "News report on board meeting",
+     "date": "Aug 2025",
+     "url": "https://www.davisenterprise.com/news/school-board-tackles-workforce-housing/article_9fa40557-eb95-4377-8c77-1836fbafa341.html",
+     "primary": false
+    }
+   ],
+   "advisors": [],
+   "contacts": [],
+   "nextStep": "Funding path is open. Offer a financing and delivery plan for phase one before a developer solicitation.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2025-08-15",
+   "origin": "Web sweep: K-12",
+   "loc": {
+    "lat": 38.55,
+    "lon": -121.74,
+    "city": "Davis"
+   },
+   "funding": {
+    "status": "Unknown",
+    "source": "Property sales or general obligation bonds under consideration"
+   },
+   "state": "CA",
+   "needsPrimary": true
+  },
+  {
+   "id": "pasadena-usd",
+   "inst": "Pasadena Unified",
+   "keys": [
+    "K12|Pasadena Unified"
+   ],
+   "system": "K12",
+   "county": "Los Angeles",
+   "housing": [
+    "Workforce"
+   ],
+   "stage": 5,
+   "headline": "110-unit staff housing at former Roosevelt Elementary moving through approvals with Education Housing Partners.",
+   "summary": "The project on 5.3 acres at 315 N. Pasadena Ave. is meant as a prototype for more district sites.",
+   "evidence": [
+    {
+     "quote": "110 new rental units exclusively for PUSD teachers and staff",
+     "source": "Yield Pro",
+     "type": "Trade press",
+     "date": "Oct 2026",
+     "url": "https://yieldpro.com/2026/10/unified-school-district-wf-housing/",
+     "primary": false
+    }
+   ],
+   "advisors": [
+    {
+     "name": "Education Housing Partners",
+     "role": "Developer"
+    },
+    {
+     "name": "SVA Architects",
+     "role": "Architect"
+    }
+   ],
+   "contacts": [],
+   "nextStep": "Developer in place. Ask which surplus site is next, since this is billed as a prototype.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2026-10-07",
+   "origin": "Web sweep: K-12",
+   "loc": {
+    "lat": 34.15,
+    "lon": -118.15,
+    "city": "Pasadena"
+   },
+   "funding": {
+    "status": "Partial",
+    "source": "Measure O bond funds in part"
+   },
+   "state": "CA",
+   "needsPrimary": true
+  },
+  {
+   "id": "santa-barbara-usd",
+   "inst": "Santa Barbara Unified",
+   "keys": [
+    "K12|Santa Barbara Unified"
+   ],
+   "system": "K12",
+   "county": "Santa Barbara",
+   "housing": [
+    "Workforce"
+   ],
+   "stage": 6,
+   "headline": "106 staff apartments on the Tatum parcel; groundbreaking July 2026.",
+   "summary": "The district sold the Tatum property in 2021 with a condition to preserve land for staff housing, then repurchased a 3.65-acre parcel with developer financing.",
+   "evidence": [
+    {
+     "quote": "the district repurchased a 3.65-acre parcel for $7.4 million",
+     "source": "The Santa Barbara Report",
+     "type": "News report on board action",
+     "date": "Jun 2026",
+     "url": "https://thesantabarbarareport.com/sbusds-tatum-property-gives-teachers-a-housing-option/",
+     "primary": false
+    }
+   ],
+   "advisors": [
+    {
+     "name": "Red Tail Multifamily Land Development",
+     "role": "Developer"
+    }
+   ],
+   "contacts": [],
+   "nextStep": "Committed. Use as a reference deal for nearby districts.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2026-06-26",
+   "origin": "Web sweep: K-12",
+   "loc": {
+    "lat": 34.44,
+    "lon": -119.79,
+    "city": "Goleta"
+   },
+   "funding": {
+    "status": "Committed",
+    "source": "Developer-financed repurchase"
+   },
+   "state": "CA",
+   "needsPrimary": true
+  },
+  {
+   "id": "santa-cruz-city-schools",
+   "inst": "Santa Cruz City Schools",
+   "keys": [
+    "K12|Santa Cruz City High",
+    "K12|Santa Cruz City Elementary"
+   ],
+   "system": "K12",
+   "county": "Santa Cruz",
+   "housing": [
+    "Workforce"
+   ],
+   "stage": 6,
+   "headline": "100-unit educator housing at 313 Swift St. broke ground March 2026.",
+   "summary": "Funded by Measures K and L (2022), about $80 million, opening 2028.",
+   "evidence": [
+    {
+     "quote": "the first educator workforce housing project in our county’s history",
+     "source": "Santa Cruz County Office of Education",
+     "type": "Agency news",
+     "date": "Mar 20, 2026",
+     "url": "https://santacruzcoe.org/an-educator-housing-milestone/",
+     "primary": true
+    }
+   ],
+   "advisors": [
+    {
+     "name": "Bogard Construction",
+     "role": "Builder"
+    },
+    {
+     "name": "Studio Vara",
+     "role": "Architect"
+    },
+    {
+     "name": "EHDD",
+     "role": "Architect"
+    }
+   ],
+   "contacts": [],
+   "nextStep": "Committed. Reference deal for other Santa Cruz County districts.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2026-03-20",
+   "origin": "Web sweep: K-12",
+   "loc": {
+    "lat": 36.96,
+    "lon": -122.04,
+    "city": "Santa Cruz"
+   },
+   "funding": {
+    "status": "Committed",
+    "source": "Measures K and L bonds",
+    "amount": "About $80M"
+   },
+   "state": "CA",
+   "needsPrimary": false
+  },
+  {
+   "id": "or-bend-la-pine",
+   "inst": "Bend-La Pine Schools",
+   "keys": [
+    "OR|Bend-La Pine Schools"
+   ],
+   "state": "OR",
+   "system": "K12",
+   "county": "Deschutes",
+   "housing": [
+    "Workforce"
+   ],
+   "stage": 5,
+   "headline": "Selling two school-adjacent parcels for 32 for-sale homes with priority for district staff; district calls it a repeatable model.",
+   "summary": "Bend rezoned a nearly two-acre parcel next to Summit High School in November 2025 for the project with Bend-Redmond Habitat for Humanity. The district owns 72 acres of undeveloped land beyond future school sites.",
+   "evidence": [
+    {
+     "quote": "The district owns 72 acres of undeveloped land, excluding lots for potential new schools.",
+     "source": "OPB",
+     "type": "News report on council action",
+     "date": "Nov 10, 2025",
+     "url": "https://www.opb.org/article/2025/11/10/bend-city-council-housing-project-help-school-employees/",
+     "primary": false
+    }
+   ],
+   "advisors": [
+    {
+     "name": "Bend-Redmond Habitat for Humanity",
+     "role": "Builder/partner"
+    }
+   ],
+   "contacts": [],
+   "nextStep": "With 72 more acres and a stated plan to repeat the model, offer a district-wide land strategy for the next phase.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2025-11-10",
+   "origin": "Web sweep: multistate",
+   "loc": {
+    "lat": 44.06,
+    "lon": -121.31,
+    "city": "Bend"
+   },
+   "funding": {
+    "status": "Committed",
+    "source": "Land sale to Habitat for Humanity"
+   },
+   "needsPrimary": true
+  },
+  {
+   "id": "az-chino-valley",
+   "inst": "Chino Valley Unified",
+   "keys": [
+    "AZ|Chino Valley Unified"
+   ],
+   "state": "AZ",
+   "system": "K12",
+   "county": "Yavapai",
+   "housing": [
+    "Workforce"
+   ],
+   "stage": 6,
+   "headline": "Ten teacher housing units built on district land with an outside advisor.",
+   "summary": "The district worked with a Prescott Valley investment and advisory firm on land, procurement and financing for employee housing.",
+   "evidence": [
+    {
+     "quote": "that guidance has led to 10 housing units located on land owned by the Chino Valley Unified School District",
+     "source": "Arizona School Boards Association, Partner Link",
+     "type": "Association newsletter",
+     "date": "Nov 12, 2026",
+     "url": "https://azsba.org/partner-link-11-12-26/",
+     "primary": false
+    }
+   ],
+   "advisors": [
+    {
+     "name": "The Pronghorn Group",
+     "role": "Housing advisor and developer"
+    }
+   ],
+   "contacts": [],
+   "nextStep": "Reference case for other rural Arizona districts; watch for a second phase.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2026-11-12",
+   "origin": "Web sweep: multistate",
+   "loc": {
+    "lat": 34.76,
+    "lon": -112.45,
+    "city": "Chino Valley"
+   },
+   "funding": {
+    "status": "Committed",
+    "source": "Private partner financing"
+   },
+   "needsPrimary": true
+  },
+  {
+   "id": "az-baboquivari",
+   "inst": "Baboquivari Unified",
+   "keys": [
+    "AZ|Baboquivari Unified"
+   ],
+   "state": "AZ",
+   "system": "K12",
+   "county": "Pima",
+   "housing": [
+    "Workforce"
+   ],
+   "stage": 6,
+   "headline": "Expanding its 41-unit teacher housing using federal Impact Aid.",
+   "summary": "The district is putting part of a $10 million federal grant toward an additional unit this year amid statewide teacher vacancies.",
+   "evidence": [
+    {
+     "quote": "using federal Impact Aid funding to build affordable teacher housing",
+     "source": "KOLD 13 News",
+     "type": "News report",
+     "date": "Jul 8, 2026",
+     "url": "https://www.kold.com/2026/07/09/rural-school-district-builds-affordable-housing-attract-retain-teachers/",
+     "primary": false
+    }
+   ],
+   "advisors": [],
+   "contacts": [],
+   "nextStep": "Small, grant-funded expansions; useful for a rural-district housing playbook.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2026-07-08",
+   "origin": "Web sweep: multistate",
+   "loc": {
+    "lat": 31.91,
+    "lon": -111.88,
+    "city": "Sells"
+   },
+   "funding": {
+    "status": "Partial",
+    "source": "Federal Impact Aid",
+    "amount": "$10M grant (part used for housing)"
+   },
+   "needsPrimary": true
+  },
+  {
+   "id": "il-uiuc-ikenberry",
+   "inst": "University of Illinois Urbana-Champaign",
+   "keys": [
+    "IL|University of Illinois Urbana-Champaign"
+   ],
+   "state": "IL",
+   "system": "PU",
+   "county": "Champaign",
+   "housing": [
+    "Student"
+   ],
+   "stage": 5,
+   "headline": "About $180M Ikenberry Commons housing project in late design; procurement expected in 2026.",
+   "summary": "Part of a broader effort to modernize campus housing; leadership is authorized to proceed to construction procurement once plans are final.",
+   "evidence": [
+    {
+     "quote": "The project is in the late design stage",
+     "source": "Government Market News",
+     "type": "Trade press",
+     "date": "Mar 2026",
+     "url": "https://govmarketnews.com/student-housing-construction-projects-usa-university-expansion/",
+     "primary": false
+    }
+   ],
+   "advisors": [],
+   "contacts": [],
+   "nextStep": "Procurement is imminent. Ask whether later Ikenberry phases or graduate/family housing are being studied.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2026-03-23",
+   "origin": "Web sweep: multistate",
+   "loc": {
+    "lat": 40.1,
+    "lon": -88.23,
+    "city": "Urbana-Champaign"
+   },
+   "funding": {
+    "status": "Planned",
+    "source": "University housing system"
+   },
+   "needsPrimary": true
+  },
+  {
+   "id": "il-niu-p3",
+   "inst": "Northern Illinois University",
+   "keys": [
+    "IL|Northern Illinois University"
+   ],
+   "state": "IL",
+   "system": "PU",
+   "county": "DeKalb",
+   "housing": [
+    "Student"
+   ],
+   "stage": 5,
+   "headline": "Issued an RFP for a public-private partnership to manage, renovate and potentially build student housing.",
+   "summary": "NIU sought a concession-style P3 covering existing residence halls and possible new construction, subject to Board of Trustees approval.",
+   "evidence": [
+    {
+     "quote": "pursue a public-private partnership (P3) arrangement with an established firm",
+     "source": "Illinois Public Higher Education Procurement Bulletin",
+     "type": "Procurement notice",
+     "date": "Nov 2025",
+     "url": "https://www.procure.stateuniv.state.il.us/viewNotice.cfm?mName=findNotice&i=NIU&p=PSCMAB112025",
+     "primary": true
+    }
+   ],
+   "advisors": [],
+   "contacts": [],
+   "nextStep": "Find out whether a partner was selected and whether NIU wants an owner's advisor for negotiation.",
+   "notes": "",
+   "firstSeen": "2026-11-15",
+   "updated": "2026-11-15",
+   "latestEvidence": "2025-11-20",
+   "origin": "Web sweep: multistate",
+   "loc": {
+    "lat": 41.93,
+    "lon": -88.77,
+    "city": "DeKalb"
+   },
+   "funding": {
+    "status": "Planned",
+    "source": "Public-private partnership"
+   },
+   "needsPrimary": false
+  }
+ ],
+ "calendar": [
+  {
+   "body": "Long Beach, 12:45 p.m. Items: Mission Valley private student housing P3 final approval, Cal State East Bay Concord P3 conceptual approval and RFP authority, facilities funding strategies.",
+   "confirmed": true,
+   "date": "2026-11-18",
+   "label": "CSU Board of Trustees: Joint Committee on Finance and Campus Planning",
+   "leadIds": [
+    "sdsu",
+    "csueb-concord"
+   ],
+   "url": "https://www.calstate.edu/csu-system/board-of-trustees/past-meetings/2026/Documents/nov-17-18-2026-FIN-CPBG.pdf",
+   "why": "Concord is the clearest pre-RFP opening on the list: the vote authorizes the solicitation itself."
+  },
+  {
+   "body": "UCSF Mission Bay, 1:00 p.m. Items: 2026–32 Capital Financial Plan, Pepper Canyon East (UC San Diego), North District Phase 3 (UC Riverside).",
+   "confirmed": true,
+   "date": "2026-11-18",
+   "label": "UC Regents: Finance and Capital Strategies Committee",
+   "leadIds": [
+    "ucsd-faculty-p3",
+    "ucr-fasttrack"
+   ],
+   "url": "https://regents.universityofcalifornia.edu/regmeet/nov26/fin.pdf",
+   "why": "The Capital Financial Plan lists every planned UC housing project and its funding for the next six years."
+  },
+  {
+   "body": "Chancellor’s Office, Long Beach. Agenda posts about 10 days before.",
+   "confirmed": true,
+   "date": "2027-01-26",
+   "label": "CSU Board of Trustees meeting (Jan 26–27)",
+   "leadIds": [],
+   "systems": [
+    "CSU"
+   ],
+   "url": "https://www.csulb.edu/node/288931"
+  },
+  {
+   "body": "Chancellor’s Office, Long Beach.",
+   "confirmed": true,
+   "date": "2027-03-16",
+   "label": "CSU Board of Trustees meeting (Mar 16–17)",
+   "leadIds": [],
+   "systems": [
+    "CSU"
+   ],
+   "url": "https://www.csulb.edu/node/288931"
+  },
+  {
+   "body": "Chancellor’s Office, Long Beach.",
+   "confirmed": true,
+   "date": "2027-05-04",
+   "label": "CSU Board of Trustees meeting (May 4–5)",
+   "leadIds": [],
+   "systems": [
+    "CSU"
+   ],
+   "url": "https://www.csulb.edu/node/288931"
+  },
+  {
+   "body": "Annual state application window through the Chancellor’s Office (FUSION). Applications are due July 1 each year.",
+   "confirmed": true,
+   "date": "2027-07-01",
+   "label": "Deadline: community college Affordable Student Housing construction applications",
+   "leadIds": [
+    "porterville",
+    "los-medanos",
+    "victor-valley",
+    "feather-river",
+    "ohlone-newark",
+    "antelope-valley",
+    "crafton-hills",
+    "mendocino",
+    "college-of-alameda",
+    "coalinga",
+    "american-river",
+    "moreno-valley",
+    "moorpark",
+    "merced-college",
+    "cypress",
+    "gavilan",
+    "solano",
+    "evergreen-valley",
+    "lassen",
+    "columbia",
+    "las-positas-chabot",
+    "rio-hondo",
+    "ivc-inspire2035",
+    "southwestern",
+    "shasta-college",
+    "smcccd-skyline-canada",
+    "west-valley-mission",
+    "college-of-the-canyons",
+    "ccsf-housing",
+    "palomar-housing",
+    "miracosta",
+    "el-camino"
+   ],
+   "url": "https://www.cccco.edu/wp-content/uploads/2026/09/compendium-of-allocations-and-resources.pdf",
+   "why": "Every unfunded college decides this spring whether to reapply or switch to a P3 or local financing. That decision is the advisory opening."
+  },
+  {
+   "body": "Includes $750M for CSU research and science facilities. Exact election date to confirm.",
+   "confirmed": false,
+   "date": "2028-03-01",
+   "label": "Statewide ballot: California Science and Health Research Bond",
+   "leadIds": [],
+   "systems": [
+    "CSU"
+   ],
+   "url": "https://www.calstate.edu/csu-system/board-of-trustees/past-meetings/2026/Documents/nov-17-18-2026-FIN-CPBG.pdf"
+  }
+ ],
+ "coverage": {
+  "CCC|Allan Hancock College": "2026-11-15",
+  "CCC|American River College": "2026-11-15",
+  "CCC|Antelope Valley College": "2026-11-15",
+  "CCC|Bakersfield College": "2026-11-15",
+  "CCC|Barstow Community College": "2026-11-15",
+  "CCC|Berkeley City College": "2026-11-15",
+  "CCC|Butte College": "2026-11-15",
+  "CCC|Cabrillo College": "2026-11-15",
+  "CCC|Calbright College": "2026-11-15",
+  "CCC|Cañada College": "2026-11-15",
+  "CCC|Cerritos College": "2026-11-15",
+  "CCC|Cerro Coso Community College": "2026-11-15",
+  "CCC|Chabot College": "2026-11-15",
+  "CCC|Chaffey College": "2026-11-15",
+  "CCC|Citrus College": "2026-11-15",
+  "CCC|City College of San Francisco": "2026-11-15",
+  "CCC|Clovis Community College": "2026-11-15",
+  "CCC|Coastline College": "2026-11-15",
+  "CCC|College of Alameda": "2026-11-15",
+  "CCC|College of Marin": "2026-11-15",
+  "CCC|College of San Mateo": "2026-11-15",
+  "CCC|College of the Canyons": "2026-11-15",
+  "CCC|College of the Desert": "2026-11-15",
+  "CCC|College of the Redwoods": "2026-11-15",
+  "CCC|College of the Sequoias": "2026-11-15",
+  "CCC|College of the Siskiyous": "2026-11-15",
+  "CCC|Columbia College": "2026-11-15",
+  "CCC|Compton College": "2026-11-15",
+  "CCC|Contra Costa College": "2026-11-15",
+  "CCC|Copper Mountain College": "2026-11-15",
+  "CCC|Cosumnes River College": "2026-11-15",
+  "CCC|Crafton Hills College": "2026-11-15",
+  "CCC|Cuesta College": "2026-11-15",
+  "CCC|Cuyamaca College": "2026-11-15",
+  "CCC|Cypress College": "2026-11-15",
+  "CCC|De Anza College": "2026-11-15",
+  "CCC|Diablo Valley College": "2026-11-15",
+  "CCC|East Los Angeles College": "2026-11-15",
+  "CCC|El Camino College": "2026-11-15",
+  "CCC|Evergreen Valley College": "2026-11-15",
+  "CCC|Feather River College": "2026-11-15",
+  "CCC|Folsom Lake College": "2026-11-15",
+  "CCC|Foothill College": "2026-11-15",
+  "CCC|Fresno City College": "2026-11-15",
+  "CCC|Fullerton College": "2026-11-15",
+  "CCC|Gavilan College": "2026-11-15",
+  "CCC|Glendale Community College": "2026-11-15",
+  "CCC|Golden West College": "2026-11-15",
+  "CCC|Grossmont College": "2026-11-15",
+  "CCC|Hartnell College": "2026-11-15",
+  "CCC|Imperial Valley College": "2026-11-15",
+  "CCC|Irvine Valley College": "2026-11-15",
+  "CCC|Lake Tahoe Community College": "2026-11-15",
+  "CCC|Laney College": "2026-11-15",
+  "CCC|Las Positas College": "2026-11-15",
+  "CCC|Lassen College": "2026-11-15",
+  "CCC|Long Beach City College": "2026-11-15",
+  "CCC|Los Angeles City College": "2026-11-15",
+  "CCC|Los Angeles Harbor College": "2026-11-15",
+  "CCC|Los Angeles Mission College": "2026-11-15",
+  "CCC|Los Angeles Pierce College": "2026-11-15",
+  "CCC|Los Angeles Southwest College": "2026-11-15",
+  "CCC|Los Angeles Trade-Technical College": "2026-11-15",
+  "CCC|Los Angeles Valley College": "2026-11-15",
+  "CCC|Los Medanos College": "2026-11-15",
+  "CCC|Madera Community College": "2026-11-15",
+  "CCC|Mendocino College": "2026-11-15",
+  "CCC|Merced College": "2026-11-15",
+  "CCC|Merritt College": "2026-11-15",
+  "CCC|MiraCosta College": "2026-11-15",
+  "CCC|Mission College": "2026-11-15",
+  "CCC|Modesto Junior College": "2026-11-15",
+  "CCC|Monterey Peninsula College": "2026-11-15",
+  "CCC|Moorpark College": "2026-11-15",
+  "CCC|Moreno Valley College": "2026-11-15",
+  "CCC|Mt. San Antonio College": "2026-11-15",
+  "CCC|Mt. San Jacinto College": "2026-11-15",
+  "CCC|Napa Valley College": "2026-11-15",
+  "CCC|Norco College": "2026-11-15",
+  "CCC|Ohlone College": "2026-11-15",
+  "CCC|Orange Coast College": "2026-11-15",
+  "CCC|Oxnard College": "2026-11-15",
+  "CCC|Palo Verde College": "2026-11-15",
+  "CCC|Palomar College": "2026-11-15",
+  "CCC|Pasadena City College": "2026-11-15",
+  "CCC|Porterville College": "2026-11-15",
+  "CCC|Reedley College": "2026-11-15",
+  "CCC|Rio Hondo College": "2026-11-15",
+  "CCC|Riverside City College": "2026-11-15",
+  "CCC|Sacramento City College": "2026-11-15",
+  "CCC|Saddleback College": "2026-11-15",
+  "CCC|San Bernardino Valley College": "2026-11-15",
+  "CCC|San Diego City College": "2026-11-15",
+  "CCC|San Diego Mesa College": "2026-11-15",
+  "CCC|San Diego Miramar College": "2026-11-15",
+  "CCC|San Joaquin Delta College": "2026-11-15",
+  "CCC|San José City College": "2026-11-15",
+  "CCC|Santa Ana College": "2026-11-15",
+  "CCC|Santa Barbara City College": "2026-11-15",
+  "CCC|Santa Monica College": "2026-11-15",
+  "CCC|Santa Rosa Junior College": "2026-11-15",
+  "CCC|Santiago Canyon College": "2026-11-15",
+  "CCC|Shasta College": "2026-11-15",
+  "CCC|Sierra College": "2026-11-15",
+  "CCC|Skyline College": "2026-11-15",
+  "CCC|Solano Community College": "2026-11-15",
+  "CCC|Southwestern College": "2026-11-15",
+  "CCC|Taft College": "2026-11-15",
+  "CCC|Ventura College": "2026-11-15",
+  "CCC|Victor Valley College": "2026-11-15",
+  "CCC|West Hills College Coalinga": "2026-11-15",
+  "CCC|West Hills College Lemoore": "2026-11-15",
+  "CCC|West Los Angeles College": "2026-11-15",
+  "CCC|West Valley College": "2026-11-15",
+  "CCC|Woodland Community College": "2026-11-15",
+  "CCC|Yuba College": "2026-11-15",
+  "CSU|CSU Bakersfield": "2026-11-15",
+  "CSU|CSU Channel Islands": "2026-11-15",
+  "CSU|CSU Dominguez Hills": "2026-11-15",
+  "CSU|CSU Monterey Bay": "2026-11-15",
+  "CSU|CSU Northridge": "2026-11-15",
+  "CSU|CSU San Bernardino": "2026-11-15",
+  "CSU|CSU San Marcos": "2026-11-15",
+  "CSU|Cal Poly Humboldt": "2026-11-15",
+  "CSU|Cal Poly Pomona": "2026-11-15",
+  "CSU|Cal Poly San Luis Obispo": "2026-11-15",
+  "CSU|Cal State East Bay": "2026-11-15",
+  "CSU|Cal State Fullerton": "2026-11-15",
+  "CSU|Cal State LA": "2026-11-15",
+  "CSU|Cal State Long Beach": "2026-11-15",
+  "CSU|Chico State": "2026-11-15",
+  "CSU|Fresno State": "2026-11-15",
+  "CSU|Sacramento State": "2026-11-15",
+  "CSU|San Diego State": "2026-11-15",
+  "CSU|San Francisco State": "2026-11-15",
+  "CSU|San José State": "2026-11-15",
+  "CSU|Sonoma State": "2026-11-15",
+  "CSU|Stanislaus State": "2026-11-15",
+  "K12|Lompoc Unified": "2026-11-15",
+  "K12|Los Angeles Unified": "2026-11-15",
+  "K12|Ojai Unified": "2026-11-15",
+  "K12|Oxnard Union High": "2026-11-15",
+  "K12|San Diego Unified": "2026-11-15",
+  "K12|Vallejo City Unified": "2026-11-15",
+  "K12|Ventura Unified": "2026-11-15",
+  "UC|UC Berkeley": "2026-11-15",
+  "UC|UC Davis": "2026-11-15",
+  "UC|UC Irvine": "2026-11-15",
+  "UC|UC Law San Francisco": "2026-11-15",
+  "UC|UC Merced": "2026-11-15",
+  "UC|UC Riverside": "2026-11-15",
+  "UC|UC San Diego": "2026-11-15",
+  "UC|UC San Francisco": "2026-11-15",
+  "UC|UC Santa Barbara": "2026-11-15",
+  "UC|UC Santa Cruz": "2026-11-15",
+  "UC|UCLA": "2026-11-15",
+  "K12|Mt. Pleasant Elementary": "2026-11-15",
+  "K12|San Mateo-Foster City": "2026-11-15",
+  "K12|San Jose Unified": "2026-11-15",
+  "K12|Twin Rivers Unified": "2026-11-15",
+  "K12|Novato Unified": "2026-11-15",
+  "K12|Davis Joint Unified": "2026-11-15",
+  "K12|Pasadena Unified": "2026-11-15",
+  "K12|Santa Barbara Unified": "2026-11-15",
+  "K12|Santa Cruz City High": "2026-11-15",
+  "K12|Santa Cruz City Elementary": "2026-11-15",
+  "OR|Bend-La Pine Schools": "2026-11-15",
+  "AZ|Chino Valley Unified": "2026-11-15",
+  "AZ|Baboquivari Unified": "2026-11-15",
+  "IL|University of Illinois Urbana-Champaign": "2026-11-15",
+  "IL|Northern Illinois University": "2026-11-15"
+ },
+ "sweeps": {}
+}
