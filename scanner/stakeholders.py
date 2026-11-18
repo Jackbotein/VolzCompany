@@ -15,8 +15,7 @@ RULES = """Stakeholders must be exactly these three roles (list each one you can
 - "President": the institution's president; for a university campus its chancellor/president; for a multi-college district the district chancellor; for a K-12 district the superintendent.
 - "VP Student Services": vice president or vice chancellor of student services / student affairs / student success; K-12 equivalent: assistant superintendent of student or educational services.
 - "VP Administrative Services": vice president or vice chancellor of administrative services, business services, finance or business development, CFO or chief business officer; K-12 equivalent: assistant superintendent of business/administrative services.
-Do not list trustees, directors, assistants, consultants or anyone else as stakeholders.
-If you cannot identify the other roles, you must still return the President (superintendent for K-12) with the president's public email from the official president's or superintendent's office page; every institution publishes one."""
+Do not list trustees, directors, assistants, consultants or anyone else as stakeholders."""
 
 
 def classify(title):

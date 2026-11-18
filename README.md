@@ -39,52 +39,9 @@ The site updates itself every night: a GitHub Actions job runs the scanner, re-e
 
 If your host doesn't offer FTP (Netlify, Cloudflare Pages, Vercel), leave the FTP secrets blank and connect that service to the repository with `site` as the publish folder. It redeploys automatically after each nightly commit.
 
-## Scan from the website (no GitHub needed)
-
-The **Scan** tab runs scans straight from the browser with your Anthropic API key (stored only in that browser):
-
-- **California institutions not yet scanned**: community colleges and K-12 first, then UC and CSU. Choose how many per run, or "All remaining".
-- **California institutions scanned longest ago**: re-scans to keep everything current.
-- **Find stakeholders for opportunities missing them**: president, VP of student services and VP of administrative services; at minimum the president with the president's public email.
-- **Re-verify leads awaiting board minutes**: replaces news-based evidence with board minutes, agendas or master plans.
-
-Results show up immediately and are saved in that browser. To publish them to everyone, click **Download website data file** and upload the file to `assets/` on the server, replacing `edunest-data.js`.
-
-## Evidence rules
-
-Only primary sources are cited: board minutes, agenda packets, staff reports, resolutions, facilities master plans, capital plans, CEQA filings and the institution's official pages. Opportunities supported only by news are hidden until re-verified (tick **Include leads awaiting board-minutes verification** to see them).
-
-## Funding boosts
-
-The scanners record bond measures, state and federal grants and appropriations with the institution's annual budget, so boosts are ranked by **% of budget**, not dollars. Community colleges and K-12 districts come first. Sort by **Biggest funding boost (% of budget)** or tick **Big funding boost only**.
-
-## Existing Volz Company relationships
-
-Past and current clients listed in `scanner/clients.json` are tagged **Existing Volz Company relationship** with the scope of work, both in the app and on anything new the scanners find. Edit that file to add clients.
-
-## Continuous re-scanning
-
-The GitHub Actions job now runs **every 2 hours, around the clock** (not just nightly). Each run spends up to `STEP_MINUTES` (default 22) on each step, saves progress as it goes, and picks up where the last run stopped:
-
-1. Fill stakeholders and contact details (`enrich.py`, up to `ENRICH_LIMIT` = 120 lookups)
-2. California institution scan (`scan.py`, `BATCH_SIZE` = 40, oldest-scanned first, active pre-RFP leads rechecked every 14 days)
-3. Other-state discovery (`discover.py`, `SWEEPS_PER_RUN` = 8 state/sector/theme sweeps, each told which institutions are already known so it finds new ones)
-4. High-growth detection (`growth.py`, 2 states per run)
-5. Fill contacts for anything new, encrypt, commit, upload
-
-At these settings all 1,084 California institutions are rescanned about every 2–3 days and all 99 out-of-state sweeps about every day, so the list keeps growing and refreshing. Expect **500+ opportunities within the first several days** of running; the count depends on what each state's boards have actually published.
-
-Prefer a server over GitHub? Run `python3 scanner/run_forever.py` on any always-on machine (instructions at the top of that file). It loops through the same steps nonstop and uploads the data file by FTP.
-
-API cost scales with these settings. Check usage in the Anthropic Console after the first day and lower `BATCH_SIZE`, `SWEEPS_PER_RUN` or `ENRICH_LIMIT`, or change the cron line in `.github/workflows/scan.yml`, to fit your budget.
-
-## High-growth institutions
-
-`growth.py` looks for sudden capital injections in the last 36 months: capital campaigns that are the largest in the institution's history, record single gifts, record bond measures and record facilities appropriations. Matching opportunities get a green **Growth** tag; institutions with no housing signal yet are added as "Growth signal" opportunities. In the app, choose **Sort by: Highest growth first** or tick **High-growth institutions only**.
-
 ## Coverage: 12 states
 
-California is scanned institution by institution (all 1,084 UC, CSU, community college and K-12 institutions). Oregon, Washington, Nevada, Arizona, Utah, Illinois, Iowa, Wisconsin, Minnesota, Indiana and Missouri are covered by `scanner/discover.py`, which each night runs the state-and-sector sweeps (universities, community/technical colleges, K-12 districts) done longest ago. Each state has 9 sweeps (3 sectors x 3 themes), 99 in total. Set the `STATES` variable (e.g. `OR,WA`) to focus on some states. Governing bodies per state are listed in `scanner/states.json`.
+California is scanned institution by institution (all 1,084 UC, CSU, community college and K-12 institutions). Oregon, Washington, Nevada, Arizona, Utah, Illinois, Iowa, Wisconsin, Minnesota, Indiana and Missouri are covered by `scanner/discover.py`, which each night runs the state-and-sector sweeps (universities, community/technical colleges, K-12 districts) done longest ago. `SWEEPS_PER_RUN` (default 6) sets how many; all 33 sweeps cycle about every six days. Set the `STATES` variable (e.g. `OR,WA`) to focus on some states. Governing bodies per state are listed in `scanner/states.json`.
 
 ## Stakeholders
 

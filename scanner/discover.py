@@ -24,39 +24,27 @@ from stakeholders import RULES
 HERE = pathlib.Path(__file__).resolve().parent
 STATES = json.loads((HERE / "states.json").read_text(encoding="utf-8"))
 ONLY = {s.strip().upper() for s in os.environ.get("STATES", "").split(",") if s.strip()}
-PER_RUN = int(os.environ.get("SWEEPS_PER_RUN", "8"))
+PER_RUN = int(os.environ.get("SWEEPS_PER_RUN", "6"))
 
 SECTORS = {
-    "PU": "public universities",
-    "CC": "public community and technical colleges",
-    "K12": "public K-12 school districts",
+    "PU": "public universities: student housing, residence halls, graduate/family housing, faculty and staff housing, public-private partnerships, ground leases",
+    "CC": "public community and technical colleges: first student housing or residence halls, housing feasibility studies, employee housing, public-private partnerships",
+    "K12": "public K-12 school districts: teacher or employee workforce housing, staff housing on district land, surplus land for housing, teacherages",
 }
-THEMES = {
-    "PU": ["student housing, new residence halls and residence hall replacement",
-           "faculty, staff, graduate and family housing",
-           "public-private partnerships, ground leases and housing in campus master plans"],
-    "CC": ["first-ever student housing or residence halls",
-           "student housing feasibility studies, demand studies and facilities master plans",
-           "faculty or employee housing and housing public-private partnerships"],
-    "K12": ["teacher and employee workforce housing",
-            "surplus or excess district land for housing",
-            "rural teacherages and staff housing"],
-}
-DEADLINE = time.time() + 60 * int(os.environ.get("STEP_MINUTES", "25"))
 
 PROMPT = """You research public education real estate for Volz Company, a real estate advisory firm that advises public educational institutions on student housing, faculty and staff housing, employee workforce housing and related campus real estate.
 
 State: {state_name}
-Sector: {sector}\nFocus this sweep on: {theme}\nAlready known (find OTHER institutions, not these): {known}
+Sector: {sector}
 Governing bodies to check: {boards}
 Today: {today}
 
-Read the last 24 months of governing board minutes, agenda packets and staff reports, facilities master plans and capital plans in this state and sector. ONLY primary sources may be cited (minutes, agendas, staff reports, resolutions, master plans, official pages); news may help you find documents but is never cited. Run many varied searches (for example "{state_name} school district teacher housing board", "{state_name} community college student housing feasibility", "{state_name} university housing public-private partnership board of regents", "workforce housing district land {state_name}"). Prefer primary documents.
+Search the last 24 months of governing board minutes and agendas, facilities master plans and capital plans, and local news about board actions in this state and sector. Run many varied searches (for example "{state_name} school district teacher housing board", "{state_name} community college student housing feasibility", "{state_name} university housing public-private partnership board of regents", "workforce housing district land {state_name}"). Prefer primary documents.
 
-Return up to 15 institutions showing real housing signals. Put community colleges and K-12 districts with recent large funding boosts (bonds, state or federal money) and earliest-stage (pre-RFP) opportunities first.
+Return up to 10 institutions showing real housing signals, earliest-stage (pre-RFP) opportunities first.
 
 Rules:
-- Every signal needs a primary-document URL and a verbatim quote of 8-30 words from it.
+- Every signal needs a source URL and a verbatim quote of 8-30 words from it.
 - {rules}
 - Every stakeholder must have an email or phone: own published contact; else an email matching a format confirmed by two or more published addresses on the same domain ("format"); else their office's published line ("office"); else the institution's main number ("main"). Never invent anything.
 
@@ -94,16 +82,12 @@ def main():
     client = anthropic.Anthropic()
     d = load()
     sweeps = d.setdefault("sweeps", {})
-    pairs = [(s, k, t) for s in STATES if not ONLY or s in ONLY for k in SECTORS for t in range(len(THEMES[k]))]
-    pairs.sort(key=lambda p: sweeps.get(f"{p[0]}|{p[1]}|{p[2]}", {}).get("date", ""))
+    pairs = [(s, k) for s in STATES if not ONLY or s in ONLY for k in SECTORS]
+    pairs.sort(key=lambda p: sweeps.get(f"{p[0]}|{p[1]}", {}).get("date", ""))
     total = 0
-    for state, sector, ti in pairs[:PER_RUN]:
-        if time.time() > DEADLINE:
-            break
-        print(f"Sweep {state} {sector} theme {ti}")
-        known = sorted({l["inst"] for l in d["leads"] if l.get("state") == state and l.get("system") == sector})[:80]
+    for state, sector in pairs[:PER_RUN]:
+        print(f"Sweep {state} {sector}")
         res = ask(client, PROMPT.format(state_name=STATES[state]["name"], sector=SECTORS[sector], boards=STATES[state]["boards"],
-                                        theme=THEMES[sector][ti], known=", ".join(known) or "none",
                                         today=TODAY, rules=RULES.replace("\n", "\n  ")))
         found = 0
         for it in (res or {}).get("institutions", []):
@@ -119,8 +103,7 @@ def main():
                     l["state"] = state
                     if not l.get("loc") and isinstance(it.get("lat"), (int, float)) and it.get("lat"):
                         l["loc"] = {"lat": it["lat"], "lon": it["lon"], "city": it.get("city", "")}
-        sweeps[f"{state}|{sector}|{ti}"] = {"date": TODAY, "found": found}
-        sweeps[f"{state}|{sector}"] = {"date": TODAY, "found": found + sweeps.get(f"{state}|{sector}", {}).get("found", 0)}
+        sweeps[f"{state}|{sector}"] = {"date": TODAY, "found": found}
         total += found
         save(d)
         time.sleep(3)

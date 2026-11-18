@@ -210,11 +210,6 @@ tr:last-child td{border-bottom:0}
 .calrow .tags{margin-top:6px;display:flex;gap:6px;flex-wrap:wrap}
 .calrow .tags button{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:2px 10px;font-size:12.5px;cursor:pointer}
 @media (max-width:900px){.mapwrap{grid-template-columns:1fr}.calrow{grid-template-columns:1fr}}
-.pill.grow{background:rgba(52,211,153,.14);color:#6EE7B7;box-shadow:0 0 12px rgba(52,211,153,.2);vertical-align:3px;font-size:11px}
-.scanlog{font:400 12.5px/1.7 var(--mono);color:#9EDCFF;max-height:360px;overflow:auto;background:rgba(3,10,22,.5);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
-.scanlog .ok{color:#6EE7B7}.scanlog .bad{color:#FDA4AF}
-.track[hidden]{display:none !important}
-.relnote{margin:12px 0 0;padding:8px 12px;border-radius:8px;background:rgba(167,139,250,.12);border:1px solid rgba(167,139,250,.35);color:#E4DCFF;font-size:13.5px}
 .srole{font:500 11px var(--mono);color:#9EDCFF;letter-spacing:.03em;margin-bottom:3px}
 .person a.mail{font-weight:600;word-break:break-all}
 .person .verify{color:var(--gold);font-size:12px}
@@ -483,7 +478,6 @@ aside.filters .chips{flex-wrap:nowrap}
       <button role="tab" data-tab="opps" aria-selected="true">Opportunities</button>
       <button role="tab" data-tab="calendar" aria-selected="false">Calendar</button>
       <button role="tab" data-tab="coverage" aria-selected="false">Coverage</button>
-      <button role="tab" data-tab="scan" aria-selected="false">Scan</button>
       
     </nav>
     <button class="btn primary" id="runScanTop">Sign out</button>
@@ -500,8 +494,8 @@ aside.filters .chips{flex-wrap:nowrap}
         <h2 id="pipeTitle">Where California campuses stand on housing</h2>
         <span class="meta" id="pipeMeta"></span>
       </div>
-      <div class="track" id="track" hidden></div>
-      
+      <div class="track" id="track"></div>
+      <div class="track-cap"><span>Pre-RFP window: get in before the solicitation is written</span><span>Advisor or developer already in the picture</span></div>
     </div>
 
     <div class="cols">
@@ -513,13 +507,12 @@ aside.filters .chips{flex-wrap:nowrap}
         <div class="field"><label for="stateF">State</label><select id="stateF"><option value="all">All 12 states</option></select></div>
         <div class="field"><label for="fundF">Funding</label>
           <select id="fundF"><option value="all">All</option><option value="Unfunded">Unfunded: needs a financing path</option><option value="Planned">Planned in capital program</option><option value="Partial">Partially funded</option><option value="Committed">Funded or financed</option><option value="Unknown">Not yet identified</option></select></div>
-        <label class="check"><input type="checkbox" id="growthOnly"> Big funding boost only</label>
-        <label class="check"><input type="checkbox" id="unverified"> Include leads awaiting board-minutes verification</label>
-        <label class="check"><input type="checkbox" id="hideClients"> Hide existing Volz Company relationships</label>
+        <label class="check"><input type="checkbox" id="hideClients"> Hide existing Volz engagements</label>
         <label class="check"><input type="checkbox" id="missOnly"> Contacts without an email on file</label>
-        
+        <div class="field"><label for="statusF">Follow-up status</label>
+          <select id="statusF"><option value="all">All</option><option>New</option><option>Contacted</option><option>Pursuing</option><option>Not a fit</option></select></div>
         <div class="field"><label for="sortF">Sort by</label>
-          <select id="sortF"><option value="tier">Best opportunity first</option><option value="growth">Biggest funding boost (% of budget)</option><option value="updated">Most recent evidence</option><option value="name">Institution name</option></select></div>
+          <select id="sortF"><option value="tier">Best opportunity first</option><option value="updated">Most recent evidence</option><option value="name">Institution name</option></select></div>
         <button class="btn small" id="exportBtn">Export report (CSV)</button>
       </aside>
       <div>
@@ -553,31 +546,31 @@ aside.filters .chips{flex-wrap:nowrap}
 
   <!-- SCAN -->
   <section id="tab-scan" class="hidden">
-    <div class="pipe-head" style="margin-top:28px"><h2>Scan board minutes now</h2><span class="meta" id="scMeta"></span></div>
-    <div class="scan-grid" style="grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start">
-      <div class="panel">
-        <h3>Run a scan from this page</h3>
-        <p>Claude reads each institution’s own board minutes, agenda packets, staff reports and master plans. News is never cited. Results appear here immediately and are saved in this browser.</p>
+    <div class="scan-grid">
+      <div class="panel" id="sweepPanel">
+        <h3>Web sweep of minutes and master plans</h3>
+        <p>Covers every institution in the group you pick that hasn’t been checked recently, with no batch limit. Claude searches their board minutes, agenda packets and facilities master plans, and saves every housing signal here with a quote and a source link.</p>
         <div class="form">
-          <div class="field"><label for="scMode">What to scan</label>
-            <select id="scMode"><option value="new">California institutions not yet scanned</option><option value="stale">California institutions scanned longest ago</option><option value="people">Find stakeholders for opportunities missing them</option><option value="verify">Re-verify leads awaiting board minutes</option></select></div>
+          <div class="field"><label for="swSys">Institutions</label>
+            <select id="swSys"><option value="HE" selected>All UC, CSU and community colleges</option><option value="UC">University of California</option><option value="CSU">California State University</option><option value="CCC">Community colleges</option><option value="K12">K–12 districts</option><option value="all">Everything, including K–12</option></select></div>
           <div class="two">
-            <div class="field"><label for="scSys">Institutions</label><select id="scSys"><option value="all">Community colleges and K–12 first, then UC and CSU</option><option value="CCC">Community colleges</option><option value="K12">K–12 districts</option><option value="UC">University of California</option><option value="CSU">California State University</option></select></div>
-            <div class="field"><label for="scN">How many per run</label><select id="scN"><option>10</option><option selected>25</option><option>50</option><option>100</option><option value="9999">All remaining</option></select></div>
+            <div class="field"><label for="swStale">Skip if scanned within</label>
+              <select id="swStale"><option value="30">30 days</option><option value="90" selected>90 days</option><option value="0">Rescan everything</option></select></div>
+            <div class="field"><span class="lab">Look in</span>
+              <label class="check"><input type="checkbox" id="swMin" checked> Board minutes and agendas</label>
+              <label class="check"><input type="checkbox" id="swFmp" checked> Facilities master plans</label>
+              <label class="check"><input type="checkbox" id="swPpl" checked> Decision makers named in minutes</label>
+              <label class="check"><input type="checkbox" id="swFund" checked> Funding, bonds and grants</label>
+              <label class="check"><input type="checkbox" id="swAgd" checked> Upcoming agendas</label></div>
           </div>
-          <div class="field"><label for="scKey">Anthropic API key</label><input id="scKey" type="password" autocomplete="off" placeholder="sk-ant-…"><span class="note">Stored only in this browser. Don’t save it on a shared computer.</span></div>
-          <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn primary" id="scGo">Start scan</button><button class="btn" id="scStop" disabled>Stop</button></div>
-          <div class="preview" id="scPreview"></div>
+          <div class="preview" id="swPreview"></div>
+          <button class="btn primary" id="runSweep">Run scan</button>
+          <div id="sweepDone" class="hidden notice"><b>Scan submitted.</b> <span id="sweepDoneText"></span></div>
+          <div class="status" id="sweepStatus"></div>
         </div>
+        <div class="queued" id="queueList"></div>
       </div>
-      <div class="panel">
-        <h3>Progress</h3>
-        <div class="warp-bar" style="width:100%;margin:6px 0 12px"><i id="scBar" style="transition:width .4s"></i></div>
-        <div id="scLog" class="scanlog"></div>
-        <h3 style="margin-top:22px">Publish to everyone</h3>
-        <p>Results found here are saved in this browser only. To share them with the team, download the updated data file and upload it to <code>assets/</code> on the website, replacing the old one.</p>
-        <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn primary" id="pubJs">Download website data file</button><button class="btn" id="pubJson">Download source data (JSON)</button></div>
-      </div>
+
     </div>
   </section>
   <footer class="sitefoot">EduNestRadar, a Copia Rentals technology. Prepared for Volz Company. <span id="asOf"></span></footer>
@@ -615,13 +608,13 @@ const STAGES = [
   {n:6,name:"Approved or building",hint:"Financing approved, under construction or open"}
 ];
 const tierOf = l => l.relationship==="client" ? "client" : (l.stage<=3 && !(l.advisors||[]).length) ? "hot" : (l.stage<=4 ? "warm" : "watch");
-const TIERLABEL = {hot:"Priority: pre-RFP",warm:"Advisor engaged",watch:"Monitor",client:"Existing Volz Company relationship"};
+const TIERLABEL = {hot:"Priority: pre-RFP",warm:"Advisor engaged",watch:"Monitor",client:"Volz engagement"};
 
 /* ---------- State ---------- */
 let db=null, downloads=null;
 let leads=[], coverage={}, scans=[];
 const F = {q:"",sys:"all",house:"all",pre:false,status:"all",sort:"tier",stage:0,view:"table",fund:"all",hideClients:false,miss:false,sel:null};
-function saveView(){ try{ localStorage.setItem("edunest-view",JSON.stringify({sys:F.sys,house:F.house,pre:F.pre,status:F.status,sort:F.sort,view:F.view,fund:F.fund,hideClients:F.hideClients,miss:F.miss,state:F.state,growth:F.growth,unverified:F.unverified})); }catch(e){} }
+function saveView(){ try{ localStorage.setItem("edunest-view",JSON.stringify({sys:F.sys,house:F.house,pre:F.pre,status:F.status,sort:F.sort,view:F.view,fund:F.fund,hideClients:F.hideClients,miss:F.miss,state:F.state})); }catch(e){} }
 (function(){ try{ const v=JSON.parse(localStorage.getItem("edunest-view")||"null"); if(v) Object.assign(F,v); }catch(e){} })();
 let covLimit=100;
 const $ = id => document.getElementById(id);
@@ -635,7 +628,7 @@ function showTab(t){
   ["opps","calendar","coverage","scan"].forEach(x=>$("tab-"+x).classList.toggle("hidden", x!==t));
   if(t==="coverage") renderCoverage();
   if(t==="calendar") renderCalendar();
-  if(t==="scan") renderScanner();
+  if(t==="scan") renderSweepPreview();
   window.scrollTo({top:0});
 }
 document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
@@ -651,13 +644,11 @@ chips($("sysChips"),[["all","All"],["univ","Universities"],["cc","Community coll
 chips($("houseChips"),[["all","All"],["Student","Student"],["Faculty & staff","Faculty & staff"],["Workforce","K–12 workforce"]],"house");
 $("q").oninput=e=>{F.q=e.target.value.toLowerCase();renderLeads();};
 $("preOnly").onchange=e=>{F.pre=e.target.checked;renderLeads();};
-
+$("statusF").onchange=e=>{F.status=e.target.value;saveView();renderLeads();};
 $("fundF").onchange=e=>{F.fund=e.target.value;renderLeads();};
 $("stateF").innerHTML=`<option value="all">All 12 states</option>`+Object.entries(STATENAME).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
 $("stateF").onchange=e=>{F.state=e.target.value;F.sel=null;saveView();renderLeads();};
 $("hideClients").onchange=e=>{F.hideClients=e.target.checked;saveView();renderLeads();};
-$("unverified").onchange=e=>{F.unverified=e.target.checked;saveView();renderLeads();};
-$("growthOnly").onchange=e=>{F.growth=e.target.checked;saveView();renderLeads();};
 $("missOnly").onchange=e=>{F.miss=e.target.checked;saveView();renderLeads();};
 $("sortF").onchange=e=>{F.sort=e.target.value;saveView();renderLeads();};
 
@@ -671,9 +662,7 @@ function renderTrack(){
   $("pipeTitle").textContent = leads.length ? `${hot} priority ${hot===1?"opportunity":"opportunities"}: pre-RFP, no advisor named` : "Where California campuses stand on housing";
   const scannedN = Object.keys(coverage).length;
   const nStates=new Set(leads.map(l=>l.state||"CA")).size;
-  const caLeft=INST.filter(i=>!coverage[ikey(i)]).length;
-  $("pipeMeta").innerHTML = `${leads.filter(l=>!l.needsPrimary).length} verified opportunities across ${nStates} states${caLeft?`. ${caLeft.toLocaleString()} California institutions not yet scanned: <a href="#" id="goScan">scan them now</a>`:""}`;
-  const gs=$("goScan"); if(gs) gs.onclick=ev=>{ev.preventDefault();showTab("scan");};
+  $("pipeMeta").textContent = `${leads.length} signals tracked across ${nStates} states. ${INST.filter(i=>coverage[ikey(i)]).length.toLocaleString()} of ${INST.length.toLocaleString()} California institutions scanned`;
 }
 
 /* ---------- Leads ---------- */
@@ -683,12 +672,11 @@ function filtered(){
     if(F.state!=="all" && (l.state||"CA")!==F.state) return false;
     if(F.house!=="all" && !(l.housing||[]).includes(F.house)) return false;
     if(F.pre && tierOf(l)!=="hot") return false;
+    if(F.status!=="all" && (l.status||"New")!==F.status) return false;
     if(F.stage && l.stage!==F.stage) return false;
     if(F.fund!=="all" && ((l.funding||{}).status||"Unknown")!==F.fund) return false;
     if(F.hideClients && l.relationship==="client") return false;
     if(F.miss && primaryContact(l)) return false;
-    if(F.growth && !(l.growth&&l.growth.amount)) return false;
-    if(!F.unverified && l.needsPrimary) return false;
     if(F.q){
       const hay = [l.inst,l.county,l.headline,l.summary,...(l.advisors||[]).map(a=>a.name),...(l.contacts||[]).map(c=>c.name+" "+c.title),(l.funding||{}).source].join(" ").toLowerCase();
       if(!hay.includes(F.q)) return false;
@@ -699,7 +687,6 @@ function filtered(){
   if(F.sort==="tier") L.sort((a,b)=>T[tierOf(a)]-T[tierOf(b)] || a.stage-b.stage || String(b.updated).localeCompare(String(a.updated)));
   if(F.sort==="updated") L.sort((a,b)=>String(b.latestEvidence||b.updated).localeCompare(String(a.latestEvidence||a.updated)));
   if(F.sort==="name") L.sort((a,b)=>a.inst.localeCompare(b.inst));
-  if(F.sort==="growth") L.sort((a,b)=>((b.growth||{}).pct||0)-((a.growth||{}).pct||0) || ((b.growth||{}).amount||0)-((a.growth||{}).amount||0) || T[tierOf(a)]-T[tierOf(b)]);
   return L;
 }
 const TODAY = today();
@@ -714,25 +701,23 @@ function triggersFor(l){
 const primaryContact = l => (l.contacts||[]).find(c=>c.email) || (l.contacts||[]).find(c=>c.phone) || null;
 const KW=/(public-private partnership|P3|RFP|RFQ|request for proposals|revenue bonds?|ground lease|feasibility|workforce housing|faculty and staff housing|student housing|affordable housing|surplus|developer)/gi;
 const hl = s => esc(s).replace(KW, m=>`<mark class="kw">${m}</mark>`);
-const fmtUSD=n=>n>=1e9?`$${(n/1e9).toFixed(n%1e9?1:0)}B`:n>=1e6?`$${Math.round(n/1e6)}M`:`$${Math.round(n/1e3)}K`;
-const growthPill=l=>l.growth&&l.growth.amount?`<span class="pill grow" title="${esc(l.growth.label||"")}">Boost ${fmtUSD(l.growth.amount)}${l.growth.pct?` (${Math.round(l.growth.pct)}% of budget)`:""}</span>`:"";
 const FUNDCLS={Unfunded:"unf",Planned:"plan",Partial:"plan",Committed:"com",Unknown:"unk"};
 function fundPill(f){ f=f||{}; const s=f.status||"Unknown"; return `<span class="pill ${FUNDCLS[s]||"unk"}">${s==="Unknown"?"Not identified":esc(s)}</span>`; }
 function contactHTML(c){ return `<div class="person">${c.stakeholder?`<div class="srole">${esc(c.stakeholder)}</div>`:""}<b>${esc(c.name)}</b>${esc(c.title||"")}${c.email?`<div><a class="mail" href="mailto:${esc(c.email)}">${esc(c.email)}</a></div>`:""}${c.phone?`<div><a href="tel:${esc(c.phone.replace(/[^0-9+x]/g,""))}">${esc(c.phone)}</a>${c.contactNote?` <span class="note">${esc(c.contactNote)}</span>`:""}</div>`:""}${c.verify?`<div class="verify">${esc(c.verify)}</div>`:""}${c.role?`<div class="note">${esc(c.role)}</div>`:""}${c.url?`<div class="note"><a href="${esc(c.url)}" target="_blank" rel="noopener">Source</a>${c.source?` ${esc(c.source)}`:""}</div>`:""}</div>`; }
 function leadCard(l){
   const t = tierOf(l);
   const mini = STAGES.map(s=>`<i class="${s.n<=3?"pre":""} ${s.n<=l.stage?"on":""}"></i>`).join("");
-  const ev = (l.evidence||[]).filter(e=>e.primary!==false).map(e=>`<div class="ev">
+  const ev = (l.evidence||[]).map(e=>`<div class="ev">
       ${e.quote?`<q>${hl(e.quote)}</q>`:`<div class="para">${hl(e.note||"")}</div>`}
       <div class="src">${esc(e.source)}${e.type?`, ${esc(e.type)}`:""}${e.date?`, ${esc(e.date)}`:""}${e.url?` <a href="${esc(e.url)}" target="_blank" rel="noopener">Open source</a>`:""}</div>
     </div>`).join("");
   const adv = (l.advisors||[]).length ? l.advisors.map(a=>`${esc(a.name)}${a.role?` <span class="note">(${esc(a.role)})</span>`:""}`).join("<br>") : "None announced";
   return `<article class="lead ${t}" data-id="${esc(l.id)}">
     <div class="lead-top">
-      <div><h3>${esc(l.inst)} ${growthPill(l)}${l._new?' <span class="pill pend" style="vertical-align:3px">New</span>':""}</h3><div class="sub">${esc(SYSNAME[l.system]||l.system)}${l.county?`, ${esc(l.county)} County`:""}, ${esc(STATENAME[l.state||"CA"]||l.state)}. ${esc((l.housing||[]).join(", "))} housing</div></div>
+      <div><h3>${esc(l.inst)}${l._new?' <span class="pill pend" style="vertical-align:3px">New</span>':""}</h3><div class="sub">${esc(SYSNAME[l.system]||l.system)}${l.county?`, ${esc(l.county)} County`:""}, ${esc(STATENAME[l.state||"CA"]||l.state)}. ${esc((l.housing||[]).join(", "))} housing</div></div>
       <div style="text-align:right"><span class="badge ${t}">${TIERLABEL[t]}</span><div class="mini" title="Stage ${l.stage}: ${esc(STAGES[l.stage-1].name)}">${mini}</div></div>
     </div>
-    ${l.relationship==="client"&&l.relationshipNote?`<p class="relnote"><b>Volz Company relationship:</b> ${esc(l.relationshipNote)}</p>`:""}<p class="headline">${esc(l.headline)}</p>
+    <p class="headline">${esc(l.headline)}</p>
     <p class="summary">${esc(l.summary)}</p>
     <div class="evidence">${ev}</div>
     <div class="facts">
@@ -740,18 +725,20 @@ function leadCard(l){
       <div><span class="k">Advisors or partners named</span>${adv}</div>
       <div><span class="k">Recommended action</span>${esc(l.nextStep||"")}</div>
     </div>
-    <div class="sec"><h4>Stakeholders</h4>${(l.contacts||[]).length?`<div class="people">${l.contacts.map(contactHTML).join("")}</div>`:`<span class="note">Not yet identified. Run <b>Scan → Find stakeholders</b> to look up the president, VP of student services and VP of administrative services.</span>`}</div>
-    ${l.growth&&l.growth.amount?`<div class="sec"><h4>Funding boost</h4><div class="fund">${growthPill(l)}<span>${esc(l.growth.label||"")}${l.growth.date?`, ${esc(fmtDate(l.growth.date))}`:""}${l.growth.url?` <a href="${esc(l.growth.url)}" target="_blank" rel="noopener">Source</a>`:""}</span></div></div>`:""}<div class="sec"><h4>Funding</h4><div class="fund">${fundPill(l.funding)}<span>${esc((l.funding||{}).source||"No funding source identified yet")}${(l.funding||{}).amount?`, ${esc(l.funding.amount)}`:""}</span></div>${(l.funding||{}).note?`<p class="note" style="margin:6px 0 0">${esc(l.funding.note)}</p>`:""}</div>
+    <div class="sec"><h4>Stakeholders</h4>${(l.contacts||[]).length?`<div class="people">${l.contacts.map(contactHTML).join("")}</div>`:`<span class="note">Not yet identified. The next nightly run looks up the president, VP of student services and VP of administrative services.</span>`}</div>
+    <div class="sec"><h4>Funding</h4><div class="fund">${fundPill(l.funding)}<span>${esc((l.funding||{}).source||"No funding source identified yet")}${(l.funding||{}).amount?`, ${esc(l.funding.amount)}`:""}</span></div>${(l.funding||{}).note?`<p class="note" style="margin:6px 0 0">${esc(l.funding.note)}</p>`:""}</div>
     <div class="sec"><h4>Upcoming</h4>${(()=>{const tr=triggersFor(l);return tr.length?tr.slice(0,4).map(t=>`<div class="trig"><span class="date ${daysTo(t.date)<=14?"soon":""}">${fmtDate(t.date)}</span><span>${esc(t.label)}${t.confirmed===false?` <span class="note">(expected)</span>`:""}${t.url?` <a href="${esc(t.url)}" target="_blank" rel="noopener">Agenda</a>`:""}</span></div>`).join(""):`<span class="note">No scheduled decision point found yet.</span>`;})()}</div>
     <div class="lead-foot">
+      <select class="st" aria-label="Follow-up status">${["New","Contacted","Pursuing","Not a fit"].map(s=>`<option ${s===(l.status||"New")?"selected":""}>${s}</option>`).join("")}</select>
+      <select class="lossr loss ${l.status==="Not a fit"?"on":""}" aria-label="Reason">${["Reason (required)","Chose a competitor","Self-developing","Funding failed","Project cancelled","Timing","Not a Volz fit","Other"].map((r,i)=>`<option ${i===0?"value=\"\"":""} ${r===(l.lossReason||"")?"selected":""}>${r}</option>`).join("")}</select>
       <details class="notes" ${l.notes?"open":""}><summary>Internal notes</summary><textarea class="nt" placeholder="Who we know there, last contact, next touch">${esc(l.notes||"")}</textarea></details>
       <span class="note">Updated ${esc(l.updated||"")}</span>
     </div>
   </article>`;
 }
 function tableView(L){
-  const rows=L.map(l=>{const e=(l.evidence||[]).find(e=>e.primary!==false)||{};const t=tierOf(l);
-    return `<tr data-id="${esc(l.id)}" style="cursor:pointer"><td class="nm">${esc(l.inst)}${growthPill(l)?`<div>${growthPill(l)}</div>`:""}${l._new?' <span class="pill pend">New</span>':""}<div class="note">${esc((l.county?l.county+" County, ":"")+(l.state||"CA"))}</div></td><td>${esc(SHORTSYS(l.system))}</td><td>${esc((l.housing||[]).join(", "))}</td><td>${esc(STAGES[l.stage-1].name)}</td><td><span class="badge ${t}">${TIERLABEL[t]}</span></td><td>${(l.advisors||[]).length?esc(l.advisors.map(a=>a.name).join("; ")):"None announced"}</td><td>${(()=>{const c=primaryContact(l)||(l.contacts||[])[0];return c?`${esc(c.name)}<div class="note">${esc(c.title||"")}</div>${c.email?`<a href="mailto:${esc(c.email)}" onclick="event.stopPropagation()">${esc(c.email)}</a>`:(c.phone?`<a href="tel:${esc(c.phone.replace(/[^0-9+x]/g,""))}" onclick="event.stopPropagation()">${esc(c.phone)}</a>`:"")}`:`<span class="note">—</span>`;})()}</td><td>${fundPill(l.funding)}</td><td>${(()=>{const t=triggersFor(l)[0];return t?`<span class="date ${daysTo(t.date)<=14?"soon":""}">${fmtDate(t.date)}</span><div class="note">${esc(t.label)}</div>`:`<span class="note">—</span>`;})()}</td><td class="evc">${e.quote?`<q>${esc(e.quote)}</q>`:esc(e.note||"")}<div>${esc(e.source||"")}${e.date?`, ${esc(e.date)}`:""}${e.url?` <a href="${esc(e.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Source</a>`:""}</div></td></tr>`;}).join("");
+  const rows=L.map(l=>{const e=(l.evidence||[])[0]||{};const t=tierOf(l);
+    return `<tr data-id="${esc(l.id)}" style="cursor:pointer"><td class="nm">${esc(l.inst)}${l._new?' <span class="pill pend">New</span>':""}<div class="note">${esc((l.county?l.county+" County, ":"")+(l.state||"CA"))}</div></td><td>${esc(SHORTSYS(l.system))}</td><td>${esc((l.housing||[]).join(", "))}</td><td>${esc(STAGES[l.stage-1].name)}</td><td><span class="badge ${t}">${TIERLABEL[t]}</span></td><td>${(l.advisors||[]).length?esc(l.advisors.map(a=>a.name).join("; ")):"None announced"}</td><td>${(()=>{const c=primaryContact(l)||(l.contacts||[])[0];return c?`${esc(c.name)}<div class="note">${esc(c.title||"")}</div>${c.email?`<a href="mailto:${esc(c.email)}" onclick="event.stopPropagation()">${esc(c.email)}</a>`:(c.phone?`<a href="tel:${esc(c.phone.replace(/[^0-9+x]/g,""))}" onclick="event.stopPropagation()">${esc(c.phone)}</a>`:"")}`:`<span class="note">—</span>`;})()}</td><td>${fundPill(l.funding)}</td><td>${(()=>{const t=triggersFor(l)[0];return t?`<span class="date ${daysTo(t.date)<=14?"soon":""}">${fmtDate(t.date)}</span><div class="note">${esc(t.label)}</div>`:`<span class="note">—</span>`;})()}</td><td class="evc">${e.quote?`<q>${esc(e.quote)}</q>`:esc(e.note||"")}<div>${esc(e.source||"")}${e.date?`, ${esc(e.date)}`:""}${e.url?` <a href="${esc(e.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Source</a>`:""}</div></td></tr>`;}).join("");
   return `<div class="tbl-wrap"><table class="rtbl"><thead><tr><th>Institution</th><th>System</th><th>Housing</th><th>Stage</th><th>Classification</th><th>Advisors named</th><th>Stakeholder</th><th>Funding</th><th>Next decision point</th><th>Evidence</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 const CA=[[42,-124.21],[42,-120],[39,-120],[35,-114.63],[34.87,-114.63],[34.3,-114.14],[33.7,-114.53],[33.03,-114.47],[32.72,-114.72],[32.53,-117.12],[33.2,-117.39],[33.73,-118.29],[34.03,-118.77],[34.41,-119.69],[34.45,-120.47],[35.16,-120.65],[35.66,-121.28],[36.3,-121.9],[36.6,-121.9],[36.95,-122.03],[37.5,-122.5],[37.8,-122.51],[38.03,-122.98],[38.95,-123.73],[40,-124.1],[40.44,-124.41],[41,-124.11],[41.75,-124.2],[42,-124.21]];
@@ -837,6 +824,9 @@ function renderLeads(){
   el.innerHTML = L.map(leadCard).join("");
   el.querySelectorAll(".lead").forEach(card=>{
     const id = card.dataset.id;
+    const lr=card.querySelector(".lossr");
+    card.querySelector(".st").onchange = e => { if(e.target.value==="Not a fit"){ lr.classList.add("on"); lr.focus(); flash("Pick a reason to close this opportunity."); } else { lr.classList.remove("on"); writeLead(id,{status:e.target.value}); } };
+    lr.onchange = e => { if(e.target.value) writeLead(id,{status:"Not a fit",lossReason:e.target.value}); };
     const nt = card.querySelector(".nt");
     nt.onchange = e => writeLead(id,{notes:e.target.value});
   });
@@ -852,10 +842,10 @@ function flash(msg){ const n=$("loadNote"); n.textContent=msg; n.classList.remov
 
 /* ---------- Export ---------- */
 $("exportBtn").onclick = async ()=>{
-  const rows=[["Institution","System","County","Housing","Stage","Classification","Headline","Evidence quote","Source","Date","URL","Advisors","Key contacts","Key contact email","Funding status","Funding source","Next decision point","Next decision date","Recommended action","Volz relationship","Notes"]];
+  const rows=[["Institution","System","County","Housing","Stage","Classification","Headline","Evidence quote","Source","Date","URL","Advisors","Key contacts","Key contact email","Funding status","Funding source","Next decision point","Next decision date","Recommended action","Status","Notes"]];
   filtered().forEach(l=>{
     const e=(l.evidence||[])[0]||{};
-    rows.push([l.inst,l.system,l.county||"",(l.housing||[]).join("; "),STAGES[l.stage-1].name,TIERLABEL[tierOf(l)],l.headline,e.quote||e.note||"",e.source||"",e.date||"",e.url||"",(l.advisors||[]).map(a=>a.name).join("; ")||"None announced",(l.contacts||[]).map(c=>c.name+" ("+(c.title||"")+")").join("; "),(primaryContact(l)||{}).email||"",(l.funding||{}).status||"Unknown",(l.funding||{}).source||"",(triggersFor(l)[0]||{}).label||"",(triggersFor(l)[0]||{}).date||"",l.nextStep||"",l.relationship==="client"?(l.relationshipNote||"Existing Volz Company relationship"):"",l.notes||""]);
+    rows.push([l.inst,l.system,l.county||"",(l.housing||[]).join("; "),STAGES[l.stage-1].name,TIERLABEL[tierOf(l)],l.headline,e.quote||e.note||"",e.source||"",e.date||"",e.url||"",(l.advisors||[]).map(a=>a.name).join("; ")||"None announced",(l.contacts||[]).map(c=>c.name+" ("+(c.title||"")+")").join("; "),(primaryContact(l)||{}).email||"",(l.funding||{}).status||"Unknown",(l.funding||{}).source||"",(triggersFor(l)[0]||{}).label||"",(triggersFor(l)[0]||{}).date||"",l.nextStep||"",l.status||"New",l.notes||""]);
   });
   const csv = rows.map(r=>r.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(",")).join("\n");
   if(downloads){
@@ -887,141 +877,54 @@ function renderCoverage(){
   $("covMore").classList.toggle("hidden", rows.length<=covLimit);
 }
 
-/* ---------- In-browser scanner ---------- */
-const CLIENTS=[{"match": ["Foothill College", "De Anza College", "Foothill-De Anza"], "note": "Workforce housing real estate advisory: RFP preparation and evaluation, negotiation of terms."}, {"match": ["Mountain View Whisman"], "note": "Workforce housing real estate advisory."}, {"match": ["Riverside Community College District", "Riverside City College", "Norco College", "Moreno Valley College", "RCCD"], "note": "Student housing advisory with Scion Advisory Services (2022): planning, programming and grant application project management."}, {"match": ["Pflugerville"], "note": "Teacher housing market and demand study."}, {"match": ["Los Angeles Community College District", "LACCD"], "note": "Affordable student housing market and demand analysis, P3 financial modeling and P3 procurement."}, {"match": ["San Bernardino Community College District", "San Bernardino Valley College", "Crafton Hills College", "SBCCD"], "note": "Housing market and demand, highest and best use, P3 financial modeling and transaction advisory for mixed-use student housing."}, {"match": ["Napa Valley College"], "note": "P3 housing engagement."}, {"match": ["Santa Monica College"], "note": "P3 housing engagement: developer selection for Bundy Campus student housing."}, {"match": ["Santa Rosa Junior College"], "note": "P3 housing engagement."}, {"match": ["Oxnard Union High"], "note": "Proposal submitted for workforce housing advisory and feasibility study (with RNT Architects and ECG)."}, {"match": ["Ventura College"], "note": "Project management and campus transition advisory for affordable student housing."}, {"match": ["Ojai Unified"], "note": "Workforce housing feasibility study."}, {"match": ["Modesto Junior College"], "note": "Student housing market and demand analysis."}, {"match": ["San Juan College"], "note": "Housing market and demand analysis."}, {"match": ["Rio Hondo College"], "note": "Real estate advisory for district housing developments."}, {"match": ["Los Angeles Unified"], "note": "Workforce housing advisory: RFP preparation and negotiation of development deals."}, {"match": ["Morton College"], "note": "Ongoing real estate advisory for the campus."}, {"match": ["Ohlone College"], "note": "Preliminary master plan, site design and financial feasibility for student housing."}, {"match": ["Cal Poly San Luis Obispo"], "note": "P3 advisor and university engagement director for on-campus student housing (with AMCAL)."}, {"match": ["San Mateo County Community College District", "Skyline College", "Cañada College", "College of San Mateo"], "note": "Student and workforce housing feasibility study presented to the Board of Trustees."}, {"match": ["Rio Elementary", "Rio School District"], "note": "Facility planning and on-call architectural/real estate advisory."}, {"match": ["Pleasant Valley"], "state": "CA", "note": "On-call facility planning, site assessments and real estate advisory."}, {"match": ["Ventura Unified"], "note": "On-call facility planning: land use and master planning."}, {"match": ["La Sierra University"], "note": "Faculty and staff housing market and demand analysis."}];
-const SECONDARY=/news|trade press|recap|conference|case study|newsletter|magazine|voter guide|opinion|blog|press release/i;
-const isPrimary=e=>!SECONDARY.test(`${e.type||""} ${e.source||""}`);
-function tagClient(l){ for(const c of CLIENTS){ if(c.state&&(l.state||"CA")!==c.state) continue; if(c.match.some(m=>(l.inst||"").toLowerCase().includes(m.toLowerCase()))){ l.relationship="client"; l.relationshipNote=c.note; return; } } }
-const ROLES=["President","VP Student Services","VP Administrative Services"];
-function roleOf(t){ t=(t||"").toLowerCase(); if(!t) return null;
-  if(/executive assistant|assistant to |assistant vice|associate vice|\bdirector\b|controller|coordinator|specialist|board|trustee|office of the president/.test(t)) return null;
-  if(/student (services|affairs|success|support)|educational services|student life/.test(t)&&/vice|assistant superintendent|associate superintendent|chief student/.test(t)) return "VP Student Services";
-  if(/(vice president|vice chancellor|assistant superintendent|associate superintendent|chief).{0,60}(admin|business|financ|fiscal|operations|biz)|\bcfo\b|chief financial|chief business/.test(t)) return "VP Administrative Services";
-  if(/\b(vice|assistant|associate|deputy|chief of staff)\b/.test(t)) return null;
-  if(/\bpresident\b|\bchancellor\b|\bsuperintendent\b/.test(t)) return "President"; return null; }
-function filterContacts(cs){ const best={}; for(const c0 of cs||[]){ const r=ROLES.includes(c0.stakeholder)?c0.stakeholder:roleOf(c0.title); if(!r) continue; const c={...c0,stakeholder:r,role:r}; const cur=best[r]; if(!cur||(!(cur.email||cur.phone)&&(c.email||c.phone))) best[r]=c; } return ROLES.filter(r=>best[r]).map(r=>best[r]); }
-const RULES=`Stakeholders must be exactly these three roles (one person each): "President" (president; campus chancellor; multi-college district chancellor; K-12 superintendent), "VP Student Services" (VP or vice chancellor of student services/affairs/success; K-12 assistant superintendent of student or educational services), "VP Administrative Services" (VP or vice chancellor of administrative, business or finance services, CFO, chief business officer; K-12 assistant superintendent of business). No trustees, directors or assistants. If you cannot find the others, you MUST still return the President with the president's public email from the official president's or superintendent's office page. Every person needs an email or phone: own published contact ("published"); an email matching a format confirmed by two or more published addresses on the same domain ("format"); their office's published line ("office"); the institution's main number ("main"). Never invent anything.`;
-const SCHEMA=`{"signals":[{"project":"","housing":["Student"|"Faculty & staff"|"Workforce"|"Other campus real estate"],"stage":1-6,"headline":"","summary":"","evidence":[{"quote":"verbatim 8-30 words","source":"","type":"Board minutes|Board agenda|Staff report|Facilities master plan|Capital plan|CEQA filing|Official page","date":"","url":""}],"advisors":[{"name":"","role":""}],"funding":{"status":"Unfunded|Planned|Partial|Committed|Unknown","source":"","amount":""},"upcoming":[{"date":"YYYY-MM-DD","label":"","url":""}],"next_step":""}],"stakeholders":[{"stakeholder":"President|VP Student Services|VP Administrative Services","name":"","title":"","email":"","email_basis":"published|format|office|main","phone":"","contact_note":"","url":""}],"funding_boost":{"type":"Bond|State grant|Federal grant|Appropriation","amount_usd":0,"annual_budget_usd":0,"label":"","date":"","quote":"","url":""}}`;
-const scanPrompt=(name,where)=>`You research public education real estate for Volz Company, a California real estate advisory firm advising public educational institutions on student housing, faculty and staff housing, K-12 employee workforce housing and campus real estate.
-
-Institution: ${name} (${where})
-Today: ${TODAY}
-
-Read this institution's OWN governing board minutes, agenda packets and staff reports from the last 24 months (BoardDocs, Simbli, eScribe, Granicus, district and college websites), its facilities master plan or capital plan and any CEQA filings. Search several ways, e.g. "${name} board minutes housing", "${name} board agenda workforce housing", "${name} student housing", "${name} facilities master plan housing", "${name} surplus property". ONLY primary sources may be cited; never cite news.
-
-Report any housing for students, faculty, staff or employees being discussed, studied, planned, funded or procured, or land being leased or sold for it. Also report any large recent funding boost (bond measure passed, state or federal grant) with the annual operating budget so it can be compared. And identify the stakeholders.
-
-${RULES}
-
-Every signal must cite a primary document URL and a verbatim quote. If nothing qualifies, return an empty signals list but still return stakeholders.
-
-Reply with ONLY one JSON object in a \`\`\`json block:
-${SCHEMA}
-Stages: 1 board discussion; 2 feasibility study; 3 in a master or capital plan; 4 advisor hired; 5 developer RFP/RFQ or negotiation; 6 financing approved, under construction or open.`;
-const peoplePrompt=(name,where)=>`Identify the stakeholders of ${name} (${where}) and how to reach each one, using the official website and staff directory.
-
-${RULES}
-
-Reply with ONLY one JSON object in a \`\`\`json block: {"stakeholders":[{"stakeholder":"President|VP Student Services|VP Administrative Services","name":"","title":"","email":"","email_basis":"published|format|office|main","phone":"","contact_note":"","url":""}]}`;
-const LOCAL_KEY="edunest-local-v1";
-function loadLocal(){ try{ return JSON.parse(localStorage.getItem(LOCAL_KEY)||'{"leads":{},"coverage":{}}'); }catch(e){ return {leads:{},coverage:{}}; } }
-function saveLocal(l){ try{ localStorage.setItem(LOCAL_KEY,JSON.stringify(l)); }catch(e){ scLog("This browser ran out of storage space; download the data file now.","bad"); } }
-let SC={run:false,stop:false};
-function scLog(t,c){ const d=document.createElement("div"); d.textContent=t; if(c) d.className=c; $("scLog").prepend(d); }
-const slugJ=s=>String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,60);
-async function callClaude(prompt,maxUses){
-  const key=$("scKey").value.trim();
-  const r=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"content-type":"application/json","x-api-key":key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
-    body:JSON.stringify({model:"claude-sonnet-5-5",max_tokens:5000,tools:[{type:"web_search_20250305",name:"web_search",max_uses:maxUses||6}],messages:[{role:"user",content:prompt}]})});
-  if(!r.ok){ const t=await r.text(); const e=new Error(`${r.status}: ${t.slice(0,200)}`); e.status=r.status; throw e; }
-  const j=await r.json(); const text=(j.content||[]).filter(b=>b.type==="text").map(b=>b.text).join("");
-  const m=[...text.matchAll(/```json\s*(\{[\s\S]*?\})\s*```/g)]; if(!m.length) return {};
-  try{ return JSON.parse(m[m.length-1][1]); }catch(e){ return {}; }
+/* ---------- Web sweep queue ---------- */
+const SYSORDER={UC:0,CSU:1,CCC:2,K12:3};
+function nextBatch(){
+  const sys=$("swSys").value, stale=+$("swStale").value;
+  const cutoff = stale ? new Date(Date.now()-stale*864e5).toISOString().slice(0,10) : "9999";
+  const queuedKeys = new Set(scans.filter(s=>s.status==="queued").flatMap(s=>s.keys||[]));
+  return INST.filter(i=>(sys==="all"||(sys==="HE"&&i.s!=="K12")||i.s===sys))
+    .filter(i=>!queuedKeys.has(ikey(i)))
+    .filter(i=>{const d=coverage[ikey(i)]; return stale===0 ? true : (!d || d < cutoff);})
+    .sort((a,b)=>(SYSORDER[a.s]-SYSORDER[b.s]) || ((K12ORDER[a.t]??0)-(K12ORDER[b.t]??0)) || ((coverage[ikey(a)]||"").localeCompare(coverage[ikey(b)]||"")));
 }
-function toContacts(list,inst){ return filterContacts((list||[]).filter(s=>s&&s.name).map(s=>{ const c={stakeholder:s.stakeholder,name:s.name,title:s.title||`${s.stakeholder}, ${inst}`,url:s.url||"",source:"Scan"}; if(s.email&&["published","format","office"].includes(s.email_basis)) c.email=s.email; if(s.phone) c.phone=s.phone; if(s.email_basis==="format") c.verify="Address matches the institution’s published email format"; if(["office","main"].includes(s.email_basis)) c.contactNote=s.contact_note||(s.email_basis==="main"?"Main line":"Office line"); return c; }).filter(c=>c.email||c.phone)); }
-function mergeResult(inst,res,local){
-  const key=ikey(inst); let added=0; const people=toContacts(res.stakeholders,inst.n);
-  const atInst=()=>leads.filter(l=>(l.keys||[]).includes(key));
-  for(const s of res.signals||[]){
-    const ev=(s.evidence||[]).filter(e=>/^https?:/.test(e.url||"")&&e.quote&&isPrimary(e)).map(e=>({...e,primary:true}));
-    if(!ev.length) continue;
-    const id=slugJ(inst.n)+"-"+slugJ(s.project||"housing").slice(0,24);
-    let l=leads.find(x=>x.id===id)||(atInst().length===1&&(res.signals||[]).length===1?atInst()[0]:null);
-    const trig=(s.upcoming||[]).filter(u=>/^\d{4}-\d\d-\d\d$/.test(u.date||"")&&u.date>=TODAY).map(u=>({date:u.date,label:u.label||"Board decision",url:u.url||"",confirmed:true}));
-    const f={stage:Math.min(6,Math.max(1,parseInt(s.stage)||1)),headline:s.headline||"",summary:s.summary||"",nextStep:s.next_step||"",funding:s.funding||{status:"Unknown"},updated:TODAY,latestEvidence:TODAY};
-    if(l){ const urls=new Set((l.evidence||[]).map(e=>e.url)); l.evidence=[...(l.evidence||[]),...ev.filter(e=>!urls.has(e.url))]; l.triggers=[...(l.triggers||[]).filter(t=>t.date>=TODAY),...trig]; if(l.relationship==="client") delete f.stage; Object.assign(l,Object.fromEntries(Object.entries(f).filter(([k,v])=>v))); }
-    else { l={id,inst:inst.n,keys:[key],system:inst.s,state:"CA",county:inst.c||"",housing:s.housing&&s.housing.length?s.housing:[inst.s==="K12"?"Workforce":"Student"],evidence:ev,advisors:(s.advisors||[]).filter(a=>a.name),contacts:[],triggers:trig,notes:"",firstSeen:TODAY,origin:"Website scan",...f}; leads.push(l); added++; }
-  }
-  const fb=res.funding_boost; const boost=fb&&fb.amount_usd&&/^https?:/.test(fb.url||"")?{type:fb.type,label:fb.label,date:fb.date,quote:fb.quote,url:fb.url,amount:+fb.amount_usd,budget:+fb.annual_budget_usd||0,pct:fb.annual_budget_usd?Math.round(1000*fb.amount_usd/fb.annual_budget_usd)/10:0}:null;
-  for(const l of atInst()){ l.contacts=filterContacts([...(l.contacts||[]),...people]); if(boost&&(!l.growth||(boost.pct||0)>=(l.growth.pct||0))) l.growth=boost; l.evidence=(l.evidence||[]).map(e=>({...e,primary:e.primary??isPrimary(e)})); l.needsPrimary=!l.evidence.some(e=>e.primary); tagClient(l); local.leads[l.id]=l; }
-  coverage[key]=TODAY; local.coverage[key]=TODAY;
-  return added;
+["swSys","swStale"].forEach(id=>$(id).onchange=renderSweepPreview);
+function renderSweepPreview(){
+  const b=nextBatch();
+  $("swPreview").innerHTML = b.length
+    ? `<b>This scan covers ${b.length}:</b> ${b.slice(0,10).map(i=>esc(i.n)).join(", ")}${b.length>10?`, and ${b.length-10} more`:""}`
+    : "Everything in this group was scanned recently. Pick another group or a shorter window.";
+  $("runSweep").disabled = !b.length;
+  renderQueue();
 }
-function scanTargets(){
-  const mode=$("scMode").value, sys=$("scSys").value, n=+$("scN").value;
-  if(mode==="people") return leads.filter(l=>filterContacts(l.contacts).length<3).sort((a,b)=>(a.contacts||[]).length-(b.contacts||[]).length).slice(0,n).map(l=>({lead:l}));
-  if(mode==="verify") return leads.filter(l=>l.needsPrimary).slice(0,n).map(l=>({lead:l,inst:INSTBYKEY[(l.keys||[])[0]]||{n:l.inst,s:l.system,c:l.county}}));
-  const ord={CCC:0,K12:1,UC:2,CSU:3};
-  let pool=INST.filter(i=>sys==="all"||i.s===sys);
-  pool = mode==="new" ? pool.filter(i=>!coverage[ikey(i)]) : pool.slice().sort((a,b)=>(coverage[ikey(a)]||"").localeCompare(coverage[ikey(b)]||""));
-  if(mode==="new") pool.sort((a,b)=>ord[a.s]-ord[b.s]);
-  return pool.slice(0,n).map(i=>({inst:i}));
+function renderQueue(){
+  const rows = scans.slice().sort((a,b)=>String(b.createdAt).localeCompare(String(a.createdAt))).slice(0,8);
+  $("queueList").innerHTML = rows.length ? `<div class="tbl-wrap qtable"><table><thead><tr><th>Scan</th><th>Institutions</th><th>Status</th><th>New signals</th></tr></thead><tbody>${rows.map(s=>`<tr><td>${esc(String(s.createdAt||"").slice(0,10))}</td><td>${(s.keys||[]).length||"Statewide"}</td><td><span class="pill ${s.status==="done"?"done":"pend"}">${s.status==="done"?"Completed":"In queue"}</span></td><td>${s.status==="done"&&s.found!=null?s.found:"—"}</td></tr>`).join("")}</tbody></table></div><p class="note" style="margin:8px 0 0">Queued scans are processed by Claude on request.</p>` : "";
 }
-function renderScanner(){
-  const left=INST.filter(i=>!coverage[ikey(i)]).length;
-  $("scMeta").textContent=`${(INST.length-left).toLocaleString()} of ${INST.length.toLocaleString()} California institutions scanned. ${leads.filter(l=>filterContacts(l.contacts).length<3).length} opportunities missing a stakeholder.`;
-  const t=scanTargets();
-  $("scPreview").innerHTML = t.length ? `<b>Next ${t.length}:</b> ${t.slice(0,8).map(x=>esc((x.inst||{}).n||x.lead.inst)).join(", ")}${t.length>8?`, and ${t.length-8} more`:""}` : "Nothing left to scan in this group.";
-  try{ if(!$("scKey").value) $("scKey").value=localStorage.getItem("edunest-api-key")||""; }catch(e){}
-}
-["scMode","scSys","scN"].forEach(id=>$(id).onchange=renderScanner);
-$("scStop").onclick=()=>{SC.stop=true;$("scStop").disabled=true;scLog("Stopping after the current institution…");};
-$("scGo").onclick=async()=>{
-  const key=$("scKey").value.trim(); if(!/^sk-ant-/.test(key)){ scLog("Enter an Anthropic API key (starts with sk-ant-).","bad"); return; }
-  try{ localStorage.setItem("edunest-api-key",key); }catch(e){}
-  const targets=scanTargets(); if(!targets.length) return;
-  SC={run:true,stop:false}; $("scGo").disabled=true; $("scStop").disabled=false;
-  const local=loadLocal(); let done=0, found=0, people=0;
-  for(const t of targets){
-    if(SC.stop) break;
-    const name=(t.inst||{}).n||t.lead.inst, where=t.inst?`${SYSNAME[t.inst.s]}${t.inst.c?`, ${t.inst.c} County`:""}, California`:`${SYSNAME[t.lead.system]||t.lead.system}, ${STATENAME[t.lead.state||"CA"]}`;
-    scLog(`Scanning ${name}…`);
-    try{
-      if($("scMode").value==="people"){
-        const res=await callClaude(peoplePrompt(name,where),4); const cs=toContacts(res.stakeholders,name);
-        const before=filterContacts(t.lead.contacts).length; t.lead.contacts=filterContacts([...(t.lead.contacts||[]),...cs]); people+=t.lead.contacts.length-before; local.leads[t.lead.id]=t.lead;
-        scLog(`${name}: ${t.lead.contacts.map(c=>c.stakeholder).join(", ")||"no stakeholders found"}`,t.lead.contacts.length?"ok":"");
-      } else {
-        const res=await callClaude(scanPrompt(name,where),6); const n=mergeResult(t.inst||{n:name,s:t.lead.system,c:t.lead.county},res,local); found+=n;
-        scLog(`${name}: ${(res.signals||[]).length} board-minute signals${n?`, ${n} new opportunities`:""}${res.funding_boost&&res.funding_boost.amount_usd?`, funding boost ${fmtUSD(res.funding_boost.amount_usd)}`:""}`,(res.signals||[]).length?"ok":"");
-      }
-    }catch(e){ scLog(`${name}: ${e.message}`,"bad"); if(e.status===401||e.status===403){ break; } if(e.status===429||e.status===529){ scLog("Rate limited; waiting 60 seconds…"); await sleep(60000); } }
-    done++; $("scBar").style.width=`${Math.round(100*done/targets.length)}%`;
-    saveLocal(local); renderLeads(); renderScanner();
-  }
-  scLog(`Finished: ${done} scanned, ${found} new opportunities, ${people} stakeholders added. Download the website data file to publish.`,"ok");
-  SC.run=false; $("scGo").disabled=false; $("scStop").disabled=true;
-};
-function fullData(){ return {asOf:TODAY,leads:leads.map(({_new,...l})=>l),calendar,coverage,sweeps}; }
-function dl(name,text,type){ const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([text],{type})); a.download=name; document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500); }
-$("pubJson").onclick=()=>dl("edunest-data.json",JSON.stringify(fullData(),null,1),"application/json");
-$("pubJs").onclick=async()=>{
+$("runSweep").onclick = async ()=>{
+  if(!db){ $("sweepStatus").textContent="Sign in to Claude to queue scans."; return; }
+  const b=nextBatch(); if(!b.length) return;
+  const look=[$("swMin").checked&&"board minutes and agendas",$("swFmp").checked&&"facilities master plans",$("swPpl").checked&&"decision makers",$("swFund").checked&&"funding and bonds",$("swAgd").checked&&"upcoming agendas"].filter(Boolean);
+  if(!look.length){ $("sweepStatus").textContent="Choose at least one place to look."; return; }
+  const sysL = $("swSys").selectedOptions[0].text;
+  const label = `${today()}: ${b.length} institutions (${sysL})`;
+  $("runSweep").disabled=true; $("sweepStatus").textContent="Queuing…";
   try{
-    const raw=sessionStorage.getItem("edunest-key"); if(!raw){ scLog("Sign out and back in, then try again.","bad"); return; }
-    const key=await crypto.subtle.importKey("raw",b64d(raw),{name:"AES-GCM"},false,["encrypt"]);
-    const iv=crypto.getRandomValues(new Uint8Array(12));
-    const ct=await crypto.subtle.encrypt({name:"AES-GCM",iv},key,new TextEncoder().encode(JSON.stringify(fullData())));
-    const enc={v:1,iter:window.EDUNEST_ENC.iter,salt:window.EDUNEST_ENC.salt,iv:b64e(iv),ct:b64e(ct)};
-    dl("edunest-data.js",`window.EDUNEST_ENC=${JSON.stringify(enc)};\n`,"text/javascript");
-    scLog("Downloaded edunest-data.js. Upload it to the website’s assets folder to publish.","ok");
-  }catch(e){ scLog(`Couldn’t build the file: ${e.message}`,"bad"); }
+    await db.collection("scans").add({createdAt:new Date().toISOString(),status:"queued",label,lookIn:look,keys:b.map(ikey),institutions:b.map(i=>i.n)});
+    $("sweepDoneText").textContent = `${b.length} institutions added to the processing queue. Findings will appear under Opportunities as the batch is completed.`;
+    $("sweepDone").classList.remove("hidden");
+    $("sweepStatus").textContent="";
+  }catch(e){ $("sweepStatus").textContent="Couldn’t queue the scan. You may have view-only access to this page."; }
+  $("runSweep").disabled=false;
 };
+
+
 /* ---------- Boot ---------- */
-setSeg(); $("missOnly").checked=F.miss; $("hideClients").checked=F.hideClients; $("sortF").value=F.sort; $("fundF").value=F.fund; $("preOnly").checked=F.pre; $("stateF").value=F.state||"all"; $("growthOnly").checked=!!F.growth; $("unverified").checked=!!F.unverified;
+setSeg(); $("missOnly").checked=F.miss; $("hideClients").checked=F.hideClients; $("statusF").value=F.status; $("sortF").value=F.sort; $("fundF").value=F.fund; $("preOnly").checked=F.pre; $("stateF").value=F.state||"all";
 renderLeads();
 downloads={save:async({filename,data})=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([data],{type:filename.endsWith(".ics")?"text/calendar":"text/csv"}));a.download=filename;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);}};
 const b64d=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
-const b64e=b=>{const u=new Uint8Array(b);let s="";for(let i=0;i<u.length;i+=32768)s+=String.fromCharCode.apply(null,u.subarray(i,i+32768));return btoa(s);};
+const b64e=b=>btoa(String.fromCharCode(...new Uint8Array(b)));
 async function deriveKey(user,pass,enc){
   const base=await crypto.subtle.importKey("raw",new TextEncoder().encode(user.trim().toLowerCase()+":"+pass),"PBKDF2",false,["deriveKey"]);
   return crypto.subtle.deriveKey({name:"PBKDF2",salt:b64d(enc.salt),iterations:enc.iter,hash:"SHA-256"},base,{name:"AES-GCM",length:256},true,["decrypt"]);
@@ -1035,10 +938,7 @@ function startApp(data,fast){
   const edits=loadEdits();
   leads=(data.leads||[]).map(l=>({...l,...(edits[l.id]||{})})).filter(l=>l.stage>=1&&l.stage<=6);
   coverage=data.coverage||{}; calendar=data.calendar||[]; sweeps=data.sweeps||{};
-  const loc=loadLocal(); Object.assign(coverage,loc.coverage||{});
-  for(const [id,l] of Object.entries(loc.leads||{})){ const i=leads.findIndex(x=>x.id===id); if(i>=0){ if((l.updated||"")>=(leads[i].updated||"")) leads[i]={...leads[i],...l}; } else leads.push(l); }
-  leads.forEach(l=>{ tagClient(l); (l.evidence||[]).forEach(e=>{ if(e.primary===undefined) e.primary=isPrimary(e); }); l.needsPrimary=!(l.evidence||[]).some(e=>e.primary); });
-  $("asOf").textContent=data.asOf?`Rescanned automatically every 2 hours when the scanner is connected. Last update: ${fmtDate(data.asOf)}.`:"";
+  $("asOf").textContent=data.asOf?`Scanned automatically every night. Last scan: ${fmtDate(data.asOf)}.`:"";
   let lastVisit=""; try{ lastVisit=localStorage.getItem("edunest-lastvisit")||""; localStorage.setItem("edunest-lastvisit",data.asOf||TODAY); }catch(e){}
   if(lastVisit) leads.forEach(l=>{ if((l.firstSeen||"")>lastVisit) l._new=true; });
   renderLeads();

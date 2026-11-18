@@ -26,8 +26,7 @@ import anthropic
 from scan import INST, MODEL, TODAY, load, save
 from stakeholders import ROLES, RULES, filter_contacts
 
-LIMIT = int(os.environ.get("ENRICH_LIMIT", "120"))
-DEADLINE = time.time() + 60 * int(os.environ.get("STEP_MINUTES", "25"))
+LIMIT = int(os.environ.get("ENRICH_LIMIT", "60"))
 BY_KEY = {i["key"]: i for i in INST}
 CDE_URL = "https://www.cde.ca.gov/SchoolDirectory/details?cdscode={}"
 
@@ -165,7 +164,7 @@ def main():
         if inst_key in seen:  # same institution on another opportunity: reuse
             res = seen[inst_key]
         else:
-            if calls >= LIMIT or time.time() > DEADLINE:
+            if calls >= LIMIT:
                 break
             known = "; ".join(f"{c['stakeholder']}: {c['name']} ({c.get('title', '')})" for c in l["contacts"]) or "none"
             where = f"{l.get('county', '')} County, {l.get('state', 'CA')}".strip(", ")

@@ -25,7 +25,6 @@ import time
 import anthropic
 
 from stakeholders import RULES, filter_contacts
-from clients import is_primary, tag
 
 HERE = pathlib.Path(__file__).resolve().parent
 DATA = HERE.parent / "admin" / "source-data" / "edunest-data.json"
@@ -37,7 +36,6 @@ RECHECK = int(os.environ.get("RECHECK_DAYS", "14"))
 MAX_SEARCHES = int(os.environ.get("MAX_SEARCHES", "6"))
 SYSTEMS = {s.strip() for s in os.environ.get("SYSTEMS", "").split(",") if s.strip()}
 TODAY = dt.date.today().isoformat()
-DEADLINE = time.time() + 60 * int(os.environ.get("STEP_MINUTES", "25"))
 
 SYSNAME = {"UC": "University of California campus", "CSU": "California State University campus",
            "CCC": "California community college", "K12": "California K-12 school district"}
@@ -47,7 +45,7 @@ PROMPT = """You research public education real estate for Volz Company, a Califo
 Institution: {name} ({sysname}{county})
 Today: {today}
 
-Read this institution's own governing board minutes, agenda packets and staff reports from the last 24 months (BoardDocs, Simbli, eScribe, Granicus, district and college websites), its facilities master plan (or LRDP / capital plan) and any CEQA filings. Run several searches with different wording (for example: "{name} board minutes housing", "{name} workforce housing", "{name} student housing", "{name} facilities master plan housing", "{name} surplus property housing", "{name} board agenda"). ONLY primary sources count: board minutes, agenda packets, staff reports, resolutions, facilities master plans, capital plans, CEQA filings and the institution's official pages. News articles may help you find a document, but never cite them. Also note any recent large funding boost (bond measure, state or federal grant) relative to the institution's annual budget.
+Search this institution's governing board minutes and agendas from the last 24 months, its facilities master plan (or LRDP / capital plan), and local news about board actions. Run several searches with different wording (for example: "{name} board minutes housing", "{name} workforce housing", "{name} student housing", "{name} facilities master plan housing", "{name} surplus property housing", "{name} board agenda"). Prefer primary documents (board minutes, agenda packets, master plans) over news.
 
 Find any sign the institution is discussing, studying, planning, funding or procuring housing for students, faculty, staff or employees, or leasing/selling land for such housing. Also find:
 - the institution's stakeholders (rules below)
@@ -56,7 +54,7 @@ Find any sign the institution is discussing, studying, planning, funding or proc
 - any upcoming board meeting or deadline where the item will be decided
 
 Rules:
-- Every signal must cite a primary document URL (minutes, agenda, staff report, master plan, official page) and a verbatim quote (8-30 words) from it. Drop any signal you can only support with news.
+- Every signal must have a source URL you actually opened or saw in results, and a short verbatim quote (8-30 words) from it.
 - Every person must come with a way to reach them. Use, in order: their own published email or direct phone ("email_basis": "published"); an email matching a format confirmed by two or more published addresses on the same domain, at least 80% confidence ("format"); their office's published phone or email ("office"); the institution's main published phone ("main"). For "office" or "main", put the office name in "contact_note". Never invent a number or address.
 {rules}
 - Do not invent anything. If nothing relevant exists, return an empty signals list.
@@ -144,7 +142,7 @@ def merge(d, inst, res):
     leads = {l["id"]: l for l in d["leads"]}
     added = 0
     for s in res.get("signals", []):
-        ev = [dict(e, primary=True) for e in s.get("evidence", []) if e.get("url", "").startswith("http") and e.get("quote") and is_primary(e)]
+        ev = [e for e in s.get("evidence", []) if e.get("url", "").startswith("http") and e.get("quote")]
         if not ev:
             continue
         stage = max(1, min(6, int(s.get("stage") or 1)))
@@ -182,10 +180,6 @@ def merge(d, inst, res):
             d["leads"].append(lead)
             leads[lid] = lead
             added += 1
-    for l in d["leads"]:
-        if inst["key"] in l.get("keys", []):
-            tag(l)
-            l["needsPrimary"] = not any(e.get("primary") for e in l.get("evidence", []))
     d.setdefault("coverage", {})[inst["key"]] = TODAY
     return added
 
@@ -199,9 +193,6 @@ def main():
     print(f"Scanning {len(batch)} institutions with {MODEL}")
     total = 0
     for n, inst in enumerate(batch, 1):
-        if time.time() > DEADLINE:
-            print("Time budget reached; continuing next run")
-            break
         print(f"[{n}/{len(batch)}] {inst['name']}")
         res = ask(client, inst)
         if res is None:
