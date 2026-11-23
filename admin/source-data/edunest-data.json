@@ -9655,7 +9655,17 @@
      "role": "Study partner"
     }
    ],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Dr. Thomas Keegan",
+     "title": "Interim President (Dr. Thomas Broxson named president effective Jan 1, 2027)",
+     "phone": "360.416.7995",
+     "url": "https://www.skagit.edu/leadership/index.html",
+     "contactNote": "Contact via Monica Ernandes, Exec. Asst. to the President, monica.ernandes@skagit.edu (published); format first.last@skagit.edu",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -9703,7 +9713,34 @@
      "role": "Study lead"
     }
    ],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Sara Thompson Tweedy",
+     "title": "President",
+     "phone": "(509) 793-2222",
+     "url": "https://www.bigbend.edu/about-us/presidents-cabinet.html",
+     "contactNote": "Main college line; no individual emails on cabinet page",
+     "role": "President"
+    },
+    {
+     "stakeholder": "VP Student Services",
+     "name": "Bryce Humpherys",
+     "title": "Vice President of Learning & Student Success",
+     "phone": "(509) 793-2222",
+     "url": "https://www.bigbend.edu/about-us/presidents-cabinet.html",
+     "contactNote": "Interim Dean of Student Services: Yolanda Ibarra",
+     "role": "VP Student Services"
+    },
+    {
+     "stakeholder": "VP Administrative Services",
+     "name": "Daneen Berry-Guerin",
+     "title": "Vice President of Finance & Administration",
+     "phone": "(509) 793-2222",
+     "url": "https://www.bigbend.edu/about-us/presidents-cabinet.html",
+     "role": "VP Administrative Services"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -9805,6 +9842,23 @@
    ],
    "contacts": [
     {
+     "stakeholder": "President",
+     "name": "Dr. Jamilyn Penn",
+     "title": "Interim President",
+     "phone": "(206) 592-3710",
+     "url": "https://www.highline.edu/about/leadership-team.html",
+     "contactNote": "Directory directory.highline.edu/?person=jpenn",
+     "role": "President"
+    },
+    {
+     "stakeholder": "VP Student Services",
+     "name": "Tony Garcia",
+     "title": "Interim Vice President, Student Services",
+     "phone": "(206) 592-3710",
+     "url": "https://www.highline.edu/about/leadership-team.html",
+     "role": "VP Student Services"
+    },
+    {
      "stakeholder": "VP Administrative Services",
      "name": "Michael Pham",
      "title": "Vice President for Administrative Services",
@@ -9855,7 +9909,33 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Dr. Rachel Solemsaas",
+     "title": "President",
+     "phone": "206.934.3600",
+     "url": "https://northseattle.edu/leadership-organization/college-president",
+     "contactNote": "Main college line",
+     "role": "President"
+    },
+    {
+     "stakeholder": "VP Student Services",
+     "name": "Claire E. Peinado",
+     "title": "Vice President for Student Services",
+     "phone": "206.934.3600",
+     "url": "https://northseattle.edu/leadership-and-organization/presidents-cabinet",
+     "role": "VP Student Services"
+    },
+    {
+     "stakeholder": "VP Administrative Services",
+     "name": "Kristen Burton",
+     "title": "Vice President for Administrative Services",
+     "phone": "206.934.3600",
+     "url": "https://northseattle.edu/leadership-and-organization/presidents-cabinet",
+     "role": "VP Administrative Services"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -9898,7 +9978,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Melody Lozano",
+     "title": "President",
+     "phone": "206.934.5300",
+     "url": "https://southseattle.edu/president",
+     "contactNote": "Office of the President line; contact form at /about/contact-us",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -9949,6 +10039,24 @@
      "url": "https://www.sbctc.edu/resources/documents/colleges-staff/programs-services/legislative-outreach/low-income-housing.pdf",
      "contactNote": "SBCTC task force member",
      "role": "President"
+    },
+    {
+     "stakeholder": "VP Student Services",
+     "name": "Dr. Dave Pelkey",
+     "title": "Vice President for Student Services",
+     "phone": "360-596-5200",
+     "url": "https://spscc.edu/about/leadership",
+     "contactNote": "people.spscc.edu/people/dpelkey",
+     "role": "VP Student Services"
+    },
+    {
+     "stakeholder": "VP Administrative Services",
+     "name": "Dr. Tysha Tolefree",
+     "title": "Vice President for Finance and Operations",
+     "phone": "360-596-5200",
+     "url": "https://spscc.edu/about/leadership",
+     "contactNote": "people.spscc.edu/people/ttolefree",
+     "role": "VP Administrative Services"
     }
    ],
    "triggers": [],
@@ -9993,7 +10101,35 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Ivan L. Harrell II, Ph.D.",
+     "title": "President",
+     "phone": "253-566-5000",
+     "url": "https://www.tacomacc.edu/about/leadership/collegeadministration.aspx",
+     "contactNote": "Scheduling via Natalie Boes nboes@tacomacc.edu (published)",
+     "role": "President"
+    },
+    {
+     "stakeholder": "VP Student Services",
+     "name": "Karl Smith",
+     "title": "Vice President for Student Affairs",
+     "phone": "253-566-5000",
+     "url": "https://www.tacomacc.edu/about/leadership/collegeadministration.aspx",
+     "contactNote": "Scheduling via Katy Ray kray@tacomacc.edu",
+     "role": "VP Student Services"
+    },
+    {
+     "stakeholder": "VP Administrative Services",
+     "name": "Patricia McCray-Roberts",
+     "title": "Vice President for Finance and Administrative Affairs",
+     "phone": "253-566-5000",
+     "url": "https://www.tacomacc.edu/about/leadership/collegeadministration.aspx",
+     "contactNote": "Scheduling via Wayne Mask wmask@tacomacc.edu",
+     "role": "VP Administrative Services"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -10079,7 +10215,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Dr. Joyce Loveday",
+     "title": "President",
+     "phone": "253-589-5800",
+     "url": "https://www.cptc.edu/president",
+     "contactNote": "Main college line",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -10122,7 +10268,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "George Frasier",
+     "title": "Interim President",
+     "phone": "253-833-9111",
+     "url": "https://www.greenriver.edu/campus/office-of-the-president/",
+     "contactNote": "Main campus line",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -10166,6 +10322,15 @@
    ],
    "advisors": [],
    "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Dr. Rebekah Woods",
+     "title": "President",
+     "email": "president@columbiabasin.edu",
+     "phone": "509-547-0511",
+     "url": "https://www.columbiabasin.edu/connect/about-cbc/our-leadership/index.html",
+     "role": "President"
+    },
     {
      "stakeholder": "VP Administrative Services",
      "name": "Brian Dexter",
@@ -10282,8 +10447,9 @@
      "stakeholder": "President",
      "name": "Brian Sandoval",
      "title": "President",
-     "url": "https://nshe.nevada.edu/html/wp-content/uploads/file/BoardOfRegents/Agendas/2026/09-sept-mtgs/BFF090326.pdf",
-     "contactNote": "Named as UNR President in NSHE Sept 2026 BFF agenda",
+     "email": "president@unr.edu",
+     "phone": "(775) 784-4805",
+     "url": "https://www.unr.edu/president",
      "role": "President"
     }
    ],
@@ -10329,7 +10495,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Dr. Sandra B. Richtermeyer",
+     "title": "President",
+     "phone": "702.992.2000",
+     "url": "https://nevadastate.edu/president/",
+     "contactNote": "General university line",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -10572,6 +10748,15 @@
      "role": "President"
     },
     {
+     "stakeholder": "VP Student Services",
+     "name": "Kevin Hurst",
+     "title": "Director of Student Services, Eastern Region",
+     "email": "kevin.hurst@usu.edu",
+     "phone": "(435) 613-5217",
+     "url": "https://eastern.usu.edu/directory/",
+     "role": "VP Student Services"
+    },
+    {
      "stakeholder": "VP Administrative Services",
      "name": "Dave Cowley",
      "title": "USU VP for Finance and Administrative Services",
@@ -10802,7 +10987,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Mr. Ruben Diaz",
+     "title": "Superintendent",
+     "phone": "520-719-1200",
+     "url": "https://www.busd40.org/superintendent",
+     "contactNote": "District office (also 520-719-1269)",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -11114,7 +11309,17 @@
      "role": "Property manager"
     }
    ],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Dr. Jamonica Rolle",
+     "title": "President",
+     "phone": "(309) 694-5422",
+     "url": "https://icc.edu/about/office-of-the-president/",
+     "contactNote": "General ICC line",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -11172,6 +11377,14 @@
      "url": "https://www.pcschools.us/about/district-leadership",
      "contactNote": "District main line",
      "role": "President"
+    },
+    {
+     "stakeholder": "VP Administrative Services",
+     "name": "Randy Upton",
+     "title": "Business Administrator",
+     "phone": "435-645-5600",
+     "url": "https://www.pcschools.us/about/district-leadership",
+     "role": "VP Administrative Services"
     }
    ],
    "triggers": [],
@@ -11228,12 +11441,21 @@
    "contacts": [
     {
      "stakeholder": "President",
-     "name": "Garrick Peterson",
+     "name": "Dr. Garrick Peterson",
      "title": "Superintendent",
+     "email": "garrick.peterson@wasatch.edu",
      "phone": "435-654-0280",
-     "url": "https://www.wasatch.edu/",
-     "contactNote": "District main line",
+     "url": "https://wasatch.edu/district-administration/",
      "role": "President"
+    },
+    {
+     "stakeholder": "VP Administrative Services",
+     "name": "Dr. Jason Watt",
+     "title": "Business Administrator",
+     "email": "jason.watt@wasatch.edu",
+     "phone": "435-654-0280",
+     "url": "https://wasatch.edu/district-administration/",
+     "role": "VP Administrative Services"
     }
    ],
    "triggers": [],
@@ -11574,7 +11796,26 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Katherine P. Frank",
+     "title": "Chancellor",
+     "phone": "715-232-1122",
+     "url": "https://www.uwstout.edu/about-us/meet-our-leadership",
+     "contactNote": "Directory profile uwstout.edu/directory/chancellor",
+     "role": "President"
+    },
+    {
+     "stakeholder": "VP Administrative Services",
+     "name": "Erik Guenard",
+     "title": "Vice Chancellor for Business, Finance & Administrative Services",
+     "phone": "715-232-1122",
+     "url": "https://www.uwstout.edu/about-us/meet-our-leadership",
+     "contactNote": "Directory profile uwstout.edu/directory/guenarde",
+     "role": "VP Administrative Services"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -11776,7 +12017,18 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Dr. Maria Cuzzo",
+     "title": "Interim Chancellor",
+     "email": "chancellor@uwsuper.edu",
+     "phone": "715-394-8079",
+     "url": "https://uwsuper.edu/about/administration/chancellors-office/",
+     "contactNote": "Old Main Room 212",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -11872,7 +12124,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Barbara J. Wilson",
+     "title": "President",
+     "phone": "319-335-3549",
+     "url": "https://president.uiowa.edu/",
+     "contactNote": "Office of the President; staff at president.uiowa.edu/content/office-staff",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -11915,7 +12177,18 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "David Cook",
+     "title": "President",
+     "email": "president@iastate.edu",
+     "phone": "515-294-2042",
+     "url": "https://www.president.iastate.edu/",
+     "contactNote": "Office of the President email",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -11959,7 +12232,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Mark Nook",
+     "title": "President",
+     "phone": "319-273-2566",
+     "url": "https://president.uni.edu/",
+     "contactNote": "Contact form on president.uni.edu",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -12066,7 +12349,35 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Dave Dahms",
+     "title": "President",
+     "phone": "563.562.3263",
+     "url": "https://www.nicc.edu/about/administration/administrative-cabinet/",
+     "contactNote": "Cabinet uses lastname+first-initial@nicc.edu format (e.g. gaffneya@nicc.edu); likely dahmsd@nicc.edu, unconfirmed",
+     "role": "President"
+    },
+    {
+     "stakeholder": "VP Student Services",
+     "name": "Amy Gaffney",
+     "title": "Vice President of Student Services",
+     "email": "gaffneya@nicc.edu",
+     "phone": "563.562.3263 ext. 1125",
+     "url": "https://www.nicc.edu/about/administration/administrative-cabinet/",
+     "role": "VP Student Services"
+    },
+    {
+     "stakeholder": "VP Administrative Services",
+     "name": "Lexi Wagner",
+     "title": "Vice President of Finance & Administration",
+     "email": "wagnerl@nicc.edu",
+     "phone": "563.562.3263 ext. 1146",
+     "url": "https://www.nicc.edu/about/administration/administrative-cabinet/",
+     "role": "VP Administrative Services"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -12244,7 +12555,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Jeremy Pickard",
+     "title": "President",
+     "email": "president@swtc.edu",
+     "phone": "608.822.2300",
+     "url": "https://www.swtc.edu/about/who-we-are",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -12296,10 +12617,12 @@
    "contacts": [
     {
      "stakeholder": "President",
-     "name": "Anthony Cruz",
+     "name": "Dr. Anthony Cruz",
      "title": "President",
-     "url": "https://www.matc.edu/",
-     "contactNote": "Named in MATC release",
+     "email": "matcpresident@matc.edu",
+     "phone": "414-297-6322",
+     "url": "https://www.matc.edu/who-we-are/leadership-administration/presidents-office.html",
+     "contactNote": "Office of the President",
      "role": "President"
     }
    ],
@@ -12411,7 +12734,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Dr. Edward Inch",
+     "title": "President",
+     "phone": "507-389-1000",
+     "url": "https://www.mnsu.edu/about-msu/office-of-the-president/",
+     "contactNote": "Contact form/scheduling at president.mnsu.edu",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -12461,7 +12794,35 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Carrie Brimhall",
+     "title": "President",
+     "email": "carrie.brimhall@minnesota.edu",
+     "phone": "877.450.3322",
+     "url": "https://www.minnesota.edu/leadership-and-governance",
+     "role": "President"
+    },
+    {
+     "stakeholder": "VP Student Services",
+     "name": "Elise Sturdivant",
+     "title": "Vice President of Student Affairs / Title IX Coordinator",
+     "email": "elise.sturdivant@minnesota.edu",
+     "phone": "877.450.3322",
+     "url": "https://www.minnesota.edu/leadership-and-governance",
+     "role": "VP Student Services"
+    },
+    {
+     "stakeholder": "VP Administrative Services",
+     "name": "Steve Erickson",
+     "title": "Vice President of Finance and Administration",
+     "email": "steve.erickson@minnesota.edu",
+     "phone": "877.450.3322",
+     "url": "https://www.minnesota.edu/leadership-and-governance",
+     "role": "VP Administrative Services"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -12504,7 +12865,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Dr. Jeremy Olson",
+     "title": "Superintendent",
+     "email": "dr_jeremy_olson@isd31.net",
+     "phone": "(218) 333-3100 ext. 31120",
+     "url": "https://www.isd31.net/district/superintendent",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -12590,7 +12961,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Dr. Andrew Almos, Ed.D.",
+     "title": "Superintendent",
+     "email": "andrew.almos@isd728.org",
+     "phone": "(763) 241-3401",
+     "url": "https://www.isd728.org/about1/leadership/superintendent",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -12834,12 +13215,29 @@
    "contacts": [
     {
      "stakeholder": "President",
-     "name": "Mitchell E. Daniels, Jr.",
-     "title": "Interim President, Purdue University (President-elect Jay B. Silveria takes office Feb 1, 2027)",
+     "name": "Michael B. Cline, PE, PTOE",
+     "title": "Executive Vice President & Chief Executive Officer, Purdue University in Indianapolis",
+     "email": "mbcline@purdue.edu",
      "phone": "765-494-4600",
-     "url": "https://www.purdue.edu/president/",
-     "contactNote": "Office of the President; no email published, page offers request form",
+     "url": "https://www.purdue.edu/indianapolis/leadership/",
+     "contactNote": "Purdue system interim president: Mitchell E. Daniels, Jr.",
      "role": "President"
+    },
+    {
+     "stakeholder": "VP Student Services",
+     "name": "Renee Thomas",
+     "title": "Associate Vice Provost for Student Access and Community Engagement",
+     "email": "rathomas@purdue.edu",
+     "url": "https://www.purdue.edu/indianapolis/leadership/",
+     "role": "VP Student Services"
+    },
+    {
+     "stakeholder": "VP Administrative Services",
+     "name": "Evan Hawkins",
+     "title": "Senior Director of Administrative Operations",
+     "email": "hawkinse@purdue.edu",
+     "url": "https://www.purdue.edu/indianapolis/leadership/",
+     "role": "VP Administrative Services"
     }
    ],
    "triggers": [
@@ -13066,8 +13464,10 @@
     {
      "stakeholder": "President",
      "name": "Latha Ramchand",
-     "title": "Chancellor, IU Indianapolis",
-     "url": "https://www.iu.edu/about/leadership/index.html",
+     "title": "Chancellor",
+     "email": "chancllr@iu.edu",
+     "phone": "+1-317-274-4417",
+     "url": "https://indianapolis.iu.edu/about/leadership/",
      "role": "President"
     }
    ],
@@ -13116,9 +13516,11 @@
    "contacts": [
     {
      "stakeholder": "President",
-     "name": "Chuck Johnson",
+     "name": "Dr. Charles R. \"Chuck\" Johnson",
      "title": "President",
-     "url": "https://www.vinu.edu/news/board-of-trustees-major-upgrades-campus-housing.html",
+     "email": "president@vinu.edu",
+     "phone": "812-888-8788",
+     "url": "https://www.vinu.edu/about-vu/meet-our-president.html",
      "role": "President"
     }
    ],
@@ -13221,7 +13623,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Dr. Aleesia Johnson",
+     "title": "Superintendent",
+     "phone": "317-226-4000",
+     "url": "https://www.myips.org/about-us/our-superintendent",
+     "contactNote": "District main line; contact page /get-involved/contact-us",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -13371,7 +13783,17 @@
     }
    ],
    "advisors": [],
-   "contacts": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Mun Y. Choi",
+     "title": "President, University of Missouri (chancellor site redirects to president)",
+     "phone": "573-882-3387",
+     "url": "https://president.missouri.edu/",
+     "contactNote": "Office of the President",
+     "role": "President"
+    }
+   ],
    "triggers": [],
    "status": "New",
    "notes": "",
@@ -15286,6 +15708,145 @@
    "loc": {
     "city": "Terre Haute"
    }
+  },
+  {
+   "id": "azusa-unified-sale-of-four-surplus-for",
+   "inst": "Azusa Unified",
+   "keys": [
+    "K12|Azusa Unified"
+   ],
+   "system": "K12",
+   "state": "CA",
+   "county": "Los Angeles",
+   "housing": [
+    "Other campus real estate"
+   ],
+   "evidence": [
+    {
+     "quote": "the buyer will make quarterly profit-sharing payments to the District once homes are constructed.",
+     "source": "Azusa USD Surplus Property Timeline",
+     "type": "District document",
+     "date": "Apr 21, 2026",
+     "url": "https://resources.finalsite.net/images/v1779126843/azusaorg/fwnrc1h1actnjclcxkd0/66c9f980-54fc-475a-866c-29de430a1e60-2.pdf"
+    },
+    {
+     "quote": "A fifth amendment to the purchase and sale agreement with Melia Homes, Inc. for the former Sierra High School Property",
+     "source": "Azusa USD Surplus Property Timeline",
+     "type": "District document",
+     "date": "Dec 16, 2025",
+     "url": "https://resources.finalsite.net/images/v1779126843/azusaorg/fwnrc1h1actnjclcxkd0/66c9f980-54fc-475a-866c-29de430a1e60-2.pdf"
+    }
+   ],
+   "advisors": [
+    {
+     "name": "DCG Strategies",
+     "role": "Real estate broker/advisor"
+    },
+    {
+     "name": "F3 Law",
+     "role": "Legal counsel"
+    }
+   ],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Guillermo Lopez, Ed.D.",
+     "title": "Superintendent of Schools",
+     "email": "glopez@azusa.org",
+     "phone": "(626) 967-6211",
+     "url": "https://www.azusa.org/departments/superintendent",
+     "contactNote": "Email inferred from the azusa.org first-initial+lastname format seen on staff pages (e.g., garellanes@azusa.org); may carry a numeric suffix. Published general address: ausdcommunications@azusa.org.",
+     "verify": "Address matches the institution’s published email format",
+     "role": "President"
+    }
+   ],
+   "triggers": [
+    {
+     "date": "2027-08-12",
+     "label": "Closing date for former Mountain View ES sale (Taylor Morrison)",
+     "url": "https://resources.finalsite.net/images/v1779126843/azusaorg/fwnrc1h1actnjclcxkd0/66c9f980-54fc-475a-866c-29de430a1e60-2.pdf",
+     "confirmed": true
+    }
+   ],
+   "status": "New",
+   "notes": "",
+   "firstSeen": "2026-11-23",
+   "origin": "Automated scan",
+   "stage": 4,
+   "headline": "Azusa USD selling four surplus school sites to residential homebuilders; PSAs amended through April 2026",
+   "summary": "Azusa USD obtained SBE waivers (July 2024) and selected buyers for four surplus properties. Taylor Morrison, Melia Homes and RC Homes (Covina BERC) are in escrow, with nonrefundable deposits made in 2025-26. An April 2026 amendment for the Powell ES site adds profit-sharing payments to the district once homes are built. This is market-rate disposition of surplus land for housing, not district-owned employee housing.",
+   "nextStep": "Lower-fit lead because the sites are being sold for market-rate homes. Ask whether any remaining district land, or the sale proceeds, could support workforce housing for AUSD staff.",
+   "funding": {
+    "status": "Committed",
+    "source": "Purchase and sale agreements with homebuilders",
+    "amount": "Powell ES $24.0M (Apr 2026 amendment); Ellington ES $20.0M; Sierra HS $26.75M"
+   },
+   "updated": "2026-11-23",
+   "latestEvidence": "2026-11-23",
+   "loc": {
+    "city": "Azusa"
+   }
+  },
+  {
+   "id": "pleasant-valley-7-11-surplus-property-ad",
+   "inst": "Pleasant Valley",
+   "keys": [
+    "K12|Pleasant Valley"
+   ],
+   "system": "K12",
+   "state": "CA",
+   "county": "Ventura",
+   "housing": [
+    "Other campus real estate"
+   ],
+   "evidence": [
+    {
+     "quote": "The 7-11 Advisory Committee will be reviewing the property at 2222 Ventura Blvd. in Camarillo.",
+     "source": "PVSD Surplus Property (7-11) Advisory Committee page",
+     "type": "District webpage (undated; date shown is the application deadline on the page)",
+     "date": "Jan 9, 2026",
+     "url": "https://www.pleasantvalleysd.org/departments/business-services/surplus-property-7-11-advisory-committee"
+    },
+    {
+     "quote": "often formed in times of declining enrollment to decide what properties a district may deem surplus to repurpose, sell, or lease.",
+     "source": "PVSD Surplus Property (7-11) Advisory Committee page",
+     "type": "District webpage (undated; date shown is the application deadline on the page)",
+     "date": "Jan 9, 2026",
+     "url": "https://www.pleasantvalleysd.org/departments/business-services/surplus-property-7-11-advisory-committee"
+    }
+   ],
+   "advisors": [],
+   "contacts": [
+    {
+     "stakeholder": "President",
+     "name": "Danielle Cortes",
+     "title": "Superintendent",
+     "email": "dcortes@pleasantvalleysd.org",
+     "phone": "(805) 389-2100",
+     "url": "https://www.pleasantvalleysd.org/departments/superintendents-office",
+     "contactNote": "Email published on the Superintendent's Office page.",
+     "role": "President"
+    }
+   ],
+   "triggers": [],
+   "status": "New",
+   "notes": "",
+   "firstSeen": "2026-11-23",
+   "origin": "Automated scan",
+   "stage": 1,
+   "headline": "Pleasant Valley SD convenes 7-11 committee on future use of 2222 Ventura Blvd. property",
+   "summary": "PVSD recruited members (applications due Jan 9, 2026) for a 7-11 Surplus Property Advisory Committee. The committee will recommend whether the district should repurpose, sell or lease its property at 2222 Ventura Blvd. in Camarillo. The page does not mention housing, so this is an early surplus-land signal only.",
+   "nextStep": "Find out the committee's recommendation for 2222 Ventura Blvd. and whether workforce or employee housing (for example, a ground lease) is among the options.",
+   "funding": {
+    "status": "Unknown",
+    "source": "",
+    "amount": ""
+   },
+   "updated": "2026-11-23",
+   "latestEvidence": "2026-11-23",
+   "loc": {
+    "city": "Camarillo"
+   }
   }
  ],
  "calendar": [
@@ -16386,7 +16947,171 @@
   "MN|PU|St. Cloud State University": "2026-11-23",
   "IN|K12|Indiana School for the Blind and Visually Impaired": "2026-11-23",
   "MO|PU|Northwest Missouri State University": "2026-11-23",
-  "IN|PU|Indiana State University": "2026-11-23"
+  "IN|PU|Indiana State University": "2026-11-23",
+  "K12|Azusa Unified": "2026-11-23",
+  "K12|Pleasant Valley": "2026-11-23",
+  "K12|Amador County Unified": "2026-11-23",
+  "K12|Durham Unified": "2026-11-23",
+  "K12|Oroville City Elementary": "2026-11-23",
+  "K12|Thermalito Union": "2026-11-23",
+  "K12|Colusa Unified": "2026-11-23",
+  "K12|Antioch Unified": "2026-11-23",
+  "K12|John Swett Unified": "2026-11-23",
+  "K12|Orinda Union Elementary": "2026-11-23",
+  "K12|Camino Union Elementary": "2026-11-23",
+  "K12|Mother Lode Union Elementary": "2026-11-23",
+  "K12|Rescue Union Elementary": "2026-11-23",
+  "K12|Caruthers Unified": "2026-11-23",
+  "K12|Coalinga-Huron Unified": "2026-11-23",
+  "K12|Kings Canyon Joint Unified": "2026-11-23",
+  "K12|Mendota Unified": "2026-11-23",
+  "K12|Pine Ridge Elementary": "2026-11-23",
+  "K12|Washington Colony Elementary": "2026-11-23",
+  "K12|Hamilton Unified": "2026-11-23",
+  "K12|Princeton Joint Unified": "2026-11-23",
+  "K12|Big Lagoon Union Elementary": "2026-11-23",
+  "K12|Cutten Elementary": "2026-11-23",
+  "K12|Garfield Elementary": "2026-11-23",
+  "K12|Loleta Union Elementary": "2026-11-23",
+  "K12|South Bay Union": "2026-11-23",
+  "K12|Calexico Unified": "2026-11-23",
+  "K12|Heber Elementary": "2026-11-23",
+  "K12|McCabe Union Elementary": "2026-11-23",
+  "K12|Westmorland Union Elementary": "2026-11-23",
+  "K12|Bakersfield City": "2026-11-23",
+  "K12|Delano Joint Union High": "2026-11-23",
+  "K12|El Tejon Unified": "2026-11-23",
+  "K12|General Shafter Elementary": "2026-11-23",
+  "K12|Lamont Elementary": "2026-11-23",
+  "K12|Maricopa Unified": "2026-11-23",
+  "K12|Mojave Unified": "2026-11-23",
+  "K12|Richland Union Elementary": "2026-11-23",
+  "K12|Sierra Sands Unified": "2026-11-23",
+  "K12|Vineland Elementary": "2026-11-23",
+  "K12|Central Union Elementary": "2026-11-23",
+  "K12|Island Union Elementary": "2026-11-23",
+  "K12|Lemoore Union High": "2026-11-23",
+  "K12|Konocti Unified": "2026-11-23",
+  "K12|Upper Lake Unified": "2026-11-23",
+  "K12|Lassen Union High": "2026-11-23",
+  "K12|Susanville Elementary": "2026-11-23",
+  "K12|Beverly Hills Unified": "2026-11-23",
+  "K12|Claremont Unified": "2026-11-23",
+  "K12|East Whittier City Elementary": "2026-11-23",
+  "K12|Garvey Elementary": "2026-11-23",
+  "K12|Hawthorne": "2026-11-23",
+  "K12|La Canada Unified": "2026-11-23",
+  "K12|Long Beach Unified": "2026-11-23",
+  "K12|Newhall": "2026-11-23",
+  "K12|Paramount Unified": "2026-11-23",
+  "K12|San Marino Unified": "2026-11-23",
+  "K12|Sulphur Springs Union": "2026-11-23",
+  "K12|Walnut Valley Unified": "2026-11-23",
+  "K12|William S. Hart Union High": "2026-11-23",
+  "K12|Bass Lake Joint Union Elementary": "2026-11-23",
+  "K12|Golden Valley Unified": "2026-11-23",
+  "K12|Larkspur-Corte Madera": "2026-11-23",
+  "K12|Sausalito Marin City": "2026-11-23",
+  "K12|Round Valley Unified": "2026-11-23",
+  "K12|Ballico-Cressey Elementary": "2026-11-23",
+  "K12|Hilmar Unified": "2026-11-23",
+  "K12|Los Banos Unified": "2026-11-23",
+  "K12|Merced Union High": "2026-11-23",
+  "K12|Winton": "2026-11-23",
+  "K12|Chualar Union": "2026-11-23",
+  "K12|San Antonio Union Elementary": "2026-11-23",
+  "K12|Spreckels Union Elementary": "2026-11-23",
+  "K12|Chicago Park Elementary": "2026-11-23",
+  "K12|Nevada Joint Union High": "2026-11-23",
+  "K12|Union Hill Elementary": "2026-11-23",
+  "K12|Capistrano Unified": "2026-11-23",
+  "K12|Fullerton Elementary": "2026-11-23",
+  "K12|Magnolia Elementary": "2026-11-23",
+  "K12|Westminster": "2026-11-23",
+  "K12|Colfax Elementary": "2026-11-23",
+  "K12|Loomis Union Elementary": "2026-11-23",
+  "K12|Roseville Joint Union High": "2026-11-23",
+  "K12|Desert Center Unified": "2026-11-23",
+  "K12|Menifee Union Elementary": "2026-11-23",
+  "K12|Palo Verde Unified": "2026-11-23",
+  "K12|Temecula Valley Unified": "2026-11-23",
+  "K12|Elverta Joint Elementary": "2026-11-23",
+  "K12|Robla Elementary": "2026-11-23",
+  "K12|Bitterwater-Tully Elementary": "2026-11-23",
+  "K12|Panoche Elementary": "2026-11-23",
+  "K12|Willow Grove Union Elementary": "2026-11-23",
+  "K12|Barstow Unified": "2026-11-23",
+  "K12|Colton Joint Unified": "2026-11-23",
+  "K12|Helendale Elementary": "2026-11-23",
+  "K12|Ontario-Montclair": "2026-11-23",
+  "K12|Rim of the World Unified": "2026-11-23",
+  "K12|Victor Elementary": "2026-11-23",
+  "K12|Bonsall Unified": "2026-11-23",
+  "K12|Fallbrook Union Elementary": "2026-11-23",
+  "K12|Julian Union High": "2026-11-23",
+  "K12|Oceanside Unified": "2026-11-23",
+  "K12|Santee": "2026-11-23",
+  "K12|Vallecitos Elementary": "2026-11-23",
+  "K12|Lincoln Unified": "2026-11-23",
+  "K12|New Hope Elementary": "2026-11-23",
+  "K12|Stockton Unified": "2026-11-23",
+  "K12|Pleasant Valley Joint Union Elementary": "2026-11-23",
+  "K12|Hillsborough City Elementary": "2026-11-23",
+  "K12|Ballard Elementary": "2026-11-23",
+  "K12|Cuyama Joint Unified": "2026-11-23",
+  "K12|Orcutt Union Elementary": "2026-11-23",
+  "K12|Solvang Elementary": "2026-11-23",
+  "K12|Franklin-McKinley Elementary": "2026-11-23",
+  "K12|Luther Burbank": "2026-11-23",
+  "K12|Black Butte Union Elementary": "2026-11-23",
+  "K12|Cottonwood Union Elementary": "2026-11-23",
+  "K12|Gateway Unified": "2026-11-23",
+  "K12|Millville Elementary": "2026-11-23",
+  "K12|Pacheco Union Elementary": "2026-11-23",
+  "K12|Whitmore Union Elementary": "2026-11-23",
+  "K12|Butteville Union Elementary": "2026-11-23",
+  "K12|Gazelle Union Elementary": "2026-11-23",
+  "K12|Montague Elementary": "2026-11-23",
+  "K12|Siskiyou Union High": "2026-11-23",
+  "K12|Dixon Unified": "2026-11-23",
+  "K12|Alexander Valley Union Elementary": "2026-11-23",
+  "K12|Dunham Elementary": "2026-11-23",
+  "K12|Gravenstein Union Elementary": "2026-11-23",
+  "K12|Kenwood": "2026-11-23",
+  "K12|Oak Grove Union Elementary": "2026-11-23",
+  "K12|Roseland": "2026-11-23",
+  "K12|West Side Union Elementary": "2026-11-23",
+  "K12|Ceres Unified": "2026-11-23",
+  "K12|Hart-Ransom Union Elementary": "2026-11-23",
+  "K12|Knights Ferry Elementary": "2026-11-23",
+  "K12|Oakdale Joint Unified": "2026-11-23",
+  "K12|Salida Union Elementary": "2026-11-23",
+  "K12|Turlock Unified": "2026-11-23",
+  "K12|Browns Elementary": "2026-11-23",
+  "K12|Marcum-Illinois Union Elementary": "2026-11-23",
+  "K12|Sutter Union High": "2026-11-23",
+  "K12|Corning Union Elementary": "2026-11-23",
+  "K12|Gerber Union Elementary": "2026-11-23",
+  "K12|Red Bluff Joint Union High": "2026-11-23",
+  "K12|Coffee Creek Elementary": "2026-11-23",
+  "K12|Mountain Valley Unified": "2026-11-23",
+  "K12|Alpaugh Unified": "2026-11-23",
+  "K12|Columbine Elementary": "2026-11-23",
+  "K12|Earlimart Elementary": "2026-11-23",
+  "K12|Hot Springs Elementary": "2026-11-23",
+  "K12|Monson-Sultana Joint Union Elementary": "2026-11-23",
+  "K12|Pixley Union Elementary": "2026-11-23",
+  "K12|Rockford Elementary": "2026-11-23",
+  "K12|Strathmore Union Elementary": "2026-11-23",
+  "K12|Three Rivers Union Elementary": "2026-11-23",
+  "K12|Tulare Joint Union High": "2026-11-23",
+  "K12|Belleview Elementary": "2026-11-23",
+  "K12|Sonora Elementary": "2026-11-23",
+  "K12|Briggs Elementary": "2026-11-23",
+  "K12|Moorpark Unified": "2026-11-23",
+  "K12|Simi Valley Unified": "2026-11-23",
+  "K12|Camptonville Elementary": "2026-11-23",
+  "K12|Wheatland Union High": "2026-11-23"
  },
  "sweeps": {}
 }
